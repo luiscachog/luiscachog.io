@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MacOS | Luis Cacho</title>
+    <link>/en/tags/macos/</link>
+      <atom:link href="/en/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <description>MacOS</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 08 Jan 2015 00:26:46 -0600</lastBuildDate>
+    <image>
+      <url>/img/lc-profile.png</url>
+      <title>MacOS</title>
+      <link>/en/tags/macos/</link>
+    </image>
+    
+    <item>
+      <title>Yosemite stuck on boot process</title>
+      <link>/yosemite-stuck-boot-process/</link>
+      <pubDate>Thu, 08 Jan 2015 00:26:46 -0600</pubDate>
+      <guid>/yosemite-stuck-boot-process/</guid>
+      <description>&lt;p&gt;Sometimes, I&amp;rsquo;m having problems with my Mac, when it&amp;rsquo;s sleep (hibernate) and I tried to &amp;ldquo;wake up&amp;rdquo; the Mac doesn&amp;rsquo;t start, and it shows me a Black Screen. So, I&amp;rsquo;ve rebooted and after that it is stuck on the boot process.&lt;/p&gt;
+
+&lt;p&gt;So, I&amp;rsquo;ve found these solution to avoid that Yosemite stuck on the boot process:&lt;/p&gt;
+
+&lt;p&gt;A. Enter to Single-user or verbose mode&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Shutdown the Mac&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Press the power button to start the computer&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Immediately press and hold the Command Key and either of the following&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the &amp;ldquo;s&amp;rdquo; key for single-user mode (Command-S)&lt;/li&gt;
+&lt;li&gt;the &amp;ldquo;v&amp;rdquo; key for verbose mode (Command-V)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;B. When you login on the Mac, you should run the following commands:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;/sbin/mount -uw /
+rm -rf /System/Library/Caches/*
+rm /private/var/db/BootCache.playlsit
+reboot
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After the reboot, your Mac will boot as always.&lt;/p&gt;
+
+&lt;p&gt;🙂&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

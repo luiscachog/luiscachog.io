@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source | Luis Cacho</title>
+    <link>/en/categories/open-source/</link>
+      <atom:link href="/en/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <description>Open Source</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 15 May 2019 13:58:42 -0600</lastBuildDate>
+    <image>
+      <url>/img/lc-profile.png</url>
+      <title>Open Source</title>
+      <link>/en/categories/open-source/</link>
+    </image>
+    
+    <item>
+      <title>Docker Login the Right Way</title>
+      <link>/docker-login-the-right-way/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/docker-login-the-right-way/</guid>
+      <description>
+
+&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h1 id=&#34;docker-login-the-right-way&#34;&gt;Docker Login the right Way&lt;/h1&gt;
+
+&lt;p&gt;Hi again!&lt;/p&gt;
+
+&lt;p&gt;It is been a while since I wrote something here, as always, there is no much time for a hobby.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been working for a while with docker, not a production level, but for some applications that I use at work.
+And since the &lt;a href=&#34;https://www.theinquirer.net/inquirer/news/3074793/docker-hub-breach&#34; target=&#34;_blank&#34;&gt;Docker Hub Data breach&lt;/a&gt; I put more atention on the security of my data/credentials, so I investigate a little about and found this official repository &lt;a href=&#34;https://github.com/docker/docker-credential-helpers/&#34; target=&#34;_blank&#34;&gt;https://github.com/docker/docker-credential-helpers/&lt;/a&gt; from Docker where are the supported credential helpers.&lt;/p&gt;
+
+&lt;h2 id=&#34;credential-store&#34;&gt;Credential Store&lt;/h2&gt;
+
+&lt;p&gt;Docker keeps our credentials saved on a JSON file located on &lt;code&gt;~/.docker/config.json&lt;/code&gt;, but unfortunatelly credentials are just encrypted on base64, here is an &lt;a href=&#34;https://fosdem.org/2019/schedule/event/base64_not_encryption/&#34; target=&#34;_blank&#34;&gt;articule/video&lt;/a&gt; where there is an explanation for the why it is a bad idea to just use base64 encryption.&lt;/p&gt;
+
+&lt;p&gt;The following is a diagram on how a plain text storage works:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/docker-login-the-right-way/DockerPlainTextCredentials.png&#34; alt=&#34;Plain Text Storage&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is an exampleon how &lt;code&gt;~/.docker/config.json&lt;/code&gt; looks like when is using plain text credentials:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cat ~/.docker/config.json
+{
+	&amp;quot;auths&amp;quot;: {
+		&amp;quot;https://index.docker.io/v1/&amp;quot;: {
+      &amp;quot;auth&amp;quot;: &amp;quot;azRjaDA6c3VwZXJzZWNyZXRwYXNzd29yZAo=&amp;quot;
+    },
+    &amp;quot;quay.io&amp;quot;: {
+      &amp;quot;auth&amp;quot;: &amp;quot;azRjaDA6c3VwZXJzZWNyZXRwYXNzd29yZAo=&amp;quot;
+    }
+	},
+	&amp;quot;HttpHeaders&amp;quot;: {
+		&amp;quot;User-Agent&amp;quot;: &amp;quot;Docker-Client/18.09.6 (linux)&amp;quot;
+	}
+} 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After a successful &lt;code&gt;docker login&lt;/code&gt; command, Docker stores a base64 encoded string from the concatenation of the username, a colon, and the password and associates this string to the registry the user is logging into:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ echo azRjaDA6c3VwZXJzZWNyZXRwYXNzd29yZAo= | base64 -d -
+k4ch0:supersecretpassword
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A &lt;code&gt;docker logout&lt;/code&gt; command removes the entry from the JSON file for the given registry:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ docker logout quay.io
+Remove login credentials for quay.io
+
+$ cat ~/.docker/config.json
+{
+	&amp;quot;auths&amp;quot;: {
+		&amp;quot;https://index.docker.io/v1/&amp;quot;: {
+      &amp;quot;auth&amp;quot;: &amp;quot;azRjaDA6c3VwZXJzZWNyZXRwYXNzd29yZAo=&amp;quot;
+    }
+	},
+	&amp;quot;HttpHeaders&amp;quot;: {
+		&amp;quot;User-Agent&amp;quot;: &amp;quot;Docker-Client/18.09.6 (linux)&amp;quot;
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;docker-credential-helpers&#34;&gt;Docker Credential Helpers&lt;/h2&gt;
+
+&lt;p&gt;Since docker version 1.11 implements support from an external credential store for registry authentication. That means we can use a native keychain of the OS. Using an external store is more secure than storing on a &amp;ldquo;plain text&amp;rdquo; Docker configuration file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/docker-login-the-right-way/DockerSecureCredentials.png&#34; alt=&#34;Secure Storage&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In order to use a external credential store, we need a program to interact with.&lt;/p&gt;
+
+&lt;p&gt;The actual list of &amp;ldquo;official&amp;rdquo; Docker Credential Helper is:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;docker-credential-osxkeychain: Provides a helper to use the OS X keychain as credentials store.&lt;/li&gt;
+&lt;li&gt;docker-credential-secretservice: Provides a helper to use the D-Bus secret service as credentials store.&lt;/li&gt;
+&lt;li&gt;docker-credential-wincred: Provides a helper to use Windows credentials manager as store.&lt;/li&gt;
+&lt;li&gt;docker-credential-pass: Provides a helper to use pass as credentials store.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;docker-credential-secretservice&#34;&gt;docker-credential-secretservice&lt;/h2&gt;
+
+&lt;p&gt;On this post we will explore the docker-credential-secretservice and how to configure it.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;We need to download and install the helper.
+You can find the lastest release on  &lt;a href=&#34;https://github.com/docker/docker-credential-helpers/releases&#34; target=&#34;_blank&#34;&gt;https://github.com/docker/docker-credential-helpers/releases&lt;/a&gt;.&lt;br /&gt;
+Download it, extract it and make it executable.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;wget https://github.com/docker/docker-credential-helpers/releases/download/v0.6.2/docker-credential-secretservice-v0.6.2-amd64.tar.gz
+tar -xf docker-credential-secretservice-v0.6.2-amd64.tar.gz
+chmod +x docker-credential-secretservice
+sudo mv docker-credential-secretservice /usr/local/bin/
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Then, we need to specify the credential store in the file &lt;code&gt;~/.docker/config.json&lt;/code&gt; to tell docker to use it.&lt;br /&gt;
+The value must be the one after the prefix &lt;code&gt;docker-credential-&lt;/code&gt;. In this case:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+	&amp;quot;credsStore&amp;quot;: &amp;quot;secretservice&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To facilite the configuration and do not make mistakes, you can run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sed -i &#39;0,/{/s/{/{\n\t&amp;quot;credsStore&amp;quot;: &amp;quot;secretservice&amp;quot;,/&#39; ~/.docker/config.json
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;From now we are uning an external store, so if you are currently logged in, you must run &lt;code&gt;docker logout&lt;/code&gt; to remove the credentials from the file and run &lt;code&gt;docker login&lt;/code&gt; tostart using the new ones.&lt;/p&gt;
+
+&lt;p&gt;Let me know how this works for you.&lt;/p&gt;
+
+&lt;p&gt;References:
+&lt;a href=&#34;https://github.com/docker/docker-credential-helpers&#34; target=&#34;_blank&#34;&gt;https://github.com/docker/docker-credential-helpers&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://docs.docker.com/engine/reference/commandline/login/#credentials-store&#34; target=&#34;_blank&#34;&gt;https://docs.docker.com/engine/reference/commandline/login/#credentials-store&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://www.slideshare.net/DavidYeung22/can-we-stop-saving-docker-credentials-in-plain-text-now&#34; target=&#34;_blank&#34;&gt;https://www.slideshare.net/DavidYeung22/can-we-stop-saving-docker-credentials-in-plain-text-now&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bulk Delete Rackspace Cloud Files data via API</title>
+      <link>/bulk-delete-cloud-files-api/</link>
+      <pubDate>Wed, 13 Feb 2019 13:37:04 -0600</pubDate>
+      <guid>/bulk-delete-cloud-files-api/</guid>
+      <description>&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;p&gt;Sometimes it is necessary to delete all the content of the Cloud Files containers, however, the API does not have a proper method to delete the data and the containers on the same API call. Also, accoring to the documentation, you can only delete &lt;strong&gt;empty&lt;/strong&gt; containers.&lt;/p&gt;
+
+&lt;p&gt;So, in cases where you need to delete the &lt;strong&gt;data and the containers&lt;/strong&gt; at the same time, you should follow the next steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Download &lt;a href=&#34;https://github.com/cloudnull/turbolift&#34; target=&#34;_blank&#34;&gt;Turbolift&lt;/a&gt;, I know it is an old tool.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone https://github.com/cloudnull/turbolift
+cd turbolift
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In order to get and isolated installation, we are going to create a Python Virtual Environment (virtualenv)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;mkvirtualenv turbolift
+workon turbolift
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Install the tool&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;pip install turbolift
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Now, prior to start to play with the API calls, we need to grab some data to authenticate with the API:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Variable&lt;/th&gt;
+&lt;th&gt;Definition&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;USERNAME&lt;/td&gt;
+&lt;td&gt;This is the Rackspace Public Cloud username&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;APIKEY&lt;/td&gt;
+&lt;td&gt;This is your API-KEY&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;REGION&lt;/td&gt;
+&lt;td&gt;This is the Region where the Cloud Files are located (dfw, ord, iad, lon, hkg)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;TOKEN&lt;/td&gt;
+&lt;td&gt;The TOKEN is generated after you get authenticated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ENDPOINT&lt;/td&gt;
+&lt;td&gt;This ENDPOINT is given also after you get authenticated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Next step, we are going to use &lt;a href=&#34;https://curl.haxx.se/&#34; target=&#34;_blank&#34;&gt;cURL&lt;/a&gt;, to perform all the API calls:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;First of all, get the TOKEN:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;USERNAME=YOUR-USERNAME
+APIKEY=YOUR-APIKEY
+TOKEN=$(curl -s -XPOST https://identity.api.rackspacecloud.com/v2.0/tokens \ 
+  -d&#39;{&amp;quot;auth&amp;quot;:{&amp;quot;RAX-KSKEY:apiKeyCredentials&amp;quot;:{&amp;quot;username&amp;quot;:&amp;quot;&#39;$USERNAME&#39;&amp;quot;,&amp;quot;apiKey&amp;quot;:&amp;quot;&#39;$APIKEY&#39;&amp;quot;}}}&#39; \
+  -H&amp;quot;Content-type:application/json&amp;quot; | jq &#39;.access.token.id&#39; | tr -d &amp;quot;\&amp;quot;&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Next step, get the ENDPOINT:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;ENDPOINT=$(curl -s -XPOST https://identity.api.rackspacecloud.com/v2.0/tokens \ 
+    -d&#39;{&amp;quot;auth&amp;quot;:{&amp;quot;RAX-KSKEY:apiKeyCredentials&amp;quot;:{&amp;quot;username&amp;quot;:&amp;quot;&#39;$CL_USERNAME&#39;&amp;quot;,&amp;quot;apiKey&amp;quot;:&amp;quot;&#39;$APIKEY&#39;&amp;quot;}}}&#39; \
+    -H&amp;quot;Content-type:application/json&amp;quot; | jq &#39;.access.serviceCatalog[] | select((.name==&amp;quot;cloudFiles&amp;quot;) or (.name==&amp;quot;cloudFilesCDN&amp;quot;)) | {name} + .endpoints[] | .publicURL&#39; | tr -d &amp;quot;\&amp;quot;&amp;quot; | grep -v cdn | grep -i $REGION)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this case we are skipping all te CDN endpoints, but you can add them if is necessary.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;With all the collected data, next step is use turbolift to delete the Cloud Files container and their data. To do it, I use a for-loop:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;for i in $(curl -s -H &amp;quot;X-Auth-Token: $TOKEN&amp;quot; $ENDPOINT); do turbolift -u $USERNAME -a $APIKEY --os-rax-auth $REGION delete -c $i ; done  
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, you have all the Data and Cloud Files containers deleted on one region.&lt;/p&gt;
+
+&lt;p&gt;😄&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My First Contribution to OpenStack project</title>
+      <link>/my-first-contribution-to-openstack/</link>
+      <pubDate>Thu, 15 Mar 2018 12:04:16 -0600</pubDate>
+      <guid>/my-first-contribution-to-openstack/</guid>
+      <description>&lt;p&gt;I been working since last year using &lt;a href=&#34;https://www.ansible.com/&#34; target=&#34;_blank&#34;&gt;Ansible&lt;/a&gt; for fun and to trying to get prepared to become a DevOps, so I found an excelent OpenStack project called &lt;a href=&#34;https://github.com/openstack/ara&#34; target=&#34;_blank&#34;&gt;ARA Records Ansible&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/my-first-contribution-to-openstack/Ansible-Logo.png&#34; alt=&#34;Ansible Logo&#34; /&gt;
+&lt;img src=&#34;/img/my-first-contribution-to-openstack/ARA-Logo.png&#34; alt=&#34;ARA Logo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically it  is a project from the OpenStack community that makes it easier to understand and troubleshoot your Ansible roles and playbooks.&lt;br /&gt;
+If you want more information, please refer to the &lt;a href=&#34;http://ara.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34;&gt;Documentation Page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Anyhow, I just found a little bug on the Ansible Role to install ARA &lt;a href=&#34;https://git.openstack.org/cgit/openstack/ansible-role-ara/&#34; target=&#34;_blank&#34;&gt;ansible-role-ara&lt;/a&gt; on Debian based distros and just send the patch to fixit.&lt;/p&gt;
+
+&lt;p&gt;Here is the link to my &lt;a href=&#34;https://git.openstack.org/cgit/openstack/ansible-role-ara/commit/&#34; target=&#34;_blank&#34;&gt;contribution&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And, as I am proud of my first commit on a big project here is the screenshot too:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/my-first-contribution-to-openstack/OpenStack-Contribution.png&#34; alt=&#34;My First OpenStack Contribution&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I feel happy and motivated to still learn about this Open Source project and a lot more.&lt;/p&gt;
+
+&lt;p&gt;😄&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

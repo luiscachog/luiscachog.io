@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress | Luis Cacho</title>
+    <link>/en/categories/wordpress/</link>
+      <atom:link href="/en/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wordpress</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 10 Nov 2014 00:26:44 -0600</lastBuildDate>
+    <image>
+      <url>/img/lc-profile.png</url>
+      <title>Wordpress</title>
+      <link>/en/categories/wordpress/</link>
+    </image>
+    
+    <item>
+      <title>How to Update a ThemeForest Theme with the Envato WordPress Toolkit</title>
+      <link>/update-themeforest-themes-envato-wordpress-toolkit/</link>
+      <pubDate>Mon, 10 Nov 2014 00:26:44 -0600</pubDate>
+      <guid>/update-themeforest-themes-envato-wordpress-toolkit/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve purchased some themes on ThemeForest.com because they&amp;rsquo;re great. So this time I want to write about &amp;ldquo;How to Update ThemeForest Themes with the Envato WordPress Toolkit&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;First of all, Envato WordPress Toolkit it is very similar to a WordPress plugin. The installation it is the only difference. So I will explain how install the &amp;ldquo;plugin&amp;rdquo; and how to use in order to get the last update from your theme.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Envato WordPress Toolkit is NOT available on WordPress Repositories, so you will to download from Github. &lt;a href=&#34;https://github.com/envato/envato-wordpress-toolkit&#34; target=&#34;_blank&#34;&gt;https://github.com/envato/envato-wordpress-toolkit&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After you download the .ZIP file, you should be able to install from the WordPress Plugin Manager. Or you could upload the &amp;ldquo;envato-wordpress-toolkit&amp;rdquo; folder to the &amp;ldquo;/wp-content/plugins/&amp;rdquo;&amp;rdquo; directory.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Activate the Plugin from the WordPress Plugin Manager.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You will need to generate an API key from your Themeforest account.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;4.1. In order to get your API key from Themeforest, you should login to themeforest.com, go to your dashboard and click on &amp;#8220;My Settings&amp;#8221; The API Keys screen allows you to generate a free API key.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/update-themeforest-themes-envato-wordpress-toolkit/generate-api-key.png&#34; alt=&#34;Generate API key&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Once the API connection has been established you will see a list of themes that can be auto installed. If you don&amp;rsquo;t see any themes and are certain you&amp;rsquo;ve done everything correct, there is a good chance the theme author has not updated their theme to be available for auto install and update. If that&amp;rsquo;s the case, please contact the theme author and ask them to update their theme&amp;rsquo;s information.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/update-themeforest-themes-envato-wordpress-toolkit/theme-autoupdate.png&#34; alt=&#34;Theme Autoupdate&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This &amp;ldquo;plugin&amp;rdquo; very helpful to get your themes updated. I hope works for you as well as with me.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

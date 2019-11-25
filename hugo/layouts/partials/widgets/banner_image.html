@@ -1,0 +1,46 @@
+{{ $st := .page }}
+{{ $hash_id := .hash_id }}
+{{ $bg := $st.Params.design.background }}
+{{ $bg_position := $bg.image_position | default "center top" }}
+{{ $columns := $st.Params.design.columns | default "2" }}
+
+<style>
+{{ if $bg.image_small }}
+{{ $bg_small := printf "img/%s" $bg.image_small | absURL }}
+@media screen and (max-width: 600px) {
+  section#{{ $hash_id }} {
+    background-image: {{ printf "url('%s')" $bg_small | safeCSS }} !important;
+    background-position: center center !important;
+  }
+}
+{{ end }}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  section#{{ $hash_id }} {
+    background-attachment:scroll;
+  }
+}
+
+section#{{ $hash_id | safeCSS }} {
+  height: calc(100vh - 70px);
+  background-position: {{ $bg_position | safeCSS }};
+}
+</style>
+
+<div class="row">
+  {{ if ne $columns "1" }}
+    <div class="col-12 col-lg-4 section-heading">
+      {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+      {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+    </div>
+    <div class="col-12 col-lg-8">
+      {{ $st.Content }}
+    </div>
+  {{ else }}
+    <div class="col-lg-12">
+      {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+      {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+      {{ $st.Content }}
+    </div>
+  {{ end }}
+</div>

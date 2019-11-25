@@ -1,0 +1,63 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[main]]
+  name = "Home"
+  url = "#about"
+  weight = 10
+  pre = "<i class='fas fa-home'>&nbsp;</i>"
+
+
+[[main]]
+  name = "Posts"
+  url = "#posts"
+  pre = "<i class='fas fa-edit'>&nbsp;</i>"
+#   post = "<span class='alert'>New!</span>"
+  weight = 20
+
+[[main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 30
+  pre = "<i class='fas fa-code-branch'>&nbsp;</i>"
+
+[[main]]
+  name = "Experience"
+  url = "#experience"
+  weight = 40
+  identifier = "experience"
+  pre = "<i class='fas fa-id-card'>&nbsp;</i>"
+
+[[main]]
+  name = "Experience"
+  url = "#experience"
+  weight = 10
+  parent = "experience"
+  pre = "<i class='fas fa-user-clock'>&nbsp;</i>"
+
+[[main]]
+  name = "Certifications"
+  url = "#certifications"
+  weight = 20
+  parent = "experience"
+  pre = "<i class='fas fa-user-graduate'>&nbsp;</i>"
+
+[[main]]
+  name = "Training"
+  url = "#training"
+  weight = 30
+  parent = "experience"
+  pre = "<i class='fas fa-user-cog'>&nbsp;</i>"
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+[[main]]
+  name = "Resume"
+  url = "files/resume.pdf"
+  weight = 40
+  parent = "experience"
+  pre = "<i class='fas fa-user-tie'>&nbsp;</i>"
+
+
