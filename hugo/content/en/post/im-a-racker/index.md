@@ -8,8 +8,8 @@ authors: [ luis ]
 tags: ["DevOps","Featured"]
 categories: ["DevOps","Featured","Rackspace"]
 date: 2014-03-31T02:08:44-05:00
-lastmod: 2019-10-24T02:08:44-05:00
 publishDate: 2014-03-31T02:08:44-05:00
+lastmod: 2019-11-27T02:08:44-05:00
 featured: true
 draft: false
 url: /im-a-racker
@@ -35,7 +35,7 @@ projects: []
 
 Since January 6th I working on [Rackspace](http://www.rackspace.com/), the Open Cloud Company, so I'm a Racker almost 3 months ago and I'm loving every minute of it.
 
-![Rackspace 2014](/img/im-a-racker/Rackspace_2014.jpg)
+![Rackspace 2014](/img/posts/im-a-racker/Rackspace_2014.jpg)
 
 # Previous
 
@@ -64,11 +64,11 @@ Also is very comfortable to have a Coffe Shop, a soda machine or microwaves insi
   
 In general the first week in Rackspace, on the Rookie'O, I was a great experience, I can say that is one of my best experiences in my life.
 
-![Rackspace RookieO](/img/im-a-racker/Rackspace_RookieO.jpg)
+![Rackspace RookieO](/img/posts/im-a-racker/Rackspace_RookieO.jpg)
 
-![Rackspace Fanatical Jacket](/img/im-a-racker/Rackspace_FuelStation.jpg)
+![Rackspace Fanatical Jacket](/img/posts/im-a-racker/Rackspace_FuelStation.jpg)
 
-![Rackspace GroundTown](/img/im-a-racker/Rackspace_Slide.jpg)
+![Rackspace GroundTown](/img/posts/im-a-racker/Rackspace_Slide.jpg)
 
 # My Goals
 
@@ -81,7 +81,7 @@ This is a new big challenge, because means:
 - And the most important challenge for me is still learn about Linux, get my Red Hat Certifications, do my best at job and take advantage of this great opportunity. All of that to try to be a DevOps Engineer
 
 
-![Rackspace MyDesk](/img/im-a-racker/Rackspace_MyDesk.jpg)
+![Rackspace MyDesk](/img/posts/im-a-racker/Rackspace_MyDesk.jpg)
 
 I will be working on, providing Fanatical Support for our customers, resolving LATAM customer issues with Linux and working with remote teams from all around the world.
 

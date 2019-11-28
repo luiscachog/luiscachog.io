@@ -8,8 +8,8 @@ authors: [ luis ]
 tags: ["MySQL"]
 categories: ["DevOps","Linux","SysAdmin"]
 date: 2014-04-15T02:08:44-05:00
-lastmod: 2019-11-08T02:08:44-05:00
 publishDate: 2014-04-15T02:08:44-05:00
+lastmod: 2019-11-27T02:08:44-05:00
 featured: false
 draft: false
 url: /mysql-without-password

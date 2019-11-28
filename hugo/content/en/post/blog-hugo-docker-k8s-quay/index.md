@@ -55,7 +55,7 @@ The principal changes that I made are:
 - The container registry that I'm using is Quay
 - Rackspace Public Cloud does not support a Kubernetes LoadBalancer service automatically, so I simulate that behavior adding a Cloud Load Balancer manually after the Kubernetes service provide me the port.
 
-![Architecture](/img/blog-hugo-docker-k8s-quay/architecture.png)
+![Architecture](/img/posts/blog-hugo-docker-k8s-quay/architecture.png)
 
 # Containerized
 

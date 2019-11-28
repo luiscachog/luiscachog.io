@@ -8,7 +8,7 @@ authors: [ luis ]
 tags: ["Network", "Training"]
 categories: ["Network"]
 date: 2017-09-13T10:18:59-06:00
-lastmod: 2019-11-17T10:18:59-06:00
+lastmod: 2019-11-27T10:18:59-06:00
 publishDate: 2017-09-13T10:18:59-06:00
 featured: false
 draft: false
@@ -32,4 +32,4 @@ projects: []
 
 If anyone need a good OSI Model cheat sheet, as me:
 
-![OSI Model](/img/osi-model-cheat-sheet/OSI-TCP-Model-v1.png)
+![OSI Model](/img/posts/osi-model-cheat-sheet/OSI-TCP-Model-v1.png)

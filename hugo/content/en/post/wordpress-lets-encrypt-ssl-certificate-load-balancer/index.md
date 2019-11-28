@@ -8,7 +8,7 @@ authors: [ luis ]
 tags: ["Wordpress","SSL","Let's Encrypt","Load Balancer", "Rackspace Public Cloud", "DevOps"]
 categories: ["DevOps", "Linux", "SysAdmin", "Rackspace"]
 date: 2017-09-03T09:26:47-06:00
-lastmod: 2019-11-17T09:26:47-06:00
+lastmod: 2019-11-27T09:26:47-06:00
 publishDate: 2017-09-03T09:26:47-06:00
 featured: false
 draft: false
@@ -34,14 +34,14 @@ Hi again,
 
 As many of you know a lot of "Production" applications need to be configured to provide High Availability. With that in mind, a best practice architecture to your application is to add a Load Balancer as a front end who distribute your traffic between your application nodes, as you can appreciate on the next image:
 
-![Load Balancer HA](/img/wordpress-lets-encrypt-ssl-certificate-load-balancer/LoadBalancerHA.png)
+![Load Balancer HA](/img/posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/LoadBalancerHA.png)
 
 
 # SSL Offloading
 
 In this case, my "Production" application is my blog, and I will install a SSL Certificate on the Cloud Load Balancer(CLB) to offloading the encryption/decryption to the CLB instead of doing it on the webserver. That way your webservers uses port 80 (HTTP), as always, and you serve your content trought port 443(HTTPS).
 
-![SSL-Offloading](/img/wordpress-lets-encrypt-ssl-certificate-load-balancer/SSL-Offloading.jpg)
+![SSL-Offloading](/img/posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/SSL-Offloading.jpg)
 
 Here are the what I use to configure my WordPress with SSL Certificate:
 
@@ -137,16 +137,16 @@ The intermediate CA cert is in /opt/acme/data/ssl-certs/example.com/ca.cer
 
 So we should go to https://mycloud.rackspace.com -> Rackspace Cloud -> Networking -> Cloud Load Balancers:
 
-![Cloud Load Balancer](/img/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB01.png)
+![Cloud Load Balancer](/img/posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB01.png)
 
 
 Then, to Optional Features and Enable/Configure on "Secure Traffic SSL"
 
-![Cloud Load Balancer](/img/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB02.png)
+![Cloud Load Balancer](/img/posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB02.png)
 
 Finally, we add our SSL Certificate, Private Key, and Intermediate CA Certificate to the CLB and save the configuration:
 
-![Cloud Load Balancer](/img/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB03.png)
+![Cloud Load Balancer](/img/posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB03.png)
 
 
 ## Step 4: Configure WordPress
@@ -277,7 +277,7 @@ Besides, with run the queries directly on the database, we can update, or verify
   
 And updating your WordPress Address (URL) and Site Address (URL) address fields.
 
-![Updating URLs](/img/wordpress-lets-encrypt-ssl-certificate-load-balancer/WP-ChangeURL.png)
+![Updating URLs](/img/posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/WP-ChangeURL.png)
 
 ### WordPress Config File
 

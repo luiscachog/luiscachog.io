@@ -9,8 +9,8 @@ authors: [ luis ]
 tags: ["DevOps","SysAdmin","Docker", "Open Source", "Linux", "Security", Cloud Native]
 categories: ["SysAdmin","DevOps", "Open Source","Docker", "Linux","Security", "Cloud Native"]
 date: 2019-05-15T13:58:42-06:00
-lastmod: 2019-11-17T13:58:42-06:00
 publishDate: 2019-05-15T13:58:42-06:00
+lastmod: 2019-11-27T13:58:42-06:00
 featured: false
 draft: false
 
@@ -48,7 +48,7 @@ Docker keeps our credentials saved on a JSON file located on ```~/.docker/config
 
 The following is a diagram on how a plain text storage works:
 
-![Plain Text Storage](/img/docker-login-the-right-way/DockerPlainTextCredentials.png)
+![Plain Text Storage](/img/posts/docker-login-the-right-way/DockerPlainTextCredentials.png)
 
 Here is an exampleon how ```~/.docker/config.json``` looks like when is using plain text credentials:
 
@@ -101,7 +101,7 @@ Since docker version 1.11 implements support from an external credential store f
 
 
 
-![Secure Storage](/img/docker-login-the-right-way/DockerSecureCredentials.png)
+![Secure Storage](/img/posts/docker-login-the-right-way/DockerSecureCredentials.png)
 
 In order to use a external credential store, we need a program to interact with.
 

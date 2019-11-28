@@ -24,7 +24,7 @@ all_day: false
 publishDate: "2019-03-07T00:00:00Z"
 
 authors: [ luis ]
-tags: [ community, ansible, molecule ]
+tags: [ Community, Ansible, Molecule ]
 
 # Is this a featured talk? (true/false)
 featured: true
@@ -37,7 +37,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/k4ch0
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -66,10 +66,8 @@ math: false
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /alert %}}
 
-Slides can be added in a few ways:
+On this talk I share some best practices to perform test driven on your Ansible Roles.
 
-- **Create** slides using Academic's [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+I explain how workflow with molecule will help you to improve the development speed for your Ansible Roles.
 
-Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code.
+I show an example of how to integrate molecule on a previous Ansible Role. 
