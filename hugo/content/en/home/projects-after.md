@@ -27,23 +27,27 @@ subtitle = "Open Source projects, websites, docker images, ansible roles, and ot
   
   [[content.filter_button]]
     name = "Ansible"
-    tag = "ansible"
+    tag = "Ansible"
 
  [[content.filter_button]]
     name = "Community"
-    tag = "community"
+    tag = "Community"
   
   [[content.filter_button]]
     name = "Go"
-    tag = "go"
+    tag = "Go"
 
   [[content.filter_button]]
     name = "Kubernetes"
-    tag = "kubernetes"
+    tag = "Kubernetes"
+
+  [[content.filter_button]]
+    name = "Python"
+    tag = "Python"
 
   [[content.filter_button]]
     name = "Website"
-    tag = "website"
+    tag = "Website"
 
   # [[content.filter_button]]
   #   name = "Other"

@@ -2,7 +2,7 @@
 widget = "banner_image"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 70  # Order that this section will appear.
+weight = 80  # Order that this section will appear.
 
 title = ""
 subtitle = ""
@@ -36,7 +36,7 @@ subtitle = ""
 
 [advanced]
  # Custom CSS. 
- css_style = "height: 180px; background-position: right top;"
+ css_style = "height: 160px; background-position: right top;"
  
  # CSS class.
  css_class = ""

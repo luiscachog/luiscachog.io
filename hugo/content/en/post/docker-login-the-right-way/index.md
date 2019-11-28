@@ -6,7 +6,7 @@ subtitle: "How to configure a docker-credential-helpers to keep docker credentia
 summary: "How to configure a docker-credential-helpers to keep docker credentials safe on Linux"
 url: "/docker-login-the-right-way"
 authors: [ luis ]
-tags: ["DevOps","SysAdmin","Docker", "Open Source", "Linux", "Security", "Cloud Native"]
+tags: ["DevOps","SysAdmin","Docker", "Open Source", "Linux", "Security", Cloud Native]
 categories: ["SysAdmin","DevOps", "Open Source","Docker", "Linux","Security", "Cloud Native"]
 date: 2019-05-15T13:58:42-06:00
 lastmod: 2019-11-17T13:58:42-06:00

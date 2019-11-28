@@ -38,7 +38,7 @@ identifier = "posts"
 
 [advanced]
  # Custom CSS. 
- css_style = "height: 180px; background-position: right top;"
+ css_style = "height: 160px; background-position: right top;"
 
  # CSS class.
  css_class = ""

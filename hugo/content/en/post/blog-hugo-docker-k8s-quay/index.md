@@ -5,7 +5,7 @@ title: "Set a hugo blog on Kubernetes"
 subtitle: "Here are some steps to containerize a blog using hugo + docker + kubernetes + quay"
 summary: "Here are some steps to containerize a blog using hugo + docker + kubernetes + quay"
 authors: [luis]
-tags: ["Kubernetes","DevOps","SysAdmin","Hugo","Docker", "Git", "Quay", "Cloud Native"]
+tags: [ Kubernetes ,DevOps, SysAdmin, Hugo, Docker , Git, Quay, Cloud Native]
 categories: ["SysAdmin","DevOps", "Open Source","Cloud Native"]
 date: 2018-06-18T12:21:20-06:00
 lastmod: 2019-11-17T12:21:20-06:00

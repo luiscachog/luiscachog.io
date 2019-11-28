@@ -22,7 +22,7 @@ font = ""
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
-font_size = "L"
+font_size = "M"
 
 ############################
 ## Basic Info
@@ -76,7 +76,7 @@ privacy_pack = false
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/k4ch0/academic-kickstart", repo_branch = "blog", editable = {docs = true, page = false, post = false}}
+edit_page = {repo_url = "https://github.com/k4ch0/luiscachog.io", repo_branch = "blog", editable = {docs = true, page = false, post = false}}
 
 ############################
 ## Contact details
@@ -88,8 +88,6 @@ edit_page = {repo_url = "https://github.com/k4ch0/academic-kickstart", repo_bran
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "luiscachog@gmail.com"
 
-# Address format (choose from the [address_formats] list below or add you own to the list).
-address_format = "en-us"
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
 address = {city = "San Antonio", region = "TX", postcode = "78218", country = "United States", country_code = "US"}
 
@@ -136,6 +134,9 @@ twitter = "k4ch0"
 date_format = "Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
 time_format = "15:04"
+
+# Address format (choose from the [address_formats] list below or add you own to the list).
+address_format = "en-us"
 
 # List delimiter (separates parts of an address)
 # Popular separators are ", " (comma), "<br>" (new line), " " (space)
@@ -254,6 +255,3 @@ plugins_js  = []
 [marketing]
   google_analytics = "UA-114918521-1"
   google_tag_manager = "GTM-MQT2RQ4"
-
-[job]
-job = "Linux"
