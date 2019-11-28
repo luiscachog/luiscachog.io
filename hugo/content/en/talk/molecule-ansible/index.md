@@ -70,4 +70,4 @@ On this talk I share some best practices to perform test driven on your Ansible 
 
 I explain how workflow with molecule will help you to improve the development speed for your Ansible Roles.
 
-I show an example of how to integrate molecule on a previous Ansible Role. 
+I show an example of how to integrate molecule on an Ansible Role that does not have it.
