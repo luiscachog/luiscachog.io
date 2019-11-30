@@ -5,7 +5,7 @@
     "tagArgs": "-S"
   },
   "github": {
-    "release": true
+    "release": true,
+    "tokenRef": "da8e55e397212b0465e3d65f718a90b6eb6d0f30"
   }
-  
 }
