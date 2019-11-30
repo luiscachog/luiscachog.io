@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openstack | Luis Cacho</title>
+    <link>/en/tags/openstack/</link>
+      <atom:link href="/en/tags/openstack/index.xml" rel="self" type="application/rss+xml" />
+    <description>Openstack</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 13 Feb 2019 13:37:04 -0600</lastBuildDate>
+    <image>
+      <url>/img/lc-profile.png</url>
+      <title>Openstack</title>
+      <link>/en/tags/openstack/</link>
+    </image>
+    
+    <item>
+      <title>Bulk Delete Rackspace Cloud Files data via API</title>
+      <link>/bulk-delete-cloud-files-api/</link>
+      <pubDate>Wed, 13 Feb 2019 13:37:04 -0600</pubDate>
+      <guid>/bulk-delete-cloud-files-api/</guid>
+      <description>&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;p&gt;Sometimes it is necessary to delete all the content of the Cloud Files containers, however, the API does not have a proper method to delete the data and the containers on the same API call. Also, accoring to the documentation, you can only delete &lt;strong&gt;empty&lt;/strong&gt; containers.&lt;/p&gt;
+
+&lt;p&gt;So, in cases where you need to delete the &lt;strong&gt;data and the containers&lt;/strong&gt; at the same time, you should follow the next steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Download &lt;a href=&#34;https://github.com/cloudnull/turbolift&#34; target=&#34;_blank&#34;&gt;Turbolift&lt;/a&gt;, I know it is an old tool.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone https://github.com/cloudnull/turbolift
+cd turbolift
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In order to get and isolated installation, we are going to create a Python Virtual Environment (virtualenv)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;mkvirtualenv turbolift
+workon turbolift
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Install the tool&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;pip install turbolift
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Now, prior to start to play with the API calls, we need to grab some data to authenticate with the API:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Variable&lt;/th&gt;
+&lt;th&gt;Definition&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;USERNAME&lt;/td&gt;
+&lt;td&gt;This is the Rackspace Public Cloud username&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;APIKEY&lt;/td&gt;
+&lt;td&gt;This is your API-KEY&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;REGION&lt;/td&gt;
+&lt;td&gt;This is the Region where the Cloud Files are located (dfw, ord, iad, lon, hkg)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;TOKEN&lt;/td&gt;
+&lt;td&gt;The TOKEN is generated after you get authenticated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ENDPOINT&lt;/td&gt;
+&lt;td&gt;This ENDPOINT is given also after you get authenticated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Next step, we are going to use &lt;a href=&#34;https://curl.haxx.se/&#34; target=&#34;_blank&#34;&gt;cURL&lt;/a&gt;, to perform all the API calls:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;First of all, get the TOKEN:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;USERNAME=YOUR-USERNAME
+APIKEY=YOUR-APIKEY
+TOKEN=$(curl -s -XPOST https://identity.api.rackspacecloud.com/v2.0/tokens \ 
+  -d&#39;{&amp;quot;auth&amp;quot;:{&amp;quot;RAX-KSKEY:apiKeyCredentials&amp;quot;:{&amp;quot;username&amp;quot;:&amp;quot;&#39;$USERNAME&#39;&amp;quot;,&amp;quot;apiKey&amp;quot;:&amp;quot;&#39;$APIKEY&#39;&amp;quot;}}}&#39; \
+  -H&amp;quot;Content-type:application/json&amp;quot; | jq &#39;.access.token.id&#39; | tr -d &amp;quot;\&amp;quot;&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Next step, get the ENDPOINT:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;ENDPOINT=$(curl -s -XPOST https://identity.api.rackspacecloud.com/v2.0/tokens \ 
+    -d&#39;{&amp;quot;auth&amp;quot;:{&amp;quot;RAX-KSKEY:apiKeyCredentials&amp;quot;:{&amp;quot;username&amp;quot;:&amp;quot;&#39;$CL_USERNAME&#39;&amp;quot;,&amp;quot;apiKey&amp;quot;:&amp;quot;&#39;$APIKEY&#39;&amp;quot;}}}&#39; \
+    -H&amp;quot;Content-type:application/json&amp;quot; | jq &#39;.access.serviceCatalog[] | select((.name==&amp;quot;cloudFiles&amp;quot;) or (.name==&amp;quot;cloudFilesCDN&amp;quot;)) | {name} + .endpoints[] | .publicURL&#39; | tr -d &amp;quot;\&amp;quot;&amp;quot; | grep -v cdn | grep -i $REGION)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this case we are skipping all te CDN endpoints, but you can add them if is necessary.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;With all the collected data, next step is use turbolift to delete the Cloud Files container and their data. To do it, I use a for-loop:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;for i in $(curl -s -H &amp;quot;X-Auth-Token: $TOKEN&amp;quot; $ENDPOINT); do turbolift -u $USERNAME -a $APIKEY --os-rax-auth $REGION delete -c $i ; done  
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, you have all the Data and Cloud Files containers deleted on one region.&lt;/p&gt;
+
+&lt;p&gt;😄&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My First Contribution to OpenStack project</title>
+      <link>/my-first-contribution-to-openstack/</link>
+      <pubDate>Thu, 15 Mar 2018 12:04:16 -0600</pubDate>
+      <guid>/my-first-contribution-to-openstack/</guid>
+      <description>&lt;p&gt;I been working since last year using &lt;a href=&#34;https://www.ansible.com/&#34; target=&#34;_blank&#34;&gt;Ansible&lt;/a&gt; for fun and to trying to get prepared to become a DevOps, so I found an excelent OpenStack project called &lt;a href=&#34;https://github.com/openstack/ara&#34; target=&#34;_blank&#34;&gt;ARA Records Ansible&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/my-first-contribution-to-openstack/Ansible-Logo.png&#34; alt=&#34;Ansible Logo&#34; /&gt;
+&lt;img src=&#34;/img/my-first-contribution-to-openstack/ARA-Logo.png&#34; alt=&#34;ARA Logo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically it  is a project from the OpenStack community that makes it easier to understand and troubleshoot your Ansible roles and playbooks.&lt;br /&gt;
+If you want more information, please refer to the &lt;a href=&#34;http://ara.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34;&gt;Documentation Page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Anyhow, I just found a little bug on the Ansible Role to install ARA &lt;a href=&#34;https://git.openstack.org/cgit/openstack/ansible-role-ara/&#34; target=&#34;_blank&#34;&gt;ansible-role-ara&lt;/a&gt; on Debian based distros and just send the patch to fixit.&lt;/p&gt;
+
+&lt;p&gt;Here is the link to my &lt;a href=&#34;https://git.openstack.org/cgit/openstack/ansible-role-ara/commit/&#34; target=&#34;_blank&#34;&gt;contribution&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And, as I am proud of my first commit on a big project here is the screenshot too:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/my-first-contribution-to-openstack/OpenStack-Contribution.png&#34; alt=&#34;My First OpenStack Contribution&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I feel happy and motivated to still learn about this Open Source project and a lot more.&lt;/p&gt;
+
+&lt;p&gt;😄&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

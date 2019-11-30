@@ -1,0 +1,236 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/authors/admin/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/authors/admin/" hreflang="en"/>
+    
+      <loc>/authors/admin/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/authors/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/authors/" hreflang="en"/>
+    
+      <loc>/authors/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/categories/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/categories/" hreflang="en"/>
+    
+      <loc>/categories/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/deployment-hugo-site-git-hooks/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/categories/devops/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/categories/devops/" hreflang="en"/>
+    
+      <loc>/categories/devops/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/tags/git/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/tags/git/" hreflang="en"/>
+    
+      <loc>/tags/git/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/hugo/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/categories/linux/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/categories/linux/" hreflang="en"/>
+    
+      <loc>/categories/linux/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/" hreflang="en"/>
+    
+      <loc>/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/categories/open-source/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/categories/open-source/" hreflang="en"/>
+    
+      <loc>/categories/open-source/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/tags/open-source/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/tags/open-source/" hreflang="en"/>
+    
+      <loc>/tags/open-source/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/post/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/post/" hreflang="en"/>
+    
+      <loc>/post/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/categories/sysadmin/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/categories/sysadmin/" hreflang="en"/>
+    
+      <loc>/categories/sysadmin/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/tags/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/tags/" hreflang="en"/>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-11-17T11:35:56-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/tags/devops/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/tags/devops/" hreflang="en"/>
+    
+      <loc>/tags/devops/</loc>
+      <lastmod>2019-10-24T02:08:44-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/categories/featured/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/categories/featured/" hreflang="en"/>
+    
+      <loc>/categories/featured/</loc>
+      <lastmod>2019-10-24T02:08:44-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/tags/featured/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/tags/featured/" hreflang="en"/>
+    
+      <loc>/tags/featured/</loc>
+      <lastmod>2019-10-24T02:08:44-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/categories/rackspace/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/categories/rackspace/" hreflang="en"/>
+    
+      <loc>/categories/rackspace/</loc>
+      <lastmod>2019-10-24T02:08:44-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/post/im-a-racker/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/im-a-racker/" hreflang="en"/>
+    
+      <loc>/post/im-a-racker/</loc>
+      <lastmod>2019-10-24T02:08:44-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/publication_types/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/publication_types/" hreflang="en"/>
+    
+      <loc>/publication_types/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/publication/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/publication/" hreflang="en"/>
+    
+      <loc>/publication/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/talk/" hreflang="es"/>
+      <xhtml:link rel="alternate" href="/en/talk/" hreflang="en"/>
+    
+      <loc>/talk/</loc>
+    </url>
+    
+  
+</urlset>

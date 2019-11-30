@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>roles | Luis Cacho</title>
+    <link>/en/tags/roles/</link>
+      <atom:link href="/en/tags/roles/index.xml" rel="self" type="application/rss+xml" />
+    <description>roles</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 24 Oct 2019 17:42:56 -0500</lastBuildDate>
+    <image>
+      <url>/img/lc-profile.png</url>
+      <title>roles</title>
+      <link>/en/tags/roles/</link>
+    </image>
+    
+    <item>
+      <title>Molecule Cookiecutter</title>
+      <link>/en/project/molecule-cookiecutter/</link>
+      <pubDate>Thu, 24 Oct 2019 17:42:56 -0500</pubDate>
+      <guid>/en/project/molecule-cookiecutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ansible Galaxy Roles</title>
+      <link>/en/project/ansible-galaxy-roles/</link>
+      <pubDate>Thu, 24 Oct 2019 01:42:23 -0500</pubDate>
+      <guid>/en/project/ansible-galaxy-roles/</guid>
+      <description>&lt;p&gt;aasdasdasdasd&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

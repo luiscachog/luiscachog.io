@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Luis Cacho</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-mx</language><copyright>© 2019</copyright><lastBuildDate>Mon, 05 Mar 2018 11:35:56 -0600</lastBuildDate>
+    <image>
+      <url>/img/lc-profile.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 05 Mar 2018 11:35:56 -0600</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Hola!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Mi nombre es Luis Cacho y soy un Ingeniero en Sistemas Computacionales.
+Me defino a mi mismo como un entusiasta de Linux que ama trabajar y exprimentar con técnologias de Código Abierto mientras aprendo y aplico las mejores practicas y mis habilidades para resolver problemas.&lt;/p&gt;
+
+&lt;p&gt;Actualmente trabajo como Linux System Administrator en las oficinas principales de Rackspace, basadas en San Antonio, TX, US.&lt;/p&gt;
+
+&lt;p&gt;Quiero compartir mis experiencias que he adquirido a tráves de los años en este blog.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

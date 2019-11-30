@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Luis Cacho</title>
+    <link>/en/tags/</link>
+      <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 24 Oct 2019 17:42:56 -0500</lastBuildDate>
+    <image>
+      <url>/img/lc-profile.png</url>
+      <title>Tags</title>
+      <link>/en/tags/</link>
+    </image>
+    
+    <item>
+      <title>Ansible</title>
+      <link>/en/tags/ansible/</link>
+      <pubDate>Thu, 24 Oct 2019 17:42:56 -0500</pubDate>
+      <guid>/en/tags/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>/en/tags/code/</link>
+      <pubDate>Thu, 24 Oct 2019 17:42:56 -0500</pubDate>
+      <guid>/en/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cookiecutter</title>
+      <link>/en/tags/cookiecutter/</link>
+      <pubDate>Thu, 24 Oct 2019 17:42:56 -0500</pubDate>
+      <guid>/en/tags/cookiecutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>/en/tags/development/</link>
+      <pubDate>Thu, 24 Oct 2019 17:42:56 -0500</pubDate>
+      <guid>/en/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>molecule</title>
+      <link>/en/tags/molecule/</link>
+      <pubDate>Thu, 24 Oct 2019 17:42:56 -0500</pubDate>
+      <guid>/en/tags/molecule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>roles</title>
+      <link>/en/tags/roles/</link>
+      <pubDate>Thu, 24 Oct 2019 17:42:56 -0500</pubDate>
+      <guid>/en/tags/roles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>galaxy</title>
+      <link>/en/tags/galaxy/</link>
+      <pubDate>Thu, 24 Oct 2019 01:42:23 -0500</pubDate>
+      <guid>/en/tags/galaxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>/en/tags/project/</link>
+      <pubDate>Thu, 24 Oct 2019 01:42:23 -0500</pubDate>
+      <guid>/en/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Native</title>
+      <link>/en/tags/cloud-native/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/tags/cloud-native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>/en/tags/devops/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/en/tags/docker/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/en/tags/linux/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>/en/tags/open-source/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>/en/tags/security/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sysadmin</title>
+      <link>/en/tags/sysadmin/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/tags/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Files</title>
+      <link>/en/tags/cloud-files/</link>
+      <pubDate>Wed, 13 Feb 2019 13:37:04 -0600</pubDate>
+      <guid>/en/tags/cloud-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Openstack</title>
+      <link>/en/tags/openstack/</link>
+      <pubDate>Wed, 13 Feb 2019 13:37:04 -0600</pubDate>
+      <guid>/en/tags/openstack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rackspace Public Cloud</title>
+      <link>/en/tags/rackspace-public-cloud/</link>
+      <pubDate>Wed, 13 Feb 2019 13:37:04 -0600</pubDate>
+      <guid>/en/tags/rackspace-public-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Turbolift</title>
+      <link>/en/tags/turbolift/</link>
+      <pubDate>Wed, 13 Feb 2019 13:37:04 -0600</pubDate>
+      <guid>/en/tags/turbolift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>/en/tags/network/</link>
+      <pubDate>Tue, 20 Nov 2018 13:15:43 -0600</pubDate>
+      <guid>/en/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruckus</title>
+      <link>/en/tags/ruckus/</link>
+      <pubDate>Tue, 20 Nov 2018 13:15:43 -0600</pubDate>
+      <guid>/en/tags/ruckus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ARA</title>
+      <link>/en/tags/ara/</link>
+      <pubDate>Thu, 15 Mar 2018 12:04:16 -0600</pubDate>
+      <guid>/en/tags/ara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>/en/tags/git/</link>
+      <pubDate>Thu, 15 Mar 2018 12:04:16 -0600</pubDate>
+      <guid>/en/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NAS</title>
+      <link>/en/tags/nas/</link>
+      <pubDate>Fri, 16 Feb 2018 11:30:18 -0600</pubDate>
+      <guid>/en/tags/nas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>/en/tags/storage/</link>
+      <pubDate>Fri, 16 Feb 2018 11:30:18 -0600</pubDate>
+      <guid>/en/tags/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training</title>
+      <link>/en/tags/training/</link>
+      <pubDate>Wed, 13 Sep 2017 10:18:59 -0600</pubDate>
+      <guid>/en/tags/training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Encrypt</title>
+      <link>/en/tags/lets-encrypt/</link>
+      <pubDate>Sun, 03 Sep 2017 09:26:47 -0600</pubDate>
+      <guid>/en/tags/lets-encrypt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Load Balancer</title>
+      <link>/en/tags/load-balancer/</link>
+      <pubDate>Sun, 03 Sep 2017 09:26:47 -0600</pubDate>
+      <guid>/en/tags/load-balancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSL</title>
+      <link>/en/tags/ssl/</link>
+      <pubDate>Sun, 03 Sep 2017 09:26:47 -0600</pubDate>
+      <guid>/en/tags/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>/en/tags/wordpress/</link>
+      <pubDate>Sun, 03 Sep 2017 09:26:47 -0600</pubDate>
+      <guid>/en/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>API</title>
+      <link>/en/tags/api/</link>
+      <pubDate>Mon, 11 Apr 2016 01:24:48 -0600</pubDate>
+      <guid>/en/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNS</title>
+      <link>/en/tags/dns/</link>
+      <pubDate>Mon, 11 Apr 2016 01:24:48 -0600</pubDate>
+      <guid>/en/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Email</title>
+      <link>/en/tags/email/</link>
+      <pubDate>Wed, 08 Apr 2015 00:39:38 -0600</pubDate>
+      <guid>/en/tags/email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exim</title>
+      <link>/en/tags/exim/</link>
+      <pubDate>Wed, 08 Apr 2015 00:39:38 -0600</pubDate>
+      <guid>/en/tags/exim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spamassassin</title>
+      <link>/en/tags/spamassassin/</link>
+      <pubDate>Wed, 08 Apr 2015 00:39:38 -0600</pubDate>
+      <guid>/en/tags/spamassassin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VestaCP</title>
+      <link>/en/tags/vestacp/</link>
+      <pubDate>Wed, 08 Apr 2015 00:39:38 -0600</pubDate>
+      <guid>/en/tags/vestacp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SFTP</title>
+      <link>/en/tags/sftp/</link>
+      <pubDate>Tue, 31 Mar 2015 22:22:12 -0600</pubDate>
+      <guid>/en/tags/sftp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>/en/tags/ssh/</link>
+      <pubDate>Tue, 31 Mar 2015 22:22:12 -0600</pubDate>
+      <guid>/en/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apache</title>
+      <link>/en/tags/apache/</link>
+      <pubDate>Fri, 13 Feb 2015 02:08:44 -0500</pubDate>
+      <guid>/en/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LoadBalancer</title>
+      <link>/en/tags/loadbalancer/</link>
+      <pubDate>Fri, 13 Feb 2015 02:08:44 -0500</pubDate>
+      <guid>/en/tags/loadbalancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacOS</title>
+      <link>/en/tags/macos/</link>
+      <pubDate>Thu, 08 Jan 2015 00:26:46 -0600</pubDate>
+      <guid>/en/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL</title>
+      <link>/en/tags/mysql/</link>
+      <pubDate>Wed, 30 Jul 2014 00:26:47 -0600</pubDate>
+      <guid>/en/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Featured</title>
+      <link>/en/tags/featured/</link>
+      <pubDate>Mon, 31 Mar 2014 02:08:44 -0500</pubDate>
+      <guid>/en/tags/featured/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

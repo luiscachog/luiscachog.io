@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Luis Cacho</title>
+    <link>/en/categories/</link>
+      <atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 24 Oct 2019 17:42:56 -0500</lastBuildDate>
+    <image>
+      <url>/img/lc-profile.png</url>
+      <title>Categories</title>
+      <link>/en/categories/</link>
+    </image>
+    
+    <item>
+      <title>ansible</title>
+      <link>/en/categories/ansible/</link>
+      <pubDate>Thu, 24 Oct 2019 17:42:56 -0500</pubDate>
+      <guid>/en/categories/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>molecule</title>
+      <link>/en/categories/molecule/</link>
+      <pubDate>Thu, 24 Oct 2019 17:42:56 -0500</pubDate>
+      <guid>/en/categories/molecule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Native</title>
+      <link>/en/categories/cloud-native/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/categories/cloud-native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>/en/categories/devops/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/en/categories/docker/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/categories/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/en/categories/linux/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>/en/categories/open-source/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/categories/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>/en/categories/security/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/categories/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SysAdmin</title>
+      <link>/en/categories/sysadmin/</link>
+      <pubDate>Wed, 15 May 2019 13:58:42 -0600</pubDate>
+      <guid>/en/categories/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rackspace</title>
+      <link>/en/categories/rackspace/</link>
+      <pubDate>Wed, 13 Feb 2019 13:37:04 -0600</pubDate>
+      <guid>/en/categories/rackspace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>/en/categories/network/</link>
+      <pubDate>Tue, 20 Nov 2018 13:15:43 -0600</pubDate>
+      <guid>/en/categories/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>/en/categories/storage/</link>
+      <pubDate>Fri, 16 Feb 2018 11:30:18 -0600</pubDate>
+      <guid>/en/categories/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>/en/categories/cloud/</link>
+      <pubDate>Fri, 13 Feb 2015 02:08:44 -0500</pubDate>
+      <guid>/en/categories/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>/en/categories/wordpress/</link>
+      <pubDate>Mon, 10 Nov 2014 00:26:44 -0600</pubDate>
+      <guid>/en/categories/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Featured</title>
+      <link>/en/categories/featured/</link>
+      <pubDate>Mon, 31 Mar 2014 02:08:44 -0500</pubDate>
+      <guid>/en/categories/featured/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

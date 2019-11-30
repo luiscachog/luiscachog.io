@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Luis Cacho</title>
+    <link>/categories/</link>
+      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-mx</language><copyright>© 2019</copyright><lastBuildDate>Mon, 05 Mar 2018 11:35:56 -0600</lastBuildDate>
+    <image>
+      <url>/img/lc-profile.png</url>
+      <title>Categories</title>
+      <link>/categories/</link>
+    </image>
+    
+    <item>
+      <title>DevOps</title>
+      <link>/categories/devops/</link>
+      <pubDate>Mon, 05 Mar 2018 11:35:56 -0600</pubDate>
+      <guid>/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/categories/linux/</link>
+      <pubDate>Mon, 05 Mar 2018 11:35:56 -0600</pubDate>
+      <guid>/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>/categories/open-source/</link>
+      <pubDate>Mon, 05 Mar 2018 11:35:56 -0600</pubDate>
+      <guid>/categories/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SysAdmin</title>
+      <link>/categories/sysadmin/</link>
+      <pubDate>Mon, 05 Mar 2018 11:35:56 -0600</pubDate>
+      <guid>/categories/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Featured</title>
+      <link>/categories/featured/</link>
+      <pubDate>Mon, 31 Mar 2014 02:08:44 -0500</pubDate>
+      <guid>/categories/featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rackspace</title>
+      <link>/categories/rackspace/</link>
+      <pubDate>Mon, 31 Mar 2014 02:08:44 -0500</pubDate>
+      <guid>/categories/rackspace/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
