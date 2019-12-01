@@ -1,6 +1,6 @@
 ---
-title: Improve Ansible Roles with Molecule
-event: DoxMX Talk
+title: Perfecciona tus Roles de Ansible con Molecule
+event: Plática para DoxMX
 event_url: https://github.com/doxmx/talks
 
 location: DoxMX
@@ -11,7 +11,7 @@ location: DoxMX
 #   postcode: '94305'
 #   country: United States
 
-summary: Improving your ansible playbooks/roles deployment using molecule for test driven.
+summary: Perfeccionando tus Roles/Playbooks de Ansible usando Molecule para optimizar tus pruebas.
 abstract: ""
 
 # Talk start and end times.
@@ -30,7 +30,7 @@ tags: [ Community, Ansible, Molecule ]
 featured: true
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 
 links:
@@ -63,11 +63,11 @@ math: false
 ---
 
 {{% alert note %}}
-Click on the **Slides** button above to view the built-in slides feature.
+Da click en el botón de **Diapositivas** que está arriba para ver la presentación.
 {{% /alert %}}
 
-On this talk I share some best practices to perform test driven on your Ansible Roles.
+En está platica compartí algunas mejores prácticas en el desarrollo de Roles de Ansible enfocado a pruebas.
 
-I explain how workflow with molecule will help you to improve the development speed for your Ansible Roles.
+Explico como el flujo de trabajo que muestro te ayudará a mejorar la velocidad en el desarrollo de Roles de Ansible enfocado a pruebas.
 
-I show an example of how to integrate molecule on an Ansible Role that does not have it.
+Muestro un ejemplo de como integrar molecule a un Rol de Ansible que previamente no cuenta con el.
