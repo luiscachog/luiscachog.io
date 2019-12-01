@@ -89,16 +89,8 @@ user_groups:
 
 #### $whoami
 
-Mi nombre es Luis Cacho y soy un Ingeniero en Sistemas Computacionales.
-Me defino a mi mismo como un entusiasta de Linux que ama trabajar y exprimentar con técnologias de Código Abierto mientras aprendo y aplico las mejores practicas y mis habilidades para resolver problemas.
-
-Actualmente trabajo como Linux System Administrator en las oficinas principales de Rackspace, basadas en San Antonio, TX, US.
-
-Quiero compartir mis experiencias que he adquirido a tráves de los años en este blog.
-
-Soy Linux Administrator con habilidades de Nube/DevOps/Seguridad, estoy trabajando para [Rackspace](https://rackspace.com), 
-I am a Linux Administrator with Cloud/DevOps/Security skills working at [Rackspace](https://rackspace.com), where I am focusing on learn and apply a Cloud Native techniques, in Multicloud Environments, using agile methodologies.  
-I am actively contributing to [Open Source projects](#projects) and define myself as a Linux enthusiast who loves to work and experiment with Open Source technologies while I am learning,and trying to apply best practices.  
-I learn new stuff every day and I like to share it on this blog. Sometimes I write about it.
+Soy Linux Administrator con habilidades de Cloud/DevOps/Seguridad, estoy trabajando para [Rackspace](https://rackspace.com), donde me enfoco principalmente en aprender y aplicar las técnicas de Cloud Native en ambientes multicloud usando metódologias ágiles.
+Soy contribuidor de [proyectos de Software Libre](#projects) y me defino a mi mismo como un entusiasta de Linux que ama trabajar y exprimentar con tecnologías de Software Libre mientras aprendo y trato de aplicar las mejores prácticas.
+Aprendo cosas nuevas cada día y me gusta compartirlo en este blog. Algunas veces escribo acerca de ello.
 
 :us: :dog: :video_game: :football: :soccer:
