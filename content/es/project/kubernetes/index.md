@@ -3,7 +3,7 @@
 
 title: "Kubernetes"
 summary: |
-  Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
+  Kubernetes (K8s) es un sistema de código abierto para automatizar la implementación, el escalamiento y la gestión de aplicaciones en contenedores.
 authors: [ luis ]
 tags: [ Kubernetes, Community, Go, Cloud Native, Open Source]
 categories: [ Contributor, Kubernetes ]
@@ -49,13 +49,13 @@ links:
 slides: ""
 ---
 
-Contributing to the [Kubernetes](https://kubernetes.io) project in different [special interest groups](https://git.k8s.io/community/), mainly focused on documentation, community, and user/contributor experience.
+Contribuidor en el proyecto [Kubernetes](https://kubernetes.io) en diferntes [grupos de interés especial](https://git.k8s.io/community/), principalmente enfocado en documentación y comunidad.
 
 - [Gubernator PR Dashboard](https://gubernator.k8s.io/pr/k4ch0)
 
 ## sig-docs
 
-Contributor on the Spanish translation content at kubernetes.io in **sig-docs**.
+Contribuidor en la traducción al Español del contenido de kubernetes.io en el grupo de interés especial **sig-docs**.
 
-- [Docs Special Interest Group](https://git.k8s.io/community/sig-docs)
+- [Grupo de Interés Especial en Documentación](https://git.k8s.io/community/sig-docs)
 - [Tracking Spanish Localisation Progress (M1) #13948](https://github.com/kubernetes/website/issues/13948)

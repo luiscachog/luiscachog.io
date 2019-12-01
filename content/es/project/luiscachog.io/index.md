@@ -3,11 +3,11 @@
 
 title: "luiscachog.io"
 summary: |
-  This website code, built using Hugo Framework.
+  El código fuente de este sitio, que ha sido construido usando el Framework Hugo.
 authors: [ luis ]
 tags: [ Code, Website, Go ]
 categories: [ Source ]
-date: 2019-11-24T11:23:56+02:00
+date: 2019-11-2T11:23:56+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -33,11 +33,11 @@ links:
 slides: ""
 ---
 
-Static site for luiscachog.io using:
+Sitio éstatico de luiscachog.io usando:
 
 - [Hugo](http://gohugo.io/) 
 - [Academic](https://sourcethemes.com/academic/)
 - [Netlify](https://netlify.com)
 
-Actual status: [![Netlify Status](https://api.netlify.com/api/v1/badges/17660b24-5ace-4e45-9d81-312asdasdasd/deploy-status)](https://app.netlify.com/sites/rael/deploys)
+Estatus actual: [![Netlify Status](https://api.netlify.com/api/v1/badges/17660b24-5ace-4e45-9d81-312asdasdasd/deploy-status)](https://app.netlify.com/sites/rael/deploys)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/17660b24-5ace-4e45-9d81-31237fbc07fd/deploy-status)](https://app.netlify.com/sites/luiscachog/deploys)

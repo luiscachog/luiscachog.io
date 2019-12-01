@@ -2,11 +2,11 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Molecule Cookiecutter"
-summary: "Cookiecutter for a molucle project"
+summary: "Cookiecutter para el proyecto Molecule"
 authors: [ luis ]
 tags: [ Molecule, Ansible, Cookiecutter, Code, Python]
 categories: [ Ansible]
-date: 2019-10-24T17:42:56-05:00
+date: 2019-10-30T17:42:56-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -56,4 +56,4 @@ links:
 slides: ""
 ---
 
-A Cookiecutter template for 
+Un template de Cookiecutter para que inicies tu proyecto con Molecule.

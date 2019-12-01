@@ -1,9 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Kubernetes Website Translation"
+title: "Traducción del sitio web de Kubernetes"
 summary: |
-  Contributor on the Spanish translation content at kubernetes.io
+  Contribuidor en la traducción al Español del contenido en kubernetes.io
 authors: [ luis ]
 tags: [ Kubernetes, Community, Go, Website, Cloud Native, Open Source]
 categories: [ Contributor, Kubernetes ]
@@ -49,7 +49,7 @@ links:
 slides: ""
 ---
 
-Contributing to the [Kubernetes](https://kubernetes.io) project in different [special interest groups](https://git.k8s.io/community/), mainly focused on documentation, community, and user/contributor experience.
+Contribuidor en el proyecto [Kubernetes](https://kubernetes.io) en diferntes [grupos de interés especial](https://git.k8s.io/community/), principalmente enfocado en documentación y comunidad.
 
 - [Gubernator PR Dashboard](https://gubernator.k8s.io/pr/k4ch0)
 

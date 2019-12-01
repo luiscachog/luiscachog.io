@@ -56,4 +56,4 @@ links:
 slides: ""
 ---
 
-A Cookiecutter template for 
+A Cookiecutter template for your new Molecule project.

@@ -31,8 +31,8 @@ links:
 slides: ""
 ---
 
-[San Antonio Hashicorp User Group]( https://www.meetup.com/San-Antonio-HashiCorp-User-Group/) is the official HashiCorp User Group (HUG) dedicated to building a **strong, open, diverse developer community** around the **HashiCorp** technologies in **San Antonio**.
+[Grupo de Usuarios de HashiCorp de San Antonio]( https://www.meetup.com/San-Antonio-HashiCorp-User-Group/) es el Grupo de Usuarios de HashiCorp (GUH) oficial, dedicado a construir una comunidad de desarrolladores fuerte, abierta y diversa alrededor de las tecnologías de **HashiCorp** en **San Antonio**.
 
-HUG are the cornerstone of our community. HUGs are self-directed by local, volunteer organizers passionate about HashiCorp tools and knowledge sharing. 
+Los GUH son la piedra angular de nuestra comunidad. Los GUH son autodirigidos por organizadores voluntarios locales apasionados por las herramientas y el intercambio de conocimientos de HashiCorp.
 
-Want to **support** [San Antonio Hashicorp User Group]( https://www.meetup.com/San-Antonio-HashiCorp-User-Group/)? Do you have a **talk proposal**? Please send us details at [hug@hashicorp.com](mailto:hug@hashicorp.com), **thanks!**
+¿Quieres **apoyar** al [Grupo de Usuarios de HashiCorpt San Antonio]( https://www.meetup.com/San-Antonio-HashiCorp-User-Group/)? ¿Tienes alguna **propuesta de plática**? Por favor, envia mas detalles al correo electrónico [hug@hashicorp.com](mailto:hug@hashicorp.com), **¡Gracias!**
