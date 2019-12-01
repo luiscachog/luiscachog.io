@@ -4,7 +4,7 @@ name: Luis Cacho
 
 # Username (this should match the folder name)
 authors:
-- admin
+- luis
 
 # Is this the primary user of the site?
 superuser: true
@@ -16,16 +16,20 @@ role: Linux Administrator III
 organizations:
 - name: Rackspace
   url: "https://rackspace.com"
+- name: Contributor at Kubernetes
+  url: "https://www.kubernetes.io"
+- name: Hashicorp Meetup Organizer
+  url: "https://www.meetup.com/San-Antonio-HashiCorp-User-Group"
 
 # Short bio (displayed in user profile at end of posts)
-bio:  I am an avid Linux lover and Open Source enthusiast. I believe in sharing knowledge.
+bio: Administrador Linux en Rackspace | Contribuidor de Kubernetes 
 
 interests:
-- Artificial Intelligence
-- Automation
-- Chaos Engineering
+- Inteligencia Artificial
+- Automatización
+- Ingeniería del Caos
 - Cloud Native
-- Open Source
+- Software Libre
 - Site Reliabilty Engineering
 
 

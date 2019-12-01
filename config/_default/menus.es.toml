@@ -7,37 +7,54 @@
   name = "Inicio"
   url = "#about"
   weight = 10
+  pre = "<i class='fas fa-home'>&nbsp;</i>"
 
 [[main]]
   name = "Posts"
   url = "#posts"
-  pre = "<i class='fa fa-heart'></i>"
-  post = "<span class='alert'>New!</span>"
+  pre = "<i class='fas fa-edit'>&nbsp;</i>"
+#   post = "<span class='alert'>New!</span>"
   weight = 20
+
+[[main]]
+  name = "Proyectos"
+  url = "#projects"
+  weight = 30
+  pre = "<i class='fas fa-code-branch'>&nbsp;</i>"
+
+[[main]]
+  name = "Pláticas"
+  url = "#talks"
+  weight = 40
+  pre = "<i class='fas fa-chalkboard-teacher'>&nbsp;</i>"
 
 [[main]]
   name = "Experiencia"
   url = "#experience"
-  weight = 30
+  weight = 50
   identifier = "experience"
+  pre = "<i class='fas fa-id-card'>&nbsp;</i>"
 
 [[main]]
   name = "Experiencia"
   url = "#experience"
   weight = 10
   parent = "experience"
+  pre = "<i class='fas fa-user-clock'>&nbsp;</i>"
 
 [[main]]
   name = "Certificaciones"
   url = "#certifications"
   weight = 20
   parent = "experience"
+  pre = "<i class='fas fa-user-graduate'>&nbsp;</i>"
 
 [[main]]
   name = "Cursos"
   url = "#training"
   weight = 30
   parent = "experience"
+  pre = "<i class='fas fa-user-cog'>&nbsp;</i>"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -46,8 +63,4 @@
   url = "files/resume.pdf"
   weight = 40
   parent = "experience"
-
-[[main]]
-  name = "Proyectos"
-  url = "#projects"
-  weight = 40
+  pre = "<i class='fas fa-user-tie'>&nbsp;</i>"

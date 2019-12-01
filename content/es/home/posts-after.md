@@ -8,8 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 21  # Order that this section will appear.
 
 title = "Posts"
-subtitle = "Blog posts"
-identifier = "posts-after"
+subtitle = "Posts del Blog"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
