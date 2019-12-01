@@ -6,7 +6,7 @@ summary: "Cookiecutter para el proyecto Molecule"
 authors: [ luis ]
 tags: [ Molecule, Ansible, Cookiecutter, Code, Python]
 categories: [ Ansible]
-date: 2019-10-30T17:42:56-05:00
+date: 2019-10-24T17:42:56-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

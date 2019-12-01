@@ -7,7 +7,7 @@ summary: |
 authors: [ luis ]
 tags: [ Code, Website, Go ]
 categories: [ Source ]
-date: 2019-11-2T11:23:56+02:00
+date: 2019-11-24T11:23:56+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
