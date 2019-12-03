@@ -222,10 +222,10 @@ plugins_js  = []
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
   [search.algolia]
-    app_id = "NZ0TX11BPQ"
-    api_key = "7e1b9fab0c463868d3b052d504ba35dc"
+    app_id = "74APDZPUGZ"
+    api_key = "4ec94722dd52fb0755036caead15bfe0"
     index_name = "luiscachog.io"
-    show_logo = false
+    show_logo = true
 
 ############################
 ## Maps
