@@ -16,16 +16,6 @@ date_format = "Jan 2006"
 #   Add/remove as many `[[experience]]` blocks below as you like.
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
-
-[[experience]]
-  title = "Security Systems Administrator"
-  company = "Rackspace"
-  company_url = "https://www.rackspace.com"
-  location = "San Antonio, TX"
-  date_start = "2019-11-30"
-  date_end = ""
-  description = """ """
 
 [[experience]]
   title = "Linux Administrator III"
