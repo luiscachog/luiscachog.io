@@ -256,7 +256,7 @@ plugins_js  = []
   google_analytics = "UA-114918521-1"
   google_tag_manager = "GTM-MQT2RQ4"
 
-  [sitemap]
+[sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
