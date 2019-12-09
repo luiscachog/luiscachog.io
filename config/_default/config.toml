@@ -94,3 +94,8 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
     name  = "date"
     weight = 10
     pattern = "2006"
+
+[services.rss]
+limit = 10
+
+site_feed = "https://feed.luiscachog.io"

@@ -72,6 +72,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:luiscachog@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+- icon: rss
+  icon_pack: fas
+  link: http://feeds.feedburner.com/luiscachog
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "luiscachog@gmail.com"

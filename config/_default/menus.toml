@@ -67,3 +67,9 @@
   pre = "<i class='fas fa-user-tie'>&nbsp;</i>"
 
 
+[[main]]
+  name = ""
+  url = "http://feeds.feedburner.com/luiscachog"
+  weight = 60
+  pre = "<i class='fas fa-rss'>&nbsp;</i>"
+
