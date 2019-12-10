@@ -50,24 +50,18 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:luiscachog@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+- icon: github
+  icon_pack: fab
+  link: https://github.com/k4ch0
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/luiscachog
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/k4ch0
-- icon: github-alt
-  icon_pack: fab
-  link: https://github.com/k4ch0
-- icon: gitlab
-  icon_pack: fab
-  link: https://gitlab.com/k4ch0
 - icon: keybase
   icon_pack: fab
   link: https://keybase.io/luiscachog
-- icon: linkedin-in
-  icon_pack: fab
-  link: https://www.linkedin.com/in/luiscachog
 - icon: redhat
   icon_pack: fab
   link: https://www.redhat.com/rhtapps/services/verify?certId=140-122-987
@@ -76,6 +70,9 @@ social:
 - icon: linux
   icon_pack: fab
   link: files/resume.pdf
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:luiscachog@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: rss
   icon_pack: fas
   link: http://feeds.feedburner.com/luiscachog
