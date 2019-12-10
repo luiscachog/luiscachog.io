@@ -2,16 +2,19 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Gestion de History"
+url: "/gestion-de-history"
 subtitle: "Como mejorar el log histórico de tu shell"
 summary: "Como mejorar el histórico de tu shell"
 authors: [ luis ]
-tags: [ Shell, Bash, Zsh]
-categories: [ Shell]
-date: 2019-12-03T15:39:00-06:00
-lastmod: 2019-12-03T15:39:00-06:00
-featured: false
+tags: [ Shell, Bash, Zsh, Linux ]
+categories: [ Shell, Linux ]
+keywords: [ Shell, Bash, Zsh, Linux, Configuration ]
+date: 2019-12-03
+publishDate: 2019-12-03
+lastmod: 2019-12-09
+featured: true
 draft: false
-url: /gestion-de-history
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

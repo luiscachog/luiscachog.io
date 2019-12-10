@@ -2,16 +2,17 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Bulk Delete Rackspace Cloud Files data via API"
+url: "/bulk-delete-cloud-files-api"
 subtitle: "How to delete the Data and Cloud Files Containers using Rackspace Cloud Files API, cURL and Turbolift"
 summary: "How to delete the Data and Cloud Files Containers using Rackspace Cloud Files API, cURL and Turbolift"
-url: "/bulk-delete-cloud-files-api"
-authors: []
-tags: ["Openstack","DevOps","Sysadmin","Turbolift", "Open Source","Rackspace Public Cloud","Cloud Files"]
-categories: ["SysAdmin","DevOps", "Open Source","Rackspace"]
+authors: [ luis ]
+tags: [ Openstack, DevOps, SysAdmin, Turbolift, Open Source, Rackspace Public Cloud, Cloud Files ]
+categories: [ SysAdmin , DevOps, Open Source, Rackspace ]
+keywords: [ Openstack, DevOps, SysAdmin, Turbolift, Open Source, Cloud Files ]
 date: 2019-02-13T13:37:04-06:00
-lastmod: 2019-11-17T13:37:04-06:00
 publishDate: 2019-02-13T13:37:04-06:00
-featured: false
+lastmod: 2019-11-17T13:37:04-06:00
+featured: true
 draft: false
 
 

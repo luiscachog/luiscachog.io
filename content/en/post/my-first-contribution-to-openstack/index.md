@@ -2,17 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "My First Contribution to OpenStack project"
+url: "/my-first-contribution-to-openstack"
 subtitle: "I'm proud to perform my first contribution to a OpenStack project"
 summary: "I'm proud to perform my first contribution to a OpenStack project"
 authors: [ luis ]
-tags: ["Openstack","DevOps","SysAdmin", Ansible ,"ARA", "Git", "Open Source"]
-categories: ["SysAdmin","DevOps", "Open Source"]
-date: 2018-03-15T12:04:16-06:00
-lastmod: 2019-11-27T12:04:16-06:00
-publishDate: 2018-03-15T12:04:16-06:00
-featured: false
+tags: [ Openstack, DevOps, SysAdmin, Ansible, ARA, Git, Open Source ]
+categories: [ SysAdmin, DevOps, Open Source ]
+keywords: [ Openstack, ARA, DevOps, Open Source ]
+date: 2018-03-15
+publishDate: 2018-03-15
+lastmod: 2019-11-27
+featured: true
 draft: false
-url: "/my-first-contribution-to-openstack"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

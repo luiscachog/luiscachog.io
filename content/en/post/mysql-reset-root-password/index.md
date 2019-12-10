@@ -2,17 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "MySQL reset root password"
+url: "/mysql-reset-root-password"
 subtitle: "How to reset a root MySQL password"
 summary: "How to reset a root MySQL password"
 authors: [ luis ]
-tags: ["MySQL"]
-categories: ["Linux", "SysAdmin"]
-date: 2014-07-30T00:26:47-06:00
-lastmod: 2019-11-08T00:26:47-06:00
-publishDate: 2014-07-30T02:08:44-05:00
-featured: false
+tags: [ MySQL ]
+categories: [ Linux, SysAdmin ]
+keywords: [ MySQL, Configuration, Linux, Reset ]
+date: 2014-07-30
+publishDate: 2014-07-30
+lastmod: 2019-11-08
+featured: true
 draft: false
-url: /mysql-reset-root-password
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

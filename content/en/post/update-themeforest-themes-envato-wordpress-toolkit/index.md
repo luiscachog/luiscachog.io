@@ -2,18 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "How to Update a ThemeForest Theme with the Envato WordPress Toolkit"
+url: "/update-themeforest-themes-envato-wordpress-toolkit"
 subtitle: "How to install and manage the Envato WordPress Toolkit"
 summary: "How to install and manage the Envato WordPress Toolkit"
 authors: [ luis ]
-tags: ["Wordpress"]
-categories: ["SysAdmin","Wordpress"]
-keywords: ["ThemeForest", "Themes", "Wordpress", "Envato"]
-date: 2014-11-10T00:26:44-06:00
-lastmod: 2019-11-27T00:26:44-06:00
-publishDate: 2014-11-10T02:08:44-05:00
-featured: false
+tags: [ Wordpress ]
+categories: [ SysAdmin , Wordpress ]
+keywords: [ ThemeForest, Themes, Wordpress, Envato]
+date: 2014-11-10
+publishDate: 2014-11-10
+lastmod: 2019-11-27
+featured: true
 draft: false
-url: /update-themeforest-themes-envato-wordpress-toolkit
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

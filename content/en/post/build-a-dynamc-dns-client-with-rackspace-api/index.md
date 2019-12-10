@@ -2,17 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: " Build a Dynamic DNS Client with Rackspace API"
+url: "/build-a-dynamc-dns-client-with-rackspace-api"
 subtitle: "How to Build a Dynamic DNS via API"
 summary: "How to Build a Dynamic DNS via API"
 authors: [ luis ]
-tags: ["API", "DevOps","DNS", "Rackspace Public Cloud"]
-categories: ["DevOps", "Rackspace", "SysAdmin" ]
-date: 2016-04-11T01:24:48-06:00
-lastmod: 2019-11-13T01:24:48-06:00
-publishDate: 2016-04-11T01:24:48-06:00
-featured: false
+tags: [ API, DevOps, DNS, Rackspace Public Cloud]
+categories: [ DevOps, Rackspace, SysAdmin ]
+keywords: [ API, DevOps, Rackspace, SysAdmin, DNS ]
+date: 2016-04-11
+publishDate: 2016-04-11
+lastmod: 2019-11-13
+featured: true
 draft: false
-url: "/build-a-dynamc-dns-client-with-rackspace-api"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

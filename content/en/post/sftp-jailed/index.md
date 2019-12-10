@@ -2,17 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "SFTP Jailed"
+url: "/sftp-jailed"
 subtitle: "How to configure a FTP Secured and Jailed"
 summary: "How to configure a FTP Secured and Jailed"
 authors: [ luis ]
-tags: ["SSH", "SFTP"]
-categories: ["Linux", "SysAdmin"]
-date: 2015-03-31T22:22:12-06:00
-lastmod: 2019-11-12T22:22:12-06:00
-publishDate: 2015-03-31T22:22:12-06:00
-featured: false
+tags: [ SSH, SFTP ]
+categories: [ Linux, SysAdmin]
+keywords: [ SSH, SFTP, Linux, Configuration, Jailed ]
+date: 2015-03-31
+publishDate: 2015-03-31
+lastmod: 2019-11-12
+featured: true
 draft: false
-url: /sftp-jailed
 
 
 # Featured image

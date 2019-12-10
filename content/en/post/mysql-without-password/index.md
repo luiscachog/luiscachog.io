@@ -2,17 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "MySQL without password"
+url: /mysql-without-password
 subtitle: ""
 summary: "How to configure a file to access mysql without password"
 authors: [ luis ]
-tags: ["MySQL"]
-categories: ["DevOps","Linux","SysAdmin"]
-date: 2014-04-15T02:08:44-05:00
-publishDate: 2014-04-15T02:08:44-05:00
-lastmod: 2019-11-27T02:08:44-05:00
-featured: false
+tags: [ MySQL ]
+categories: [ DevOps, Linux, SysAdmin ]
+keywords: [ MySQL, Configuration, Linux ]
+date: 2014-04-15
+publishDate: 2014-04-15
+lastmod: 2019-11-27
+featured: true
 draft: false
-url: /mysql-without-password
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

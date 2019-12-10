@@ -12,8 +12,8 @@ keywords: []
 date: {{ now.Format "2006-01-02" }}
 publishDate: {{ now.Format "2006-01-02" }}
 lastmod: {{ now.Format "2006-01-02" }}
-featured: false
-draft: false
+featured: true
+draft: true
 
 
 # Featured image
@@ -32,4 +32,3 @@ image:
 projects: []
 ---
  {{ %toc% }}
-

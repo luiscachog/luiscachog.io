@@ -2,18 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Yosemite stuck on boot process"
+url: "/yosemite-stuck-boot-process"
 subtitle: "How to avoid that your MacOS Yosemite stuck on the boot process"
 summary: "How to avoid that your MacOS Yosemite stuck on the boot process"
 authors: [ luis ]
-tags: ["MacOS"]
-categories: ["SysAdmin"]
-keywords: ["MacOS", "Yosemite", "Stuck", "Boot"]
-date: 2015-01-08T00:26:46-06:00
-lastmod: 2019-11-08T00:26:46-06:00
-publishDate: 2015-01-08T00:26:46-06:00
+tags: [ MacOS ]
+categories: [ SysAdmin ]
+keywords: [ MacOS, Yosemite, Stuck, Boot ]
+date: 2015-01-08
+publishDate: 2015-01-08
+lastmod: 2019-11-08
 featured: false
 draft: false
-url: /yosemite-stuck-boot-process
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

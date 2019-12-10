@@ -2,17 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "View sources IP's in Apache Logs behind a Load Balancer"
+url: "/view-sources-ips-apache-logs-behind-loadbalancer"
 subtitle: "How to configure Apache Logs to view the source IP's when it is behind a Load Balancer"
 summary: "How to configure Apache Logs to view the source IP's when it is behind a Load Balancer"
 authors: [ luis ]
-tags: ["DevOps","Apache", "LoadBalancer", "Rackspace Public Cloud"]
-categories: ["Linux","SysAdmin","Rackspace", "Cloud"]
-date: 2015-02-13T02:08:44-05:00
-lastmod: 2019-11-12T02:08:44-05:00
-publishDate: 2015-02-12T02:08:44-05:00
+tags: [ DevOps, Apache, LoadBalancer, Rackspace Public Cloud ]
+categories: [ Linux, SysAdmin, Rackspace, Cloud ]
+keywords: [ Apache, Logs, LoadBalancer, Rackspace ]
+date: 2015-02-13
+publishDate: 2015-02-12
+lastmod: 2019-11-12
 featured: true
 draft: false
-url: /view-sources-ips-apache-logs-behind-loadbalancer
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

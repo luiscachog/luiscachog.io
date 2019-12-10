@@ -2,14 +2,16 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Soy un Racker"
+url: "/soy-un-racker"
 subtitle: "Recuento de los primeros dias como Racker"
 summary: "My experience at Rackspace"
 authors: [ luis ]
-tags: ["DevOps","Featured"]
-categories: ["DevOps","Featured","Rackspace"]
-date: 2014-03-31T02:08:44-05:00
-lastmod: 2019-10-24T02:08:44-05:00
-publishDate: 2014-03-31T02:08:44-05:00
+tags: [ DevOps, Rackspace ]
+categories: [ DevOps, Rackspace ]
+keywords: [ DevOps, Rackspace, Racker]
+date: 2014-03-31
+publishDate: 2014-03-31
+lastmod: 2019-10-24
 featured: true
 draft: false
 

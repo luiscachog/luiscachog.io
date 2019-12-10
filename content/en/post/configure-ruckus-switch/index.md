@@ -2,16 +2,17 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Configure SSH on a Ruckus Switch"
+url: "/configure-ruckus-switch"
 subtitle: "Steps to configure ssh and webaccess on a Ruckus Switch"
 summary: "Steps to configure ssh and webaccess on a Ruckus Switch"
-url: "/configure-ruckus-switch"
 authors: [ luis ]
-tags: ["Ruckus","DevOps","SysAdmin","Network"]
-categories: ["SysAdmin","DevOps", "Network"]
-date: 2018-11-20T13:15:43-06:00
-lastmod: 2019-11-17T13:15:43-06:00
-publishDate: 2018-11-20T13:15:43-06:00
-featured: false
+tags: [ Ruckus, DevOps, SysAdmin, Network ]
+categories: [ SysAdmin, DevOps, Network ]
+keywords: [Ruckus, DevOps, Network, Networking]
+date: 2018-11-20
+publishDate: 2018-11-20
+lastmod: 2019-11-17
+featured: true
 draft: false
 
 

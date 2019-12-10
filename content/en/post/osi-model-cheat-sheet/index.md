@@ -2,17 +2,19 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "OSI Model Cheat Sheet"
+url: "/osi-model-cheat-sheet"
 subtitle: "Network OSI Model"
 summary: "Network OSI Model"
 authors: [ luis ]
-tags: ["Network", "Training"]
-categories: ["Network"]
-date: 2017-09-13T10:18:59-06:00
-lastmod: 2019-11-27T10:18:59-06:00
-publishDate: 2017-09-13T10:18:59-06:00
-featured: false
+tags: [ Network, Training ]
+categories: [ Network ]
+keywords: [ Network, Networking, OSI, Training ]
+date: 2017-09-13
+publishDate: 2017-09-13
+lastmod: 2019-11-27
+featured: true
 draft: false
-url: "/osi-model-cheat-sheet"
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

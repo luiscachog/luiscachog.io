@@ -2,17 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "I'm a Racker"
+url: "/im-a-racker"
 subtitle: "Rememberance of my first days as a Racker"
 summary: "My early days experience at Rackspace"
 authors: [ luis ]
-tags: ["DevOps","Featured"]
-categories: ["DevOps","Featured","Rackspace"]
-date: 2014-03-31T02:08:44-05:00
-publishDate: 2014-03-31T02:08:44-05:00
-lastmod: 2019-11-27T02:08:44-05:00
+tags: [ DevOps, Rackspace ]
+categories: [ DevOps, Rackspace]
+keywords: [ DevOps, Rackspace, Racker]
+date: 2014-03-31
+publishDate: 2014-03-31
+lastmod: 2019-11-27
 featured: true
 draft: false
-url: /im-a-racker
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

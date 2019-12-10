@@ -2,17 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Improve WD MyCloud performance"
+url: "/improve-wd-mycloud-performance"
 subtitle: "How to improve performance on a WD MyCloud EX2"
 summary: "How to improve performance on a WD MyCloud EX2"
 authors: [ luis ]
-tags: ["Network","Storage","SysAdmin", "NAS"]
-categories: ["SysAdmin","Linux","Storage"]
-date: 2018-02-16T11:30:18-06:00
-lastmod: 2019-11-17T11:30:18-06:00
-publishDate: 2018-02-16T11:30:18-06:00
-featured: false
+tags: [ Network, Storage, SysAdmin, NAS ]
+categories: [ SysAdmin, Linux, Storage ]
+keywords: [WD MyCloud, NAS, Storage, Linux ]
+date: 2018-02-16
+publishDate: 2018-02-16
+lastmod: 2019-11-17
+featured: true
 draft: false
-url: "/improve-wd-mycloud-performance"
 
 
 # Featured image

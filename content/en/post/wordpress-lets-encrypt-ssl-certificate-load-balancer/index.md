@@ -2,17 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "WordPress with Let's Encrypt SSL Certificate on a Load Balancer"
+url: "/wordpress-lets-encrypt-ssl-certificate-load-balancer"
 subtitle: "How to configure Wordpress with a Let's Encrypt SSL Certificate on a Load Balancer"
 summary: "How to configure Wordpress with a Let's Encrypt SSL Certificate on a Load Balancer"
 authors: [ luis ]
-tags: ["Wordpress","SSL","Let's Encrypt","Load Balancer", "Rackspace Public Cloud", "DevOps"]
-categories: ["DevOps", "Linux", "SysAdmin", "Rackspace"]
-date: 2017-09-03T09:26:47-06:00
-lastmod: 2019-11-27T09:26:47-06:00
-publishDate: 2017-09-03T09:26:47-06:00
-featured: false
+tags: [ Wordpress, SSL, Let's Encrypt, LoadBalancer, Rackspace Public Cloud, DevOps]
+categories: [ DevOps, Linux, SysAdmin, Rackspace]
+keywords: [ Wordpress, SSL, Let's Encrypt, LoadBalancer, Rackspace, Cloud, DevOps]
+date: 2017-09-03
+publishDate: 2017-09-03
+lastmod: 2019-11-27
+featured: true
 draft: false
-url: "/wordpress-lets-encrypt-ssl-certificate-load-balancer"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

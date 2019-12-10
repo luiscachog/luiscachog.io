@@ -2,17 +2,19 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Set a hugo blog on Kubernetes"
+url: "/blog-hugo-docker-k8s-quay"
 subtitle: "Here are some steps to containerize a blog using hugo + docker + kubernetes + quay"
 summary: "Here are some steps to containerize a blog using hugo + docker + kubernetes + quay"
-authors: [luis]
+authors: [ luis ]
 tags: [ Kubernetes ,DevOps, SysAdmin, Hugo, Docker , Git, Quay, Cloud Native]
-categories: ["SysAdmin","DevOps", "Open Source","Cloud Native"]
-date: 2018-06-18T12:21:20-06:00
-lastmod: 2019-11-17T12:21:20-06:00
-publishDate: 2018-06-18T12:21:20-06:00
-featured: false
-draft: true
-url: "/blog-hugo-docker-k8s-quay"
+categories: [ SysAdmin , DevOps, Open Source, Cloud Native]
+keywords: [ Kubernetes, Quay, Docker, Cloud Native, Open Source, DevOps, SRE, Hugo ]
+date: 2018-06-18
+publishDate: 2018-06-18
+lastmod: 2019-12-09
+featured: true
+draft: false
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -31,7 +33,6 @@ projects: []
 ---
 
 {{% toc %}}
-
 
 # Overview
 

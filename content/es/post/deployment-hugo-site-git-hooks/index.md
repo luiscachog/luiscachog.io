@@ -2,17 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Deployment de un sitio estatico con Hugo y Git Hooks"
+url: "/deployment-hugo-site-git-hooks"
 subtitle: "Como realizar un deployment de un sitio con Hugo automaticamente usando Git Hooks"
 summary: "Como realizar un deployment de un sitio con Hugo automaticamente usando Git Hooks"
 authors: [ luis ]
-tags: ["Hugo", "Git", "Open Source"]
-categories: ["Linux", "SysAdmin","DevOps", "Open Source"]
-date: 2018-03-05T11:35:56-06:00
-lastmod: 2019-11-17T11:35:56-06:00
-publishDate: 2018-03-05T11:35:56-06:00
-featured: false
+tags: [ Hugo, Git, Open Source]
+categories: [ Linux, SysAdmin, DevOps, Open Source]
+keywords: [ Hugo,DevOps, Open Source ]
+date: 2018-03-05
+publishDate: 2018-03-05
+lastmod: 2019-11-17
+featured: true
 draft: false
-url: "/deployment-hugo-site-git-hooks"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

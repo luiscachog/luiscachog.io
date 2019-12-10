@@ -2,17 +2,18 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Spamassassin Error: cannot create user preferences file //.spamassassin/user_prefs: Permission denied on VestaCP - CentOS"
+url: "/spamassassin-error-on-vestacp-centos"
 subtitle: "How to fix an Spamassasin Error on a VestaCP"
 summary: "How to fix an Spamassasin Error on a VestaCP"
 authors: [ luis ]
-tags: ["Email","Exim","Spamassassin","VestaCP"]
-categories: ["Linux", "SysAdmin"]
-date: 2015-04-08T00:39:38-06:00
-lastmod: 2019-11-13T00:39:38-06:00
-publishDate: 2015-04-08T00:39:38-06:00
-featured: false
+tags: [ Email, Exim, Spamassassin, VestaCP ]
+categories: [ Linux, SysAdmin ]
+keywords: [Email, Exim, Spamassassin, VestaCP, Linux ]
+date: 2015-04-08
+publishDate: 2015-04-08
+lastmod: 2019-11-13
+featured: true
 draft: false
-url: "/spamassassin-error-on-vestacp-centos"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
