@@ -76,6 +76,9 @@ social:
 - icon: linux
   icon_pack: fab
   link: files/resume.pdf
+- icon: rss
+  icon_pack: fas
+  link: http://feeds.feedburner.com/luiscachog
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "luiscachog@gmail.com"
