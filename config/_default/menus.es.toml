@@ -30,28 +30,28 @@
 
 [[main]]
   name = "Experiencia"
-  url = "#experience"
+  url = "experience"
   weight = 50
   identifier = "experience"
   pre = "<i class='fas fa-id-card'>&nbsp;</i>"
 
 [[main]]
   name = "Experiencia"
-  url = "#experience"
+  url = "experience"
   weight = 10
   parent = "experience"
   pre = "<i class='fas fa-user-clock'>&nbsp;</i>"
 
 [[main]]
   name = "Certificaciones"
-  url = "#certifications"
+  url = "experience/#certifications"
   weight = 20
   parent = "experience"
   pre = "<i class='fas fa-user-graduate'>&nbsp;</i>"
 
 [[main]]
   name = "Cursos"
-  url = "#training"
+  url = "experience/#training"
   weight = 30
   parent = "experience"
   pre = "<i class='fas fa-user-cog'>&nbsp;</i>"
