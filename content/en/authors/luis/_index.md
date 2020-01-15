@@ -112,7 +112,6 @@ I learn new stuff every day and I like to share; sometimes I write about it on t
 </div>
 
 <script>
-    GitHubCalendar(".calendar", "your-username");
     // or enable responsive functionality:
-    GitHubCalendar(".calendar", "your-username", { responsive: true });
+    GitHubCalendar(".calendar", "k4ch0", { responsive: true });
 </script>
