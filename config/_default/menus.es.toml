@@ -63,7 +63,7 @@
   url = "files/resume.pdf"
   weight = 40
   parent = "experience"
-  pre = "<i class='fas fa-user-tie'>&nbsp;</i>"
+  pre = "<i class='fas fa-user-tie'>&nbsp;</i> <i class='fas fa-file-pdf'>&nbsp;</i>"
 
 
 [[main]]
