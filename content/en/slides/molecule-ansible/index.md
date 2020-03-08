@@ -13,23 +13,7 @@ slides:
   highlight_style: dracula
 ---
 
-<!-- [revealoptions]
-  transition= "convex"
-  controls= true
-  controlsBackArrows= "hidden"
-  progress= true
-  slideNumber= true
-  history= false
-  center= true
-  showNotes= false
-  width= "100%"
-	height= "100%"
-	margin= 0.2
-	minScale= 0.2
-	maxScale= 1.5 -->
-
-
-## Improve Ansible Roles with Molecule 
+## Improve Ansible Roles with Molecule
 
 ---
 ## Luis Cacho
@@ -64,8 +48,29 @@ slides:
 ## Ansible
 
 <section>
+    <h3>Doing two-column (this headline still full-width)</h3>
 
-  <div style="text-align: left; float: left;">
+    <div class='multiCol'>
+        <div class='col'>
+            Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur.
+        </div>
+        <div class='col'>
+            Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt.
+        </div>
+    </div>
+    And simply more regular full-width text in the following. But hey, there is also:
+    <div class='multiCol'>
+        <div class='col'>Also works for 3 columns...</div>
+        <div class='col'>...as we can show in...</div>
+        <div class='col'>...this example here.</div>
+    </div>
+</section>
+
+{{< speaker_note >}}
+
+<section>
+
+  <!-- <div style="text-align: left; float: left;">
     **Use Cases**</p>
     - Configuration Management</p>
     - Software Provisioning</p>
@@ -86,9 +91,9 @@ slides:
     - Big Community</p>
     <!-- more Elements -->
   </div>
-</section>
+</section> -->
 
-Note:
+
 Ansible es una herramienta de automatización open source escrita en python, que nos ayuda a configurar hosts remotos, aprovisionar software, e inclusive orquestar tareas mas complicadas como Continuos Deployment o Rolling Updates con Cero Downtime.
 En lugar de tener scripts para cada tarea.
 Ansible es:
@@ -99,6 +104,8 @@ Ansible es:
 - Multiplataforma
 - Cuenta con mas de 450 Modulos
 - Gran comunidad alrededor del proyecto
+
+{{< /speaker_note >}}
 
 ___
 
