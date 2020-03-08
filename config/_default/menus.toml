@@ -11,7 +11,7 @@
 
 
 [[main]]
-  name = "Posts"
+  name = "Blog"
   url = "#posts"
   pre = "<i class='fas fa-edit'>&nbsp;</i>"
 #   post = "<span class='alert'>New!</span>"
