@@ -92,8 +92,6 @@ I am a Linux Administrator with Cloud/DevOps/Security skills working at [Rackspa
 I am actively contributing to [Open Source projects](#projects) and define myself as a Linux enthusiast who loves to work and experiment with Open Source technologies while I am learning,and trying to apply best practices.  
 I learn new stuff every day and I like to share; sometimes I write about it on this blog.
 
-:us: :dog: :video_game: :football: :soccer:
-
 <!-- Include the library. -->
 <script
   src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
@@ -115,3 +113,5 @@ I learn new stuff every day and I like to share; sometimes I write about it on t
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "k4ch0", { responsive: true });
 </script>
+
+:us: :dog: :video_game: :football: :soccer:
