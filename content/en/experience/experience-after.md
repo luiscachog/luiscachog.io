@@ -18,12 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 
 [[experience]]
+  title = "Security Systems Administrator III"
+  company = "Rackspace"
+  company_url = "https://www.rackspace.com"
+  location = "San Antonio, TX"
+  date_start = "2020-01-11"
+  date_end = ""
+  description = """ """
+
+[[experience]]
   title = "Linux Administrator III"
   company = "Rackspace"
   company_url = "https://www.rackspace.com"
   location = "San Antonio, TX"
   date_start = "2017-06-03"
-  date_end = ""
+  date_end = "2020-01-10"
   description = """ """
 
 [[experience]]

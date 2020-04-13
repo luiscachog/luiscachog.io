@@ -5,7 +5,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "luiscachog.io"
+title = "me@luiscachog.io ~ $"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -14,10 +14,10 @@ baseurl = "/"
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
 copyright = """&copy; 2014 - {year} </br>
-  Made with <i class=\"far fa-heart\"></i> </br> 
+  Made with <i class=\"far fa-heart\"></i> </br>
   Hosted on [GitHub](https://github.com/k4ch0/luiscachog.io) - Served by [Netlify](netfly.com) </br>
   """
- 
+
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-114918521-1"
 
@@ -29,7 +29,7 @@ googleAnalytics = "UA-114918521-1"
 theme = "academic"
 
 # Get last modified date for content from Git?
-enableGitInfo = false
+enableGitInfo = true
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -55,11 +55,22 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
-[blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
-	angledQuotes = false
-	latexDashes = true
-  extensions = ["backslashLineBreak"]
+# [blackfriday]
+#   hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
+# 	angledQuotes = false
+# 	latexDashes = true
+#   extensions = ["backslashLineBreak"]
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable user to embed HTML snippets in Markdown content.
+  [markup.highlight]
+    codeFences = false  # Disable Hugo's code highlighter as it conflicts with Academic's highligher.
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
 
 [imaging]
   resampleFilter = "lanczos"
