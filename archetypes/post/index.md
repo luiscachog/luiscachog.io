@@ -31,4 +31,5 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
- {{ %toc% }}
+
+{{% toc %}}
