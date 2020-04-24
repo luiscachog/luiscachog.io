@@ -12,7 +12,7 @@
 theme = "luiscachog"
 
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Override the theme's font set (optional).
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
@@ -49,7 +49,7 @@ description = ""
 # Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
 # logo = "lc-profile.png"
-logo = ""
+logo = "lc-gopher.png"
 
 ############################
 ## Site Features
@@ -173,10 +173,10 @@ plugins_js  = []
 # An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
 [avatar]
   # Get user avatars from Gravatar.com? (true/false)
-  gravatar = true
+  gravatar = false
 
   # Choose a shape for avatar images. Options: circle, square.
-  shape = "circle"
+  shape = "square"
 
 # Configuration of publication pages.
 [publications]
@@ -267,3 +267,9 @@ plugins_js  = []
   changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
+
+[permalinks]
+    post = "/:slug"
+
+enableRobotsTXT = true
+canonifyURLs = true
