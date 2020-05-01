@@ -6,6 +6,9 @@
 		{{ if not .LastChange.IsZero }}
 	   	<lastmod>{{ .LastChange.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</lastmod>
 		{{ end }}
+      <name>{{ .Title }}</name>
+      <author>{{ range .Site.Author }}{{ . }}{{ end }}</author>
+
 	</sitemap>
 	{{ end }}
 </sitemapindex>

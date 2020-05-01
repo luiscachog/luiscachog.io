@@ -12,7 +12,7 @@
 theme = "luiscachog"
 
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Override the theme's font set (optional).
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
@@ -22,7 +22,7 @@ font = "luiscachog"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
-font_size = "M"
+font_size = "L"
 
 ############################
 ## Basic Info
@@ -103,7 +103,7 @@ address = {city = "San Antonio", region = "TX", postcode = "78218", country = "U
 # office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-# appointment_url = "https://calendly.com"
+appointment_url = "https://calendly.com/luiscachog"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
@@ -173,7 +173,8 @@ plugins_js  = []
 # An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
 [avatar]
   # Get user avatars from Gravatar.com? (true/false)
-  gravatar = true
+
+  gravatar = false
 
   # Choose a shape for avatar images. Options: circle, square.
   shape = "circle"
@@ -267,3 +268,9 @@ plugins_js  = []
   changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
+
+[permalinks]
+    post = "/:slug"
+
+enableRobotsTXT = true
+canonifyURLs = true

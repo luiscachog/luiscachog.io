@@ -43,12 +43,12 @@ This time I was working on a Ansible playbook and I get this:
 I want to verify if a file exists. Depending on the registered output I want to perform some other actions.
 On my specific use case, I want to use in in conjunct with the `file` module to define the state on my next task.
 
-```mermaid
+{{< diagram >}}
 graph TD;
 A(Stat over file) --> B{Does the file exists?};
 B -->|Yes| C[state: file];
 B -->|No| D[state: touch];
-```
+{{< /diagram >}}
 
 ## Solution
 

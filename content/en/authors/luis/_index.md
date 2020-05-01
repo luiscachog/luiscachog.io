@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Linux Administrator III
+role: Security Systems Administrator III
 
 # Organizations/Affiliations
 organizations:
@@ -22,7 +22,8 @@ organizations:
     url: "https://www.meetup.com/San-Antonio-HashiCorp-User-Group"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Linux Administrator at Rackspace | Contributor at Kubernetes
+
+bio: Security Systems Administrator at Rackspace | Kubernetes Enthusiast | Ansible Ninja
 
 interests:
   - Artificial Intelligence
@@ -88,9 +89,11 @@ user_groups:
 
 ##### \$whoami
 
-I am a Linux Administrator with Cloud/DevOps/Security skills working at [Rackspace](https://rackspace.com), where I am focusing on learn and apply a Cloud Native techniques, in Multicloud Environments, using agile methodologies.
+I am a Security Systems Administrator with Cloud/DevOps/Security skills working at [Rackspace](https://rackspace.com), where I am focusing on learn and apply a Cloud Native techniques, in Multicloud Environments, using agile methodologies.
 I am actively contributing to [Open Source projects](#projects) and define myself as a Linux enthusiast who loves to work and experiment with Open Source technologies while I am learning,and trying to apply best practices.
 I learn new stuff every day and I like to share; sometimes I write about it on this blog.
+
+:us: :dog: :video_game: :football: :soccer:
 
 <!-- Include the library. -->
 <script
@@ -113,5 +116,3 @@ I learn new stuff every day and I like to share; sometimes I write about it on t
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "k4ch0", { responsive: true });
 </script>
-
-:us: :dog: :video_game: :football: :soccer:

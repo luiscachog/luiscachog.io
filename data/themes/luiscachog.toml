@@ -7,7 +7,11 @@ light = true
 # Primary
 primary = "#0072B2"
 primary_light = "#0072B2"
-primary_dark = "#474747" 
+primary_dark = "#474747"
+
+# Links
+link = "#3273dc"
+link_hover = "rgb(54, 54, 54)"
 
 # Menu
 menu_primary = "#fff"
