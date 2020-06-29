@@ -19,6 +19,17 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Cloud Native Computing Foundation (CNCF)"
+  organization_url = "https://www.cncf.io"
+  title = "Certified Kubernetes Administrator (CKA)"
+  url = "https://www.cncf.io/certification/cka/"
+  certificate_url = ""
+  date_start = "2020-06-18"
+  date_end = "2023-06-18"
+  description = "The purpose of the Certified Kubernetes Administrator (CKA) program is to provide assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators."
+
+
+[[item]]
   organization = "RedHat"
   organization_url = "https://www.redhat.com"
   title = "Red Hat Certified Specialist in Ansible Automation"
