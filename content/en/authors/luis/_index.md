@@ -22,7 +22,6 @@ organizations:
     url: "https://www.meetup.com/San-Antonio-HashiCorp-User-Group"
 
 # Short bio (displayed in user profile at end of posts)
-
 bio: Security Systems Administrator at Rackspace | Kubernetes Enthusiast | Ansible Ninja
 
 interests:
