@@ -19,6 +19,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Udemy"
+  organization_url = "https://www.udemy.com"
+  title = "Certified Kubernetes Administrator (CKA) with Practice Tests"
+  url = "https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/"
+  certificate_url = ""
+  date_start = "2020-04-10"
+  date_end = ""
+  description = "Prepare for the Certified Kubernetes Administrators Certification with live practice tests right in your browser - CKA"
+
+[[item]]
   organization = "RedHat"
   organization_url = "https://www.redhat.com"
   title = "Advanced Automation: Ansible Best Practices"
