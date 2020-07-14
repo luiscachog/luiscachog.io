@@ -21,6 +21,16 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Cloud Native Computing Foundation (CNCF)"
   organization_url = "https://www.cncf.io"
+  title = "Certified Kubernetes Application Developer (CKAD)"
+  url = "https://www.cncf.io/certification/ckad/"
+  certificate_url = ""
+  date_start = "2020-07-11"
+  date_end = "2023-07-11"
+  description = "El propósito del programa Certified Kubernetes Application Developer (CKAD) es garantizar que los CKAD tengan las habilidades, el conocimiento y la competencia para desempeñar las responsabilidades de los desarrolladores de aplicaciones de Kubernetes."
+
+[[item]]
+  organization = "Cloud Native Computing Foundation (CNCF)"
+  organization_url = "https://www.cncf.io"
   title = "Certified Kubernetes Administrator (CKA)"
   url = "https://www.cncf.io/certification/cka/"
   certificate_url = ""

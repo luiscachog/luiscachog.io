@@ -21,6 +21,16 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Udemy"
   organization_url = "https://www.udemy.com"
+  title = "Certified Kubernetes Application Developer (CKAD) with Tests"
+  url = "https://www.udemy.com/course/certified-kubernetes-application-developer/"
+  certificate_url = ""
+  date_start = "2020-06-15"
+  date_end = ""
+  description = "Conceptos y prácticas para la Certificación como Desarrollador de Aplicaciones en Kubernetes con examenes de practica en el navegador web - DevOps - CKAD"
+
+[[item]]
+  organization = "Udemy"
+  organization_url = "https://www.udemy.com"
   title = "Certified Kubernetes Administrator (CKA) with Practice Tests"
   url = "https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/"
   certificate_url = ""
@@ -98,7 +108,7 @@ date_format = "Jan 2006"
   date_start = "2016-10-10"
   date_end = ""
   description = ""
-  
+
 [[item]]
   organization = "Cloud Native Computing Foundation"
   organization_url = "https://www.cncf.io"
