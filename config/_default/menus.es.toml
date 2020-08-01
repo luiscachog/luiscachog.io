@@ -4,36 +4,36 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Inicio"
+  name = "  Inicio"
   url = "#about"
   weight = 10
-  pre = "<i class='fas fa-home'>&nbsp;</i>"
+  pre = "<i class='fas fa-terminal'>&nbsp;</i>"
 
 [[main]]
-  name = "Posts"
+  name = "  Blog"
   url = "#posts"
-  pre = "<i class='fas fa-edit'>&nbsp;</i>"
-#   post = "<span class='alert'>New!</span>"
+  pre = "<i class='fas fa-code'>&nbsp;</i>"
+  # post = "<span class='alert'>New!</span>"
   weight = 20
 
 [[main]]
-  name = "Proyectos"
+  name = "  Proyectos"
   url = "#projects"
   weight = 30
   pre = "<i class='fas fa-code-branch'>&nbsp;</i>"
 
 [[main]]
-  name = "Pláticas"
+  name = "  Pláticas"
   url = "#talks"
   weight = 40
   pre = "<i class='fas fa-chalkboard-teacher'>&nbsp;</i>"
 
 [[main]]
-  name = "Experiencia"
+  name = "  Acerca de"
   url = "experience"
   weight = 50
   identifier = "experience"
-  pre = "<i class='fas fa-id-card'>&nbsp;</i>"
+  pre = "<i class='fas fa-user-astronaut'>&nbsp;</i>"
 
 [[main]]
   name = "Experiencia"
@@ -71,4 +71,3 @@
   url = "http://feeds.feedburner.com/luiscachog"
   weight = 60
   pre = "<i class='fas fa-rss'>&nbsp;</i>"
-  

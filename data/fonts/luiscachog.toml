@@ -3,7 +3,7 @@ name = "luiscachog"
 
 # Optional Google font URL
 google_fonts = "Karla:300,400,500|IBM+Plex+Sans:300,400,500|Inconsolata"
-# old main font: Fira+Sans 
+# old main font: Fira+Sans
 
 # Font families
 heading_font = "IBM Plex Sans"
@@ -12,5 +12,5 @@ nav_font = "IBM Plex Sans"
 mono_font = "Inconsolata"
 
 # Font size
-font_size = "20"
-font_size_small = "16"
+font_size = "30"
+font_size_small = "20"

@@ -19,6 +19,26 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Udemy"
+  organization_url = "https://www.udemy.com"
+  title = "Certified Kubernetes Application Developer (CKAD) with Tests"
+  url = "https://www.udemy.com/course/certified-kubernetes-application-developer/"
+  certificate_url = ""
+  date_start = "2020-06-15"
+  date_end = ""
+  description = "Conceptos y prácticas para la Certificación como Desarrollador de Aplicaciones en Kubernetes con examenes de practica en el navegador web - DevOps - CKAD"
+
+[[item]]
+  organization = "Udemy"
+  organization_url = "https://www.udemy.com"
+  title = "Certified Kubernetes Administrator (CKA) with Practice Tests"
+  url = "https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/"
+  certificate_url = ""
+  date_start = "2020-04-10"
+  date_end = ""
+  description = "Preparación para la Certificación como Administrador de Kubernetes con examenes de practica en el navegador web - CKA"
+
+[[item]]
   organization = "RedHat"
   organization_url = "https://www.redhat.com"
   title = "Advanced Automation: Ansible Best Practices"

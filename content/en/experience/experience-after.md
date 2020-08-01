@@ -17,7 +17,6 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 
-
 [[experience]]
   title = "Security Systems Administrator III"
   company = "Rackspace"
@@ -28,7 +27,7 @@ date_format = "Jan 2006"
   description = """ """
 
 [[experience]]
-  title = "Linux Systems Administrator III"
+  title = "Linux Administrator III"
   company = "Rackspace"
   company_url = "https://www.rackspace.com"
   location = "San Antonio, TX"
@@ -37,7 +36,7 @@ date_format = "Jan 2006"
   description = """ """
 
 [[experience]]
-  title = "Linux Systems Administrator II"
+  title = "Linux Administrator II"
   company = "Rackspace"
   company_url = "https://www.rackspace.com"
   location = "San Antonio, TX"
