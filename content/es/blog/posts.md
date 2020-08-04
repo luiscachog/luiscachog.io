@@ -1,21 +1,22 @@
 +++
 # A Recent Blog Posts section created with the Pages widget.
 # This section displays recent blog posts from `content/post/`.
-
+lastmod = 2020-08-01
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 21  # Order that this section will appear.
+weight = 10  # Order that this section will appear.
 
-title = "Posts"
-subtitle = "Posts del Blog"
+title = "Artículos Recientes"
+subtitle = "最近の記事"
+identifier = "posts"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 4
+  count = 5
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -36,7 +37,7 @@ subtitle = "Posts del Blog"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 3
   
 [design.background]
   # Apply a background color, gradient, or image.

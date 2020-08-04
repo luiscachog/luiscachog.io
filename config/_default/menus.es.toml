@@ -11,7 +11,7 @@
 
 [[main]]
   name = "  Blog"
-  url = "#posts"
+  url = "/blog"
   pre = "<i class='fas fa-code'>&nbsp;</i>"
   # post = "<span class='alert'>New!</span>"
   weight = 20
