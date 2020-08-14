@@ -5,7 +5,7 @@ title: "Using the Ansible Stat Module on a Loop"
 url: "/using-the-ansible-stat-module-on-a-loop"
 subtitle: ""
 summary: "How to use the stat module on a Loop"
-authors: [luis]
+authors: [ luiscachog ]
 tags: [Ansible]
 categories: [Ansible, DevOps]
 keywords: [Ansible, Stat, File, Loop]

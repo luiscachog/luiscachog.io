@@ -5,7 +5,7 @@ title: "Spamassassin Error: cannot create user preferences file //.spamassassin/
 url: "/spamassassin-error-on-vestacp-centos"
 subtitle: "How to fix an Spamassasin Error on a VestaCP"
 summary: "How to fix an Spamassasin Error on a VestaCP"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Email, Exim, Spamassassin, VestaCP ]
 categories: [ Linux, SysAdmin ]
 keywords: [Email, Exim, Spamassassin, VestaCP, Linux ]

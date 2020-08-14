@@ -5,7 +5,7 @@ title: "SFTP Jailed"
 url: "/sftp-jailed"
 subtitle: "How to configure a FTP Secured and Jailed"
 summary: "How to configure a FTP Secured and Jailed"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ SSH, SFTP ]
 categories: [ Linux, SysAdmin]
 keywords: [ SSH, SFTP, Linux, Configuration, Jailed ]

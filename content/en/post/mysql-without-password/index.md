@@ -5,7 +5,7 @@ title: "MySQL without password"
 url: /mysql-without-password
 subtitle: ""
 summary: "How to configure a file to access mysql without password"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ MySQL ]
 categories: [ DevOps, Linux, SysAdmin ]
 keywords: [ MySQL, Configuration, Linux ]

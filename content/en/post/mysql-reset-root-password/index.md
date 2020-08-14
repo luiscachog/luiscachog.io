@@ -5,7 +5,7 @@ title: "MySQL reset root password"
 url: "/mysql-reset-root-password"
 subtitle: "How to reset a root MySQL password"
 summary: "How to reset a root MySQL password"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ MySQL ]
 categories: [ Linux, SysAdmin ]
 keywords: [ MySQL, Configuration, Linux, Reset ]

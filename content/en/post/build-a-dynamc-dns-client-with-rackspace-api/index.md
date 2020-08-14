@@ -5,7 +5,7 @@ title: " Build a Dynamic DNS Client with Rackspace API"
 url: "/build-a-dynamc-dns-client-with-rackspace-api"
 subtitle: "How to Build a Dynamic DNS via API"
 summary: "How to Build a Dynamic DNS via API"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ API, DevOps, DNS, Rackspace Public Cloud]
 categories: [ DevOps, Rackspace, SysAdmin ]
 keywords: [ API, DevOps, Rackspace, SysAdmin, DNS ]
