@@ -3,7 +3,7 @@
 
 title: "Ansible Role for Sonobuoy"
 summary: "Ansible role that installs Sonobuoy"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Ansible, Galaxy, Code, Kubernetes, Python, Cloud Native]
 categories: [ Ansible, Kubernetes ]
 date: 2019-10-24T01:42:23-05:00

@@ -4,7 +4,7 @@
 title: "luiscachog.io"
 summary: |
   This website code, built using Hugo Framework.
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Code, Website, Go ]
 categories: [ Source ]
 date: 2019-11-24T11:23:56+02:00

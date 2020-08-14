@@ -1,7 +1,7 @@
 ---
 title: 'Improve Ansible Roles with Molecule'
 summary: An introduction to using Academic's Slides feature.
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Ansible, Molecule, Community ]
 categories: [Ansible, Molecule ]
 date: "2019-03-07T00:00:00Z"

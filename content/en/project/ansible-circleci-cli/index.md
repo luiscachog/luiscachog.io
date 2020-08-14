@@ -3,7 +3,7 @@
 
 title: "Ansible Role for CircleCI-CLI"
 summary: "Ansible role that installs CircleCI-CLI"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Ansible, Galaxy, Code, CircleCI, Python]
 categories: [ Ansible ]
 date: 2019-11-24T01:42:23-05:00
