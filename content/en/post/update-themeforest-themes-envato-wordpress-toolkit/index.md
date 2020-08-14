@@ -5,7 +5,7 @@ title: "How to Update a ThemeForest Theme with the Envato WordPress Toolkit"
 url: "/update-themeforest-themes-envato-wordpress-toolkit"
 subtitle: "How to install and manage the Envato WordPress Toolkit"
 summary: "How to install and manage the Envato WordPress Toolkit"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Wordpress ]
 categories: [ SysAdmin , Wordpress ]
 keywords: [ ThemeForest, Themes, Wordpress, Envato]

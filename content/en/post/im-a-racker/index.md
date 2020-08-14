@@ -5,7 +5,7 @@ title: "I'm a Racker"
 url: "/im-a-racker"
 subtitle: "Rememberance of my first days as a Racker"
 summary: "My early days experience at Rackspace"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ DevOps, Rackspace ]
 categories: [ DevOps, Rackspace]
 keywords: [ DevOps, Rackspace, Racker]

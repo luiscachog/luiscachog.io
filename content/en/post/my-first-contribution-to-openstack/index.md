@@ -5,7 +5,7 @@ title: "My First Contribution to OpenStack project"
 url: "/my-first-contribution-to-openstack"
 subtitle: "I'm proud to perform my first contribution to a OpenStack project"
 summary: "I'm proud to perform my first contribution to a OpenStack project"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Openstack, DevOps, SysAdmin, Ansible, ARA, Git, Open Source ]
 categories: [ SysAdmin, DevOps, Open Source ]
 keywords: [ Openstack, ARA, DevOps, Open Source ]

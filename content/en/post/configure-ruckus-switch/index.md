@@ -5,7 +5,7 @@ title: "Configure SSH on a Ruckus Switch"
 url: "/configure-ruckus-switch"
 subtitle: "Steps to configure ssh and webaccess on a Ruckus Switch"
 summary: "Steps to configure ssh and webaccess on a Ruckus Switch"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Ruckus, DevOps, SysAdmin, Network ]
 categories: [ SysAdmin, DevOps, Network ]
 keywords: [Ruckus, DevOps, Network, Networking]

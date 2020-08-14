@@ -3,7 +3,7 @@
 
 title: "Roles de Ansible Galaxy"
 summary: "Todos los roles de Ansible publicados en Ansible Galaxy"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Ansible, Galaxy, Code, Python]
 categories: [ Ansible ]
 date: 2019-11-24T01:42:23-05:00

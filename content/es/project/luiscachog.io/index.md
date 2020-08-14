@@ -4,7 +4,7 @@
 title: "luiscachog.io"
 summary: |
   El código fuente de este sitio, que ha sido construido usando el Framework Hugo.
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Code, Website, Go ]
 categories: [ Source ]
 date: 2019-11-24T11:23:56+02:00

@@ -5,7 +5,7 @@ title: "OSI Model Cheat Sheet"
 url: "/osi-model-cheat-sheet"
 subtitle: "Network OSI Model"
 summary: "Network OSI Model"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Network, Training ]
 categories: [ Network ]
 keywords: [ Network, Networking, OSI, Training ]

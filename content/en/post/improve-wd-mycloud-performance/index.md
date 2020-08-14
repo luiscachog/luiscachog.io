@@ -5,7 +5,7 @@ title: "Improve WD MyCloud performance"
 url: "/improve-wd-mycloud-performance"
 subtitle: "How to improve performance on a WD MyCloud EX2"
 summary: "How to improve performance on a WD MyCloud EX2"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Network, Storage, SysAdmin, NAS ]
 categories: [ SysAdmin, Linux, Storage ]
 keywords: [WD MyCloud, NAS, Storage, Linux ]

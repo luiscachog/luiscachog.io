@@ -5,7 +5,7 @@ title: "Yosemite stuck on boot process"
 url: "/yosemite-stuck-boot-process"
 subtitle: "How to avoid that your MacOS Yosemite stuck on the boot process"
 summary: "How to avoid that your MacOS Yosemite stuck on the boot process"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ MacOS ]
 categories: [ SysAdmin ]
 keywords: [ MacOS, Yosemite, Stuck, Boot ]

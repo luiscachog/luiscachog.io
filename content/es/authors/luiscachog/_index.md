@@ -4,7 +4,7 @@ name: Luis Cacho
 
 # Username (this should match the folder name)
 authors:
-  - luis
+  - luiscachog
 
 # Is this the primary user of the site?
 superuser: true
