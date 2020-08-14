@@ -3,7 +3,7 @@
 
 title: "Molecule Cookiecutter"
 summary: "Cookiecutter para el proyecto Molecule"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Molecule, Ansible, Cookiecutter, Code, Python]
 categories: [ Ansible]
 date: 2019-10-24T17:42:56-05:00

@@ -23,7 +23,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: "2019-03-07T00:00:00Z"
 
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Community, Ansible, Molecule ]
 
 # Is this a featured talk? (true/false)

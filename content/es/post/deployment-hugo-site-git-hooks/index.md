@@ -5,7 +5,7 @@ title: "Deployment de un sitio estatico con Hugo y Git Hooks"
 url: "/deployment-hugo-site-git-hooks"
 subtitle: "Como realizar un deployment de un sitio con Hugo automaticamente usando Git Hooks"
 summary: "Como realizar un deployment de un sitio con Hugo automaticamente usando Git Hooks"
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Hugo, Git, Open Source]
 categories: [ Linux, SysAdmin, DevOps, Open Source]
 keywords: [ Hugo,DevOps, Open Source ]
