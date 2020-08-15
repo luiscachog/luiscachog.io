@@ -2,7 +2,7 @@
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 51  # Order that this section will appear.
 
 title = "Professional Experience"
@@ -23,8 +23,8 @@ date_format = "Jan 2006"
   company_url = "https://www.rackspace.com"
   location = "San Antonio, TX"
   date_start = "2020-01-11"
-  date_end = "" 
-  description = """ 
+  date_end = ""
+  description = """
   Highlights:
   * bla1
   * bla2
