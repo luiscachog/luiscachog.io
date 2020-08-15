@@ -15,11 +15,11 @@ subtitle = ""
 
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
   # gradient_start = "DarkGreen"
   # gradient_end = "ForestGreen"
-  
+
   # Background image.
   image = "banners/projects.jpg"  # Name of image in `static/img/`.
   image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
@@ -35,9 +35,9 @@ subtitle = ""
   padding = ["20px", "0", "20px", "0"]
 
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = "height: 160px; background-position: right top;"
- 
+
  # CSS class.
  css_class = ""
 +++

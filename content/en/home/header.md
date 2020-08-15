@@ -4,7 +4,6 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-
 title = ""
 subtitle = ""
 
@@ -36,8 +35,9 @@ subtitle = ""
   padding = ["20px", "0", "20px", "0"]
 
 [advanced]
- # Custom CSS.
- css_style = "height: 250px; background-position: top;"
+  # Custom CSS.
+  css_style = "height: 250px; background-position: top;"
+
 
  # CSS class.
  css_class = ""
