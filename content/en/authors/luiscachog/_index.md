@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Luis Cacho
+nickname: Luis
 
 # Username (this should match the folder name)
 authors:
@@ -31,6 +32,10 @@ interests:
   - Data Science
   - Open Source
   - Site Reliabilty Engineering
+
+home_description:
+  - Father
+  - Mother
 
 # education:
 #   courses:

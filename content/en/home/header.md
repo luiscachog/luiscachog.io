@@ -4,6 +4,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
+
 title = ""
 subtitle = ""
 
@@ -15,11 +16,11 @@ subtitle = ""
 
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
   # gradient_start = "DarkGreen"
   # gradient_end = "ForestGreen"
-  
+
   # Background image.
   image = "headers/header.gif"  # Name of image in `static/img/`.
   image_darken = 0  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
@@ -35,9 +36,15 @@ subtitle = ""
   padding = ["20px", "0", "20px", "0"]
 
 [advanced]
- # Custom CSS. 
+<<<<<<< Updated upstream:content/en/home/header.md
+ # Custom CSS.
  css_style = "height: 250px; background-position: top;"
- 
+
+=======
+ # Custom CSS.
+ css_style = "height: 160px; background-position: right top;"
+
+>>>>>>> Stashed changes:content/en/experience/experience.md
  # CSS class.
  css_class = ""
 +++
