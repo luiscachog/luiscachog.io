@@ -4,7 +4,7 @@
 title: "Kubernetes Website Translation"
 summary: |
   Contributor on the Spanish translation content at kubernetes.io
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Kubernetes, Community, Go, Website, Cloud Native, Open Source]
 categories: [ Contributor, Kubernetes ]
 date: 2019-10-27T11:23:56+02:00

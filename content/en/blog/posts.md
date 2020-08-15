@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
 title = "Recent Articles"
-subtitle = "最近の記事"
+subtitle = ""
 identifier = "posts"
 
 [content]

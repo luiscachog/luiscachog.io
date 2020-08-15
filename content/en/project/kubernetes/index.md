@@ -4,7 +4,7 @@
 title: "Kubernetes"
 summary: |
   Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: [ Kubernetes, Community, Go, Cloud Native, Open Source]
 categories: [ Contributor, Kubernetes ]
 date: 2019-11-27T11:23:56+02:00
