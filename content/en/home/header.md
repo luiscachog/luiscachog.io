@@ -36,15 +36,9 @@ subtitle = ""
   padding = ["20px", "0", "20px", "0"]
 
 [advanced]
-<<<<<<< Updated upstream:content/en/home/header.md
  # Custom CSS.
  css_style = "height: 250px; background-position: top;"
 
-=======
- # Custom CSS.
- css_style = "height: 160px; background-position: right top;"
-
->>>>>>> Stashed changes:content/en/experience/experience.md
  # CSS class.
  css_class = ""
 +++
