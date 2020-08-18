@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Certifications"
-subtitle = "[Search](/my-certs/)"
+subtitle = "[Search](/about/my-certs/)"
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   organization_url = "https://www.cncf.io"
   title = "Certified Kubernetes Application Developrt (CKAD)"
   url = "https://www.cncf.io/certification/ckad/"
-  certificate_url = ""
+  certificate_url = "https://www.youracclaim.com/badges/035a3b14-49cb-4dca-bda1-5de951c0c406/public_url"
   date_start = "2020-07-11"
   date_end = "2023-07-11"
   description = "The purpose of the Certified Kubernetes Application Developer (CKAD) program is to provide assurance that CKADs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes application developers."
@@ -33,7 +33,7 @@ date_format = "Jan 2006"
   organization_url = "https://www.cncf.io"
   title = "Certified Kubernetes Administrator (CKA)"
   url = "https://www.cncf.io/certification/cka/"
-  certificate_url = ""
+  certificate_url = "https://www.youracclaim.com/badges/211f5895-59a6-4a52-9b4e-c1ace672b2a2/public_url"
   date_start = "2020-06-18"
   date_end = "2023-06-18"
   description = "The purpose of the Certified Kubernetes Administrator (CKA) program is to provide assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators."
