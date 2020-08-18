@@ -102,25 +102,3 @@ I learn new stuff every day and I like to share; sometimes I write about it on t
  I’m active on Linked in and Github, and occassionally on Twitter.
 
 :us: :dog: :video_game: :football: :soccer:
-
-<!-- Include the library. -->
-<script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-</script>
-
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
-
-<!-- Prepare a container for your calendar. -->
-<div class="calendar">
-    <!-- Loading stuff -->
-    Loading the data just for you.
-</div>
-
-<script>
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "k4ch0", { responsive: true });
-</script>
