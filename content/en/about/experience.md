@@ -24,11 +24,8 @@ date_format = "Jan 2006"
   location = "San Antonio, TX"
   date_start = "2020-01-11"
   date_end = ""
-  description = """
-  Highlights:
-  * bla1
-  * bla2
-  """
+  description = """ """
+  highlights= """ """
 
 [[experience]]
   title = "Linux Administrator III"
