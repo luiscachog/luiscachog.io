@@ -25,8 +25,8 @@ organizations:
 bio: Administrador de Seguridad de Sistemasen Rackspace | Entusiasta de Kubernetes | Ninja de Ansible
 
 interests:
-  - Inteligencia Artificial
   - Automatización
+  - Ciencia de Datos
   - Ingeniería del Caos
   - Cloud Native
   - Software Libre
