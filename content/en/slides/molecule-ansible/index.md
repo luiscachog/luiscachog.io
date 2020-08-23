@@ -55,32 +55,17 @@ slides:
 {{< slide background-image="/img/slides-molecule-ansible/BackgroundAnsible.png" >}}
 
 ---
+{{% section %}}
 ## Ansible
 
-<section>
-
-  <div style="multiCol">
-    **Use Cases**</p>
-    - Configuration Management</p>
-    - Software Provisioning</p>
-    - Security and Compliance</p>
-    - Application Deployment</p>
-    - Orchestration</p>
-    - Continuous Delivery</p>
-    <!-- more Elements -->
-  </div>
-
-  <div style="text-align: left; float: right;">
-    **Attributes**</p>
-    - Simple</p>
-    - Powerful</p>
-    - Agentless</p>
-    - Cross Platform</p>
-    - Over 450 Modules</p>
-    - Big Community</p>
-    <!-- more Elements -->
-  </div>
-</section>
+|**Use Cases**| **Attributes** |
+|--- | --- |
+| Configuration Management | Simple |
+| Software Provisioning | Powerful |
+| Security and Compliance | Agentless |
+| Application Deployment | Cross Platform |
+| Orchestration | Over 450 Modules |
+| Continuous Delivery | Big Community |
 
 {{< speaker_note >}}
 - Press `S` key to view -
@@ -95,12 +80,11 @@ Ansible es:
 - Cuenta con mas de 450 Modulos
 - Gran comunidad alrededor del proyecto
 {{< /speaker_note >}}
-___
 
+---
 ## Ansible
 
-![Ansible Architecture](/img/slides-molecule-ansible/AnsibleArch.png)
-
+{{< figure library="true" src="slides-molecule-ansible/AnsibleArch.png" lightbox="false" width="90%">}}
 
 {{< speaker_note >}}
 - Press `S` key to view -
@@ -115,10 +99,11 @@ Revisando la arquitectura de Ansible tenemos:
 
 Todo esto se se aplica a los hosts remotos o a los dispositivos de red.
 {{< /speaker_note >}}
-___
+
+---
 ## Ansible
 
-<img src="/img/slides-molecule-ansible/Ansible_Playbook.png" width="70%" height="70%" >
+{{< figure library="true" src="slides-molecule-ansible/Ansible_Playbook.png" lightbox="false" width="70%">}}
 
 {{< speaker_note >}}
 - Press `S` key to view -
@@ -128,7 +113,8 @@ Los componentes de un playbook son, revisando desde la unidad mas pequena son:
 - Al conjunto de varias tasks relacionadas, se le llama Play
 - Al conjunto de diferentes Plays/jugadas se le llama Playbook.
 {{< /speaker_note >}}
-___
+
+---
 ## Ansible
 
 - **Playbooks** contain/connect **roles**
@@ -145,6 +131,8 @@ Role is a list of tasks reusable
 Playbook conecta los roles con los hosts
 {{< /speaker_note >}}
 
+{{% /section %}}
+
 ---
 {{< slide background-image="/img/slides-molecule-ansible/BackgroundTest.png" >}}
 
@@ -154,16 +142,14 @@ Por que es importante la automatizacion de pruebas?
 {{< /speaker_note >}}
 
 ---
-## Test Automation
+{{% section %}}
+### Test Automation
 
 - Reliable Code
-- Quality
-  - Fast feedback
+- Quality (Fast feedback)
 - Time and cost saving
-- Faster Development Cycle
-  - CI/CD
-- Repeatability
-  - Test same change accross multiple environments (OS, Providers); multiple data sets
+- Faster Development Cycle (CI/CD)
+- Repeatability (Test same change accross multiple environments (OS, Providers); multiple data sets)
 
 {{< speaker_note >}}
 - Press `S` key to view -
@@ -175,15 +161,17 @@ La automatizacion de las pruebas nos ayuda a:
 - Nos ayuda a tener un ciclo de desarrollo mas rapido ya que lo podemos/debemos integrar con alguna herramienta de CI/CD
 - Repetibilidad, con lo cual podemos probar el mismo cambio en multples ambientes, sistemas operativos, o provides, o con diferentes data sets
 {{< /speaker_note >}}
-___
 
+---
 ### Test Automation
 #### Testing options for Ansible
 
-{{% fragment %}} - Ansible tasks *- Test Ansible w/ Ansible* {{% /fragment %}}
-{{% fragment %}} - Test Kitchen *- Test Ansible w/ Ruby* {{% /fragment %}}
-{{% fragment %}} - ansible-test *- Test Ansible w/ Unmaintained Python* {{% /fragment %}}
-{{% fragment %}} - Molecule *- Test Ansible w/ Python* {{% /fragment %}}
+<ul>
+{{% fragment %}} <li><strong>Ansible tasks</strong><i> - Test Ansible w/ Ansible</i></li>{{% /fragment %}}
+{{% fragment %}} <li><strong>Test Kitchen</strong><i> - Test Ansible w/ Ruby</i></li>{{% /fragment %}}
+{{% fragment %}} <li><strong>ansible-test</strong><i> - Test Ansible w/ Unmaintained Python</i></li>{{% /fragment %}}
+{{% fragment %}} <li><strong>Molecule</strong><i> - Test Ansible w/ Python</i></li>{{% /fragment %}}
+</ul>
 
 {{< speaker_note >}}
 - Press `S` key to view -
@@ -220,9 +208,12 @@ Issues:
 - Installs Ansible on the target host and runs it locally
 {{< /speaker_note >}}
 
+{{% /section %}}
 ---
 {{< slide background-image="/img/slides-molecule-ansible/BackgroundMolecule.png" >}}
-___
+
+---
+{{% section %}}
 ### Molecule
 ##### Testing Ansible with Molecule
 
@@ -241,7 +232,7 @@ Se enfoca en generar los mejores roles posibles, tanto bien escritos como facile
 
 {{< /speaker_note >}}
 
-___
+---
 ### Molecule
 ##### Testing Ansible with Molecule
 
@@ -260,7 +251,8 @@ ___
 - Open Source
 
 {{< /speaker_note >}}
-___
+
+---
 ### Molecule
 ##### Testing Ansible with Molecule
 
@@ -282,13 +274,13 @@ A grandes rasgos las actividades que hace molecule son:
 - El verificador realizara loas pruebas para asegurar el estado deseado
 {{< /speaker_note >}}
 
-___
+---
 ### Molecule
 ##### Testing Ansible with Molecule
 
-<img src="/img/slides-molecule-ansible/MoleculeProcess.jpeg" width="500" height="500" >
+{{< figure library="true" src="slides-molecule-ansible/MoleculeProcess.jpeg" lightbox="false" width="50%">}}
 
-___
+---
 ### Molecule
 ##### Testing Ansible with Molecule
 
@@ -298,11 +290,13 @@ ___
   - User exists and is member of the correct groups
   - Package installed
   - Basic Software interaction (Test web server basic authentication)
+{{% /section %}}
 
 ---
 {{< slide background-image="/img/slides-molecule-ansible/Background1.jpg" >}}
 
-___
+---
+{{% section %}}
 ### Molecule Demo
 - Let's try it!!
   - Creates 2 nodes
@@ -322,10 +316,13 @@ ___
 
 - Ansible-Vault implementation
 - Integrating Molecule into Travis CI, Circle CI, Jenkins, etc
+{{% /section %}}
 
 ---
 {{< slide background-image="/img/slides-molecule-ansible/BackgroundConclusion.jpg" >}}
-___
+
+---
+{{% section %}}
 ## Conclusion
 
 - There are different testing solutions for Ansible, but Molecule is an Ansible-native and the robust option.
@@ -335,9 +332,13 @@ ___
 ---
 ## Questions?
 
+*Talk links, references and resources can be found at:* [luiscachog.io/talk/molecule-ansible](https://luiscachog.io/talk/molecule-ansible)
+
 ---
 ## Thank you!
 
-*Talk links, references and resources can be found at:* [luiscachog.io/talk/molecule-ansible](https://luiscachog.io/talk/molecule-ansible)
+*You can find me on:*
 
 [luiscachog [at] gmail.com](mailto:luiscachog) | [luiscachog.io](https://luiscachog.io) | [github.com/k4ch0](https://github.com/k4ch0) | [@k4ch0](https://twitter.com/k4ch0)
+
+{{% /section %}}
