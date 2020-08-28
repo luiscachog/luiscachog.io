@@ -34,8 +34,10 @@ interests:
   - Site Reliabilty Engineering
 
 home_description:
-  - Father
-  - Mother
+  - I am a Father
+  - I am DevOps practioner
+  - I work with Cloud Native tools
+  - I love to work with some fun projects
 
 # education:
 #   courses:
