@@ -1,0 +1,118 @@
+{
+  "title" : "Skills",
+  "topics" : {
+    "Operative Systems": {
+      "color": "bg-success",
+      "skills" : {
+        "Red Hat Enterprise Linux" : "90",
+        "CentOS" : "90",
+        "Debian" : "80",
+        "Ubuntu" : "80",
+        "Windows" : "60",
+        "AIX" : "40",
+        "HP/UX" : "40",
+        "Solaris" : "40"
+      }
+    },
+    "Programing": {
+      "color": "bg-danger",
+      "skills" : {
+        "Python" : "65",
+        "Bash Scripting" : "85",
+        "Git" : "60",
+        "Golang" : "55"
+      }
+    },
+    "Cloud Providers": {
+      "color": "bg-blue",
+      "skills" : {
+        "Rackspace Public Cloud" : "90",
+        "Amazon Web Services" : "75",
+        "VMWare" : "70",
+        "OpenStack" : "60",
+        "Microsoft Azure" : "70",
+        "Google Cloud Platform" : "60"
+      }
+    },
+    "Application Servers": {
+      "color": "bg-success",
+      "skills" : {
+        "Apache" : "60",
+        "Nginx" : "80",
+        "Bind9" : "60",
+        "MySQL" : "60",
+        "MariaDB" : "60",
+        "Redis" : "60",
+        "Memcache" : "60",
+        "Varnish" : "60",
+        "Plesk" : "60",
+        "Nagios" : "60",
+        "Postfix" : "60"
+      }
+    },
+    "Hardware": {
+      "color": "bg-warning",
+      "skills" : {
+        "DELL Servers" : "90",
+        "HP Proliant Servers" : "75",
+        "IBM Power Servers" : "70",
+        "SAN" : "60",
+        "NAS" : "70",
+        "DAS" : "60",
+        "RAID Arrays": "80",
+        "DRAC": "100",
+        "iLO": "98",
+        "HMC": "80",
+        "KVM": "70"
+      }
+    },
+    "Configuration Management": {
+      "color": "bg-danger",
+      "skills" : {
+        "Ansible" : "90",
+        "Terraform" : "75",
+        "Molecule" : "80",
+        "Packer" : "70"
+      }
+    },
+    "Networking": {
+      "color": "bg-info",
+      "skills" : {
+        "TCP/IP Protocol" : "90",
+        "OSI Model" : "75",
+        "Switching" : "70",
+        "Routing" : "60",
+        "Subneting" : "70",
+        "Rackconnect" : "70",
+        "DNS" : "60",
+        "FTP" : "70",
+        "SFTP" : "70",
+        "SMTP" : "60",
+        "SNMP" : "70",
+        "TFTP" : "70",
+        "DHCP" : "60",
+        "HTTP" : "70",
+        "SSH" : "60"
+      }
+    },
+    "Other": {
+      "color": "bg-blue",
+      "skills" : {
+        "SSL Certificates" : "90",
+        "CDN" : "75",
+        "New Relic" : "90",
+        "Vagrant" : "75",
+        "GitHub" : "75",
+        "GitLab" : "90",
+        "Docker" : "75",
+        "Kubernetes" : "75",
+        "OpenShift" : "90",
+        "CI/CD" : "75",
+        "Jenkins" : "50",
+        "Travis-CI" : "75",
+        "CircleCI" : "70",
+        "LVM" : "70"
+      }
+    }
+  }
+}
