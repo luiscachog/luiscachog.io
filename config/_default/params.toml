@@ -47,7 +47,7 @@ org_name = ""
 description = ""
 
 # Display a logo in navigation bar rather than title (optional).
-#   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
+#   To enable, place an image in `static/media/` and reference its filename below. To disable, set the value to "".
 # logo = "lc-profile.png"
 logo = ""
 
@@ -72,11 +72,14 @@ diagram = true
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
-privacy_pack = false
+privacy_pack = true
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
 edit_page = {repo_url = "https://github.com/k4ch0/luiscachog.io", repo_branch = "devel", editable = {docs = true, page = false, post = true}}
+
+# Show related content at the bottom of pages?
+show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
 
 ############################
 ## Contact details
@@ -119,7 +122,7 @@ contact_links = [
 ## Social
 ############################
 
-# Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+# Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
 sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
@@ -159,6 +162,13 @@ docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
 
+# Show a copyright license from creativecommons.org in the site footer?
+# Page specific copyright licenses are also possible by adding this option to a page's front matter.
+copyright_license = {enable = true, allow_derivatives = true, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
+
+# Highlight the site author (superuser) in author lists? (true/false)
+highlight_superuser = false
+
 # Link authors to their profile page? (true/false)
 link_authors = true
 
@@ -166,7 +176,7 @@ link_authors = true
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_css = ["custom"]
-plugins_js  = ["landing_author", "itype.min"]
+plugins_js  = [ "landing_author", "itype.min", "matrix" ]
 
 # Avatars.
 # An avatar is an image that appears next to a user's name.
@@ -263,6 +273,19 @@ plugins_js  = ["landing_author", "itype.min"]
   google_analytics = "UA-114918521-1"
   google_tag_manager = "GTM-MQT2RQ4"
 
+############################
+## Content Management System
+############################
+[cms]
+  # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
+  netlify_cms = false
+
+############################
+## Icon Pack Extensions
+############################
+[icon.pack]
+  ai = false  # Academicons icon pack https://jpswalsh.github.io/academicons/
+
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
@@ -276,10 +299,10 @@ canonifyURLs = true
 
 # FOOTER PARAMETERS
 [footer]
-  footmark = "footer/feymanfooter.png"
-  left_logo= "footer/cka.png"
-  right_logo= "footer/hecho_en_mexico.png"
+  footmark = "footers/feymanfooter.png"
+  left_logo= "footers/cka.png"
+  right_logo= "footers/hecho_en_mexico.png"
 legalblurb = "All opinions expressed here are my own and do not necessarily represent those of any other agencies or groups."
 
 # HEADER PARAMETERS
-watermark = "background/Bundle3.jpg"
+watermark = "backgrounds/Bundle3.jpg"

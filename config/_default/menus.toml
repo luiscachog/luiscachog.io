@@ -3,28 +3,28 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-[[main]]
-  name = "  HOME"
-  url = "/"
-  weight = 10
-  pre = "<i class='fas fa-terminal'>&nbsp;</i>"
+# [[main]]
+#   name = "  HOME"
+#  url = "/"
+#  weight = 10
+#  pre = "<i class='fas fa-terminal'>&nbsp;</i>"
 
 
 [[main]]
-  name = "  BLOG"
+  name = "BLOG"
   url = "/blog"
-  pre = "<i class='fas fa-code'>&nbsp;</i>"
+  pre = "<i class='fas fa-terminal'>&nbsp;</i>"
 #   post = "<span class='alert'>New!</span>"
   weight = 20
 
 [[main]]
-  name = "  COMMUNITY"
+  name = "COMMUNITY"
   url = "/community"
   weight = 30
   pre = "<i class='fas fa-code-branch'>&nbsp;</i>"
 
 # [[main]]
-#   name = "  Talks"
+#   name = "Talks"
 #   url = "#talks"
 #   weight = 40
 #   pre = "<i class='fas fa-chalkboard-teacher'>&nbsp;</i>"

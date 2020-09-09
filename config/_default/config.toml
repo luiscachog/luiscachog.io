@@ -5,7 +5,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "me@luiscachog.io ~ $"
+title = "me@luiscachog.io"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -13,13 +13,10 @@ baseurl = "/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = """&copy; 2014 - {year} </br>
-  Made with <i class=\"far fa-heart\"></i> </br>
-  Hosted on [GitHub](https://github.com/k4ch0/luiscachog.io) - Served by [Netlify](netfly.com) </br>
-  """
+copyright = """&copy; 2014 - {year} </br> Made with <i class=\"fas fa-heart\"></i> - Hosted on [GitHub](https://github.com/k4ch0/luiscachog.io) - Served by [Netlify](netfly.com)"""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-114918521-1"
+# googleAnalytics = "UA-114918521-1"
 
 ############################
 ## Advanced options below ##
@@ -43,8 +40,10 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [outputs]
-  home = [ "HTML", "RSS", "JSON", "WebAppManifest", "Sitemap" ]
-  section = [ "HTML", "RSS", "Sitemap" ]
+  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
+  section = [ "HTML", "RSS" ]
+  taxonomy =  [ "HTML", "RSS" ]
+  taxonomyTerm = [ "HTML", "RSS" ]
 
 [mediaTypes."application/manifest+json"]
   suffixes = ["webmanifest"]
@@ -85,7 +84,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   tag = "tags"
   category = "categories"
   publication_type = "publication_types"
-  author = "authors"
+  author = "author"
 
 [related]
   related_items = 5
