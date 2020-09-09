@@ -1,6 +1,6 @@
 ---
 title: 'Improve Ansible Roles with Molecule'
-summary: An introduction to using Academic's Slides feature.
+summary: An introduction to using Molecule to test your Ansible Roles.
 authors: [ luiscachog ]
 tags: [ Ansible, Molecule, Community ]
 categories: [Ansible, Molecule ]
@@ -28,22 +28,18 @@ slides:
 	minScale= 0.2
 	maxScale= 1.5 -->
 
-
-## Improve Ansible Roles with Molecule 
+## Improve Ansible Roles with Molecule
 
 ---
 ## Luis Cacho
 
-### Linux Administrator [@Rackspace](https://rackspace.com)
+### Security Systems Administrator
+#### [@Rackspace](https://rackspace.com)
 
-<br/>
-[luiscachog.io](https://luiscachog.io) &bull;
-[@k4ch0](https://twitter.com/k4ch0) &bull;
-[github.com/k4ch0](https://github.com/k4ch0)
+[luiscachog.io](https://luiscachog.io) | [@k4ch0](https://twitter.com/k4ch0) | [github.com/k4ch0](https://github.com/k4ch0)
 
 ---
-
-{{< slide background-image="/img/slides-molecule-ansible/Background1.jpg" >}}
+{{< slide background-image="/media/slides/molecule-ansible/Background1.jpg" >}}
 
 ---
 ## Agenda
@@ -56,39 +52,23 @@ slides:
 - Demo!!
 
 ---
-
-{{< slide background-image="/img/slides-molecule-ansible/BackgroundAnsible.png" >}}
+{{< slide background-image="/media/slides/molecule-ansible/BackgroundAnsible.png" >}}
 
 ---
-
+{{% section %}}
 ## Ansible
 
-<section>
+|**Use Cases**| **Attributes** |
+|--- | --- |
+| Configuration Management | Simple |
+| Software Provisioning | Powerful |
+| Security and Compliance | Agentless |
+| Application Deployment | Cross Platform |
+| Orchestration | Over 450 Modules |
+| Continuous Delivery | Big Community |
 
-  <div style="text-align: left; float: left;">
-    **Use Cases**</p>
-    - Configuration Management</p>
-    - Software Provisioning</p>
-    - Security and Compliance</p>
-    - Application Deployment</p>
-    - Orchestration</p>
-    - Continuous Delivery</p>
-    <!-- more Elements -->
-  </div>
-
-  <div style="text-align: left; float: right;">
-    **Attributes**</p>
-    - Simple</p>
-    - Powerful</p>
-    - Agentless</p>
-    - Cross Platform</p>
-    - Over 450 Modules</p>
-    - Big Community</p>
-    <!-- more Elements -->
-  </div>
-</section>
-
-Note:
+{{< speaker_note >}}
+- Press `S` key to view -
 Ansible es una herramienta de automatización open source escrita en python, que nos ayuda a configurar hosts remotos, aprovisionar software, e inclusive orquestar tareas mas complicadas como Continuos Deployment o Rolling Updates con Cero Downtime.
 En lugar de tener scripts para cada tarea.
 Ansible es:
@@ -99,14 +79,16 @@ Ansible es:
 - Multiplataforma
 - Cuenta con mas de 450 Modulos
 - Gran comunidad alrededor del proyecto
+{{< /speaker_note >}}
 
-___
-
+---
 ## Ansible
 
-![Ansible Architecture](/img/slides-molecule-ansible/AnsibleArch.png)
+{{< figure library="true" src="slides/molecule-ansible/AnsibleArch.png" lightbox="false" width="90%">}}
 
-Note:
+{{< speaker_note >}}
+- Press `S` key to view -
+
 Revisando la arquitectura de Ansible tenemos:
 
 - Playbook: "El libro de jugadas" que contiene las tareas a ejecutar.
@@ -116,55 +98,61 @@ Revisando la arquitectura de Ansible tenemos:
 - Plugins: Agregan funcionabilidad adicional al core de Ansible (ARA)
 
 Todo esto se se aplica a los hosts remotos o a los dispositivos de red.
+{{< /speaker_note >}}
 
-___
-
+---
 ## Ansible
 
-<img src="/img/slides-molecule-ansible/Ansible_Playbook.png" width="70%" height="70%" >
+{{< figure library="true" src="slides/molecule-ansible/Ansible_Playbook.png" lightbox="false" width="70%">}}
 
-Note:
+{{< speaker_note >}}
+- Press `S` key to view -
 Los componentes de un playbook son, revisando desde la unidad mas pequena son:
 
 - Tasks, que ejecutan el modulo de Ansible
 - Al conjunto de varias tasks relacionadas, se le llama Play
 - Al conjunto de diferentes Plays/jugadas se le llama Playbook.
+{{< /speaker_note >}}
 
-___
-
+---
 ## Ansible
 
-- **Playbooks** contain/connect **roles**  
+- **Playbooks** contain/connect **roles**
 - **Roles** contain **plays**
 - **Plays** contain **tasks**
 - **Tasks** execute a **module**
 - **Tasks** run sequencially
 - **Handlers** are triggered by **tasks**, runs once at the end of the **play**
 
-Note:
-Revisando desde la unidad mas grande tenemos
+{{< speaker_note >}}
+- Press `S` key to view -
+Entonces, podemos decir que desde la unidad mas grande tenemos
 Role is a list of tasks reusable
 Playbook conecta los roles con los hosts
+{{< /speaker_note >}}
+
+{{% /section %}}
 
 ---
-{{< slide background-image="/img/slides-molecule-ansible/BackgroundTest.png" >}}
+{{< slide background-image="/media/slides/molecule-ansible/BackgroundTest.png" >}}
 
-Note: Por que es importante la automatizacion de pruebas?
+{{< speaker_note >}}
+- Press `S` key to view -
+Por que es importante la automatizacion de pruebas?
+{{< /speaker_note >}}
 
 ---
-
-## Test Automation
+{{% section %}}
+### Test Automation
 
 - Reliable Code
-- Quality
-  - Fast feedback
+- Quality (Fast feedback)
 - Time and cost saving
-- Faster Development Cycle
-  - CI/CD
-- Repeatability
-  - Test same change accross multiple environments (OS, Providers); multiple data sets
+- Faster Development Cycle (CI/CD)
+- Repeatability (Test same change accross multiple environments (OS, Providers); multiple data sets)
 
-Note:
+{{< speaker_note >}}
+- Press `S` key to view -
 La automatizacion de las pruebas nos ayuda a:
 
 - Tener un codigo mas seguro y confiable
@@ -172,18 +160,21 @@ La automatizacion de las pruebas nos ayuda a:
 - Reducimos el tiempo y el costo de un desarrollo
 - Nos ayuda a tener un ciclo de desarrollo mas rapido ya que lo podemos/debemos integrar con alguna herramienta de CI/CD
 - Repetibilidad, con lo cual podemos probar el mismo cambio en multples ambientes, sistemas operativos, o provides, o con diferentes data sets
+{{< /speaker_note >}}
 
-___
-
-## Test Automation
+---
+### Test Automation
 #### Testing options for Ansible
 
-- Ansible tasks *- Test Ansible w/ Ansible*<!-- .element: class="fragment" -->
-- Test Kitchen *- Test Ansible w/ Ruby*<!-- .element: class="fragment" -->
-- ansible-test *- Test Ansible w/ Unmaintained Python*<!-- .element: class="fragment" -->
-- Molecule *- Test Ansible w/ Python*<!-- .element: class="fragment" -->
+<ul>
+{{% fragment %}} <li><strong>Ansible tasks</strong><i> - Test Ansible w/ Ansible</i></li>{{% /fragment %}}
+{{% fragment %}} <li><strong>Test Kitchen</strong><i> - Test Ansible w/ Ruby</i></li>{{% /fragment %}}
+{{% fragment %}} <li><strong>ansible-test</strong><i> - Test Ansible w/ Unmaintained Python</i></li>{{% /fragment %}}
+{{% fragment %}} <li><strong>Molecule</strong><i> - Test Ansible w/ Python</i></li>{{% /fragment %}}
+</ul>
 
-Note:
+{{< speaker_note >}}
+- Press `S` key to view -
 Algunas herramientas que revise, despues de ver la conferencia de Elana Hashman en en Ansible Fest 2017 son:
 
 Testing Ansible with Ansible Tasks -> Test ansible with Ansible tasks
@@ -195,7 +186,7 @@ Issues:
 - Ansible can't detect ansible bugs
 - Need to write your own provisioner
 
-Testing Ansible with ansible-test -> 
+Testing Ansible with ansible-test ->
 Benefits:
 
 - Written in Python
@@ -205,7 +196,7 @@ Issues:
 - Onlys support docker provisioner on dEbian-based images
 - Does not apear to be actively maintained
 
-Testing Ansible with Test Kitchen -> 
+Testing Ansible with Test Kitchen ->
 Benefits:
 
 - Large community
@@ -215,32 +206,35 @@ Issues:
 - Written in Ruby
 - Verifiers are Ruby or bash based
 - Installs Ansible on the target host and runs it locally
+{{< /speaker_note >}}
+
+{{% /section %}}
+---
+{{< slide background-image="/media/slides/molecule-ansible/BackgroundMolecule.png" >}}
 
 ---
-
-{{< slide background-image="/img/slides-molecule-ansible/BackgroundMolecule.png" >}}
-___
-
-## Molecule
+{{% section %}}
+### Molecule
 ##### Testing Ansible with Molecule
 
 - Tool designed to aid in the development and testing of Ansible roles.
 - Provides support for testing with multiple instances, operating systems, providers, test frameworks and testing scenarios.
 - Encourages an approach that results in consistently developed roles that are well-written, easily understood and maintained.
 
-[https://github.com/ansible/molecule](https://github.com/ansible/molecule)
-</br>
-[https://molecule.readthedocs.io/](https://molecule.readthedocs.io/)
+[github.com/ansible/molecule](https://github.com/ansible/molecule) | [molecule.readthedocs.io](https://molecule.readthedocs.io/)
 
-Note:
+{{< speaker_note >}}
+- Press `S` key to view -
+
 De acuerdo a la propia documentacion de Molecule, se define como una herramienta disenada para ayudar en el desarrollo y pruebas de los roles de ansible.
 Brinda soporte para probar con diferentes instancias, OS, Providers, scenarios
 Se enfoca en generar los mejores roles posibles, tanto bien escritos como faciles de mantener
 
-___
+{{< /speaker_note >}}
 
-## Molecule
-#### Testing Ansible with Molecule
+---
+### Molecule
+##### Testing Ansible with Molecule
 
 | **Pros** | **Cons** |
 | --- | --- |
@@ -249,17 +243,18 @@ ___
 | - Established community |
 | - Open Source |
 
-Note:
-
-- Escrito en python,  
+{{< speaker_note >}}
+- Press `S` key to view -
+- Escrito en python,
 - Desarrollado e integrado para ansible
 - Comunidad Madura
 - Open Source
 
-___
+{{< /speaker_note >}}
 
-## Molecule
-#### Testing Ansible with Molecule
+---
+### Molecule
+##### Testing Ansible with Molecule
 
 - Creates nodes for testing
 - Run the playbook on the nodes
@@ -268,27 +263,26 @@ ___
 - Lint the Python code with flake8
 - Runs the verifier tests on the nodes to ensure the desired state
 
-Note:
-
+{{< speaker_note >}}
+- Press `S` key to view -
+A grandes rasgos las actividades que hace molecule son:
 - Creamos los nodos para probar, dependiendo del provisioner puede ser Docker, Vagrant, AWS, Azure, etc
 - Se ejecutaran los playbooks en los nodos creados
 - Volvera a correr el playbook, para probar idempotencia, es decir, que el tarea se aplique varias veces sin cambiar el resultado de primera vez.
 - Buscaran problemas de estilo en el codigo de ansible usando ansible-lint
 - Buscaran problemas en el codigo de python con flake8
 - El verificador realizara loas pruebas para asegurar el estado deseado
+{{< /speaker_note >}}
 
-___
+---
+### Molecule
+##### Testing Ansible with Molecule
 
-## Molecule
-#### Testing Ansible with Molecule
+{{< figure library="true" src="slides/molecule-ansible/MoleculeProcess.jpeg" lightbox="false" width="50%">}}
 
-<img src="/img/slides-molecule-ansible/MoleculeProcess.jpeg" width="65%" height="65%" >
-
-Note:
-
-___
-## Molecule
-#### Testing Ansible with Molecule
+---
+### Molecule
+##### Testing Ansible with Molecule
 
 - What can I test?
   - Files exists and permissions
@@ -296,58 +290,55 @@ ___
   - User exists and is member of the correct groups
   - Package installed
   - Basic Software interaction (Test web server basic authentication)
+{{% /section %}}
 
 ---
-
-{{< slide background-image="/img/slides-molecule-ansible/Background1.jpg" >}}
-
-___
-
-## Molecule Demo
-- Let's try!! <!-- .element: class="fragment" -->
-  - Creates 2 nodes <!-- .element: class="fragment" -->
-  - Converge both nodes <!-- .element: class="fragment" -->
-  - Check for idempotence <!-- .element: class="fragment" -->
-  - Lint the Ansible and Python code <!-- .element: class="fragment" -->
-  - Verify the role against some tests <!-- .element: class="fragment" -->
-</br>
-- Github Repo: <!-- .element: class="fragment" --> 
-</br>*(Thanks to GaRaGeD for provide a playbook to test)*<!-- .element: class="fragment" -->
-</br>[https://github.com/k4ch0/elastic_stack](https://github.com/k4ch0/elastic_stack) <!-- .element: class="fragment" -->
-
-___
-
-## Molecule Demo
-
-#### Terminal time!! <!-- .element: class="fragment" -->
-
-___
-
-## Molecule Demo
-#### TO-DO <!-- .element: class="fragment" -->
-
-- Ansible-Vault implementation <!-- .element: class="fragment" -->
-- Integrating Molecule into Travis CI, Circle CI, Jenkins, etc <!-- .element: class="fragment" -->
+{{< slide background-image="/media/slides/molecule-ansible/Background1.jpg" >}}
 
 ---
+{{% section %}}
+### Molecule Demo
+- Let's try it!!
+  - Creates 2 nodes
+  - Converge both nodes
+  - Check for idempotence
+  - Lint the Ansible and Python code
+  - Verify the role against some tests
+- Github Repo: [github.com/k4ch0/elastic_stack](https://github.com/k4ch0/elastic_stack) {{% fragment %}} *(Thanks to GaRaGeD for provide a playbook to test)* {{% /fragment %}}
 
-{{< slide background-image="/img/slides-molecule-ansible/BackgroundConclusion.jpg" >}}
 ___
+### Molecule Demo
+{{% fragment %}}##### Terminal time!! {{% /fragment %}}
 
-## Conclusion <!-- .element: class="fragment" -->
+___
+### Molecule Demo
+#### TO-DO
 
-- There are different testing solutions for Ansible, but Molecule is an Ansible-native and the robust option. <!-- .element: class="fragment" -->
-- Molecule allows you to create, converge, check idempotence, lint and verify your Ansible code. <!-- .element: class="fragment" -->
-- Molecule help you to create the best playbooks possible. <!-- .element: class="fragment" -->
+- Ansible-Vault implementation
+- Integrating Molecule into Travis CI, Circle CI, Jenkins, etc
+{{% /section %}}
 
 ---
-
-## Questions? <!-- .element: class="fragment" -->
+{{< slide background-image="/media/slides/molecule-ansible/BackgroundConclusion.jpg" >}}
 
 ---
+{{% section %}}
+## Conclusion
 
-## Thank you! <!-- .element: class="fragment" data-fragment-index="1" -->
+- There are different testing solutions for Ansible, but Molecule is an Ansible-native and the robust option.
+- Molecule allows you to create, converge, check idempotence, lint and verify your Ansible code.
+- Molecule help you to create the best playbooks possible.
 
-*Talk links, references and resources can be found at:* <!-- .element: class="fragment" data-fragment-index="2" -->
-</br>
-[https://luiscachog.io/talk/molecule-ansible](https://luiscachog.io/talk/molecule-ansible) <!-- .element: class="fragment" data-fragment-index="3" -->
+---
+## Questions?
+
+*Talk links, references and resources can be found at:* [luiscachog.io/talk/molecule-ansible](https://luiscachog.io/talk/molecule-ansible)
+
+---
+## Thank you!
+
+*You can find me on:*
+
+[luiscachog [at] gmail.com](mailto:luiscachog) | [luiscachog.io](https://luiscachog.io) | [github.com/k4ch0](https://github.com/k4ch0) | [@k4ch0](https://twitter.com/k4ch0)
+
+{{% /section %}}

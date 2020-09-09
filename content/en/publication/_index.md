@@ -8,9 +8,9 @@ title: Publications
 #   4 = Citation
 view: 4
 
-disablefeed: true 
+disablefeed: true
 
-# Optional header image (relative to `static/img/` folder).
+# Optional header image (relative to `static/media/` folder).
 header:
   caption: ""
   image: ""

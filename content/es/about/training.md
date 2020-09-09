@@ -2,11 +2,11 @@
 # Accomplishments widget.
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 71  # Order that this section will appear.
 
-title = "Training"
-subtitle = ""
+title = "Entrenamientos"
+subtitle = "Cursos que he tomado"
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -21,12 +21,12 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Udemy"
   organization_url = "https://www.udemy.com"
-  title = "Kubernetes Certified Application Developer (CKAD) with Tests"
+  title = "Certified Kubernetes Application Developer (CKAD) with Tests"
   url = "https://www.udemy.com/course/certified-kubernetes-application-developer/"
   certificate_url = ""
   date_start = "2020-06-15"
   date_end = ""
-  description = "Learn concepts and practice for the Kubernetes Certification with hands-on labs right in your browser - DevOps - CKAD"
+  description = "Conceptos y prácticas para la Certificación como Desarrollador de Aplicaciones en Kubernetes con examenes de practica en el navegador web - DevOps - CKAD"
 
 [[item]]
   organization = "Udemy"
@@ -36,27 +36,27 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2020-04-10"
   date_end = ""
-  description = "Prepare for the Certified Kubernetes Administrators Certification with live practice tests right in your browser - CKA"
+  description = "Preparación para la Certificación como Administrador de Kubernetes con examenes de practica en el navegador web - CKA"
 
 [[item]]
   organization = "RedHat"
   organization_url = "https://www.redhat.com"
   title = "Advanced Automation: Ansible Best Practices"
-  url = "https://www.redhat.com/en/services/training/do447-advanced-automation-ansible-best-practices"
+  url = "https://www.redhat.com/es/services/training/do447-advanced-automation-ansible-best-practices"
   certificate_url = ""
   date_start = "2019-10-22"
   date_end = ""
-  description = "Take your Red Hat Ansible Automation skills to the next level and manage automation at scale"
+  description = "Mejore sus habilidades en Red Hat Ansible Automation y gestione la automatización a escala"
 
 [[item]]
   organization = "RedHat"
   organization_url = "https://www.redhat.com"
   title = "Red Hat OpenShift Administration I"
-  url = "https://www.redhat.com/en/services/training/do280-red-hat-openshift-administration-i"
+  url = "https://www.redhat.com/es/services/training/do280-red-hat-openshift-administration-i"
   certificate_url = ""
   date_start = "2018-01-01"
   date_end = ""
-  description = "Create, configure, manage, and troubleshoot OpenShift clusters."
+  description = "Cree, configure y gestione clústeres de OpenShift, y solucione los problemas asociados a ellos"
 
 [[item]]
   organization = "RedHat"

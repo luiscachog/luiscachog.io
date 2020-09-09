@@ -1,6 +1,8 @@
 ---
 # Display name
-name: Luis Cacho
+title: Luis Cacho
+nickname: Luis
+
 
 # Username (this should match the folder name)
 authors:
@@ -31,6 +33,12 @@ interests:
   - Cloud Native
   - Software Libre
   - Site Reliabilty Engineering
+
+home_description:
+  - Soy un orgulloso padre
+  - Soy un practicante de metodologías DevOps
+  - Trabajo con herramientas de Cloud Native
+  - Me gusta trabajar en proyectos divertidos
 
 # education:
 #   courses:
@@ -83,7 +91,6 @@ email: "luiscachog@gmail.com"
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - DevOps
-  - SRE
 ---
 
 #### \$whoami
@@ -93,25 +100,3 @@ Soy contribuidor de [proyectos de Software Libre](#projects) y me defino a mi mi
 Aprendo cosas nuevas cada día y me gusta compartirlo en este blog. Algunas veces escribo acerca de ello.
 
 :us: :dog: :video_game: :football: :soccer:
-
-<!-- Include the library. -->
-<script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-</script>
-
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
-
-<!-- Prepare a container for your calendar. -->
-<div class="calendar">
-    <!-- Loading stuff -->
-    Cargando datos para ti.
-</div>
-
-<script>
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "k4ch0", { responsive: true });
-</script>

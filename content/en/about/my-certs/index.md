@@ -2,10 +2,11 @@
 
 layout = "archive"
 title = "mypage"
+active = false
 
 [[gallery_item]]
   album = "certifications"
-  image = "https://raw.githubusercontent.com/k4ch0/luiscachog.io/master/static/img/posts/osi-model-cheat-sheet/OSI-TCP-Model-v1.png"
+  image = "https://raw.githubusercontent.com/k4ch0/luiscachog.io/master/static/media/posts/osi-model-cheat-sheet/OSI-TCP-Model-v1.png"
   caption = "captione"
 
 [[gallery_item]]

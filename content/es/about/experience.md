@@ -3,10 +3,10 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 51  # Order that this section will appear.
+weight = 50  # Order that this section will appear.
 
-title = "Professional Experience"
-subtitle = "Highlights from my employment history"
+title = "Experiencia Profesional"
+subtitle = "Lo más destacado de mi historia laboral"
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format

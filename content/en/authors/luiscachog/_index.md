@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Luis Cacho
+title: Luis Cacho
 nickname: Luis
 
 # Username (this should match the folder name)
@@ -34,7 +34,7 @@ interests:
   - Site Reliabilty Engineering
 
 home_description:
-  - I am a Father
+  - I am a proud Father
   - I am DevOps practioner
   - I work with Cloud Native tools
   - I love to work with some fun projects
@@ -90,7 +90,6 @@ email: "luiscachog@gmail.com"
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - DevOps
-  - SRE
 ---
 
 ##### \$whoami

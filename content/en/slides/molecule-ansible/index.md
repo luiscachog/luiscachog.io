@@ -39,7 +39,7 @@ slides:
 [luiscachog.io](https://luiscachog.io) | [@k4ch0](https://twitter.com/k4ch0) | [github.com/k4ch0](https://github.com/k4ch0)
 
 ---
-{{< slide background-image="/img/slides-molecule-ansible/Background1.jpg" >}}
+{{< slide background-image="/media/slides/molecule-ansible/Background1.jpg" >}}
 
 ---
 ## Agenda
@@ -52,7 +52,7 @@ slides:
 - Demo!!
 
 ---
-{{< slide background-image="/img/slides-molecule-ansible/BackgroundAnsible.png" >}}
+{{< slide background-image="/media/slides/molecule-ansible/BackgroundAnsible.png" >}}
 
 ---
 {{% section %}}
@@ -84,7 +84,7 @@ Ansible es:
 ---
 ## Ansible
 
-{{< figure library="true" src="slides-molecule-ansible/AnsibleArch.png" lightbox="false" width="90%">}}
+{{< figure library="true" src="slides/molecule-ansible/AnsibleArch.png" lightbox="false" width="90%">}}
 
 {{< speaker_note >}}
 - Press `S` key to view -
@@ -103,7 +103,7 @@ Todo esto se se aplica a los hosts remotos o a los dispositivos de red.
 ---
 ## Ansible
 
-{{< figure library="true" src="slides-molecule-ansible/Ansible_Playbook.png" lightbox="false" width="70%">}}
+{{< figure library="true" src="slides/molecule-ansible/Ansible_Playbook.png" lightbox="false" width="70%">}}
 
 {{< speaker_note >}}
 - Press `S` key to view -
@@ -134,7 +134,7 @@ Playbook conecta los roles con los hosts
 {{% /section %}}
 
 ---
-{{< slide background-image="/img/slides-molecule-ansible/BackgroundTest.png" >}}
+{{< slide background-image="/media/slides/molecule-ansible/BackgroundTest.png" >}}
 
 {{< speaker_note >}}
 - Press `S` key to view -
@@ -210,7 +210,7 @@ Issues:
 
 {{% /section %}}
 ---
-{{< slide background-image="/img/slides-molecule-ansible/BackgroundMolecule.png" >}}
+{{< slide background-image="/media/slides/molecule-ansible/BackgroundMolecule.png" >}}
 
 ---
 {{% section %}}
@@ -278,7 +278,7 @@ A grandes rasgos las actividades que hace molecule son:
 ### Molecule
 ##### Testing Ansible with Molecule
 
-{{< figure library="true" src="slides-molecule-ansible/MoleculeProcess.jpeg" lightbox="false" width="50%">}}
+{{< figure library="true" src="slides/molecule-ansible/MoleculeProcess.jpeg" lightbox="false" width="50%">}}
 
 ---
 ### Molecule
@@ -293,7 +293,7 @@ A grandes rasgos las actividades que hace molecule son:
 {{% /section %}}
 
 ---
-{{< slide background-image="/img/slides-molecule-ansible/Background1.jpg" >}}
+{{< slide background-image="/media/slides/molecule-ansible/Background1.jpg" >}}
 
 ---
 {{% section %}}
@@ -319,7 +319,7 @@ ___
 {{% /section %}}
 
 ---
-{{< slide background-image="/img/slides-molecule-ansible/BackgroundConclusion.jpg" >}}
+{{< slide background-image="/media/slides/molecule-ansible/BackgroundConclusion.jpg" >}}
 
 ---
 {{% section %}}
