@@ -33,19 +33,19 @@ projects: []
 
 I been working since last year using [Ansible](https://www.ansible.com/) for fun and to trying to get prepared to become a DevOps, so I found an excelent OpenStack project called [ARA Records Ansible](https://github.com/openstack/ara).
 
-![Ansible Logo](/img/posts/my-first-contribution-to-openstack/Ansible-Logo.png)
-![ARA Logo](/img/posts/my-first-contribution-to-openstack/ARA-Logo.png)
+![Ansible Logo](/media/posts/my-first-contribution-to-openstack/Ansible-Logo.png)
+![ARA Logo](/media/posts/my-first-contribution-to-openstack/ARA-Logo.png)
 
-Basically it  is a project from the OpenStack community that makes it easier to understand and troubleshoot your Ansible roles and playbooks.  
-If you want more information, please refer to the [Documentation Page](http://ara.readthedocs.io/en/latest/).  
+Basically it  is a project from the OpenStack community that makes it easier to understand and troubleshoot your Ansible roles and playbooks.
+If you want more information, please refer to the [Documentation Page](http://ara.readthedocs.io/en/latest/).
 
-Anyhow, I just found a little bug on the Ansible Role to install ARA [ansible-role-ara](https://git.openstack.org/cgit/openstack/ansible-role-ara/) on Debian based distros and just send the patch to fixit.  
+Anyhow, I just found a little bug on the Ansible Role to install ARA [ansible-role-ara](https://git.openstack.org/cgit/openstack/ansible-role-ara/) on Debian based distros and just send the patch to fixit.
 
-Here is the link to my [contribution](https://git.openstack.org/cgit/openstack/ansible-role-ara/commit/).  
+Here is the link to my [contribution](https://git.openstack.org/cgit/openstack/ansible-role-ara/commit/).
 
-And, as I am proud of my first commit on a big project here is the screenshot too:  
+And, as I am proud of my first commit on a big project here is the screenshot too:
 
-![My First OpenStack Contribution](/img/posts/my-first-contribution-to-openstack/OpenStack-Contribution.png)
+![My First OpenStack Contribution](/media/posts/my-first-contribution-to-openstack/OpenStack-Contribution.png)
 
 I feel happy and motivated to still learn about this Open Source project and a lot more.
 

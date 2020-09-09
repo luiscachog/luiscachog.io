@@ -45,15 +45,15 @@ With all the meetings that were held on Rackspace I get involved and I wanted to
 
 Talking about community, in that kubecon I met with some Latin-American friends that were interested in Kubernetes like [@domix](https://twitter.com/domix), [@marKox](https://twitter.com/_marKox),both from México, and [@EdduMelendez](https://twitter.com/EdduMelendez) from Peru, that from their trenches they are trying to grow the Kubernetes community on Spanish.
 
-![Badge Kubecon 2018](/img/posts/my-journey-to-become-a-cka-and-ckad/badge_kubecon.png)
+![Badge Kubecon 2018](/media/posts/my-journey-to-become-a-cka-and-ckad/badge_kubecon.png)
 
-![Kubecon 2018](/img/posts/my-journey-to-become-a-cka-and-ckad/kubecon-2018.gif)
+![Kubecon 2018](/media/posts/my-journey-to-become-a-cka-and-ckad/kubecon-2018.gif)
 
 But returning to my certifications path, after a while I decided that I will have the certs by the end on this year, so back in March I get more serious studying and purchased the excellent course [Certified Kubernetes Administrator (CKA) with Practice Tests](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/) a course by [Mumshad Mannambeth](https://twitter.com/mmumshad) that I highly recommend to reinforce the theory and also, becasue includes exercises similar to the exam that you can practice.
 
 Once I feelt confident in me and my knowledge I get my coupon to present the CKA exam, and I passed!
 
-![CKA Cert](/img/posts/my-journey-to-become-a-cka-and-ckad/cka.png)
+![CKA Cert](/media/posts/my-journey-to-become-a-cka-and-ckad/cka.png)
 
 I need tell you, it wasn't easy, mostly because you need to be careful with the time/value of the questions and you need to weigh to reach the passing score, for this exam it was 74%.
 
@@ -63,6 +63,6 @@ I already have the fundamentals of a CKA and just need some extra study to compl
 
 My approach works, I passed the CKAD certification!
 
-![CKAD Cert](/img/posts/my-journey-to-become-a-cka-and-ckad/ckad.png)
+![CKAD Cert](/media/posts/my-journey-to-become-a-cka-and-ckad/ckad.png)
 
 Now that I'm certified on Kubernetes I will look to be more involved in Cloud Native initiatives on my company, to apply the knowledge that I already have on current or new projects, and as always keep learning!

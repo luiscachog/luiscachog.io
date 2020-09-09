@@ -45,10 +45,10 @@ First of all, Envato WordPress Toolkit it is very similar to a WordPress plugin.
 
 4.1. In order to get your API key from Themeforest, you should login to themeforest.com, go to your dashboard and click on &#8220;My Settings&#8221; The API Keys screen allows you to generate a free API key.
 
-![Generate API key](/img/posts/update-themeforest-themes-envato-wordpress-toolkit/generate-api-key.png)
+![Generate API key](/media/posts/update-themeforest-themes-envato-wordpress-toolkit/generate-api-key.png)
 
 5. Once the API connection has been established you will see a list of themes that can be auto installed. If you don't see any themes and are certain you've done everything correct, there is a good chance the theme author has not updated their theme to be available for auto install and update. If that's the case, please contact the theme author and ask them to update their theme's information.
 
-![Theme Autoupdate](/img/posts/update-themeforest-themes-envato-wordpress-toolkit/theme-autoupdate.png)
+![Theme Autoupdate](/media/posts/update-themeforest-themes-envato-wordpress-toolkit/theme-autoupdate.png)
 
 This "plugin" very helpful to get your themes updated. I hope works for you as well as with me.

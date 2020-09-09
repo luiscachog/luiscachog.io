@@ -34,4 +34,4 @@ projects: []
 
 If anyone need a good OSI Model cheat sheet, as me:
 
-![OSI Model](/img/posts/osi-model-cheat-sheet/OSI-TCP-Model-v1.png)
+![OSI Model](/media/posts/osi-model-cheat-sheet/OSI-TCP-Model-v1.png)

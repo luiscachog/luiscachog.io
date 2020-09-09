@@ -36,7 +36,7 @@ projects: []
 
 Since January 6th I working on [Rackspace](http://www.rackspace.com/), the Open Cloud Company, so I'm a Racker almost 3 months ago and I'm loving every minute of it.
 
-![Rackspace 2014](/img/posts/im-a-racker/Rackspace_2014.jpg)
+![Rackspace 2014](/media/posts/im-a-racker/Rackspace_2014.jpg)
 
 # Previous
 
@@ -47,9 +47,9 @@ So, I was very excited, nervous, happy, all together.
 # The Castle
 
 Since I came to The Castle, everything was wonderful, I have met nice, friendly, smart and fanatical people, like [@SugarBear](https://twitter.com/rackersugarbear), a Rackspace Ambassador of Culture, or [Graham Weston](https://twitter.com/gweston), Rackspace's Chairman and Co-Funder, I met them at the Rookie Orientation (a.k.a Rookie'O), where I spend time with other Rookies learning about Rackspace history, culture and future plans.
-  
+
 On the Rookie'O, I was surprised and admired with all the energy that is transmitted between the new Rackers, it was awesome!
-  
+
 And I was inspired by the Rackspace Core Values:
 
 - Fanatical Support® in all we do.
@@ -60,16 +60,16 @@ And I was inspired by the Rackspace Core Values:
 - Treat fellow Rackers like Friends and Family
 
 Which from my point of view I can applied to my personal life, and having great results.
-  
+
 Also is very comfortable to have a Coffe Shop, a soda machine or microwaves inside the Castle. It is pretty nice!
-  
+
 In general the first week in Rackspace, on the Rookie'O, I was a great experience, I can say that is one of my best experiences in my life.
 
-![Rackspace RookieO](/img/posts/im-a-racker/Rackspace_RookieO.jpg)
+![Rackspace RookieO](/media/posts/im-a-racker/Rackspace_RookieO.jpg)
 
-![Rackspace Fanatical Jacket](/img/posts/im-a-racker/Rackspace_FuelStation.jpg)
+![Rackspace Fanatical Jacket](/media/posts/im-a-racker/Rackspace_FuelStation.jpg)
 
-![Rackspace GroundTown](/img/posts/im-a-racker/Rackspace_Slide.jpg)
+![Rackspace GroundTown](/media/posts/im-a-racker/Rackspace_Slide.jpg)
 
 # My Goals
 
@@ -82,7 +82,7 @@ This is a new big challenge, because means:
 - And the most important challenge for me is still learn about Linux, get my Red Hat Certifications, do my best at job and take advantage of this great opportunity. All of that to try to be a DevOps Engineer
 
 
-![Rackspace MyDesk](/img/posts/im-a-racker/Rackspace_MyDesk.jpg)
+![Rackspace MyDesk](/media/posts/im-a-racker/Rackspace_MyDesk.jpg)
 
 I will be working on, providing Fanatical Support for our customers, resolving LATAM customer issues with Linux and working with remote teams from all around the world.
 

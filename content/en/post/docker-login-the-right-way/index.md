@@ -40,16 +40,16 @@ Hi again!
 
 It is been a while since I wrote something here, as always, there is no much time for a hobby.
 
-I've been working for a while with docker, not a production level, but for some applications that I use at work. 
+I've been working for a while with docker, not a production level, but for some applications that I use at work.
 And since the [Docker Hub Data breach](https://www.theinquirer.net/inquirer/news/3074793/docker-hub-breach) I put more atention on the security of my data/credentials, so I investigate a little about and found this official repository [https://github.com/docker/docker-credential-helpers/](https://github.com/docker/docker-credential-helpers/) from Docker where are the supported credential helpers.
 
 ## Credential Store
 
-Docker keeps our credentials saved on a JSON file located on ```~/.docker/config.json```, but unfortunatelly credentials are just encrypted on base64, here is an [articule/video](https://fosdem.org/2019/schedule/event/base64_not_encryption/) where there is an explanation for the why it is a bad idea to just use base64 encryption.  
+Docker keeps our credentials saved on a JSON file located on ```~/.docker/config.json```, but unfortunatelly credentials are just encrypted on base64, here is an [articule/video](https://fosdem.org/2019/schedule/event/base64_not_encryption/) where there is an explanation for the why it is a bad idea to just use base64 encryption.
 
 The following is a diagram on how a plain text storage works:
 
-![Plain Text Storage](/img/posts/docker-login-the-right-way/DockerPlainTextCredentials.png)
+![Plain Text Storage](/media/posts/docker-login-the-right-way/DockerPlainTextCredentials.png)
 
 Here is an exampleon how ```~/.docker/config.json``` looks like when is using plain text credentials:
 
@@ -67,7 +67,7 @@ cat ~/.docker/config.json
 	"HttpHeaders": {
 		"User-Agent": "Docker-Client/18.09.6 (linux)"
 	}
-} 
+}
 ```
 
 After a successful ```docker login``` command, Docker stores a base64 encoded string from the concatenation of the username, a colon, and the password and associates this string to the registry the user is logging into:
@@ -98,11 +98,11 @@ $ cat ~/.docker/config.json
 
 ## Docker Credential Helpers
 
-Since docker version 1.11 implements support from an external credential store for registry authentication. That means we can use a native keychain of the OS. Using an external store is more secure than storing on a "plain text" Docker configuration file.  
+Since docker version 1.11 implements support from an external credential store for registry authentication. That means we can use a native keychain of the OS. Using an external store is more secure than storing on a "plain text" Docker configuration file.
 
 
 
-![Secure Storage](/img/posts/docker-login-the-right-way/DockerSecureCredentials.png)
+![Secure Storage](/media/posts/docker-login-the-right-way/DockerSecureCredentials.png)
 
 In order to use a external credential store, we need a program to interact with.
 
@@ -113,12 +113,12 @@ The actual list of "official" Docker Credential Helper is:
 3. docker-credential-wincred: Provides a helper to use Windows credentials manager as store.
 4. docker-credential-pass: Provides a helper to use pass as credentials store.
 
-## docker-credential-secretservice 
+## docker-credential-secretservice
 
 On this post we will explore the docker-credential-secretservice and how to configure it.
 
-1. We need to download and install the helper. 
-You can find the lastest release on  [https://github.com/docker/docker-credential-helpers/releases](https://github.com/docker/docker-credential-helpers/releases).  
+1. We need to download and install the helper.
+You can find the lastest release on  [https://github.com/docker/docker-credential-helpers/releases](https://github.com/docker/docker-credential-helpers/releases).
 Download it, extract it and make it executable.
 
 ```shell
@@ -128,7 +128,7 @@ chmod +x docker-credential-secretservice
 sudo mv docker-credential-secretservice /usr/local/bin/
 ```
 
-2. Then, we need to specify the credential store in the file ```~/.docker/config.json``` to tell docker to use it.  
+2. Then, we need to specify the credential store in the file ```~/.docker/config.json``` to tell docker to use it.
 The value must be the one after the prefix ```docker-credential-```. In this case:
 
 ```json
@@ -147,6 +147,6 @@ From now we are uning an external store, so if you are currently logged in, you 
 Let me know how this works for you.
 
 References:
-[https://github.com/docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers)  
-[https://docs.docker.com/engine/reference/commandline/login/#credentials-store](https://docs.docker.com/engine/reference/commandline/login/#credentials-store)  
+[https://github.com/docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers)
+[https://docs.docker.com/engine/reference/commandline/login/#credentials-store](https://docs.docker.com/engine/reference/commandline/login/#credentials-store)
 [https://www.slideshare.net/DavidYeung22/can-we-stop-saving-docker-credentials-in-plain-text-now](https://www.slideshare.net/DavidYeung22/can-we-stop-saving-docker-credentials-in-plain-text-now)

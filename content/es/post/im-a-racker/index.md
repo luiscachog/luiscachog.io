@@ -35,9 +35,9 @@ projects: []
 <br/>
 <br/>
 
-Desde el 6 de Enero estoy trabajando en [Rackspace](http://www.rackspace.com/), the Open Cloud Company, eso significa que soy un Racker desde hace 3 meses y estoy amando cada minuto que ha pasado. 
+Desde el 6 de Enero estoy trabajando en [Rackspace](http://www.rackspace.com/), the Open Cloud Company, eso significa que soy un Racker desde hace 3 meses y estoy amando cada minuto que ha pasado.
 
-![Rackspace 2014](/img/im-a-racker/Rackspace_2014.jpg)
+![Rackspace 2014](/media/im-a-racker/Rackspace_2014.jpg)
 
 # Previo
 
@@ -61,16 +61,16 @@ Los Valores de Rackspace me inspiraron:
 - Tratar a los Rackers como amigos y familiares (Treat fellow Rackers like Friends and Family).
 
 Which from my point of view I can applied to my personal life, and having great results.
-  
+
 Also is very comfortable to have a Coffe Shop, a soda machine or microwaves inside the Castle. It is pretty nice!
-  
+
 In general the first week in Rackspace, on the Rookie'O, I was a great experience, I can say that is one of my best experiences in my life.
 
-![Rackspace RookieO](/img/im-a-racker/Rackspace_RookieO.jpg)
+![Rackspace RookieO](/media/im-a-racker/Rackspace_RookieO.jpg)
 
-![Rackspace Fanatical Jacket](/img/im-a-racker/Rackspace_FuelStation.jpg)
+![Rackspace Fanatical Jacket](/media/im-a-racker/Rackspace_FuelStation.jpg)
 
-![Rackspace GroundTown](/img/im-a-racker/Rackspace_Slide.jpg)
+![Rackspace GroundTown](/media/im-a-racker/Rackspace_Slide.jpg)
 
 # My Goals
 
@@ -83,7 +83,7 @@ This is a new big challenge, because means:
 - And the most important challenge for me is still learn about Linux, get my Red Hat Certifications, do my best at job and take advantage of this great opportunity. All of that to try to be a DevOps Engineer
 
 
-![Rackspace MyDesk](/img/im-a-racker/Rackspace_MyDesk.jpg)
+![Rackspace MyDesk](/media/im-a-racker/Rackspace_MyDesk.jpg)
 
 I will be working on, providing Fanatical Support for our customers, resolving LATAM customer issues with Linux and working with remote teams from all around the world.
 
