@@ -6,7 +6,7 @@
 
 <style>
 {{ if $bg.image_small }}
-{{ $bg_small := printf "img/%s" $bg.image_small | absURL }}
+{{ $bg_small := printf "media/%s" $bg.image_small | absURL }}
 @media screen and (max-width: 600px) {
   section#{{ $hash_id }} {
     background-image: {{ printf "url('%s')" $bg_small | safeCSS }} !important;

@@ -1,12 +1,18 @@
 {{ $ := .root }}
 {{ $page := .page }}
 
-{{ $author := "luiscachog"}}
+{{ $author := "" }}
+{{ if .author }}
+  {{ $author = .author }}
+{{ else }}
+  {{ $author = $page.Params.title }}
+{{end}}
 
 {{ $person_page_path := (printf "/authors/%s" $author) }}
 {{ $person_page := site.GetPage $person_page_path }}
 {{ if not $person_page }}
   {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $person_page_path }}
+  {{ errorf "vas `%s` " $page.Params.title }}
 {{end}}
 {{ $person := $person_page.Params }}
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
@@ -23,14 +29,7 @@
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
       {{ end }}
 
-    <h1 class="greeting">Hi, I am
-      {{ if $person.nickname }}
-        {{ $person.nickname }}
-      {{ else if $person.name }}
-        {{ $person.name }}
-      {{ else }}
-        Joe Doe
-      {{ end }}
+    <h1 class="greeting">{{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
 
     </h1>
     <div class="typing-carousel">
