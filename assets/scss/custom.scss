@@ -5,14 +5,19 @@ footer {
   background-color:#f3f3f3;
 }
 
+.fa-heart {
+  color: #e31b23;
+}
+
 /* Landing Author */
 
 .home {
-  height: 100vh;
+  height: 90vh;
   padding: 0;
   margin: 0;
   color: #f9fafc;
   overflow: hidden;
+
 }
 
 .background {
@@ -21,8 +26,8 @@ footer {
   padding: 0;
   margin: 0;
   background-attachment: fixed;
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
+  transform: scale(1.0);
+  -webkit-transform: scale(1.0);
   filter: blur(3px);
   -webkit-filter: blur(3px);
   background-size: cover;
@@ -30,13 +35,13 @@ footer {
 
 .content {
   position: relative;
-  top: -65%;
+  top: -75%;
   height: 60%;
 }
 
 .home img {
-  width: 148px;
-  height: 148px;
+  width: 160px;
+  height: 160px;
   background-color: #e7e7ef;
   padding: 5px;
   margin-bottom: 10px;
@@ -47,7 +52,7 @@ footer {
 }
 
 .home .typing-carousel {
-  font-size: 14pt;
+  font-size: 20pt;
   color: #f0f0f0;
 }
 
@@ -55,15 +60,8 @@ footer {
   display: none;
 }
 
-.arrow {
-  position: absolute;
-  color: #f9fafc;
-  font-size: 1.5rem;
-  bottom: 0;
-}
-
 .bounce {
-  animation: bounce 2s infinite;
+  animation: bounce 3s infinite;
 }
 
 @keyframes bounce {
