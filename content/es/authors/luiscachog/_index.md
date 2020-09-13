@@ -8,6 +8,9 @@ nickname: Luis
 authors:
   - luiscachog
 
+
+landing_greeting: Hola, soy Luis!
+
 # Is this the primary user of the site?
 superuser: true
 
@@ -24,7 +27,7 @@ organizations:
     url: "https://www.meetup.com/San-Antonio-HashiCorp-User-Group"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Administrador de Seguridad de Sistemasen Rackspace | Entusiasta de Kubernetes | Ninja de Ansible
+bio: Administrador de Seguridad de Sistemas en Rackspace | Entusiasta de Kubernetes | Ninja de Ansible
 
 interests:
   - Automatización

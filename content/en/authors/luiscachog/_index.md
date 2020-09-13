@@ -7,6 +7,8 @@ nickname: Luis
 authors:
   - luiscachog
 
+landing_greeting: Hey, I'm Luis!
+
 # Is this the primary user of the site?
 superuser: true
 

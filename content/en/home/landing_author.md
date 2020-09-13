@@ -1,13 +1,10 @@
 +++
 widget = "landing_author"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "luiscachog"
-subtitle = "Hey, I'm Luis!"
 author = "luiscachog"
-
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -43,7 +40,3 @@ author = "luiscachog"
  # CSS class.
  css_class = ""
 +++
-
-title = "luiscachog"
-subtitle = "Hey, I'm Luis!"
-author = "luiscachog"
