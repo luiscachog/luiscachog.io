@@ -11,14 +11,14 @@
 
 [[main]]
   name = "BLOG"
-  url = "/blog"
+  url = "blog/"
   pre = "<i class='fas fa-terminal'>&nbsp;</i>"
   # post = "<span class='alert'>New!</span>"
   weight = 20
 
 [[main]]
   name = "COMUNIDAD"
-  url = "/community"
+  url = "community/"
   weight = 30
   pre = "<i class='fas fa-code-branch'>&nbsp;</i>"
 
@@ -30,7 +30,7 @@
 
 [[main]]
   name = "ACERCA DE"
-  url = "/about"
+  url = "about/"
   weight = 50
   identifier = "about"
   pre = "<i class='fas fa-address-card'>&nbsp;</i>"
