@@ -2,7 +2,7 @@
 title: "GNU/Linux Latino Website"
 summary: |
 authors: []
-tags: [ GNU/Linux, GNU/Linux Latino, Community ]
+tags: [ GNU/Linux, GNU/Linux Latino, Community, Website ]
 categories: [ Community ]
 date: 2020-09-09
 

@@ -1,10 +1,10 @@
 ---
 title: "GNU/Linux Latino Website"
-summary: |
-authors: []
-tags: [ GNU/Linux, GNU/Linux Latino, Community ]
+summary: ""
+authors: [ luiscachog ]
+tags: [ Community ]
 categories: [ Community ]
-date: 2020-09-09
+date: 2020-09-09T01:42:23-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://www.gnulinuxlatino.com"
@@ -22,7 +22,7 @@ url_slides: ""
 url_video: ""
 links:
 - name: Github
-  url: github.com/gnulinuxlatino/gnulinuxlatino.com
+  url: https://github.com/gnulinuxlatino/gnulinuxlatino.com
   icon_pack: fab
   icon: github
 
