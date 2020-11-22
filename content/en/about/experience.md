@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+weight = 30  # Order that this section will appear.
 
 title = "Professional Experience"
 subtitle = "Highlights from my employment history"
@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Security Systems Administrator III"
-  company = "Rackspace"
+  company = "Rackspace Technology"
   company_url = "https://www.rackspace.com"
   location = "San Antonio, TX"
   date_start = "2020-01-11"
@@ -28,36 +28,17 @@ date_format = "Jan 2006"
   highlights= """ """
 
 [[experience]]
-  title = "Linux Administrator III"
-  company = "Rackspace"
+  title = "Linux Systems Administrator"
+  company = "Rackspace Technology"
   company_url = "https://www.rackspace.com"
   location = "San Antonio, TX"
-  date_start = "2017-06-03"
+  date_start = "2014-01-03"
   date_end = "2020-01-10"
   description = """ """
 
 [[experience]]
-  title = "Linux Administrator II"
-  company = "Rackspace"
-  company_url = "https://www.rackspace.com"
-  location = "San Antonio, TX"
-  date_start = "2015-11-14"
-  date_end = "2017-06-02"
-  description = """ """
-
-[[experience]]
-  title = "Linux Administrator I"
-  company = "Rackspace"
-  company_url = "https://www.rackspace.com"
-  location = "San Antonio, TX"
-  date_start = "2014-01-03"
-  date_end = "2015-11-13"
-  description = """ """
-
-
-[[experience]]
-  title = "Unix Administrator"
-  company = "Bolsa Mexicana de Valores (Mexican Stock Exchange)"
+  title = "Unix Specialist"
+  company = "Mexican Stock Exchange (Bolsa Mexicana de Valores)"
   company_url = "https://www.bmv.com.mx"
   location = "Mexico City"
   date_start = "2009-09-01"
