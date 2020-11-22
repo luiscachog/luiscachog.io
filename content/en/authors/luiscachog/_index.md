@@ -25,7 +25,7 @@ organizations:
     url: "https://www.meetup.com/San-Antonio-HashiCorp-User-Group"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Security Systems Administrator at Rackspace |  DevOps Practitioner | Kubernetes Enthusiast | Ansible Ninja | Data Science Newbie
+bio: Security Systems Administrator at Rackspace | DevOps Practitioner | Kubernetes Enthusiast | Ansible Ninja | Data Science Newbie
 
 interests:
   - Automation
@@ -96,12 +96,18 @@ user_groups:
 
 ##### \$whoami
 
-I'm a dedicated husband, avid Soccer fanatic, beer lover, and fond of all things GNU/Linux.
+I'm a proud father of Emma, dedicated husband, avid soccer fanatic, beer lover, and fond of all things GNU/Linux.
 I'm a Security Systems Administrator with Cloud/DevOps/Security skills working at [Rackspace](https://rackspace.com).
-I am actively contributing to [Open Source projects](/projects) and define myself as a Linux enthusiast who loves to work and experiment with Open Source technologies while I am learning.
+Today I consider myself a Technologist. I have become knowledgeable in many areas of systems, cloud computing, and various other fields like:
+  - Linux Servers
+  - Cloud Computing
+  - Operating Systems
+  - IaC (Infrastructure as Code)
+  - Networking
+
+Actively contributing to [Open Source projects](/projects) as well as learn new stuff every day and try to share in this blog.
 I enjoy attend meetups and events to learn about new technologies, talk with interesting people and exchange stickers.
-I learn new stuff every day and I like to share; sometimes I write about it on this blog.
 
- I’m active on Linked in and Github, and occassionally on Twitter.
+I’m active on LinkedIn and Github, and occassionally on Twitter.
 
-:us: :dog: :video_game: :football: :soccer:
+:mexico: :us: :dog: :video_game: :football: :soccer: :baby:
