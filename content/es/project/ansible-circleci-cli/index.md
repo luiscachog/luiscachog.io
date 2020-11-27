@@ -23,7 +23,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Ansible Role
-  url: https://github.com/k4ch0/ansible-circle-ci
+  url: https://github.com/luiscachog/ansible-circle-ci
   icon_pack: fab
   icon: github
 
@@ -32,7 +32,7 @@ links:
   icon_pack: fab
   icon: github
 
-url_code: "https://github.com/k4ch0/ansible-circle-ci"
+url_code: "https://github.com/luiscachog/ansible-circle-ci"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -47,4 +47,4 @@ slides: ""
 
 Rol de Ansible que instala [CircleCI CLI](https://circleci-public.github.io/circleci-cli/) en tu servidor/workstation.
 
-[![Build Status](https://travis-ci.com/k4ch0/ansible-circleci-cli.svg?branch=master)](https://travis-ci.com/k4ch0/ansible-circleci-cli)
+[![Build Status](https://travis-ci.com/luiscachog/ansible-circleci-cli.svg?branch=master)](https://travis-ci.com/luiscachog/ansible-circleci-cli)

@@ -60,13 +60,13 @@ home_description:
 social:
   - icon: github
     icon_pack: fab
-    link: https://github.com/k4ch0
+    link: https://github.com/luiscachog
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/luiscachog
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/k4ch0
+    link: https://twitter.com/luiscachog
   - icon: keybase
     icon_pack: fab
     link: https://keybase.io/luiscachog

@@ -13,7 +13,7 @@ date: 2020-08-23
 publishDate: 2020-08-23
 lastmod: 2020-08-23
 featured: true
-draft: false
+draft: true
 
 
 # Featured image
@@ -36,6 +36,6 @@ projects: []
 
 ## Overview
 
-Usually I deploy my site using [netlify](https://netlify.com) but
+Usually I deploy some static sites using [netlify](https://netlify.com) but
 
 https://zartman.xyz/blog/gh-static-deploy/

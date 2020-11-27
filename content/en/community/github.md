@@ -61,10 +61,10 @@ subtitle = "to OpenSource projects"
 <!-- Prepare a container for your calendar. -->
 <div class="calendar">
     <!-- Loading stuff -->
-    Loading the data just for you.
+    Loading github data...
 </div>
 
 <script>
     // or enable responsive functionality:
-    GitHubCalendar(".calendar", "k4ch0", { responsive: true });
+    GitHubCalendar(".calendar", "luiscachog", { responsive: true });
 </script>

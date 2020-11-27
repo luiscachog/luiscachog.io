@@ -23,7 +23,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Ansible Role
-  url: https://github.com/k4ch0/ansible-sonobuoy-ubuntu
+  url: https://github.com/luiscachog/ansible-sonobuoy-ubuntu
   icon_pack: fab
   icon: github
 
@@ -32,7 +32,7 @@ links:
   icon_pack: fab
   icon: github
 
-url_code: "https://galaxy.ansible.com/k4ch0/sonobuoy"
+url_code: "https://galaxy.ansible.com/luiscachog/sonobuoy"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -47,4 +47,4 @@ slides: ""
 
 Rol de Ansible que instala la herramienta que valida la configuración de Kubernetes, [sonobuoy](https://sonobuoy.io/) en su servidor/workstation.
 
-[![Build Status](https://travis-ci.com/k4ch0/ansible-sonobuoy-ubuntu.svg?branch=master)](https://travis-ci.com/k4ch0/ansible-sonobuoy-ubuntu)
+[![Build Status](https://travis-ci.com/luiscachog/ansible-sonobuoy-ubuntu.svg?branch=master)](https://travis-ci.com/luiscachog/ansible-sonobuoy-ubuntu)

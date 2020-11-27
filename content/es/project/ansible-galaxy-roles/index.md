@@ -23,11 +23,11 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Github
-  url: https://galaxy.ansible.com/k4ch0
+  url: https://galaxy.ansible.com/luiscachog
   icon_pack: fab
   icon: github
 
-url_code: "https://galaxy.ansible.com/k4ch0"
+url_code: "https://galaxy.ansible.com/luiscachog"
 url_pdf: ""
 url_slides: ""
 url_video: ""

@@ -35,13 +35,13 @@ projects: []
 
 # 1. Motivación
 
-Estoy intentando escribir un poco más en mi blog, ya que noté que muchas veces no lo hacia muy a menudo por que al llegar a la consola de administración de Wordpress, habia que dar bastantes clicks para llegar al menu de "Posts", además de que cada vez que entraba había un plugin diferente que actualizar, y verificar que nada se rompiera con las nuevas actualizaciónes, en pocas palabras hay que darle bastante mantenimiento a un sitio con Wordpress, y además de eso había que dedicarse a escribir el post.  
+Estoy intentando escribir un poco más en mi blog, ya que noté que muchas veces no lo hacia muy a menudo por que al llegar a la consola de administración de Wordpress, habia que dar bastantes clicks para llegar al menu de "Posts", además de que cada vez que entraba había un plugin diferente que actualizar, y verificar que nada se rompiera con las nuevas actualizaciónes, en pocas palabras hay que darle bastante mantenimiento a un sitio con Wordpress, y además de eso había que dedicarse a escribir el post.
 
 Otra razón por lo que opté hacer el cambio de plataforma, es que al estar tratando de convertirme en DevOps, es necesario, desde mi punto de vista; tratar automatizar/scriptear la mayoria de tus tareas que realizas día a día, y con [Hugo](https://gohugo.io/ "Hugo") considero que se puede realizar este objetivo también.
 
 ## 1.1 Consideraciones
 
-Una vez que decidí migrarme de Wordpress, el siguiente paso era decidir a que plataforma mudarme. 
+Una vez que decidí migrarme de Wordpress, el siguiente paso era decidir a que plataforma mudarme.
 De entrada la plataforma que queria probar era un [Static Site Generator](https://en.wikipedia.org/wiki/Static_web_page), aqui otro [link](https://learn.cloudcannon.com/jekyll/why-use-a-static-site-generator/) de por que usar un Static Site Generator.
 
 Partiendo de lo anterior, las opciones que me parecieron interesantes fueron:
@@ -112,7 +112,7 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
     ```
 
 3. Crearemos un nuevo sitio usando el comando hugo
-    
+
     ```shell
     luiscachog@dev-server:~$ hugo new site luiscachog.io
     Congratulations! Your new Hugo site is created in /home/luiscachog/sites/luiscachog.io.
@@ -135,7 +135,7 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
     luiscachog@dev-server:~$ cd luiscachog.io
     luiscachog@dev-server:~$ ls
     archetypes  config.toml  content  data  layouts  static  themes
-    luiscachog@dev-server:~$ tree 
+    luiscachog@dev-server:~$ tree
     .
     ├── archetypes
     │   └── default.md
@@ -168,7 +168,7 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
 
     ```shell
     git init
-    git submodule add https://github.com/k4ch0/gohugo-theme-ananke.git themes/ananke
+    git submodule add https://github.com/luiscachog/gohugo-theme-ananke.git themes/ananke
     # Edit your config.toml configuration file
     # and add the new theme.
 
@@ -233,7 +233,7 @@ Ahora, para tener el repositorio publico, tenemos que [crear](https://help.githu
 ```shell
 luiscachog@dev-server:~$ git add *
 luiscachog@dev-server:~$ git commit -m "First commit"
-luiscachog@dev-server:~$ git remote add origin https://github.com/k4ch0/luiscachog.io
+luiscachog@dev-server:~$ git remote add origin https://github.com/luiscachog/luiscachog.io
 luiscachog@dev-server:~$ git push -u origin master
 ```
 
@@ -247,10 +247,10 @@ En nuestro servidor productivo haremos:
 ```shell
 admin@prod-server:~$ mkdir sites
 admin@prod-server:~$ cd sites
-admin@prod-server:~$ git clone --bare https://github.com/k4ch0/luiscachog.io  luiscachog.io.git
+admin@prod-server:~$ git clone --bare https://github.com/luiscachog/luiscachog.io  luiscachog.io.git
 ```
 
-### 2.5.1 Configuración del hook 
+### 2.5.1 Configuración del hook
 
 1. Ya que tenemos nuestro repositorio tipo bare en el servidor productivo vamos a crear el script que mandará a llamar el hook de git.
 
@@ -297,7 +297,7 @@ admin@prod-server:~$ git clone --bare https://github.com/k4ch0/luiscachog.io  lu
     Cloning into '/var/www/vhosts/luiscachog.io/working_hugo'...
     done.
     0 draft content
-    0 future content 
+    0 future content
     4 pages created
     0 paginator pages created
     0 tags created
@@ -327,8 +327,8 @@ Puedes verificar los repositorios remotos con el comando:
 
 ```shell
 luiscachog@dev-server:~$ git remote -v
-origin  git@github.com:k4ch0/luiscachog.io.git (fetch)
-origin  git@github.com:k4ch0/luiscachog.io.git (push)
+origin  git@github.com:luiscachog/luiscachog.io.git (fetch)
+origin  git@github.com:luiscachog/luiscachog.io.git (push)
 prod    admin@IP_servidor_productivo:luiscachog.io.git (fetch)
 prod    admin@IP_servidor_productivo:luiscachog.io.git (push)
 ```
@@ -357,25 +357,25 @@ remote: done.
 remote: Cloning into '/var/www/vhosts/luiscachog.io/working_hugo/themes/hugo-future-imperfect'...
 remote: INFO 2018/03/01 03:12:34 Using config file: /var/www/vhosts/luiscachog.io/working_hugo/config.toml
 remote: Building sites … INFO 2018/03/01 03:12:34 syncing static files to /var/www/vhosts/luiscachog.io/public_html/
-remote: 
-remote:                    | EN  
+remote:
+remote:                    | EN
 remote: +------------------+----+
 remote:   Pages            | 10
-remote:   Paginator pages  |  0  
-remote:   Non-page files   |  0  
-remote:   Static files     |  3  
-remote:   Processed images |  0  
-remote:   Aliases          |  1  
-remote:   Sitemaps         |  1  
-remote:   Cleaned          |  0  
-remote: 
+remote:   Paginator pages  |  0
+remote:   Non-page files   |  0
+remote:   Static files     |  3
+remote:   Processed images |  0
+remote:   Aliases          |  1
+remote:   Sitemaps         |  1
+remote:   Cleaned          |  0
+remote:
 remote: Total in 44 ms
 To admin@IP_servidor_productivo:luiscachog.io.git
    d5b0671..cvc4dee  master -> master
 ```
 
 
-Listo ya podemos probar nuestro sitio 
+Listo ya podemos probar nuestro sitio
 
 ```shell
 http://luiscachog.io

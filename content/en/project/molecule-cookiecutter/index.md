@@ -27,19 +27,19 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: "https://github.com/k4ch0/cookiecutter-molecule"
+url_code: "https://github.com/luiscachog/cookiecutter-molecule"
 url_pdf: ""
 url_slides: ""
 url_video: ""
 
 links:
 - name: Molecule Cookiecutter
-  url: https://github.com/k4ch0/cookiecutter-molecule
+  url: https://github.com/luiscachog/cookiecutter-molecule
   icon_pack: fab
   icon: github
 
 - name: Molecule
-  url: https://github.com/k4ch0/cookiecutter-molecule
+  url: https://github.com/luiscachog/cookiecutter-molecule
   icon_pack: fab
   icon: github
 

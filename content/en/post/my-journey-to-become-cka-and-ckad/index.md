@@ -9,9 +9,9 @@ authors: [ luiscachog ]
 tags: [ Kubernetes, CKA, CKAD, DevOps, SysAdmin, SRE, Cloud Native]
 categories: [Cloud Native, Sysadmin, DevOps]
 keywords: [ Kubernetes, CKA, CKAD, Cloud Native, Linux Foundation]
-date: 2020-08-05
-publishDate: 2020-08-05
-lastmod: 2020-08-23
+date: 2020-11-26
+publishDate: 2020-11-26
+lastmod: 2020-11-26
 featured: true
 draft: false
 

@@ -66,5 +66,5 @@ subtitle = "a proyectos OpenSource"
 
 <script>
     // or enable responsive functionality:
-    GitHubCalendar(".calendar", "k4ch0", { responsive: true });
+    GitHubCalendar(".calendar", "luiscachog", { responsive: true });
 </script>

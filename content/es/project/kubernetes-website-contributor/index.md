@@ -51,7 +51,7 @@ slides: ""
 
 Contribuidor en el proyecto [Kubernetes](https://kubernetes.io) en diferntes [grupos de interés especial](https://git.k8s.io/community/), principalmente enfocado en documentación y comunidad.
 
-- [Gubernator PR Dashboard](https://gubernator.k8s.io/pr/k4ch0)
+- [Gubernator PR Dashboard](https://gubernator.k8s.io/pr/luiscachog)
 
 ## sig-docs
 

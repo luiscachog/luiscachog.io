@@ -36,7 +36,7 @@ slides:
 ### Security Systems Administrator
 #### [@Rackspace](https://rackspace.com)
 
-[luiscachog.io](https://luiscachog.io) | [@k4ch0](https://twitter.com/k4ch0) | [github.com/k4ch0](https://github.com/k4ch0)
+[luiscachog.io](https://luiscachog.io) | [@luiscachog](https://twitter.com/luiscachog) | [github.com/luiscachog](https://github.com/luiscachog)
 
 ---
 {{< slide background-image="/media/slides/molecule-ansible/Background1.jpg" >}}
@@ -304,7 +304,7 @@ A grandes rasgos las actividades que hace molecule son:
   - Check for idempotence
   - Lint the Ansible and Python code
   - Verify the role against some tests
-- Github Repo: [github.com/k4ch0/elastic_stack](https://github.com/k4ch0/elastic_stack) {{% fragment %}} *(Thanks to GaRaGeD for provide a playbook to test)* {{% /fragment %}}
+- Github Repo: [github.com/luiscachog/elastic_stack](https://github.com/luiscachog/elastic_stack) {{% fragment %}} *(Thanks to GaRaGeD for provide a playbook to test)* {{% /fragment %}}
 
 ___
 ### Molecule Demo
@@ -339,6 +339,6 @@ ___
 
 *You can find me on:*
 
-[luiscachog [at] gmail.com](mailto:luiscachog) | [luiscachog.io](https://luiscachog.io) | [github.com/k4ch0](https://github.com/k4ch0) | [@k4ch0](https://twitter.com/k4ch0)
+[luiscachog [at] gmail.com](mailto:luiscachog) | [luiscachog.io](https://luiscachog.io) | [github.com/luiscachog](https://github.com/luiscachog) | [@luiscachog](https://twitter.com/luiscachog)
 
 {{% /section %}}

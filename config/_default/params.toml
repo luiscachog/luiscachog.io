@@ -76,7 +76,7 @@ privacy_pack = true
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/k4ch0/luiscachog.io", repo_branch = "devel", editable = {docs = true, page = false, post = true}}
+edit_page = {repo_url = "https://github.com/luiscachog/luiscachog.io", repo_branch = "devel", editable = {docs = true, page = false, post = true}}
 
 # Show related content at the bottom of pages?
 show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
@@ -111,11 +111,11 @@ appointment_url = "https://calendly.com/luiscachog"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  # {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/k4ch0"},
+  # {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/luiscachog"},
   # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
   # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/luiscachog"},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://forum.luiscachog.io"},
-  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/k4ch0"},
+  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/luiscachog"},
   ]
 
 ############################
@@ -126,7 +126,7 @@ contact_links = [
 sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = "k4ch0"
+twitter = "luiscachog"
 
 ############################
 ## Regional Settings

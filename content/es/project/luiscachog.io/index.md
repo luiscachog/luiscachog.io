@@ -19,13 +19,13 @@ image:
  preview_only: false
 
 # Links
-url_code: https://github.com/k4ch0/luiscachog.io
+url_code: https://github.com/luiscachog/luiscachog.io
 url_pdf: ""
 url_slides: ""
 url_video: ""
 links:
 - name: Github
-  url: https://github.com/k4ch0/luiscachog.io
+  url: https://github.com/luiscachog/luiscachog.io
   icon_pack: fab
   icon: github
 
@@ -35,7 +35,7 @@ slides: ""
 
 Sitio éstatico de luiscachog.io usando:
 
-- [Hugo](http://gohugo.io/) 
+- [Hugo](http://gohugo.io/)
 - [Academic](https://sourcethemes.com/academic/)
 - [Netlify](https://netlify.com)
 

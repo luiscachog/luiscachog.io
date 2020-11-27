@@ -74,7 +74,7 @@ After a successful ```docker login``` command, Docker stores a base64 encoded st
 
 ```shell
 $ echo azRjaDA6c3VwZXJzZWNyZXRwYXNzd29yZAo= | base64 -d -
-k4ch0:supersecretpassword
+luiscachog:supersecretpassword
 ```
 
 A ```docker logout``` command removes the entry from the JSON file for the given registry:
