@@ -3,7 +3,7 @@
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 199  # Order that this section will appear.
+weight = 50  # Order that this section will appear.
 
 title = ""
 
@@ -34,7 +34,7 @@ hero_media = ""
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "files/resume.pdf"
+  url = "media/files/resume.pdf"
   label = "  Dowload Resume in PDF format"
   icon_pack = "fas"
   icon = "user-tie"
