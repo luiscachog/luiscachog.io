@@ -58,7 +58,7 @@ subtitle = ""
   description = ""
 
 [[feature]]
-  icon = "cloud-sun"
+  icon = "grin"
   icon_pack = "fas"
   name = "Optimistic"
   description = ""

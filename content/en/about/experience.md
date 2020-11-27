@@ -8,6 +8,10 @@ weight = 30  # Order that this section will appear.
 title = "Professional Experience"
 subtitle = "Highlights from my employment history"
 
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "2"
+
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
@@ -18,7 +22,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 
 [[experience]]
-  title = "Security Systems Administrator III"
+  title = "Security Systems Administrator"
   company = "Rackspace Technology"
   company_url = "https://www.rackspace.com"
   location = "San Antonio, TX"
