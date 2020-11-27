@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: " "
 
 # View.
 #   1 = List
@@ -13,4 +13,5 @@ header:
   image: ""
 
 aliases: "/blog/"
+
 ---

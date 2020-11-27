@@ -77,9 +77,9 @@ social:
     link: https://www.redhat.com/rhtapps/services/verify?certId=140-122-987
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  - icon: linux
-    icon_pack: fab
-    link: files/resume.pdf
+  # - icon: linux
+  #   icon_pack: fab
+  #   link: media/files/resume.pdf
   - icon: envelope
     icon_pack: fas
     link: "mailto:luiscachog@gmail.com" # For a direct email link, use "mailto:test@example.org".

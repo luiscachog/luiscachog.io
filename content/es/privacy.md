@@ -7,7 +7,7 @@ commentable: false
 editable: false
 disablefeed: true
 
-# Optional header image (relative to `static/media/` folder).
+# Optional header image (relative to `static/img/` folder).
 header:
   caption: ""
   image: ""

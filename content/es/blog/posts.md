@@ -9,7 +9,6 @@ weight = 10  # Order that this section will appear.
 
 title = "Artículos Recientes"
 subtitle = ""
-identifier = "posts"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

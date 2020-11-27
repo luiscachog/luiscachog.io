@@ -5,7 +5,7 @@ active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
 title = "Contribuciones"
-subtitle = "a proyectos OpenSource"
+subtitle = "a proyectos Opensource"
 # ... Put Your Section Options Here (title etc.) ...
 
 [design]

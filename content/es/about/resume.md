@@ -3,7 +3,7 @@
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 199  # Order that this section will appear.
+weight = 50  # Order that this section will appear.
 
 title = ""
 
@@ -34,8 +34,8 @@ hero_media = ""
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "../files/resume.pdf"
-  label = "  Dowload Resume in PDF format"
+  url = "media/files/resume.pdf"
+  label = "  Descarga mi CV en formato PDF"
   icon_pack = "fas"
   icon = "user-tie"
   align = "center"
@@ -50,6 +50,6 @@ hero_media = ""
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-**Interesado?, Contratame!**
+**¿Interesados?, ¡Contratame!**
 
 <!-- <span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span> -->

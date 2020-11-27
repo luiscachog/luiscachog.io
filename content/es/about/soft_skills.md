@@ -2,10 +2,10 @@
 # A Skills section created with the Featurette widget.
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 15  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 40  # Order that this section will appear.
 
-title = "Fortalezas"
+title = "Habilidades Interpersonales"
 subtitle = ""
 
 
@@ -18,14 +18,14 @@ subtitle = ""
   # gradient_end = "#2b94c3"
 
   # Background image.
-  image = "backgrounds/strengths.jpg"  # Name of image in `static/media/`.
-  image_darken = 0.7  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  # image = "backgrounds/strengths.jpg"  # Name of image in `static/media/`.
+  image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
-  image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
+  image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
 
   # Text color (true=light or false=dark).
-  text_color_light = true
+  text_color_light = false
 
 # Showcase personal skills or business features.
 #
@@ -42,7 +42,7 @@ subtitle = ""
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Enfocado a Resultados"
+  name = "Orientado a Resultados"
   description = ""
 
 [[feature]]
@@ -54,11 +54,11 @@ subtitle = ""
 [[feature]]
   icon = "laptop-code"
   icon_pack = "fas"
-  name = "Solución de Problemas"
+  name = "Solucionador de Problemas"
   description = ""
 
 [[feature]]
-  icon = "cloud-sun"
+  icon = "grin"
   icon_pack = "fas"
   name = "Optimista"
   description = ""
