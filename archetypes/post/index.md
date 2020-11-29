@@ -5,7 +5,7 @@ title: "{{ replace .Name "-" " " | title }}"
 url: "/{{ .Name | title | urlize }}"
 subtitle: ""
 summary: ""
-authors: [ luis ]
+authors: [ luiscachog ]
 tags: []
 categories: []
 keywords: []

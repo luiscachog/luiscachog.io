@@ -1,0 +1,80 @@
+/* FOOTER */
+
+footer {
+  font-family: 'Raleway', sans-serif;
+  background-color:#f3f3f3;
+}
+
+.fa-heart {
+  color: #e31b23;
+}
+
+/* Landing Author */
+
+.home_landing {
+  height: 90vh;
+  padding: 0;
+  margin: 0;
+  color: #f9fafc;
+  overflow: hidden;
+}
+
+.background_landing {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed;
+  transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  background-size: cover;
+}
+
+.content_landing {
+  position: relative;
+  top: -75%;
+  height: 60%;
+}
+
+.home img {
+  width: 160px;
+  height: 160px;
+  background-color: #e7e7ef;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.home_landing .greeting {
+  color: #f9fafc;
+}
+
+.home .typing-carousel {
+  font-size: 20pt;
+  color: #f0f0f0;
+}
+
+#typing-carousel-data {
+  display: none;
+}
+
+.bounce {
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}

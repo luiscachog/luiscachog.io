@@ -47,7 +47,7 @@ org_name = ""
 description = ""
 
 # Display a logo in navigation bar rather than title (optional).
-#   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
+#   To enable, place an image in `static/media/` and reference its filename below. To disable, set the value to "".
 # logo = "lc-profile.png"
 logo = ""
 
@@ -72,11 +72,14 @@ diagram = true
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
-privacy_pack = false
+privacy_pack = true
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/k4ch0/luiscachog.io", repo_branch = "blog", editable = {docs = true, page = false, post = false}}
+edit_page = {repo_url = "https://github.com/luiscachog/luiscachog.io", repo_branch = "devel", editable = {docs = true, page = false, post = true}}
+
+# Show related content at the bottom of pages?
+show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
 
 ############################
 ## Contact details
@@ -108,22 +111,22 @@ appointment_url = "https://calendly.com/luiscachog"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  # {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/k4ch0"},
+  # {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/luiscachog"},
   # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
   # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/luiscachog"},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://forum.luiscachog.io"},
-  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/k4ch0"},
+  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/luiscachog"},
   ]
 
 ############################
 ## Social
 ############################
 
-# Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+# Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
 sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = "k4ch0"
+twitter = "luiscachog"
 
 ############################
 ## Regional Settings
@@ -147,7 +150,7 @@ list_delimiter = ", "
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "c", show_logo = true}
+main_menu = {align = "r", show_logo = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -159,14 +162,21 @@ docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
 
+# Show a copyright license from creativecommons.org in the site footer?
+# Page specific copyright licenses are also possible by adding this option to a page's front matter.
+copyright_license = {enable = true, allow_derivatives = true, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
+
+# Highlight the site author (superuser) in author lists? (true/false)
+highlight_superuser = false
+
 # Link authors to their profile page? (true/false)
 link_authors = true
 
 # Load CSS and JS plugins
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = []
-plugins_js  = []
+plugins_css = ["custom"]
+plugins_js  = [ "landing_author", "itype.min", "matrix" ]
 
 # Avatars.
 # An avatar is an image that appears next to a user's name.
@@ -263,6 +273,19 @@ plugins_js  = []
   google_analytics = "UA-114918521-1"
   google_tag_manager = "GTM-MQT2RQ4"
 
+############################
+## Content Management System
+############################
+[cms]
+  # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
+  netlify_cms = false
+
+############################
+## Icon Pack Extensions
+############################
+[icon.pack]
+  ai = false  # Academicons icon pack https://jpswalsh.github.io/academicons/
+
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
@@ -273,3 +296,13 @@ plugins_js  = []
 
 enableRobotsTXT = true
 canonifyURLs = true
+
+# FOOTER PARAMETERS
+[footer]
+  footmark = "footers/feymanfooter.png"
+  left_logo= "footers/cka.png"
+  right_logo= "footers/hecho_en_mexico.png"
+legalblurb = "All opinions expressed here are my own and do not necessarily represent those of any other agencies or groups."
+
+# HEADER PARAMETERS
+watermark = "backgrounds/Bundle3.jpg"
