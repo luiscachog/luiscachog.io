@@ -3,13 +3,11 @@
 title: Luis Cacho
 nickname: Luis
 
-
 # Username (this should match the folder name)
 authors:
   - luiscachog
 
-
-landing_greeting: Hola, soy Luis!
+landing_greeting: Hey, I'm Luis!
 
 # Is this the primary user of the site?
 superuser: true
@@ -27,21 +25,21 @@ organizations:
     url: "https://www.meetup.com/San-Antonio-HashiCorp-User-Group"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Administrador de Seguridad de Sistemas en Rackspace | Entusiasta de Kubernetes | Ninja de Ansible
+bio: Security Systems Administrator at Rackspace | DevOps Practitioner | Kubernetes Enthusiast | Ansible Ninja | Data Science Newbie
 
 interests:
-  - Automatización
-  - Ciencia de Datos
-  - Ingeniería del Caos
+  - Automation
+  - Chaos Engineering
   - Cloud Native
-  - Software Libre
+  - Data Science
+  - Open Source
   - Site Reliabilty Engineering
 
 home_description:
-  - Soy un orgulloso padre
-  - Soy un practicante de metodologías DevOps
-  - Trabajo con herramientas de Cloud Native
-  - Me gusta trabajar en proyectos divertidos
+  - I am a proud Father
+  - I am DevOps practioner
+  - I work with Cloud Native tools
+  - I love to work with some fun projects
 
 # education:
 #   courses:
@@ -77,9 +75,9 @@ social:
     link: https://www.redhat.com/rhtapps/services/verify?certId=140-122-987
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # - icon: linux
-  #   icon_pack: fab
-  #   link: media/files/resume.pdf
+  - icon: linux
+    icon_pack: fab
+    link: media/files/resume.pdf
   - icon: envelope
     icon_pack: fas
     link: "mailto:luiscachog@gmail.com" # For a direct email link, use "mailto:test@example.org".
@@ -96,10 +94,24 @@ user_groups:
   - DevOps
 ---
 
-#### \$whoami
+##### \$whoami
 
-Soy Administrator de Seguridad de Sistemas con habilidades de Cloud/DevOps/Seguridad, estoy trabajando para [Rackspace](https://rackspace.com), donde me enfoco principalmente en aprender y aplicar las técnicas de Cloud Native en ambientes multicloud usando metódologias ágiles.
-Soy contribuidor de [proyectos de Software Libre](#projects) y me defino a mi mismo como un entusiasta de Linux que ama trabajar y exprimentar con tecnologías de Software Libre mientras aprendo y trato de aplicar las mejores prácticas.
-Aprendo cosas nuevas cada día y me gusta compartirlo en este blog. Algunas veces escribo acerca de ello.
+I'm a proud father of Emma, dedicated husband of [Ale](https://twitter.com/4l381), avid soccer fanatic, beer lover, and fond of all things GNU/Linux related.
 
-:us: :dog: :video_game: :football: :soccer:
+I'm a Security Systems Administrator with Cloud/DevOps/Security skills working at [Rackspace](https://rackspace.com).
+
+As today I consider myself a Technologist. I have become knowledgeable in many areas of systems, cloud computing, and various other fields like:
+  - Linux Servers
+  - Cloud Computing
+  - Operating Systems
+  - IaC (Infrastructure as Code)
+  - Networking
+  - Cloud Native technologies
+
+Actively contributing to [Open Source projects](/projects) as well as learn new stuff every day and I would try to share in this blog.
+
+I enjoy attend meetups and events to learn about new technologies, talk with interesting people and exchange stickers.
+
+I’m active on LinkedIn and Github, and occassionally on Twitter.
+
+:mexico: :us: :dog: :video_game: :football: :soccer: :baby:

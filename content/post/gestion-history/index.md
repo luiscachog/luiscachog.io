@@ -6,12 +6,12 @@ url: "/gestion-de-history"
 subtitle: "Como mejorar el log histórico de tu shell"
 summary: "Como mejorar el histórico de tu shell"
 authors: [ luiscachog ]
-tags: [ Shell, Bash, Zsh, Linux ]
-categories: [ Shell, Linux ]
+tags: [ Shell, Bash, Zsh, Linux, Spanish ]
+categories: [ Shell, Linux, Spanish ]
 keywords: [ Shell, Bash, Zsh, Linux, Configuration ]
 date: 2019-12-03
 publishDate: 2019-12-03
-lastmod: 2019-12-09
+lastmod: 2020-11-28
 featured: true
 draft: false
 
@@ -91,7 +91,7 @@ HISTFILESIZE=5000
 HISTFILE=/root/.bash_hist-$(who am i | awk '{print $1}';exit)
 ```
 
-Con esto se guardará en el home de del usuario root un archivo de logs histórico por cada uno de los usuarios que se hayan pasado a root. El tamaño se puede ampliar o reducir a gusto. También podemos poner que ignore duplicados. 
+Con esto se guardará en el home de del usuario root un archivo de logs histórico por cada uno de los usuarios que se hayan pasado a root. El tamaño se puede ampliar o reducir a gusto. También podemos poner que ignore duplicados.
 
 Todas estas variables debemos ponerlas en un archivo donde se activen al arranque que puede ser ```~/.bashrc```.
 

@@ -6,12 +6,12 @@ url: "/deployment-hugo-site-git-hooks"
 subtitle: "Como realizar un deployment de un sitio con Hugo automaticamente usando Git Hooks"
 summary: "Como realizar un deployment de un sitio con Hugo automaticamente usando Git Hooks"
 authors: [ luiscachog ]
-tags: [ Hugo, Git, Open Source]
-categories: [ Linux, SysAdmin, DevOps, Open Source]
+tags: [ Hugo, Git, Open Source, Spanish ]
+categories: [ Linux, SysAdmin, DevOps, Open Source, Spanish]
 keywords: [ Hugo,DevOps, Open Source ]
 date: 2018-03-05
 publishDate: 2018-03-05
-lastmod: 2019-11-17
+lastmod: 2020-11-28
 featured: true
 draft: false
 
