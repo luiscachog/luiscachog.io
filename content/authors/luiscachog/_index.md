@@ -25,7 +25,7 @@ organizations:
     url: "https://www.meetup.com/San-Antonio-HashiCorp-User-Group"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Security Systems Administrator at Rackspace | DevOps Practitioner | Kubernetes Enthusiast | Ansible Ninja | Data Science Newbie
+bio: Security Systems Administrator at Rackspace | DevOps Practitioner | Kubernetes Enthusiast | Ansible Ninja | Data Science Noob
 
 interests:
   - Automation
@@ -38,8 +38,9 @@ interests:
 home_description:
   - I am a proud Father
   - I am DevOps practioner
-  - I work with Cloud Native tools
-  - I love to work with some fun projects
+  - I work on Cloud-Native security projects
+  - I love Automation
+
 
 # education:
 #   courses:
