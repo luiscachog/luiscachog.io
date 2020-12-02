@@ -50,6 +50,10 @@ subtitle = ""
   image = "training-badges/aws_sysops.png"
   caption = "Certified Sysops Administrator - Associate"
 
+[[gallery_item]]
+  album = "training-badges"
+  image = "training-badges/cf_ace.png"
+  caption = "Accredited Cloudflare Configuration Engineer"
 
 [[gallery_item]]
   album = "training-badges"
@@ -90,6 +94,8 @@ subtitle = ""
   album = "training-badges"
   image = "training-badges/la_devops.png"
   caption = "Certificate of Completion DevOps"
+
+
 
 +++
 {{< gallery album="training-badges">}}
