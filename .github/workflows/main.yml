@@ -38,10 +38,9 @@ jobs:
       run: hugo --minify
 
     - name: update algolia index
-      uses: k4ch0/algolia-update-index-action@master
+      uses: luiscachog/algolia-update-index-action@master
       with:
         algolia_app_id: '${{ secrets.ALGOLIA_APP_ID }}'
         algolia_apikey: '${{ secrets.ALGOLIA_APIKEY }}'
-        algolia_index_name: '${{ secrets.ALGOLIA_INDEX_NAME }}' 
+        algolia_index_name: '${{ secrets.ALGOLIA_INDEX_NAME }}'
         file: 'public/index.json'
-      
