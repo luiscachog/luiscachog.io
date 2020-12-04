@@ -95,7 +95,10 @@ subtitle = ""
   image = "training-badges/la_devops.png"
   caption = "Certificate of Completion DevOps"
 
-
+[[gallery_item]]
+  album = "training-badges"
+  image = "training-badges/rax_cloudu.png"
+  caption = "CloudU Certificate"
 
 +++
 {{< gallery album="training-badges">}}
