@@ -4,7 +4,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 45  # Order that this section will appear.
 
-title = "Training training-badges"
+title = "Training Badges"
 subtitle = ""
 
 [design]
@@ -54,6 +54,11 @@ subtitle = ""
   album = "training-badges"
   image = "training-badges/cf_ace.png"
   caption = "Accredited Cloudflare Configuration Engineer"
+
+[[gallery_item]]
+  album = "training-badges"
+  image = "training-badges/cf_ase.png"
+  caption = "Accredited Cloudflare Sales Engineer"
 
 [[gallery_item]]
   album = "training-badges"
