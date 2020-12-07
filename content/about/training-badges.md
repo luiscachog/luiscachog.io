@@ -72,6 +72,16 @@ subtitle = ""
 
 [[gallery_item]]
   album = "training-badges"
+  image = "training-badges/rht_do407.png"
+  caption = "Certificate of Attendance DO407"
+
+[[gallery_item]]
+  album = "training-badges"
+  image = "training-badges/rht_cl110.png"
+  caption = "Certificate of Attendance CL110"
+
+[[gallery_item]]
+  album = "training-badges"
   image = "training-badges/udemy_cka.jpg"
   caption = "Certificate of Completion CKAD"
 
