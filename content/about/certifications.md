@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
 title = "Certifications"
-subtitle = "[Training Badges](/badges/)"
+subtitle = "[Training Badges](#training-badges)"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
