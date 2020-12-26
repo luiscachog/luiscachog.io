@@ -1,61 +1,56 @@
-# This is a basic workflow to help you get started with Actions
-
-name: main workflow
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+# Image Actions will run in the following scenarios:
+# - on Pull Requests containing images (not including forks)
+# - on pushing of images to `main` (for forks)
+# - on demand (https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/)
+# - at 11 PM every Sunday in anything gets missed with any of the above scenarios
+# For Pull Requests, the images are added to the PR.
+# For other scenarios, a new PR will be opened if any images are compressed.
+name: Compress images
 on:
-  push:
-    branches:
-      - master
+  pull_request:
     paths:
       - '**.jpg'
       - '**.jpeg'
       - '**.png'
       - '**.webp'
-  pull_request:
-    branches: [ master ]
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+  push:
+    branches:
+      - main
+    paths:
+      - '**.jpg'
+      - '**.jpeg'
+      - '**.png'
+      - '**.webp'
+  workflow_dispatch:
+  schedule:
+    - cron: '00 23 * * 0'
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    name: optimize images + algolia search
-    # The type of runner that the job will run on
+    name: calibreapp/image-actions
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    # Only run on main repo on and PRs that match the main repo.
+    if: |
+      github.repository == 'luiscachog/luiscachog.io' &&
+      (github.event_name != 'pull_request' ||
+       github.event.pull_request.head.repo.full_name == github.repository)
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - name: checkout code
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-        submodules: true
-        lfs: true
-
-    - name: compress images
-      uses: calibreapp/image-actions@master
-      with:
-        githubToken: ${{ secrets.GITHUB_TOKEN }}
-        jpegQuality: '90'
-        jpegProgressive: false
-        pngQuality: '90'
-        webpQuality: '90'
-
-    - name: setup hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: '0.74.2'
-        extended: true
-
-    - name: build site
-      run: hugo --minify
-
-    - name: update algolia index
-      uses: luiscachog/algolia-update-index-action@master
-      with:
-        algolia_app_id: '${{ secrets.ALGOLIA_APP_ID }}'
-        algolia_apikey: '${{ secrets.ALGOLIA_APIKEY }}'
-        algolia_index_name: '${{ secrets.ALGOLIA_INDEX_NAME }}'
-        file: 'public/index.json'
+      - name: Checkout Branch
+        uses: actions/checkout@v2
+      - name: Compress Images
+        id: calibre
+        uses: calibreapp/image-actions@main
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          # For non-Pull Requests, run in compressOnly mode and we'll PR after.
+          compressOnly: ${{ github.event_name != 'pull_request' }}
+      - name: Create Pull Request
+        # If it's not a Pull Request then commit any changes as a new PR.
+        if: |
+          github.event_name != 'pull_request' &&
+          steps.calibre.outputs.markdown != ''
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: Auto Compress Images
+          branch-suffix: timestamp
+          commit-message: Compress Images
+          body: ${{ steps.calibre.outputs.markdown }}
