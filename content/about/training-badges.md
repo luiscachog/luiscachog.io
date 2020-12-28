@@ -17,103 +17,75 @@ subtitle = ""
 
 [[gallery_item]]
   album = "training-badges"
-  image = "training-badges/rh_ansible_best_practices.png"
+  image = "galleries/badges/rh_ansible_best_practices.png"
   caption = "Red Hat Certified Specialist in Ansible Best Practices"
 
 [[gallery_item]]
   album = "training-badges"
-  image = "training-badges/rh_ansible_automation.png"
+  image = "galleries/badges/rh_ansible_automation.png"
   caption = "Red Hat Certified Specialist in Ansible Automation"
 
 [[gallery_item]]
   album = "training-badges"
-  image = "training-badges/rhce.png"
+  image = "galleries/badges/rhce.png"
   caption = "Red Hat Certified Engineer"
 
 [[gallery_item]]
   album = "training-badges"
-  image = "training-badges/rhcsa.png"
+  image = "galleries/badges/rhcsa.png"
   caption = "Red Hat Certified System Administrator"
 
 [[gallery_item]]
   album = "training-badges"
-  image = "training-badges/lf_ckad.png"
-  caption = "Certified Kubernetes Application Developer"
+  image = "galleries/badges/cf_asp.png"
+  caption = "Accredited Cloudflare Sales Professional"
 
 [[gallery_item]]
   album = "training-badges"
-  image = "training-badges/lf_cka.png"
-  caption = "Certified Kubernetes Administrator"
-
-[[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/aws_sysops.png"
-  caption = "Certified Sysops Administrator - Associate"
-
-[[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/cf_ace.png"
-  caption = "Accredited Cloudflare Configuration Engineer"
-
-[[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/cf_ase.png"
+  image = "galleries/badges/cf_ase.png"
   caption = "Accredited Cloudflare Sales Engineer"
 
 [[gallery_item]]
   album = "training-badges"
-  image = "training-badges/rht_do180.png"
-  caption = "Certificate of Attendance DO180"
+  image = "galleries/badges/cf_ace.png"
+  caption = "Accredited Cloudflare Configuration Engineer"
 
 [[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/rht_do280.png"
-  caption = "Certificate of Attendance DO280"
+  album = "training-certs"
+  image = "galleries/certificates/lf_ckad.png"
+  caption = "Certified Kubernetes Application Developer"
 
 [[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/rht_do407.png"
-  caption = "Certificate of Attendance DO407"
+  album = "training-certs"
+  image = "galleries/certificates/lf_cka.png"
+  caption = "Certified Kubernetes Administrator"
 
 [[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/rht_cl110.png"
-  caption = "Certificate of Attendance CL110"
+  album = "training-certs"
+  image = "galleries/certificates/aws_sysops.png"
+  caption = "Certified Sysops Administrator - Associate"
 
 [[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/udemy_cka.jpg"
-  caption = "Certificate of Completion CKAD"
+  album = "training-certs"
+  image = "galleries/certificates/cf_asp.png"
+  caption = "Accredited Cloudflare Sales Professional"
 
 [[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/udemy_cka.jpg"
-  caption = "Certificate of Completion CKAD"
+  album = "training-certs"
+  image = "galleries/certificates/cf_ase.png"
+  caption = "Accredited Cloudflare Sales Engineer"
 
 [[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/udemy_aws_sysops.jpg"
-  caption = "Certificate of Completion AWS Sysops"
+  album = "training-certs"
+  image = "galleries/certificates/cf_ace.png"
+  caption = "Accredited Cloudflare Configuration Engineer"
 
 [[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/udemy_zsh.jpg"
-  caption = "Certificate of Completion ZSH poweruser"
-
-[[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/la_aws.png"
-  caption = "Certificate of Completion AWS Concepts"
-
-[[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/la_devops.png"
-  caption = "Certificate of Completion DevOps"
-
-[[gallery_item]]
-  album = "training-badges"
-  image = "training-badges/rax_cloudu.png"
-  caption = "CloudU Certificate"
+  album = "training-certs"
+  image = "galleries/certificates/cf_asa.png"
+  caption = "Accredited Cloudflare Services Architech"
 
 +++
 {{< gallery album="training-badges">}}
+
+{{< gallery album="training-certs">}}
