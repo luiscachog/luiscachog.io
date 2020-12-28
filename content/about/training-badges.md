@@ -51,6 +51,21 @@ subtitle = ""
   caption = "Accredited Cloudflare Configuration Engineer"
 
 [[gallery_item]]
+  album = "training-badges"
+  image = "galleries/badges/lf_ckad.png"
+  caption = "Certified Kubernetes Application Developer"
+
+[[gallery_item]]
+  album = "training-badges"
+  image = "galleries/badges/lf_cka.png"
+  caption = "Certified Kubernetes Administrator"
+
+[[gallery_item]]
+  album = "training-badges"
+  image = "galleries/badges/aws_sysops_associate.png"
+  caption = "Certified Sysops Administrator - Associate"
+
+[[gallery_item]]
   album = "training-certs"
   image = "galleries/certificates/lf_ckad.png"
   caption = "Certified Kubernetes Application Developer"
@@ -62,7 +77,7 @@ subtitle = ""
 
 [[gallery_item]]
   album = "training-certs"
-  image = "galleries/certificates/aws_sysops.png"
+  image = "galleries/certificates/aws_sysops_associate.png"
   caption = "Certified Sysops Administrator - Associate"
 
 [[gallery_item]]
