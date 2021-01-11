@@ -6,7 +6,7 @@ url: "/build-a-dynamc-dns-client-with-rackspace-api"
 subtitle: "How to Build a Dynamic DNS via API"
 summary: "How to Build a Dynamic DNS via API"
 authors: [ luiscachog ]
-tags: [ API, DevOps, DNS, Rackspace Public Cloud]
+tags: [ API, DevOps, DNS, Rackspace]
 categories: [ DevOps, Rackspace, SysAdmin ]
 keywords: [ API, DevOps, Rackspace, SysAdmin, DNS ]
 date: 2016-04-11
@@ -34,9 +34,9 @@ projects: []
 This time I've want to create a homemade Server with my Raspberry Pi2 and publish it using my own sub-domain, the main problem is that the ISP provide me an dynamic IP and we should ensure that if my IP address change the sub-domain record should point to the new IP.
 
 The instructions assume that you:
-  
+
 - Have a domain
-  
+
 - Have already changed your NS records to point to dns1.stabletransit.com and dns2.stabletransit.com.
 
 1. You should download the latest version of rsdns from github
@@ -52,7 +52,7 @@ git clone https://github.com/linickx/rsdns.git
 
 ```shell
 #!/bin/bash
-RSUSER=lcacho 
+RSUSER=lcacho
 RSAPIKEY=1234567890
 RSPATH=~/bin/rsdns/
 ```

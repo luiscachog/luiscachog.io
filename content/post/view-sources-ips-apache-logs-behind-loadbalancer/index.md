@@ -6,7 +6,7 @@ url: "/view-sources-ips-apache-logs-behind-loadbalancer"
 subtitle: "How to configure Apache Logs to view the source IP's when it is behind a Load Balancer"
 summary: "How to configure Apache Logs to view the source IP's when it is behind a Load Balancer"
 authors: [ luiscachog ]
-tags: [ DevOps, Apache, LoadBalancer, Rackspace Public Cloud ]
+tags: [ DevOps, Apache, LoadBalancer, Rackspace ]
 categories: [ Linux, SysAdmin, Rackspace, Cloud ]
 keywords: [ Apache, Logs, LoadBalancer, Rackspace ]
 date: 2015-02-13
@@ -31,9 +31,9 @@ image:
 projects: []
 ---
 When you use the Rackspace Cloud Load Balancers, it is common that the IP logged in Apache is the Private IP (ServiceNet) from the Cloud Load Balancer, however, we can fix that.
-  
+
 We can view sources IP's in Apache Logs doing some changes on Apache configuration file and also on the vhosts configuration files.
-  
+
 On your Apache configuration file, you should to find the line:
 
 ```shell

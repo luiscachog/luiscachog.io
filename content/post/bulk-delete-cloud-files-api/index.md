@@ -6,7 +6,7 @@ url: "/bulk-delete-cloud-files-api"
 subtitle: "How to delete the Data and Cloud Files Containers using Rackspace Cloud Files API, cURL and Turbolift"
 summary: "How to delete the Data and Cloud Files Containers using Rackspace Cloud Files API, cURL and Turbolift"
 authors: [ luiscachog ]
-tags: [ Openstack, DevOps, SysAdmin, Turbolift, Open Source, Rackspace Public Cloud, Cloud Files ]
+tags: [ Openstack, DevOps, SysAdmin, Turbolift, Open Source, Rackspace, Cloud Files ]
 categories: [ SysAdmin , DevOps, Open Source, Rackspace ]
 keywords: [ Openstack, DevOps, SysAdmin, Turbolift, Open Source, Cloud Files ]
 date: 2019-02-13T13:37:04-06:00
@@ -76,7 +76,7 @@ pip install turbolift
     ```shell
     USERNAME=YOUR-USERNAME
     APIKEY=YOUR-APIKEY
-    TOKEN=$(curl -s -XPOST https://identity.api.rackspacecloud.com/v2.0/tokens \ 
+    TOKEN=$(curl -s -XPOST https://identity.api.rackspacecloud.com/v2.0/tokens \
           -d'{"auth":{"RAX-KSKEY:apiKeyCredentials":{"username":"'$USERNAME'","apiKey":"'$APIKEY'"}}}' \
           -H"Content-type:application/json" | jq '.access.token.id' | tr -d "\"")
     ```
@@ -84,7 +84,7 @@ pip install turbolift
     * Next step, get the ENDPOINT:
 
     ```shell
-    ENDPOINT=$(curl -s -XPOST https://identity.api.rackspacecloud.com/v2.0/tokens \ 
+    ENDPOINT=$(curl -s -XPOST https://identity.api.rackspacecloud.com/v2.0/tokens \
             -d'{"auth":{"RAX-KSKEY:apiKeyCredentials":{"username":"'$CL_USERNAME'","apiKey":"'$APIKEY'"}}}' \
             -H"Content-type:application/json" | jq '.access.serviceCatalog[] | select((.name=="cloudFiles") or (.name=="cloudFilesCDN")) | {name} + .endpoints[] | .publicURL' | tr -d "\"" | grep -v cdn | grep -i $REGION)
     ```
@@ -94,7 +94,7 @@ pip install turbolift
 1. With all the collected data, next step is use turbolift to delete the Cloud Files container and their data. To do it, I use a for-loop:
 
 ```shell
-for i in $(curl -s -H "X-Auth-Token: $TOKEN" $ENDPOINT); do turbolift -u $USERNAME -a $APIKEY --os-rax-auth $REGION delete -c $i ; done  
+for i in $(curl -s -H "X-Auth-Token: $TOKEN" $ENDPOINT); do turbolift -u $USERNAME -a $APIKEY --os-rax-auth $REGION delete -c $i ; done
 ```
 
 Now, you have all the Data and Cloud Files containers deleted on one region.
