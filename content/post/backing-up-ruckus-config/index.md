@@ -36,7 +36,7 @@ I want to do some changes on my home network to improve the performance, so I wi
 But before I do that I want to document how to perform a backup of my Ruckus ICX 7150 Switch.
 
 In a [past post](/configure-ruckus-switch) I mentioned how to enable ssh and web cofiguration on the Ruckus switch so my first attemtp was to download the configuration file from the web interface but unfortunately it is not possible to do it, there is not an option for that.
-What I did is go to the [documentation](http://docs.ruckuswireless.com/fastiron/hardware/icx7150-installguide/GUID-25306120-376C-44B2-BAE7-3D969EC889A3.html) and found the `copy` command but I need a [TFTP server](https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol) to be able to download the backup file.
+What I did is go to the [documentation](http://docs.ruckuswireless.com/fastiron/hardware/icx7150-installguide/GUID-25306120-376C-44B2-BAE7-3D969EC889A3.html) and found the `copy` command but I need a [TFTP server](https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocolssssss) to be able to download the backup file.
 
 Let's start!
 

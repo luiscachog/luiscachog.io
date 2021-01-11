@@ -7,7 +7,7 @@ name: algolia-search
 on:
   workflow_run:
     workflows:
-      - optimize images
+      - broken-link-checker
     types:
       - completed
     branches:
