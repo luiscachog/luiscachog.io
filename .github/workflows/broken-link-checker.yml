@@ -17,7 +17,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "linkChecker"
-  linkChecker:
+  markdown-link-checker:
     name: verify broken links
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -34,26 +34,19 @@ jobs:
 
     - name: Check for broken links
       id: link-report
-      uses: celinekurpershoek/link-checker@v1.0.1
-      with:
-        # Required:
-        url: 'https://luiscachog.io'
-        # optional:
-        honorRobotExclusions: false
-        # ignorePatterns: 'github,google'
-        recursiveLinks: false # Check all URLs on all reachable pages (could take a while)
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
 
-    - name: get-result
-      run: echo "${{steps.link-report.outputs.result}}" | grep "no broken links found"
+#    - name: get-result
+#      run: echo "${{steps.link-report.outputs.result}}" | grep "no broken links found"
 
-    - name: get-report
-      if: ${{ failure() }}
-      run: echo "${{steps.link-report.outputs.result}}" > ./link-checker-output.md
+#    - name: get-report
+#      if: ${{ failure() }}
+#      run: echo "${{steps.link-report.outputs.result}}" > ./link-checker-output.md
 
-    - name: Create Issue From File
-      if: ${{ failure() }}
-      uses: peter-evans/create-issue-from-file@v2
-      with:
-        title: Link Checker Report
-        content-filepath: ./link-checker-output.md
-        labels: report, automated issue
+#    - name: Create Issue From File
+#      if: ${{ failure() }}
+#      uses: peter-evans/create-issue-from-file@v2
+#      with:
+#        title: Link Checker Report
+#        content-filepath: ./link-checker-output.md
+#        labels: report, automated issue
