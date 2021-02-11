@@ -22,12 +22,22 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 
 [[experience]]
+  title = "Senior Container Infrastructure Consultant"
+  company = "Red Hat"
+  company_url = "https://www.redhat.com"
+  location = "San Antonio, TX"
+  date_start = "2021-01-18"
+  date_end = ""
+  description = """ """
+  highlights= """ """
+
+[[experience]]
   title = "Security Systems Administrator"
   company = "Rackspace Technology"
   company_url = "https://www.rackspace.com"
   location = "San Antonio, TX"
   date_start = "2020-01-11"
-  date_end = ""
+  date_end = "2021-01-15"
   description = """ """
   highlights= """ """
 

@@ -1,31 +1,31 @@
 ---
-# Display name
+## Display name
 title: Luis Cacho
 nickname: Luis
 
-# Username (this should match the folder name)
+## Username (this should match the folder name)
 authors:
   - luiscachog
 
 landing_greeting: Hey, I'm Luis!
 
-# Is this the primary user of the site?
+## Is this the primary user of the site?
 superuser: true
 
-# Role/position
-role: Security Systems Administrator III
+## Role/position
+role: Senior Container Infrastructure Consultant
 
-# Organizations/Affiliations
+## Organizations/Affiliations
 organizations:
-  - name: Rackspace
-    url: "https://rackspace.com"
+  - name: Red Hat
+    url: "https://redhat.com"
   - name: Contributor at Kubernetes
     url: "https://www.kubernetes.io"
   - name: Hashicorp Meetup Organizer
     url: "https://www.meetup.com/San-Antonio-HashiCorp-User-Group"
 
-# Short bio (displayed in user profile at end of posts)
-bio: Security Systems Administrator at Rackspace | DevOps Practitioner | Kubernetes Enthusiast | Ansible Ninja | Data Science Noob
+## Short bio (displayed in user profile at end of posts)
+bio: Senior Container Infrastructure Consultant at Red Hat | DevOps Practitioner | Kubernetes Enthusiast | Ansible Ninja | Data Science Noob
 
 interests:
   - Automation
@@ -38,26 +38,9 @@ interests:
 home_description:
   - I am a proud Father
   - I am DevOps practioner
-  - I work on Cloud-Native security projects
+  - I work on Cloud-Native projects
   - I love Automation
 
-
-# education:
-#   courses:
-#   - course: PhD in Artificial Intelligence
-#     institution: Stanford University
-#     year: 2012
-#   - course: MEng in Artificial Intelligence
-#     institution: Massachusetts Institute of Technology
-#     year: 2009
-#   - course: BSc in Artificial Intelligence
-#     institution: Massachusetts Institute of Technology
-#     year: 2008
-
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: github
     icon_pack: fab
@@ -74,8 +57,8 @@ social:
   - icon: redhat
     icon_pack: fab
     link: https://www.redhat.com/rhtapps/services/verify?certId=140-122-987
-  # Link to a PDF of your resume/CV from the About widget.
-  # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+  ## Link to a PDF of your resume/CV from the About widget.
+  ## To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   - icon: linux
     icon_pack: fab
     link: media/files/resume.pdf
@@ -86,33 +69,35 @@ social:
     icon_pack: fas
     link: http://feeds.feedburner.com/luiscachog
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
+## Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "luiscachog@gmail.com"
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+## Organizational groups that you belong to (for People widget)
+##   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - DevOps
----
 
-##### \$whoami
+---
+# :mexico: :us: :football: :soccer: :baby: :dog: :video_game: :airplane: :computer: {{< icon name="jedi-order" pack="fab" >}}
+
+## $ whoami
 
 I'm a proud father of Emma, dedicated husband of [Ale](https://twitter.com/4l381), avid soccer fanatic, beer lover, and fond of all things GNU/Linux related.
 
-I'm a Security Systems Administrator with Cloud/DevOps/Security skills working at [Rackspace](https://rackspace.com).
+Currently working as a **Senior Container Infrastructure Consultant** at **[Red Hat](https://redhat.com)** helping customer with their Cloud Native projects, focused on OpenShift migrations.
+Prior to Red Hat I worked on [Rackspace](https://www.rackspace.com) and [BMV](https://www.bmv.com.mx/).
 
 As today I consider myself a Technologist. I have become knowledgeable in many areas of systems, cloud computing, and various other fields like:
-  - Linux Servers
-  - Cloud Computing
-  - Operating Systems
-  - IaC (Infrastructure as Code)
-  - Networking
-  - Cloud Native technologies
+
+- Linux Servers
+- Cloud Computing
+- Operating Systems
+- IaC (Infrastructure as Code)
+- Networking
+- Cloud Native technologies
 
 Actively contributing to [Open Source projects](/projects) as well as learn new stuff every day and I would try to share in this blog.
 
 I enjoy attend meetups and events to learn about new technologies, talk with interesting people and exchange stickers.
 
 I’m active on LinkedIn and Github, and occassionally on Twitter.
-
-:mexico: :us: :dog: :video_game: :football: :soccer: :baby:
