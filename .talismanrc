@@ -1,3 +1,6 @@
 fileignoreconfig:
 - filename: .github/workflows/algolia-search.yml
   checksum: 83a99f3d8585f43ddda9c7b4ce0a210ef8c33b61d8078f4539b680122133a4e6
+
+- filename: content/about/certifications.md
+  checksum: dde349f64c5d1f06e0e9094c82067e4ab0c39e4ff30f3d3a87b19fd03ca0280e

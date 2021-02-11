@@ -25,6 +25,17 @@ date_format = "Jan 2006"
 [[item]]
   organization = "RedHat"
   organization_url = "https://www.redhat.com"
+  title = " Red Hat Certified Specialist in OpenShift Administration"
+  url = "https://www.redhat.com/en/services/certification/rhcs-paas"
+  certificate_url = "https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3USGMBTDNSOFVX22WYNJ63KCC3BBTAOIVCQWO7U3Z7NRP66BA673I="
+  date_start = "2021-02-10"
+  date_end = "2024-02-10"
+  description = "An IT professional who is a Red Hat Certified Specialist in OpenShift Administration has demonstrated the skills, knowledge, and abilities needed to create, configure, and manage a cloud application platform using Red Hat® OpenShift."
+
+
+[[item]]
+  organization = "RedHat"
+  organization_url = "https://www.redhat.com"
   title = " Red Hat Certified Engineer Specialist in Advanced Automation: Ansible Best Practices "
   url = "https://www.redhat.com/en/services/certification/red-hat-certified-specialist-advanced-automation-ansible-best-practices"
   certificate_url = "https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ37KLSOOPEYMJDAE5EJIF3JZ6D665JFQCX7XVXXH5DT452GL3CMQ36Q77GFTUQMZCEY6URHUQ5UKSGZOKOWYMJRGQPNI2LHBGN6LLA2MI======"

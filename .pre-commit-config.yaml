@@ -191,10 +191,10 @@ repos:
         additional_dependencies: [isort==5.7.0]
         args: [--nbqa-mutate]
 
-  - repo: https://github.com/PrincetonUniversity/blocklint
-    rev: v0.2.2
-    hooks:
-      - id: blocklint
+  # - repo: https://github.com/PrincetonUniversity/blocklint
+  #   rev: v0.2.2
+  #   hooks:
+  #     - id: blocklint
 
   - repo: https://github.com/sirosen/check-jsonschema
     rev: 0.3.0

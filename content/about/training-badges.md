@@ -17,6 +17,11 @@ subtitle = ""
 
 [[gallery_item]]
   album = "training-badges"
+  image = "galleries/badges/rh_openshift_admin.png"
+  caption = "Red Hat Certified Specialist in OpenShift Administration"
+
+[[gallery_item]]
+  album = "training-badges"
   image = "galleries/badges/rh_ansible_best_practices.png"
   caption = "Red Hat Certified Specialist in Ansible Best Practices"
 
