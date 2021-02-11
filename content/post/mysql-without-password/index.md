@@ -34,7 +34,6 @@ projects: []
 <br/>
 <br/>
 
-
 The common form to log in to MySQL server, is running a mysql command with your login credentials and server's IP address as arguments. For example:
 
 ```shell
@@ -43,12 +42,13 @@ mysql -u $MYSQL_ROOT -p$MYSQL_PASS
 
 However, besides the inconvenience of typing extra arguments, using plain-text login credentials in a command line like above is really not a secure way to access a MySQL server.
 
-MySQL offers a way for you to log in to MySQL server without password, by using an external MySQL configuration file. In Linux, there are two different kinds of MySQL configuration files:  
+MySQL offers a way for you to log in to MySQL server without password, by using an external MySQL configuration file. In Linux, there are two different kinds of MySQL configuration files:
 
 1. /etc/my.cnf and
-2. ~/.my.conf  
+2. ~/.my.conf
 
-While any system-wide MySQL configuration is defined in /etc/my.cnf, any user-specific MySQL configuration is stored in ~/.my.cnf. You can leverage ~/.my.cnf, to define your MySQL login credential in the file.
+While any system-wide MySQL configuration is defined in /etc/my.cnf, any user-specific MySQL configuration is stored in ~/.my.cnf.
+You can leverage ~/.my.cnf, to define your MySQL login credential in the file.
 
 ```shell
 vim ~/.my.cnf

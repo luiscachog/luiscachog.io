@@ -1,3 +1,4 @@
+---
 # Image Actions will run in the following scenarios:
 # - on Pull Requests containing images (not including forks)
 # - on pushing of images to `main` (for forks)
@@ -52,7 +53,7 @@ jobs:
         # If it's not a Pull Request then commit any changes as a new PR.
         if: |
           github.event_name != 'pull_request' &&
-          steps.calibre.outputs.markdown != ''
+          steps.calibre.outputs.markdown | length > 0
         uses: peter-evans/create-pull-request@v3
         with:
           title: Auto Compress Images

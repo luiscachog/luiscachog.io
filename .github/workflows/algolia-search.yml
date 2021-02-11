@@ -1,3 +1,4 @@
+---
 # This is a basic workflow to help you get started with Actions
 
 name: algolia-search
@@ -24,27 +25,27 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - name: checkout code
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-        submodules: true
-        lfs: true
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: true
+          lfs: true
 
-    - name: setup hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: '0.74.2'
-        extended: true
+      - name: setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.74.2'
+          extended: true
 
-    - name: build site
-      run: hugo --minify
+      - name: build site
+        run: hugo --minify
 
-    - name: update algolia index
-      uses: luiscachog/algolia-update-index-action@master
-      with:
-        algolia_app_id: '${{ secrets.ALGOLIA_APP_ID }}'
-        algolia_apikey: '${{ secrets.ALGOLIA_APIKEY }}'
-        algolia_index_name: '${{ secrets.ALGOLIA_INDEX_NAME }}'
-        file: 'public/index.json'
+      - name: update algolia index
+        uses: luiscachog/algolia-update-index-action@master
+        with:
+          algolia_app_id: '${{ secrets.ALGOLIA_APP_ID }}'
+          algolia_apikey: '${{ secrets.ALGOLIA_APIKEY }}'
+          algolia_index_name: '${{ secrets.ALGOLIA_INDEX_NAME }}'
+          file: 'public/index.json'

@@ -25,14 +25,16 @@ links:
 - name: Meetup
   url: https://www.meetup.com/San-Antonio-HashiCorp-User-Group/
   icon_pack: fab
-  icon: meetup  
+  icon: meetup
 
 # Slides (optional).
 slides: ""
 ---
 
-[San Antonio Hashicorp User Group]( https://www.meetup.com/San-Antonio-HashiCorp-User-Group/) is the official HashiCorp User Group (HUG) dedicated to building a **strong, open, diverse developer community** around the **HashiCorp** technologies in **San Antonio**.
+[San Antonio Hashicorp User Group]( https://www.meetup.com/San-Antonio-HashiCorp-User-Group/) is the official HashiCorp User Group (HUG) dedicated to
+building a **strong, open, diverse developer community** around the **HashiCorp** technologies in **San Antonio**.
 
-HUG are the cornerstone of our community. HUGs are self-directed by local, volunteer organizers passionate about HashiCorp tools and knowledge sharing. 
+HUG are the cornerstone of our community. HUGs are self-directed by local, volunteer organizers passionate about HashiCorp tools and knowledge sharing.
 
-Want to **support** [San Antonio Hashicorp User Group]( https://www.meetup.com/San-Antonio-HashiCorp-User-Group/)? Do you have a **talk proposal**? Please send us details at [hug@hashicorp.com](mailto:hug@hashicorp.com), **thanks!**
+Want to **support** [San Antonio Hashicorp User Group]( https://www.meetup.com/San-Antonio-HashiCorp-User-Group/)? Do you have a **talk proposal**?
+Please send us details at [hug@hashicorp.com](mailto:hug@hashicorp.com), **thanks!**

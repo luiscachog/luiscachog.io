@@ -32,7 +32,7 @@ projects: []
 ---
 
 When you configure spamassassin on VestaCP (CentOS) sometimes you might have some problems with the autolearn feature and also with the bayes plugin of spamassassin.
-  
+
 The error looks like:
 
 ```shell
@@ -44,7 +44,8 @@ Apr  5 00:31:00 vestaserver01 spamd[1353]: spamd: creating default_prefs: //.spa
 Apr  5 00:31:00 vestaserver01 spamd[1353]: config: cannot create user preferences file //.spamassassin/user_prefs: No such file or directory
 Apr  5 00:31:00 vestaserver01 spamd[1353]: spamd: failed to create readable default_prefs: //.spamassassin/user_prefs
 Apr  5 00:31:00 vestaserver01 spamd[1353]: spamd: checking message &lt;5520C87B.8020009@example.com&gt; for nobody:99
-Apr  5 00:31:00 vestaserver01 spamd[1353]: plugin: eval failed: bayes: (in learn) locker: safe_lock: cannot create tmp lockfile /.spamassassin/bayes.lock.vestaserver01.example.com.1353 for /.spamassassin/bayes.lock: No such file or directory
+Apr  5 00:31:00 vestaserver01 spamd[1353]: plugin: eval failed: bayes: (in learn) locker: safe_lock: cannot create tmp lockfile
+/.spamassassin/bayes.lock.vestaserver01.example.com.1353 for /.spamassassin/bayes.lock: No such file or directory
 Apr  5 00:31:00 vestaserver01 spamd[1353]: spamd: clean message (-1.0/5.0) for nobody:99 in 0.2 seconds, 3138 bytes.
 Apr  5 00:31:00 vestaserver01 spamd[1353]: spamd: result: . 0 - ALL_TRUSTED,HTML_MESSAGE scantime=0.2,size=3138,user=nobody,uid=999,required_score=5.0,rhost=localhost,raddr=127.0.0.1,rport=37022,mid=&lt;5520C87B.8020009@example.com&gt;,autolearn=unavailable
 ```
@@ -62,7 +63,7 @@ mkdir /var/lib/spamassassin
 chown spamd:spamd /var/lib/spamassassin</pre>
 ```
 
-2. Edit the file /etc/exim/exim.conf.
+1. Edit the file /etc/exim/exim.conf.
 
 ```shell
 vi /etc/exim/exim.conf
@@ -80,14 +81,14 @@ to
 spam           = spamd:true/defer_ok
 ```
 
-3. Restart exim an spamassassin
+1. Restart exim an spamassassin
 
 ```shell
-/etc/init.d/exim restart 
+/etc/init.d/exim restart
 /etc/init.d/spamassassin restart
 ```
 
-4. After that verify that the files **bayes_seen, bayes_toks and user_prefs** exists on the spamd home (In this case /var/lib/spamassassin)
+1. After that verify that the files **bayes_seen, bayes_toks and user_prefs** exists on the spamd home (In this case /var/lib/spamassassin)
 
 ```shell
 pwd

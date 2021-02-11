@@ -35,7 +35,7 @@ projects: []
 To configure your server to use a jailed user on SFTP you should do:
 
 1. Edit the sshd_config file
-  
+
 We need to comment the following line:
 
 ```shell
@@ -65,13 +65,13 @@ After save all the changes, we must restart the sshd daemon
 service sshd restart
 ```
 
-2. Add **sftponly** group
+1. Add **sftponly** group
 
 ```shell
 groupadd sftponly
 ```
 
-3. Add jailed user and add to **sftponly** group
+1. Add jailed user and add to **sftponly** group
 
 ```shell
 useradd -m USERNAME
@@ -79,7 +79,7 @@ passwd USERNAME
 usermod -aG sftponly,apache USERNAME
 ```
 
-4. **IMPORTANT**: Create directory and establish correct permissions
+1. **IMPORTANT**: Create directory and establish correct permissions
 
 ```shell
 chown root:root /home/USERNAME
@@ -92,19 +92,19 @@ chown apache:apache /var/www/vhost/TEST.DOMAIN.COM
 chmod 775 /var/www/vhost/TEST.DOMAIN.COM
 ```
 
-*If you have any connection problem please double check the permissions on the folders and check the logs on /var/log/secure*
+Note: *If you have any connection problem please double check the permissions on the folders and check the logs on /var/log/secure*
 
 ```shell
 tail -f /var/log/secure
 ```
 
-5. Mount DocumentRoot path on jailed user home directory
+1. Mount DocumentRoot path on jailed user home directory
 
 ```shell
 mount -o bind,noatime /var/www/vhost/TEST.DOMAIN.COM/ /home/USERNAME/TEST.DOMAIN.COM
 ```
 
-6. Make the mount point permanent, editing the fstab file:
+1. Make the mount point permanent, editing the fstab file:
 
 ```shell
 vi /etc/fstab</pre>
@@ -118,7 +118,7 @@ Add the mount point at the end of the file:
 
 Save and exit
 
-7. Test connection:
+1. Test connection:
 
 ```shell
 sftp SERVERIP

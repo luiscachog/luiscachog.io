@@ -1,9 +1,10 @@
+---
 # This is a basic workflow to help you get started with Actions
 
 name: broken-link-checker
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+# Controls when the action will run. Triggers the workflow on push or pull
+# request events but only for the master branch
 on:
   workflow_run:
     workflows:
@@ -24,17 +25,17 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - name: checkout code
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-        submodules: true
-        lfs: true
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: true
+          lfs: true
 
-    - name: Check for broken links
-      id: link-report
-      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      - name: Check for broken links
+        id: link-report
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
 
 #    - name: get-result
 #      run: echo "${{steps.link-report.outputs.result}}" | grep "no broken links found"

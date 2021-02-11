@@ -31,16 +31,17 @@ image:
 projects: []
 ---
 
-Sometimes, I'm having problems with my Mac, when it's sleep (hibernate) and I tried to "wake up" the Mac doesn't start, and it shows me a Black Screen. So, I've rebooted and after that it is stuck on the boot process.
-  
+Sometimes, I'm having problems with my Mac, when it's sleep (hibernate) and I tried to "wake up" the Mac doesn't start, and it shows me a Black Screen.
+So, I've rebooted and after that it is stuck on the boot process.
+
 So, I've found these solution to avoid that Yosemite stuck on the boot process:
 
 A. Enter to Single-user or verbose mode
-  
+
   1. Shutdown the Mac
-  
+
   2. Press the power button to start the computer
-  
+
   3. Immediately press and hold the Command Key and either of the following
 
     * the "s" key for single-user mode (Command-S)
@@ -48,13 +49,13 @@ A. Enter to Single-user or verbose mode
 
 B. When you login on the Mac, you should run the following commands:
 
-```shell
-/sbin/mount -uw /
-rm -rf /System/Library/Caches/*
-rm /private/var/db/BootCache.playlsit
-reboot
-```
+    ```shell
+      /sbin/mount -uw /
+      rm -rf /System/Library/Caches/*
+      rm /private/var/db/BootCache.playlsit
+      reboot
+    ```
 
-After the reboot, your Mac will boot as always. 
+After the reboot, your Mac will boot as always.
 
 🙂
