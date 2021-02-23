@@ -37,6 +37,11 @@ jobs:
       - name: Check for broken links
         id: link-report
         uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
+          config-file: '.github/workflows/.mlc_config.json'
+
 
 #    - name: get-result
 #      run: echo "${{steps.link-report.outputs.result}}" | grep "no broken links found"
