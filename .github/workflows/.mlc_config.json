@@ -15,12 +15,5 @@
     {
       "pattern": "^https://github.com/sourcethemes"
     }
-  ],
-  "projectBaseUrl": "luiscachog.io",
-  "replacementPatterns": [
-    {
-      "pattern": "^/",
-      "replacement": "{{BASEURL}}/"
-    }
   ]
 }
