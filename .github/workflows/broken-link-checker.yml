@@ -6,15 +6,15 @@ name: broken-link-checker
 # Controls when the action will run. Triggers the workflow on push or pull
 # request events but only for the master branch
 on:
-  workflow_run:
-    push:
-      branches:
-        - main
-        - master
-    pull_request:
-      branches:
-        - main
-        - master
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
