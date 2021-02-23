@@ -4,3 +4,6 @@ fileignoreconfig:
 
 - filename: content/about/certifications.md
   checksum: dde349f64c5d1f06e0e9094c82067e4ab0c39e4ff30f3d3a87b19fd03ca0280e
+
+- filename: .github/workflows/publish-to-medium.yml
+  checksum: cc3e11dcfc1d34fdce4c5a3790521968ebce2491a381edd57ad5e6bca5fce4b3

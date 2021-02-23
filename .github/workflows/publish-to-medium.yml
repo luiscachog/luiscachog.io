@@ -1,0 +1,43 @@
+---
+# This is a basic workflow to help you get started with Actions
+
+name: to-medium
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  workflow_run:
+    workflows:
+      - algolia-search
+    types:
+      - completed
+    branches:
+      - main
+      - master
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    name: publish entry on medium
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: true
+          lfs: true
+
+      - name: Hugo to medium Action
+        uses: pr4k/Hugo-to-Medium@master  # Uses an action in the root directory
+        id: hello
+        env:
+          APP_ID: ${{secrets.APP_ID}}
+          ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
+          APP_SECRET: ${{secrets.APP_SECRET}}
+          BLOG_DIR: ${{secrets.BLOG_DIR}}
