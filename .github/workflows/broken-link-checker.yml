@@ -7,13 +7,14 @@ name: broken-link-checker
 # request events but only for the master branch
 on:
   workflow_run:
-    workflows:
-      - optimize-images
-    types:
-      - completed
-    branches:
-      - main
-      - master
+    push:
+      branches:
+        - main
+        - master
+    pull_request:
+      branches:
+        - main
+        - master
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
