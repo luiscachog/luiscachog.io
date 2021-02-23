@@ -14,7 +14,7 @@ subtitle = ""
   taxonomy = "tags"
 
   # Choose how many tags you would like to display (0 = all tags)
-  count = 40
+  count = 44
 
 [design]
   # Minimum and maximum font sizes (1.0 = 100%).

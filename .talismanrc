@@ -7,3 +7,6 @@ fileignoreconfig:
 
 - filename: .github/workflows/publish-to-medium.yml
   checksum: cc3e11dcfc1d34fdce4c5a3790521968ebce2491a381edd57ad5e6bca5fce4b3
+
+- filename: content/post/podman-macos-vagrant/index.md
+  checksum: 2cada2bb14bd4fdf6fee74203b7e4219d25b6c6aba7b2adbc736d6537604093f
