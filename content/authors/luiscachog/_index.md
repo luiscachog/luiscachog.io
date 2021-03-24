@@ -18,11 +18,11 @@ role: Senior Container Infrastructure Consultant
 ## Organizations/Affiliations
 organizations:
   - name: Red Hat
-    url: "https://redhat.com"
+    url: https://redhat.com
   - name: Contributor at Kubernetes
-    url: "https://www.kubernetes.io"
+    url: https://www.kubernetes.io
   - name: Hashicorp Meetup Organizer
-    url: "https://www.meetup.com/San-Antonio-HashiCorp-User-Group"
+    url: https://www.meetup.com/San-Antonio-HashiCorp-User-Group
 
 ## Short bio (displayed in user profile at end of posts)
 bio: Senior Container Infrastructure Consultant at Red Hat | DevOps Practitioner | Kubernetes Enthusiast | Ansible Ninja | Data Science Noob
@@ -47,7 +47,7 @@ social:
     link: https://github.com/luiscachog
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/luiscachog
+    link: https://www.linkedin.com/in/luiscachog/
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/luiscachog
@@ -84,7 +84,7 @@ user_groups:
 
 I'm a proud father of Emma, dedicated husband of [Ale](https://twitter.com/4l381), avid soccer fanatic, beer lover, and fond of all things GNU/Linux related.
 
-Currently working as a **Senior Container Infrastructure Consultant** at **[Red Hat](https://redhat.com)** helping customer with their Cloud Native projects, focused on OpenShift migrations.
+Currently working as a **Senior Container Infrastructure Consultant** at **[Red Hat](https://redhat.com/)** helping customer with their Cloud Native projects, focused on OpenShift migrations.
 Prior to Red Hat I worked on [Rackspace](https://www.rackspace.com) and [BMV](https://www.bmv.com.mx/).
 
 As today I consider myself a Technologist. I have become knowledgeable in many areas of systems, cloud computing, and various other fields like:
@@ -96,7 +96,7 @@ As today I consider myself a Technologist. I have become knowledgeable in many a
 - Networking
 - Cloud Native technologies
 
-Actively contributing to [Open Source projects](/projects) as well as learn new stuff every day and I would try to share in this blog.
+Actively contributing to [Open Source projects](/community#projects) as well as learn new stuff every day and I would try to share in this blog.
 
 I enjoy attend meetups and events to learn about new technologies, talk with interesting people and exchange stickers.
 

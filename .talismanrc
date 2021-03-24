@@ -1,12 +1,9 @@
 fileignoreconfig:
 - filename: .github/workflows/algolia-search.yml
   checksum: 83a99f3d8585f43ddda9c7b4ce0a210ef8c33b61d8078f4539b680122133a4e6
-
-- filename: content/about/certifications.md
-  checksum: dde349f64c5d1f06e0e9094c82067e4ab0c39e4ff30f3d3a87b19fd03ca0280e
-
 - filename: .github/workflows/publish-to-medium.yml
   checksum: cc3e11dcfc1d34fdce4c5a3790521968ebce2491a381edd57ad5e6bca5fce4b3
-
 - filename: content/post/podman-macos-vagrant/index.md
   checksum: 2cada2bb14bd4fdf6fee74203b7e4219d25b6c6aba7b2adbc736d6537604093f
+- filename: content/about/certifications.md
+  checksum: d36593defa44dce67299de6895b71c49ea6f2bf5b1fdc1f0a9f014139fc55b18

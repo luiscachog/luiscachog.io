@@ -8,6 +8,25 @@
     },
     {
       "pattern": "^https://sourcethemes.com"
+    },
+    {
+      "pattern": "^https://academic-demo.netlify"
+    },
+    {
+      "pattern": "^https://github.com/sourcethemes"
+    }
+  ],
+  "projectBaseUrl": "luiscachog.io",
+  "replacementPatterns": [
+    {
+      "pattern": "^/",
+      "replacement": "{{BASEURL}}/"
+    }
+  ],
+  "replacementPatterns": [
+    {
+      "pattern": "^/",
+      "replacement": "{{BASEURL}}/"
     }
   ]
 }

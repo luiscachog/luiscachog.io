@@ -39,5 +39,5 @@ Static site for luiscachog.io using:
 - [Academic](https://sourcethemes.com/academic/)
 - [Netlify](https://netlify.com)
 
-Actual status: [![Netlify Status](https://api.netlify.com/api/v1/badges/17660b24-5ace-4e45-9d81-312asdasdasd/deploy-status)](https://app.netlify.com/sites/rael/deploys)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/17660b24-5ace-4e45-9d81-31237fbc07fd/deploy-status)](https://app.netlify.com/sites/luiscachog/deploys)
+Actual status:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ee03253e-7d3e-45ab-83b6-979d6963dfeb/deploy-status)](https://app.netlify.com/sites/luiscachog-io/deploys)

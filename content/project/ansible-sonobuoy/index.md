@@ -23,7 +23,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Ansible Role
-  url: https://github.com/luiscachog/ansible-sonobuoy-ubuntu
+  url: https://github.com/luiscachog/ansible-sonobuoy
   icon_pack: fab
   icon: github
 
@@ -47,4 +47,4 @@ slides: ""
 
 Ansible role that installs [sonobuoy](https://sonobuoy.io/) on your server/workstation.
 
-[![Build Status](https://travis-ci.com/luiscachog/ansible-sonobuoy-ubuntu.svg?branch=master)](https://travis-ci.com/luiscachog/ansible-sonobuoy-ubuntu)
+[![Build Status](https://travis-ci.com/luiscachog/ansible-sonobuoy.svg?branch=master)](https://travis-ci.com/luiscachog/ansible-sonobuoy)

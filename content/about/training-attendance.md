@@ -17,13 +17,18 @@ subtitle = ""
 
 [[gallery_item]]
   album = "training-attendance"
+  image = "galleries/attendance/rht_do280.png"
+  caption = "Certificate of Attendance DO280"
+
+[[gallery_item]]
+  album = "training-attendance"
   image = "galleries/attendance/rht_do180.png"
   caption = "Certificate of Attendance DO180"
 
 [[gallery_item]]
   album = "training-attendance"
-  image = "galleries/attendance/rht_do280.png"
-  caption = "Certificate of Attendance DO280"
+  image = "galleries/attendance/rht_do101.png"
+  caption = "Certificate of Attendance DO101"
 
 [[gallery_item]]
   album = "training-attendance"

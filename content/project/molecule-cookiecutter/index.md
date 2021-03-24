@@ -27,7 +27,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: "https://github.com/luiscachog/cookiecutter-molecule"
+url_code: https://github.com/luiscachog/cookiecutter-molecule
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -39,7 +39,7 @@ links:
   icon: github
 
 - name: Molecule
-  url: https://github.com/luiscachog/cookiecutter-molecule
+  url: https://github.com/ansible-community/molecule
   icon_pack: fab
   icon: github
 

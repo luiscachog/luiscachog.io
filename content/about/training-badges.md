@@ -22,6 +22,11 @@ subtitle = ""
 
 [[gallery_item]]
   album = "training-badges"
+  image = "galleries/badges/rh_containers_kubernetes.png"
+  caption = "Red Hat Certified Specialist in Containers and Kubernetes"
+
+[[gallery_item]]
+  album = "training-badges"
   image = "galleries/badges/rh_ansible_best_practices.png"
   caption = "Red Hat Certified Specialist in Ansible Best Practices"
 

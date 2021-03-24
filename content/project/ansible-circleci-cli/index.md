@@ -23,7 +23,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Ansible Role
-  url: https://github.com/luiscachog/ansible-circle-ci
+  url: https://github.com/luiscachog/ansible-circleci-cli
   icon_pack: fab
   icon: github
 
@@ -32,7 +32,7 @@ links:
   icon_pack: fab
   icon: github
 
-url_code: "https://github.com/luiscachog/ansible-circle-ci"
+url_code: https://github.com/luiscachog/ansible-circleci-cli
 url_pdf: ""
 url_slides: ""
 url_video: ""

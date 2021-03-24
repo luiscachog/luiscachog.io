@@ -32,6 +32,15 @@ date_format = "Jan 2006"
   date_end = "2024-02-10"
   description = "An IT professional who is a Red Hat Certified Specialist in OpenShift Administration has demonstrated the skills, knowledge, and abilities needed to create, configure, and manage a cloud application platform using Red Hat® OpenShift."
 
+[[item]]
+  organization = "RedHat"
+  organization_url = "https://www.redhat.com"
+  title = " Red Hat Certified Specialist in Containers and Kubernetes"
+  url = "https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-containers-and-kubernetes"
+  certificate_url = "https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ33TZNCC5VGOAYPFY7HVVIGB5XKUTI5W6QLZX6UMV3D6ILAY7YA4GY="
+  date_start = "2021-03-16"
+  date_end = "2024-03-16"
+  description = "A Red Hat Certified Specialist in Containers and Kubernetes has demonstrated a basic understanding of Kubernetes, containers, and Red Hat® OpenShift® and can use this knowledge to run, find, and manage containerized services, deploy single- and multiple-container applications, and create custom containers."
 
 [[item]]
   organization = "RedHat"

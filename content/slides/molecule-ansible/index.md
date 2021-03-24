@@ -23,17 +23,19 @@ slides:
   center= true
   showNotes= false
   width= "100%"
-	height= "100%"
-	margin= 0.2
-	minScale= 0.2
-	maxScale= 1.5 -->
+  height= "100%"
+  margin= 0.2
+  minScale= 0.2
+  maxScale= 1.5 -->
 
-## Improve Ansible Roles with Molecule
+# Improve Ansible Roles with Molecule
 
 ---
+
 ## Luis Cacho
 
 ### Security Systems Administrator
+
 #### [@Rackspace](https://rackspace.com)
 
 [luiscachog.io](https://luiscachog.io) | [@luiscachog](https://twitter.com/luiscachog) | [github.com/luiscachog](https://github.com/luiscachog)
@@ -42,12 +44,13 @@ slides:
 {{< slide background-image="/media/slides/molecule-ansible/Background1.jpg" >}}
 
 ---
+
 ## Agenda
 
 - Ansible Review
-  - YAML Review
+    - YAML Review
 - Test Automation
-  - Testing options for Ansible
+    - Testing options for Ansible
 - Molecule
 - Demo!!
 
@@ -56,7 +59,8 @@ slides:
 
 ---
 {{% section %}}
-## Ansible
+
+## Ansible (1/4)
 
 |**Use Cases**| **Attributes** |
 |--- | --- |
@@ -68,8 +72,10 @@ slides:
 | Continuous Delivery | Big Community |
 
 {{< speaker_note >}}
+
 - Press `S` key to view -
-Ansible es una herramienta de automatización open source escrita en python, que nos ayuda a configurar hosts remotos, aprovisionar software, e inclusive orquestar tareas mas complicadas como Continuos Deployment o Rolling Updates con Cero Downtime.
+Ansible es una herramienta de automatización open source escrita en python.
+Nos ayuda a configurar hosts remotos, aprovisionar software, e inclusive orquestar tareas mas complicadas como Continuos Deployment o Rolling Updates con Cero Downtime.
 En lugar de tener scripts para cada tarea.
 Ansible es:
 
@@ -82,11 +88,13 @@ Ansible es:
 {{< /speaker_note >}}
 
 ---
-## Ansible
+
+## Ansible (2/4)
 
 {{< figure library="true" src="slides/molecule-ansible/AnsibleArch.png" lightbox="false" width="90%">}}
 
 {{< speaker_note >}}
+
 - Press `S` key to view -
 
 Revisando la arquitectura de Ansible tenemos:
@@ -101,11 +109,13 @@ Todo esto se se aplica a los hosts remotos o a los dispositivos de red.
 {{< /speaker_note >}}
 
 ---
-## Ansible
+
+## Ansible (3/4)
 
 {{< figure library="true" src="slides/molecule-ansible/Ansible_Playbook.png" lightbox="false" width="70%">}}
 
 {{< speaker_note >}}
+
 - Press `S` key to view -
 Los componentes de un playbook son, revisando desde la unidad mas pequena son:
 
@@ -115,7 +125,8 @@ Los componentes de un playbook son, revisando desde la unidad mas pequena son:
 {{< /speaker_note >}}
 
 ---
-## Ansible
+
+## Ansible (4/4)
 
 - **Playbooks** contain/connect **roles**
 - **Roles** contain **plays**
@@ -125,6 +136,7 @@ Los componentes de un playbook son, revisando desde la unidad mas pequena son:
 - **Handlers** are triggered by **tasks**, runs once at the end of the **play**
 
 {{< speaker_note >}}
+
 - Press `S` key to view -
 Entonces, podemos decir que desde la unidad mas grande tenemos
 Role is a list of tasks reusable
@@ -137,13 +149,15 @@ Playbook conecta los roles con los hosts
 {{< slide background-image="/media/slides/molecule-ansible/BackgroundTest.png" >}}
 
 {{< speaker_note >}}
+
 - Press `S` key to view -
 Por que es importante la automatizacion de pruebas?
 {{< /speaker_note >}}
 
 ---
 {{% section %}}
-### Test Automation
+
+### Test Automation (1/2)
 
 - Reliable Code
 - Quality (Fast feedback)
@@ -152,6 +166,7 @@ Por que es importante la automatizacion de pruebas?
 - Repeatability (Test same change accross multiple environments (OS, Providers); multiple data sets)
 
 {{< speaker_note >}}
+
 - Press `S` key to view -
 La automatizacion de las pruebas nos ayuda a:
 
@@ -163,7 +178,9 @@ La automatizacion de las pruebas nos ayuda a:
 {{< /speaker_note >}}
 
 ---
-### Test Automation
+
+### Test Automation (2/2)
+
 #### Testing options for Ansible
 
 <ul>
@@ -174,6 +191,7 @@ La automatizacion de las pruebas nos ayuda a:
 </ul>
 
 {{< speaker_note >}}
+
 - Press `S` key to view -
 Algunas herramientas que revise, despues de ver la conferencia de Elana Hashman en en Ansible Fest 2017 son:
 
@@ -206,16 +224,20 @@ Issues:
 - Written in Ruby
 - Verifiers are Ruby or bash based
 - Installs Ansible on the target host and runs it locally
+
 {{< /speaker_note >}}
 
 {{% /section %}}
+
 ---
 {{< slide background-image="/media/slides/molecule-ansible/BackgroundMolecule.png" >}}
 
 ---
 {{% section %}}
-### Molecule
-##### Testing Ansible with Molecule
+
+### Molecule (1/5)
+
+#### Testing Ansible with Molecule
 
 - Tool designed to aid in the development and testing of Ansible roles.
 - Provides support for testing with multiple instances, operating systems, providers, test frameworks and testing scenarios.
@@ -224,6 +246,7 @@ Issues:
 [github.com/ansible/molecule](https://github.com/ansible/molecule) | [molecule.readthedocs.io](https://molecule.readthedocs.io/)
 
 {{< speaker_note >}}
+
 - Press `S` key to view -
 
 De acuerdo a la propia documentacion de Molecule, se define como una herramienta disenada para ayudar en el desarrollo y pruebas de los roles de ansible.
@@ -233,8 +256,10 @@ Se enfoca en generar los mejores roles posibles, tanto bien escritos como facile
 {{< /speaker_note >}}
 
 ---
-### Molecule
-##### Testing Ansible with Molecule
+
+### Molecule (2/5)
+
+#### Testing Ansible with Molecule
 
 | **Pros** | **Cons** |
 | --- | --- |
@@ -244,6 +269,7 @@ Se enfoca en generar los mejores roles posibles, tanto bien escritos como facile
 | - Open Source |
 
 {{< speaker_note >}}
+
 - Press `S` key to view -
 - Escrito en python,
 - Desarrollado e integrado para ansible
@@ -253,8 +279,10 @@ Se enfoca en generar los mejores roles posibles, tanto bien escritos como facile
 {{< /speaker_note >}}
 
 ---
-### Molecule
-##### Testing Ansible with Molecule
+
+### Molecule (3/5)
+
+#### Testing Ansible with Molecule
 
 - Creates nodes for testing
 - Run the playbook on the nodes
@@ -264,6 +292,7 @@ Se enfoca en generar los mejores roles posibles, tanto bien escritos como facile
 - Runs the verifier tests on the nodes to ensure the desired state
 
 {{< speaker_note >}}
+
 - Press `S` key to view -
 A grandes rasgos las actividades que hace molecule son:
 - Creamos los nodos para probar, dependiendo del provisioner puede ser Docker, Vagrant, AWS, Azure, etc
@@ -275,21 +304,25 @@ A grandes rasgos las actividades que hace molecule son:
 {{< /speaker_note >}}
 
 ---
-### Molecule
-##### Testing Ansible with Molecule
+
+### Molecule (4/5)
+
+#### Testing Ansible with Molecule
 
 {{< figure library="true" src="slides/molecule-ansible/MoleculeProcess.jpeg" lightbox="false" width="50%">}}
 
 ---
-### Molecule
-##### Testing Ansible with Molecule
+
+### Molecule (5/5)
+
+#### Testing Ansible with Molecule
 
 - What can I test?
-  - Files exists and permissions
-  - Service are running
-  - User exists and is member of the correct groups
-  - Package installed
-  - Basic Software interaction (Test web server basic authentication)
+    - Files exists and permissions
+    - Service are running
+    - User exists and is member of the correct groups
+    - Package installed
+    - Basic Software interaction (Test web server basic authentication)
 {{% /section %}}
 
 ---
@@ -297,21 +330,27 @@ A grandes rasgos las actividades que hace molecule son:
 
 ---
 {{% section %}}
-### Molecule Demo
+
+### Molecule Demo (1/3)
+
 - Let's try it!!
-  - Creates 2 nodes
-  - Converge both nodes
-  - Check for idempotence
-  - Lint the Ansible and Python code
-  - Verify the role against some tests
+    - Creates 2 nodes
+    - Converge both nodes
+    - Check for idempotence
+    - Lint the Ansible and Python code
+    - Verify the role against some tests
 - Github Repo: [github.com/luiscachog/elastic_stack](https://github.com/luiscachog/elastic_stack) {{% fragment %}} *(Thanks to GaRaGeD for provide a playbook to test)* {{% /fragment %}}
 
-___
-### Molecule Demo
+---
+
+### Molecule Demo (2/3)
+
 {{% fragment %}}##### Terminal time!! {{% /fragment %}}
 
-___
-### Molecule Demo
+---
+
+### Molecule Demo (3/3)
+
 #### TO-DO
 
 - Ansible-Vault implementation
@@ -323,6 +362,7 @@ ___
 
 ---
 {{% section %}}
+
 ## Conclusion
 
 - There are different testing solutions for Ansible, but Molecule is an Ansible-native and the robust option.
@@ -330,15 +370,17 @@ ___
 - Molecule help you to create the best playbooks possible.
 
 ---
+
 ## Questions?
 
 *Talk links, references and resources can be found at:* [luiscachog.io/talk/molecule-ansible](https://luiscachog.io/talk/molecule-ansible)
 
 ---
-## Thank you!
+
+## Thank you
 
 *You can find me on:*
 
-[luiscachog [at] gmail.com](mailto:luiscachog) | [luiscachog.io](https://luiscachog.io) | [github.com/luiscachog](https://github.com/luiscachog) | [@luiscachog](https://twitter.com/luiscachog)
+[luiscachog [at] gmail.com](mailto:luiscachog@gmail.com) | [luiscachog.io](https://luiscachog.io) | [github.com/luiscachog](https://github.com/luiscachog) | [@luiscachog](https://twitter.com/luiscachog)
 
 {{% /section %}}

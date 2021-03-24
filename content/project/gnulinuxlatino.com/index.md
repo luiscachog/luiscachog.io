@@ -7,7 +7,7 @@ categories: [ Community, Website ]
 date: 2020-09-09T01:42:23-05:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://www.gnulinuxlatino.com"
+external_link: https://www.gnulinuxlatino.com
 
 # Featured image
 image:
