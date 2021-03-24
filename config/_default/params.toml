@@ -216,7 +216,7 @@ plugins_js  = [ "landing_author", "itype.min", "matrix" ]
   #   0: Disabled
   #   1: Disqus (https://disqus.com)
   #   2: Commento (https://commento.io)
-  engine = 0
+  engine = 2
 
   # Which page types are commentable?
   commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
@@ -225,6 +225,9 @@ plugins_js  = [ "landing_author", "itype.min", "matrix" ]
   [comments.disqus]
     shortname = ""  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
+
+  [comments.commento]
+    url = "http://comments.luiscachog.io"
 
 ############################
 ## Search
