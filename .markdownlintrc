@@ -7,7 +7,8 @@
     "line_length": 200
   },
   "MD024":{
-    "siblings_only": true
+    "siblings_only": true,
+    "allow_different_nesting": true
   },
   "MD033": false,
   "MD041": false,
