@@ -11,3 +11,5 @@ fileignoreconfig:
   checksum: 2121ebeab3a4ea999e6c698fe3bf6e571727ce105580c46a0ea16c9da474fbb8
 - filename: content/about/certifications.md
   checksum: 2dc1bef122243475a4811a56916435309e492232e88d1272d50348be1e77aa95
+- filename: assets/media/icons/brands/bmv.svg
+  checksum: c9f8f007b110a683d0efd4560ebb549c2f6a6e18210144663fd004620d98652f
