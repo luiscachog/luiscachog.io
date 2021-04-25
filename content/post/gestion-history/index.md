@@ -32,9 +32,12 @@ image:
 projects: []
 ---
 
+#
+
 {{% toc %}}
 
-El archivo de logs histórico (history) tiene varias opciones que podemos cambiar para tener un mejor control del mismo. Aquí vamos a ver algunas opciones para el control y gestión del fichero del log histórico (history).
+El archivo de logs histórico (history) tiene varias opciones que podemos cambiar para tener un mejor control del mismo.
+Aquí vamos a ver algunas opciones para el control y gestión del fichero del log histórico (history).
 
 ## Mostrar la fecha y hora de cuando escribimos comandos
 
@@ -55,12 +58,14 @@ HISTFILESIZE=1000
 
 Con esto hacemos que el tamaño máximo del fichero de logs histórico sea de 1000 comandos o líneas.
 
-{{% alert note %}}
+{{% callout note %}}
 Si ponemos el tamaño de la variable *HISTSIZE* a **cero** hacemos que no se guarde nada en el archivo de logs histórico
+
 ```shell
 export HISTSIZE=0
 ```
-{{% /alert %}}
+
+{{% /callout %}}
 
 ## Control de duplicados en el histórico
 
@@ -83,7 +88,9 @@ Por defecto el histórico se guarda en ```~/.bash_history``` pero podemos indica
 HISTFILE=~/.bitacora.
 ```
 
-Un truco muy bueno cuando en un mismo servidor entran varios administradores que se pasan a root y poder controlar y guardar que hace cada uno es guardar un archivo de logs histórico por cada uno de ellos de la siguiente forma:
+Un truco muy bueno cuando en un mismo servidor entran varios administradores que se pasan a root y poder controlar y guardar que hace cada uno es:
+Guardar un archivo de logs histórico por cada uno de ellos.
+Lo puedes hacer de la siguiente forma:
 
 ```shell
 HISTSIZE=5000
@@ -91,7 +98,8 @@ HISTFILESIZE=5000
 HISTFILE=/root/.bash_hist-$(who am i | awk '{print $1}';exit)
 ```
 
-Con esto se guardará en el home de del usuario root un archivo de logs histórico por cada uno de los usuarios que se hayan pasado a root. El tamaño se puede ampliar o reducir a gusto. También podemos poner que ignore duplicados.
+Con esto se guardará en el home de del usuario root un archivo de logs histórico por cada uno de los usuarios que se hayan pasado a root.
+El tamaño se puede ampliar o reducir a gusto. También podemos poner que ignore duplicados.
 
 Todas estas variables debemos ponerlas en un archivo donde se activen al arranque que puede ser ```~/.bashrc```.
 

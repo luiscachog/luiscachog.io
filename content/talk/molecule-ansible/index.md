@@ -62,9 +62,9 @@ projects:
 math: false
 ---
 
-{{% alert note %}}
+{{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.
-{{% /alert %}}
+{{% /callout %}}
 
 On this talk I share some best practices to perform test driven on your Ansible Roles.
 

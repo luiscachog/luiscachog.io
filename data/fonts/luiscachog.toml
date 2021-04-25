@@ -2,7 +2,7 @@
 name = "luiscachog"
 
 # Optional Google font URL
-google_fonts = "Karla:300,400,500|IBM+Plex+Sans:300,400,500|Inconsolata"
+google_fonts = "family=Karla:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500&family=Inconsolata"
 # old main font: Fira+Sans
 
 # Font families

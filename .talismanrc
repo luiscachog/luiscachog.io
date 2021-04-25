@@ -7,3 +7,5 @@ fileignoreconfig:
   checksum: 2cada2bb14bd4fdf6fee74203b7e4219d25b6c6aba7b2adbc736d6537604093f
 - filename: content/about/certifications.md
   checksum: d36593defa44dce67299de6895b71c49ea6f2bf5b1fdc1f0a9f014139fc55b18
+- filename: go.sum
+  checksum: 2121ebeab3a4ea999e6c698fe3bf6e571727ce105580c46a0ea16c9da474fbb8
