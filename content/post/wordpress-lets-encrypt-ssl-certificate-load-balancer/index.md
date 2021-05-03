@@ -11,7 +11,7 @@ categories: [ DevOps, Linux, SysAdmin, Rackspace]
 keywords: [ Wordpress, SSL, Let's Encrypt, LoadBalancer, Rackspace, Cloud, DevOps]
 date: 2017-09-03
 publishDate: 2017-09-03
-lastmod: 2019-11-27
+lastmod: 2021-05-01
 featured: true
 draft: false
 
@@ -33,25 +33,28 @@ projects: []
 
 Hi again,
 
-As many of you know a lot of "Production" applications need to be configured to provide High Availability. With that in mind, a best practice architecture to your application is to add a Load Balancer as a front end who distribute your traffic between your application nodes, as you can appreciate on the next image:
+As many of you know a lot of "Production" applications need to be configured to provide High Availability.
+With that in mind, a best practice architecture to your application is to add a Load Balancer as a front end who distribute your traffic between your application nodes,
+as you can appreciate on the next image:
 
-![Load Balancer HA](/media/posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/LoadBalancerHA.png)
+{{< figure src="posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/LoadBalancerHA.png" caption="HA Load Balancer diagram" id="ha-load-balancer" theme="ligth">}}
 
+## SSL Offloading
 
-# SSL Offloading
+In this case, my "Production" application is my blog, and I will install a SSL Certificate on the Cloud Load Balancer(CLB)
+to offloading the encryption/decryption to the CLB instead of doing it on the webserver.
+That way your webservers uses port 80 (HTTP), as always, and you serve your content trought port 443(HTTPS).
 
-In this case, my "Production" application is my blog, and I will install a SSL Certificate on the Cloud Load Balancer(CLB) to offloading the encryption/decryption to the CLB instead of doing it on the webserver. That way your webservers uses port 80 (HTTP), as always, and you serve your content trought port 443(HTTPS).
-
-![SSL-Offloading](/media/posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/SSL-Offloading.jpg)
+{{< figure src="posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/SSL-Offloading.jpg" caption="SSL-Offloading diagram" id="ssl-offloading" theme="ligth">}}
 
 Here are the what I use to configure my WordPress with SSL Certificate:
 
-  - SSL Certificate issued using Let's Encrypt
-  - A Client of Let's Encrypt called acme
-  - A Cloud Load Balancer
-  - A WordPress installation
+- SSL Certificate issued using Let's Encrypt
+- A Client of Let's Encrypt called acme
+- A Cloud Load Balancer
+- A WordPress installation
 
-## Step 1: Install acme.sh client
+### Step 1: Install acme.sh client
 
 There is a lot of [ACME clients](https://letsencrypt.org/docs/client-options/) supported by Let's Encrypt, the most popular is [Certbot.](https://certbot.eff.org) However, I prefer to use [acme.sh](https://github.com/Neilpang/acme.sh).
 
@@ -66,7 +69,7 @@ sudo mkdir -p /opt/acme/data
 bash acme.sh --install --home /opt/acme --config-home /opt/acme/data --certhome /opt/acme/data/ssl-certs --accountemail your@email.com
 ```
 
-## Step 2: Issue SSL Certificate
+### Step 2: Issue SSL Certificate
 
 Once acme.sh is installed, we proceed to issue our first SSL Certificate:
 
@@ -126,7 +129,7 @@ Where the explained options are:
 
 -w (-webroot) : Specifies the web root folder for web root mode. This is the DocumentRoot where your site is hosted and it is necessary to verify it by Let's Encrypt.
 
-## Step 3: Install SSL Certificate on Cloud Load Balancer
+### Step 3: Install SSL Certificate on Cloud Load Balancer
 
 So, at this moment we have our SSL Certificate, Private Key, and Intermediate CA Certificate ready to install on our Cloud Load Balancer (CLB)
 
@@ -136,52 +139,52 @@ Your cert key is in /opt/acme/data/ssl-certs/example.com/example.com.key
 The intermediate CA cert is in /opt/acme/data/ssl-certs/example.com/ca.cer
 ```
 
-So we should go to https://mycloud.rackspace.com -> Rackspace Cloud -> Networking -> Cloud Load Balancers:
+So we should go to [https://mycloud.rackspace.com](https://mycloud.rackspace.com) -> Rackspace Cloud -> Networking -> Cloud Load Balancers:
 
-![Cloud Load Balancer](/media/posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB01.png)
-
+{{< figure src="posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB01.png" caption="Rackspace Portal - Cloud Loud Balancer" id="clb-01" theme="ligth">}}
 
 Then, to Optional Features and Enable/Configure on "Secure Traffic SSL"
 
-![Cloud Load Balancer](/media/posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB02.png)
+{{< figure src="posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB02.png" caption="Rackspace Portal - Cloud Loud Balancer" id="clb-02" theme="ligth">}}
 
 Finally, we add our SSL Certificate, Private Key, and Intermediate CA Certificate to the CLB and save the configuration:
 
-![Cloud Load Balancer](/media/posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB03.png)
+{{< figure src="posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB03.png" caption="Rackspace Portal - Cloud Loud Balancer" id="clb-03" theme="ligth">}}
 
-
-## Step 4: Configure WordPress
+### Step 4: Configure WordPress
 
 We are almost done, at this time we already have configured our SSL on the CLB to provide WordPress over HTTPS, however, WordPress is still with HTTP, so we need to reconfigure our WordPress with SSL.
 
-### Database queries
+#### Database queries
 
 First of all, we should update the links from http to https; we are going to do it directly on the database doing the following queries:
 
-**Warning:** Change all instances of `example.com` to your own. If you have the `www` as part of your WordPress Address(URL) in the WordPress Settings, add the 'www'.
+{{% callout warning %}}
+Change all instances of `example.com` to your own. If you have the `www` as part of your WordPress Address(URL) in the WordPress Settings, add the 'www'.
+{{% /callout %}}
 
 Also, if you have a custom table prefix in the WordPress database, something other than the default 'wp_', then you must change all the instances of 'wp_' to your own table prefix.
 
 1. Update any embedded attachments/img that use http:This one updates the src attributes that use double quotes:
 
-```sql
-UPDATE `wp_posts` SET post_content = REPLACE(post_content, 'src=\"http://example.com', \
-'src=\"https://example.com') WHERE post_content LIKE '%src=\"http://example.com%';
-```
+    ```sql
+    UPDATE `wp_posts` SET post_content = REPLACE(post_content, 'src=\"http://example.com', \
+    'src=\"https://example.com') WHERE post_content LIKE '%src=\"http://example.com%';
+    ```
 
     This one takes care of any src attributes that use single quotes:
 
     ```sql
     UPDATE `wp_posts` SET post_content = REPLACE(post_content, 'src=\'http://example.com', \
     'src=\'https://example.com') WHERE post_content LIKE '%src=\'http://example.com%';
-```
+    ```
 
-2. Update any hard-coded URLs for links.This one updates the URL for href attributes that use double quotes:
+1. Update any hard-coded URLs for links.This one updates the URL for href attributes that use double quotes:
 
-```sql
-UPDATE `wp_posts` SET post_content = REPLACE(post_content, 'href=\"http://example.com', \
-'href=\"https://example.com') WHERE post_content LIKE '%href=\"http://example.com%';
-```
+    ```sql
+    UPDATE `wp_posts` SET post_content = REPLACE(post_content, 'href=\"http://example.com', \
+    'href=\"https://example.com') WHERE post_content LIKE '%href=\"http://example.com%';
+    ```
 
     This one updates the URL for href attributes that use single quotes:
 
@@ -190,24 +193,27 @@ UPDATE `wp_posts` SET post_content = REPLACE(post_content, 'href=\"http://exampl
     'href=\'https://example.com') WHERE post_content LIKE '%href=\'http://example.com%';
     ```
 
-3. Update any "pinged" links:
+1. Update any "pinged" links:
 
-```sql
-UPDATE `wp_posts` SET pinged = REPLACE(pinged, 'http://example.com', \
-'https://example.com') WHERE pinged LIKE '%http://example.com%';
-```
+    ```sql
+    UPDATE `wp_posts` SET pinged = REPLACE(pinged, 'http://example.com', \
+    'https://example.com') WHERE pinged LIKE '%http://example.com%';
+    ```
 
-4. This step is just a confirmation step to make sure that there are no remaining http URLs for your site in the wp_posts table, except the GUID URLs.
+1. This step is just a confirmation step to make sure that there are no remaining http URLs for your site in the wp_posts table, except the GUID URLs.
 
-    You must replace WP\_DB\_NAME, near the beginning of the query, with the name of your database.
+    You must replace WP_DB_NAME, near the beginning of the query, with the name of your database.
 
     This will confirm that nowhere in the wp_posts table is there a remaining http URL, outside of the GUID column. This ignores URLs in the GUID column.
 
     This query only searches; it does not replace anything, nor make any changes. So, this is safe to run. It’s a safe and quick way to check the wp_posts table while ignoring the guid column.
 
-    This SQL query should return an empty set. That would mean that it found no http URLs for your site. (This is all just 1 query. It’s 1 very, very long line.)
+    This SQL query should return an empty set. That would mean that it found no http URLs for your site. (This is all just 1 query. It’s 1 very,
+    very long line.)
 
-    **Warning: **Remember to replace WP\_DB\_NAME, near the beginning of the query, with the name of your database.
+    {{% callout warning %}}
+    Remember to replace WP_DB_NAME, near the beginning of the query, with the name of your database.
+    {{% /callout %}}
 
     ```sql
     SELECT *  FROM `WP_DB_NAME`.`wp_posts` WHERE (CONVERT(`ID` USING utf8) LIKE \
@@ -234,31 +240,34 @@ UPDATE `wp_posts` SET pinged = REPLACE(pinged, 'http://example.com', \
     OR CONVERT(`comment_count` USING utf8) LIKE '%%http://example.com%%');
     ```
 
-5. Now, we move to the wp_comments table. This changes any comment author URLs that point to the http version of your site. This is in case you’ve ever replied to a comment while your URL was pointing to http.
+1. Now, we move to the wp_comments table. This changes any comment author URLs that point to the http version of your site.
+  This is in case you've ever replied to a comment while your URL was pointing to http.
 
-```sql
-UPDATE `wp_comments` SET comment_author_url = REPLACE(comment_author_url, \
-'http://example.com', 'https://example.com') WHERE comment_author_url \
-LIKE '%http://example.com%';
-```
+    ```sql
+    UPDATE `wp_comments` SET comment_author_url = REPLACE(comment_author_url, \
+    'http://example.com', 'https://example.com') WHERE comment_author_url \
+    LIKE '%http://example.com%';
+    ```
 
-6. This updates the content of the comments on your site. If there are any links in the comments that are linking to an http URL on your site, they will be updated to https.
+1. This updates the content of the comments on your site. If there are any links in the comments that are linking to an http URL on your site, they will be updated to https.
 
-```sql
-UPDATE `wp_comments` SET comment_content = REPLACE(comment_content, 'http://example.com', \
-'https://example.com') WHERE comment_content LIKE '%http://example.com%';
-```
+    ```sql
+    UPDATE `wp_comments` SET comment_content = REPLACE(comment_content, 'http://example.com', \
+    'https://example.com') WHERE comment_content LIKE '%http://example.com%';
+    ```
 
-7. Now we move to the wp_postmeta table. This takes care of any custom post meta that points to the http version of your site.
+1. Now we move to the wp_postmeta table. This takes care of any custom post meta that points to the http version of your site.
 
-```sql
-UPDATE `wp_postmeta` SET `meta_value` = REPLACE(meta_value, 'http://example.com', \
-'https://example.com') WHERE meta_value LIKE '%http://example.com%';
-```
+    ```sql
+    UPDATE `wp_postmeta` SET `meta_value` = REPLACE(meta_value, 'http://example.com', \
+    'https://example.com') WHERE meta_value LIKE '%http://example.com%';
+    ```
 
-8. Now we move to the wp_options table. Update the “WordPress Address (URL)” and “Site Address (URL)”.
+1. Now we move to the wp_options table. Update the **WordPress Address (URL)** and **Site Address (URL)**.
 
-    For the WordPress Address URL, you may have to modify example.com. If you have WordPress installed in some other directory, then modify this according to your own WordPress URL. For example, some people have WordPress installed in a subdirectory named “blog”, and so their WordPress Address would be https://example.com/blog.
+    For the WordPress Address URL, you may have to modify example.com.
+    If you have WordPress installed in some other directory, then modify this according to your own WordPress URL.
+    For example, some people have WordPress installed in a subdirectory named "blog", and so their WordPress Address would be [https://example.com/blog](https://example.com/blog).
 
     ```sql
     UPDATE `wp_options` SET `option_value` = "https://example.com" \
@@ -270,17 +279,17 @@ UPDATE `wp_postmeta` SET `meta_value` = REPLACE(meta_value, 'http://example.com'
     ```sql
     UPDATE `wp_options` SET `option_value` = "https://example.com" \
     WHERE `wp_options`.`option_name` = 'home';
-  ```
+   ```
 
-### WordPress Control Panel
+#### WordPress Control Panel
 
-Besides, with run the queries directly on the database, we can update, or verify,  the blog URLs, by going to Settings > General
+Besides, with run the queries directly on the database, we can update, or verify, the blog URLs, by going to Settings > General
 
 And updating your WordPress Address (URL) and Site Address (URL) address fields.
 
-![Updating URLs](/media/posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/WP-ChangeURL.png)
+{{< figure src="posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/WP-ChangeURL.png" caption="WordPress - Change URL" id="wp-change-url" theme="ligth">}}
 
-### WordPress Config File
+#### WordPress Config File
 
 Finally, we should add the following line to our **wp_config.php** file
 

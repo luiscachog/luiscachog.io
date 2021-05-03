@@ -11,7 +11,7 @@ categories: [ DevOps, Linux, SysAdmin ]
 keywords: [ MySQL, Configuration, Linux ]
 date: 2014-04-15
 publishDate: 2014-04-15
-lastmod: 2019-11-27
+lastmod: 2021-05-02
 featured: true
 draft: false
 
@@ -31,8 +31,6 @@ image:
 projects: []
 
 ---
-<br/>
-<br/>
 
 The common form to log in to MySQL server, is running a mysql command with your login credentials and server's IP address as arguments. For example:
 

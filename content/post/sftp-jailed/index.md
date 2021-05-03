@@ -11,7 +11,7 @@ categories: [ Linux, SysAdmin]
 keywords: [ SSH, SFTP, Linux, Configuration, Jailed ]
 date: 2015-03-31
 publishDate: 2015-03-31
-lastmod: 2019-11-12
+lastmod: 2021-05-02
 featured: true
 draft: false
 
@@ -36,90 +36,90 @@ To configure your server to use a jailed user on SFTP you should do:
 
 1. Edit the sshd_config file
 
-We need to comment the following line:
+    We need to comment the following line:
 
-```shell
-Subsystem sftp /usr/libexec/openssh/sftp-server
-```
+    ```shell
+    Subsystem sftp /usr/libexec/openssh/sftp-server
+    ```
 
-And add the uncomment line, your modification will be same as:
+    And add the uncomment line, your modification will be same as:
 
-```shell
-# Subsystem sftp /usr/libexec/openssh/sftp-server
-Subsystem sftp internal-sftp
-```
+    ```shell
+    # Subsystem sftp /usr/libexec/openssh/sftp-server
+    Subsystem sftp internal-sftp
+    ```
 
-Also, at the end of the file we should to add the next lines:
+    Also, at the end of the file we should to add the next lines:
 
-```shell
-Match Group sftponly
-ChrootDirectory %h
-X11Forwarding no
-AllowTCPForwarding no
-ForceCommand internal-sftp
-```
+    ```shell
+    Match Group sftponly
+    ChrootDirectory %h
+    X11Forwarding no
+    AllowTCPForwarding no
+    ForceCommand internal-sftp
+    ```
 
-After save all the changes, we must restart the sshd daemon
+    After save all the changes, we must restart the sshd daemon
 
-```shell
-service sshd restart
-```
+    ```shell
+    service sshd restart
+    ```
 
 1. Add **sftponly** group
 
-```shell
-groupadd sftponly
-```
+    ```shell
+    groupadd sftponly
+    ```
 
-1. Add jailed user and add to **sftponly** group
+    1. Add jailed user and add to **sftponly** group
 
-```shell
-useradd -m USERNAME
-passwd USERNAME
-usermod -aG sftponly,apache USERNAME
-```
+    ```shell
+    useradd -m USERNAME
+    passwd USERNAME
+    usermod -aG sftponly,apache USERNAME
+    ```
 
 1. **IMPORTANT**: Create directory and establish correct permissions
 
-```shell
-chown root:root /home/USERNAME
-chmod 755 /home/USERNAME
-mkdir /home/USERNAME/TEST.DOMAIN.COM
-chown apache:apache /home/USERNAME/TEST.DOMAIN.COM
-chmod 775 /home/USERNAME/TEST.DOMAIN.COM
-mkdir /var/www/vhost/TEST.DOMAIN.COM
-chown apache:apache /var/www/vhost/TEST.DOMAIN.COM
-chmod 775 /var/www/vhost/TEST.DOMAIN.COM
-```
+    ```shell
+    chown root:root /home/USERNAME
+    chmod 755 /home/USERNAME
+    mkdir /home/USERNAME/TEST.DOMAIN.COM
+    chown apache:apache /home/USERNAME/TEST.DOMAIN.COM
+    chmod 775 /home/USERNAME/TEST.DOMAIN.COM
+    mkdir /var/www/vhost/TEST.DOMAIN.COM
+    chown apache:apache /var/www/vhost/TEST.DOMAIN.COM
+    chmod 775 /var/www/vhost/TEST.DOMAIN.COM
+    ```
 
-Note: *If you have any connection problem please double check the permissions on the folders and check the logs on /var/log/secure*
+    Note: *If you have any connection problem please double check the permissions on the folders and check the logs on /var/log/secure*
 
-```shell
-tail -f /var/log/secure
-```
+    ```shell
+    tail -f /var/log/secure
+    ```
 
 1. Mount DocumentRoot path on jailed user home directory
 
-```shell
-mount -o bind,noatime /var/www/vhost/TEST.DOMAIN.COM/ /home/USERNAME/TEST.DOMAIN.COM
-```
+    ```shell
+    mount -o bind,noatime /var/www/vhost/TEST.DOMAIN.COM/ /home/USERNAME/TEST.DOMAIN.COM
+    ```
 
 1. Make the mount point permanent, editing the fstab file:
 
-```shell
-vi /etc/fstab</pre>
-```
+    ```shell
+    vi /etc/fstab
+    ```
 
-Add the mount point at the end of the file:
+    Add the mount point at the end of the file:
 
-```shell
-/var/www/vhost/TEST.DOMAIN.COM/ /home/USERNAME/TEST.DOMAIN.COM none bind,noatime 0 0
-```
+    ```shell
+    /var/www/vhost/TEST.DOMAIN.COM/ /home/USERNAME/TEST.DOMAIN.COM none bind,noatime 0 0
+    ```
 
-Save and exit
+    Save and exit
 
 1. Test connection:
 
-```shell
-sftp SERVERIP
-```
+    ```shell
+    sftp SERVERIP
+    ```

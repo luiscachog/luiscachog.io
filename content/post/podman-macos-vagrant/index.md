@@ -1,6 +1,5 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Podman remote client on MacOS using Vagrant"
 url: "/podman-macos-vagrant"
 subtitle: "Installing Podman remote client on MacOS using vagrant"
@@ -11,10 +10,9 @@ categories: [ Cloud Native, MacOS, DevOps ]
 keywords: [ Podman, Kubernetes, Cloud Native, MacOS, Vagrant, Openshift, SRE ]
 date: 2021-02-23
 publishDate: 2021-02-23
-lastmod: 2021-02-23
+lastmod: 2021-04-30
 featured: true
 draft: false
-
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -34,7 +32,7 @@ projects: []
 
 {{% toc %}}
 
-# Introduction
+## Introduction
 
 [Podman](http://podman.io/) is a daemonless, open source, Linux native tool designed to make it easy to find, run, build, share and deploy applications using
 Open Containers Initiative ([OCI](https://www.opencontainers.org/)) Containers and Container Images.
@@ -42,7 +40,7 @@ Open Containers Initiative ([OCI](https://www.opencontainers.org/)) Containers a
 That been said, the core of podman only runs in Linux!
 To use podman on macOS, we need to implement the **remote client** to manage container using a Linux as a backend.
 
-## Brief Architecture
+### Brief Architecture
 
 The remote client uses a client-server model.
 We need Podman installed on a Linux VM that also has the SSH daemon running.
@@ -53,11 +51,11 @@ On our MacOS, when you execute a Podman command:
 - The Podman commands are executed on the Linux VM.
 - From the client's point of view, it seems like Podman runs locally.
 
-![Podman Remote Client Architecture](/media/posts/podman-macos-vagrant/podman-remote-client-architecture.png)
+{{< figure src="posts/podman-macos-vagrant/podman-remote-client-architecture.png" caption="Podman Remote Client Architecture" id="podman-remote-client-architecture" theme="ligth">}}
 
-# Installation
+## Installation
 
-## Install podman on MacOS
+### Install podman on MacOS
 
 To install podman remote client on MacOS, we use [Homebrew](https://brew.sh/)
 
@@ -67,7 +65,7 @@ $ brew install podman
 ```
 <!-- markdownlint-restore -->
 
-## Create a new ssh-keys on MacOS
+### Create a new ssh-keys on MacOS
 
 We will need to connect via ssh to our vagrant VM, in order to do it passwordless, we will create a ssh-key, the commands for that are:
 
@@ -98,7 +96,7 @@ cat /Users/<USERNAME>/.ssh/id_rsa.pub
 ssh-rsa AAAAB3NzaC1y ... O3JH8w== podman+vagrant
 ```
 
-## Create a vagrant VM
+### Create a vagrant VM
 
 We will use a Virtual Machine based on [Fedora 33](https://getfedora.org/),
 
@@ -117,7 +115,7 @@ $ echo "Vagrant.configure("2") do |config|
 end" >> Vagrantfile
 ```
 
-# Implementation
+## Implementation
 
 At this moment we have:
 
@@ -127,7 +125,7 @@ At this moment we have:
 
 Let's start our implementation
 
-## Copy ssh-key from MacOS to Linux VM
+### Copy ssh-key from MacOS to Linux VM
 
 We use the `ssh-copy-id` command, and it will ask us for the vagrant user password. The default one is: **vagrant**
 
@@ -153,7 +151,7 @@ Last login: Tue Feb 23 07:33:45 2021 from 10.0.2.5
 [vagrant@my-fedora ~]$
 ```
 
-## Configure the Linux VM
+### Configure the Linux VM
 
 On this step we will:
 
@@ -161,7 +159,7 @@ On this step we will:
 - Enable the podman service
 - Enable the sshd service
 
-### Installing podman
+#### Installing podman
 
 <!-- markdownlint-disable commands-show-output -->
 ```shell
@@ -169,7 +167,7 @@ sudo dnf --enablerepo=updates-testing install podman libvarlink-util libvarlink
 ```
 <!-- markdownlint-restore -->
 
-### Enableling the podman service
+#### Enableling the podman service
 
 We can enable and start the service permanently, using the following commands:
 
@@ -195,7 +193,7 @@ $ podman --remote info
 ```
 <!-- markdownlint-restore -->
 
-### Enableling the sshd service
+#### Enableling the sshd service
 
 In order for the client to communicate with the server you need to enable and start the SSH daemon on the Linux VM:
 
@@ -205,7 +203,7 @@ $ sudo systemctl enable --now sshd
 ```
 <!-- markdownlint-restore -->
 
-# Using the client
+## Using the client
 
 The first step in using the Podman remote client is to configure a **connection**. To do that, we need can add a connection by using the `podman system connection add` command.
 
@@ -253,7 +251,7 @@ $ podman images
 REPOSITORY  TAG     IMAGE ID      CREATED        SIZE
 ```
 
-# Next steps
+## Next steps
 
 At this point we have installed everything that we need to start using podman on our MacOS, but podman only work if the Linux VM is up & running, otherwise you will receive an error similar to this:
 
@@ -267,67 +265,71 @@ To avoid that behavior, what I implement is an automator workflow, here are the 
 
 1. Get the vagrant VM id, to do that run:
 
-```shell
-$ vagrant global-status
-id       name    provider   state    directory
---------------------------------------------------------------------------
-894d683  my-fedora virtualbox running ~/vms/my-fedora
+    ```shell
+    $ vagrant global-status
+    id       name    provider   state    directory
+    --------------------------------------------------------------------------
+    894d683  my-fedora virtualbox running ~/vms/my-fedora
 
-The above shows information about all known Vagrant environments
-on this machine. This data is cached and may not be completely
-up-to-date (use "vagrant global-status --prune" to prune invalid
-entries). To interact with any of the machines, you can go to that
-directory and run Vagrant, or you can use the ID directly with
-Vagrant commands from any directory. For example:
-"vagrant destroy 1a2b3c4d"
-```
+    The above shows information about all known Vagrant environments
+    on this machine. This data is cached and may not be completely
+    up-to-date (use "vagrant global-status --prune" to prune invalid
+    entries). To interact with any of the machines, you can go to that
+    directory and run Vagrant, or you can use the ID directly with
+    Vagrant commands from any directory. For example:
+    "vagrant destroy 1a2b3c4d"
+    ```
 
-As you can see we are interested on get the id column, for this example: **894d683**
+    As you can see we are interested on get the id column, for this example: **894d683**
 
 1. Now, we need to open **Automator**, go to *Launchpad -> search -> **type** automator*, do click on the **Automator** Application
 
-![Launchpad + Automator](/media/posts/podman-macos-vagrant/launchpad-automator.png)
+    {{< figure src="posts/podman-macos-vagrant/launchpad-automator.png" caption="Launchpad + Automator" id="launchpad-automator" theme="ligth">}}
 
 1. Then, we need to write an automator application, for this example I choose a workflow that it will run the command `vagrant up <VM-ID>`
 
-```shell
-$ vagrant up 894d683
-Bringing machine 'my-fedora' up with 'virtualbox' provider...
-==> default: Checking if box 'generic/fedora33' version '3.2.0' is up to date...
-==> default: A newer version of the box 'generic/fedora33' for provider 'virtualbox' is
-==> default: available! You currently have version '3.2.0'. The latest is version
-==> default: '3.2.6'. Run `vagrant box update` to update.
-==> default: Clearing any previously set forwarded ports...
-==> default: Clearing any previously set network interfaces...
-==> default: Preparing network interfaces based on configuration...
-    default: Adapter 1: nat
-==> default: Forwarding ports...
-    default: 22 (guest) => 2222 (host) (adapter 1)
-==> default: Running 'pre-boot' VM customizations...
-==> default: Booting VM...
-==> default: Waiting for machine to boot. This may take a few minutes...
-    default: SSH address: 127.0.0.1:2222
-    default: SSH username: vagrant
-    default: SSH auth method: private key
-==> default: Machine booted and ready!
-==> default: Checking for guest additions in VM...
-==> default: Setting hostname...
-==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
-==> default: flag to force provisioning. Provisioners marked to run always will still run.
-```
+    ```shell
+    $ vagrant up 894d683
+    Bringing machine 'my-fedora' up with 'virtualbox' provider...
+    ==> default: Checking if box 'generic/fedora33' version '3.2.0' is up to date...
+    ==> default: A newer version of the box 'generic/fedora33' for provider 'virtualbox' is
+    ==> default: available! You currently have version '3.2.0'. The latest is version
+    ==> default: '3.2.6'. Run `vagrant box update` to update.
+    ==> default: Clearing any previously set forwarded ports...
+    ==> default: Clearing any previously set network interfaces...
+    ==> default: Preparing network interfaces based on configuration...
+        default: Adapter 1: nat
+    ==> default: Forwarding ports...
+        default: 22 (guest) => 2222 (host) (adapter 1)
+    ==> default: Running 'pre-boot' VM customizations...
+    ==> default: Booting VM...
+    ==> default: Waiting for machine to boot. This may take a few minutes...
+        default: SSH address: 127.0.0.1:2222
+        default: SSH username: vagrant
+        default: SSH auth method: private key
+    ==> default: Machine booted and ready!
+    ==> default: Checking for guest additions in VM...
+    ==> default: Setting hostname...
+    ==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+    ==> default: flag to force provisioning. Provisioners marked to run always will still run.
+    ```
 
-![Automator Workflow](/media/posts/podman-macos-vagrant/automator-workflow.png)
+    {{< figure src="posts/podman-macos-vagrant/automator-workflow.png" caption="Automator Workflow" id="automator-workflow" theme="ligth">}}
 
 1. Save the Workflow and remember the location where you save it.
 
 1. The final step is to add the workflow to our **login items**. Go to `Systems Preferences -> Users & Groups -> Login Items` and add the application that you save on the previous step.
 
-![Login Items](/media/posts/podman-macos-vagrant/login-items.png)
+    {{< figure src="posts/podman-macos-vagrant/login-items.png" caption="Login Items Menu" id="login-items" theme="ligth">}}
 
-And that is all, you will have a fully working podman command on your MacOS.
+    And that is all, you will have a fully working podman command on your MacOS.
 
-Sources:
+**References:**
 
-- [https://github.com/containers/podman/blob/master/docs/tutorials/mac_win_client.md](https://github.com/containers/podman/blob/master/docs/tutorials/mac_win_client.md)
-- [https://vikaspogu.dev/posts/podman-macos/](https://vikaspogu.dev/posts/podman-macos/)
-- [https://stackoverflow.com/questions/30680861/how-can-i-automatically-do-vagrant-up-every-time-my-osx-machine-boots](https://stackoverflow.com/questions/30680861/how-can-i-automatically-do-vagrant-up-every-time-my-osx-machine-boots)
+- Podman MacOS and windows install [^1]
+- Detailed podman installation on MacOS [^2]
+- Automator Configuration [^3]
+
+[^1]: [https://github.com/containers/podman/blob/master/docs/tutorials/mac_win_client.md](https://github.com/containers/podman/blob/master/docs/tutorials/mac_win_client.md)
+[^2]: [https://vikaspogu.dev/posts/podman-macos/](https://vikaspogu.dev/posts/podman-macos/)
+[^3]: [https://stackoverflow.com/questions/30680861/how-can-i-automatically-do-vagrant-up-every-time-my-osx-machine-boots](https://stackoverflow.com/questions/30680861/how-can-i-automatically-do-vagrant-up-every-time-my-osx-machine-boots)

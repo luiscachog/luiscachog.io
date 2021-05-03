@@ -11,7 +11,7 @@ categories: [ DevOps, Rackspace, SysAdmin ]
 keywords: [ API, DevOps, Rackspace, SysAdmin, DNS ]
 date: 2016-04-11
 publishDate: 2016-04-11
-lastmod: 2019-11-13
+lastmod: 2021-05-01
 featured: true
 draft: false
 
@@ -31,7 +31,8 @@ image:
 projects: []
 ---
 
-This time I've want to create a homemade Server with my Raspberry Pi2 and publish it using my own sub-domain, the main problem is that the ISP provide me an dynamic IP and we should ensure that if my IP address change the sub-domain record should point to the new IP.
+This time I've want to create a homemade Server with my Raspberry Pi2 and publish it using my own sub-domain,
+the main problem is that the ISP provide me an dynamic IP and we should ensure that if my IP address change the sub-domain record should point to the new IP.
 
 The instructions assume that you:
 
@@ -41,51 +42,54 @@ The instructions assume that you:
 
 1. You should download the latest version of rsdns from github
 
-```shell
-cd ~/bin/
-git clone https://github.com/linickx/rsdns.git
-```
+    ```shell
+    cd ~/bin/
+    git clone https://github.com/linickx/rsdns.git
+    ```
 
-2. Go to your Rackspace portal (https://mycloud.rackspace.com/) and grab your Username & API key (It's under "Your Account" -> "Account Settings" -> "API Key")
+1. Go to your Rackspace portal [https://mycloud.rackspace.com/](https://mycloud.rackspace.com/) and grab your Username & API key (It's under "Your Account" -> "Account Settings" -> "API Key")
 
-3. Create a configuration file for rsdns (~/.rsdns_config) with your settings.
+1. Create a configuration file for rsdns (~/.rsdns_config) with your settings.
 
-```shell
-#!/bin/bash
-RSUSER=lcacho
-RSAPIKEY=1234567890
-RSPATH=~/bin/rsdns/
-```
+    ```shell
+    #!/bin/bash
+    RSUSER=lcacho
+    RSAPIKEY=1234567890
+    RSPATH=~/bin/rsdns/
+    ```
 
-4. You need your domain created on Rackspace(It's under "Networking" -> "Cloud DNS" -> "Create Domain") if you don't have your domain created you are able to created using rsdns:
+1. You need your domain created on Rackspace(It's under "Networking" -> "Cloud DNS" -> "Create Domain") if you don't have your domain created you are able to created using rsdns:
 
-```shell
-./rsdns-domain.sh -d www.luiscachog.io -e lcacho@luisachog.io
-```
+    ```shell
+    ./rsdns-domain.sh -d www.luiscachog.io -e lcacho@luisachog.io
+    ```
 
-5. Once you have a domain setup you need to create an A record. To create the A record you going to need an IP address, you can use http://icanhazip.com to get your actual current IP. Again to create a record you are able to do it from Rackspace panel (It's under "Networking" -> "Cloud DNS" -> YOUR_DOMAIN -> "Add Record") or you can use rsdns:
+1. Once you have a domain setup you need to create an A record.
+  To create the A record you going to need an IP address, you can use [http://icanhazip.com](http://icanhazip.com) to get your actual current IP.
+  Again to create a record you are able to do it from Rackspace panel (It's under "Networking" -> "Cloud DNS" -> YOUR_DOMAIN -> "Add Record") or you can use rsdns:
 
-```shell
-./rsdns-a.sh -n dynamic-host.luiscachog.io -i 123.123.123.123 -t 3600
-```
+    ```shell
+    ./rsdns-a.sh -n dynamic-host.luiscachog.io -i 123.123.123.123 -t 3600
+    ```
 
-In the above the TTL is set to 1hr (3600 secs), this is so that DNS caches do not keep the record too long. That's all the pre-work done, now lets get your dynamic host setup!
+    In the above the TTL is set to 1hr (3600 secs), this is so that DNS caches do not keep the record too long. That's all the pre-work done, now lets get your dynamic host setup!
 
-6. The script to update your a record is rsdns-dc.sh, and you run it like this:
+1. The script to update your a record is rsdns-dc.sh, and you run it like this:
 
-```shell
-./rsdns-dc.sh -n dynamic-host.luiscachog.io
-```
+    ```shell
+    ./rsdns-dc.sh -n dynamic-host.luiscachog.io
+    ```
 
-The script uses icanhazip to get your current IP, it then update the A record with it.
+    The script uses icanhazip to get your current IP, it then update the A record with it.
 
-I never switch off my router so I have create a created a cronjob to run that script every 2 hours, plus the 1hr TTL should mean that the record is roughly in sync with my IP without making unnecessary requests
+    I never switch off my router so I have create a created a cronjob to run that script every 2 hours,
+    plus the 1hr TTL should mean that the record is roughly in sync with my IP without making unnecessary requests
 
-7.- I use CentOS, so I can simply drop the following file called rsdns-dc into /etc/cron.d/ with this...
+1. I use CentOS, so I can simply drop the following file called rsdns-dc into /etc/cron.d/ with this...
 
-```shell
-vim /etc/cron.d/rsdns-dc
-* */2  * * *     lcacho /home/lcacho/bin/rsdns/rsdns-dc.sh -n dynamic-host.luiscachog.io &>/dev/null
-```
+    ```shell
+    vim /etc/cron.d/rsdns-dc
+    * */2  * * *     lcacho /home/lcacho/bin/rsdns/rsdns-dc.sh -n dynamic-host.luiscachog.io &>/dev/null
+    ```
 
 Now we are done! Private Dynamic DNS on your own zone using the Rackspace API.

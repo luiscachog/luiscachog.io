@@ -11,7 +11,7 @@ categories: [ Network ]
 keywords: [ Network, Networking, OSI, Training ]
 date: 2017-09-13
 publishDate: 2017-09-13
-lastmod: 2019-11-27
+lastmod: 2021-05-01
 featured: true
 draft: false
 
@@ -34,4 +34,4 @@ projects: []
 
 If anyone need a good OSI Model cheat sheet, as me:
 
-![OSI Model](/media/posts/osi-model-cheat-sheet/OSI-TCP-Model-v1.png)
+{{< figure src="posts/osi-model-cheat-sheet/OSI-TCP-Model-v1.png" caption="OSI Model diagram" id="osi-model" theme="ligth">}}

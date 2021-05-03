@@ -11,7 +11,7 @@ categories: [ SysAdmin , DevOps, Open Source, Cloud Native]
 keywords: [ Kubernetes, Quay, Docker, Cloud Native, Open Source, DevOps, SRE, Hugo ]
 date: 2018-06-18
 publishDate: 2018-06-18
-lastmod: 2019-12-09
+lastmod: 2021-04-30
 featured: true
 draft: false
 
@@ -34,7 +34,7 @@ projects: []
 
 {{% toc %}}
 
-# Overview
+## Overview
 
 Since last year I been trying to become an SRE (Site Reliability Engineer), so I been involved with some emerging technologies, like ansible, docker and on this time with kubernetes.
 
@@ -46,7 +46,7 @@ This time, I will try to explain how I containerized my blog using:
 - [Quay](https://quay.io/)
 - [Git](https://github.com)
 
-## Architecture
+### Architecture
 
 So, I take some ideas from [here](https://danrl.com/blog/2017/my-blog-on-kubernetes/) and I modify them and adapt the architecture described to my options.
 
@@ -54,11 +54,12 @@ The principal changes that I made are:
 
 - My Kubernetes cluster is running on 2 cloud server on Rackspace Public Cloud
 - The container registry that I'm using is Quay
-- Rackspace Public Cloud does not support a Kubernetes LoadBalancer service automatically, so I simulate that behavior adding a Cloud Load Balancer manually after the Kubernetes service provide me the port.
+- Rackspace Public Cloud does not support a Kubernetes LoadBalancer service automatically,
+  so I simulate that behavior adding a Cloud Load Balancer manually after the Kubernetes service provide me the port.
 
-![Architecture](/media/posts/blog-hugo-docker-k8s-quay/architecture.png)
+{{< figure src="posts/blog-hugo-docker-k8s-quay/architecture.png" caption="Architecture" id="blog-hugo-architecture" theme="ligth">}}
 
-# Containerized
+## Containerized
 
 I use [Hugo](https://gohugo.io/) to deploy my blog, I used to do it as mentioned on [this](https://luiscachog.io/deployment-hugo-site-git-hooks/) previous post (In Spanish).
 
@@ -67,7 +68,7 @@ Now, as a part of containerize the blog it make sense to me to create two stages
 - The first stage is a defined build environment containing all required build tools (hugo, pygments) and the source of the website (Git repository).
 - The second stage is the build artifact (HTML and assets), from the first stage and a webserver to serve the artifact over HTTP.
 
-## Dockerfile
+### Dockerfile
 
 Here is the Dockerfile that containerize the blog:
 
@@ -97,14 +98,14 @@ EXPOSE 80 443
 MAINTAINER Luis Cacho <luiscachog@gmail.com>
 ```
 
-### First Stage
+#### First Stage
 
 - Fetch the lastest Ubuntu image and name as **STAGEONE**
 - Install the last available **hugo** version from source.
 - Install **pygments** library to use it for highlighting.
 - Build the site with **hugo** and the output is set on **/public** as a build artifact.
 
-### Second Stage
+#### Second Stage
 
 - Fetch the lastest stable nginx alpine image.
 - Update the image and install some utilities.

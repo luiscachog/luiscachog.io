@@ -11,7 +11,7 @@ categories: [ Linux, SysAdmin ]
 keywords: [ MySQL, Configuration, Linux, Reset ]
 date: 2014-07-30
 publishDate: 2014-07-30
-lastmod: 2019-11-08
+lastmod: 2021-05-02
 featured: true
 draft: false
 
@@ -31,7 +31,6 @@ image:
 projects: []
 ---
 
-
 Hello,
 
 This time I share with you the faster and more secure method to reset the root password of MySQL.
@@ -42,34 +41,34 @@ The steps are:
 
 1. Create text file /var/lib/mysql/mysql-init with the sintaxis to reset the password for user root:
 
-```shell
-vim /var/lib/mysql/mysql-init
-```
+    ```shell
+    vim /var/lib/mysql/mysql-init
+    ```
 
-```sql
-SET PASSWORD FOR 'root'@'localhost' = PASSWORD('new_password');
-```
+    ```sql
+    SET PASSWORD FOR 'root'@'localhost' = PASSWORD('new_password');
+    ```
 
 1. Add under the [mysqld] stanza on the file /etc/my.cnf:
 
-```shell
-init-file=/var/lib/mysql/mysql-init
-```
+    ```shell
+    init-file=/var/lib/mysql/mysql-init
+    ```
 
 1. Restart the mysqld service:
 
-```shell
-service mysqld restart
-```
+    ```shell
+    service mysqld restart
+    ```
 
 1. Remove the init-file line from /etc/my.cnf
 
 1. Remove /var/lib/mysql/mysql-init
 
-```shell
-rm /var/lib/mysql/mysql-init
-```
+    ```shell
+    rm /var/lib/mysql/mysql-init
+    ```
 
 And after that, you can access again to your mysql instance.
 
-:)
+:smile:

@@ -9,9 +9,9 @@ authors: [ luiscachog ]
 tags: [ Openstack, DevOps, SysAdmin, Turbolift, Open Source, Rackspace, Cloud Files ]
 categories: [ SysAdmin , DevOps, Open Source, Rackspace ]
 keywords: [ Openstack, DevOps, SysAdmin, Turbolift, Open Source, Cloud Files ]
-date: 2019-02-13T13:37:04-06:00
-publishDate: 2019-02-13T13:37:04-06:00
-lastmod: 2019-11-17T13:37:04-06:00
+date: 2019-02-13
+publishDate: 2019-02-13
+lastmod: 2021-04-30
 featured: true
 draft: false
 
@@ -32,32 +32,30 @@ image:
 projects: []
 ---
 
-{{% toc %}}
-
-
-Sometimes it is necessary to delete all the content of the Cloud Files containers, however, the API does not have a proper method to delete the data and the containers on the same API call. Also, accoring to the documentation, you can only delete **empty** containers.
+Sometimes it is necessary to delete all the content of the Cloud Files containers, however, the API does not have a proper method to delete the data and the containers on the same API call.
+Also, accoring to the documentation, you can only delete **empty** containers.
 
 So, in cases where you need to delete the **data and the containers** at the same time, you should follow the next steps:
 
 1. Download [Turbolift](https://github.com/cloudnull/turbolift), I know it is an old tool.
 
-```shell
-git clone https://github.com/cloudnull/turbolift
-cd turbolift
-```
+    ```shell
+    git clone https://github.com/cloudnull/turbolift
+    cd turbolift
+    ```
 
 1. In order to get and isolated installation, we are going to create a Python Virtual Environment (virtualenv)
 
-```shell
-mkvirtualenv turbolift
-workon turbolift
-```
+    ```shell
+    mkvirtualenv turbolift
+    workon turbolift
+    ```
 
 1. Install the tool
 
-```shell
-pip install turbolift
-```
+    ```shell
+    pip install turbolift
+    ```
 
 1. Now, prior to start to play with the API calls, we need to grab some data to authenticate with the API:
 
@@ -86,16 +84,17 @@ pip install turbolift
     ```shell
     ENDPOINT=$(curl -s -XPOST https://identity.api.rackspacecloud.com/v2.0/tokens \
             -d'{"auth":{"RAX-KSKEY:apiKeyCredentials":{"username":"'$CL_USERNAME'","apiKey":"'$APIKEY'"}}}' \
-            -H"Content-type:application/json" | jq '.access.serviceCatalog[] | select((.name=="cloudFiles") or (.name=="cloudFilesCDN")) | {name} + .endpoints[] | .publicURL' | tr -d "\"" | grep -v cdn | grep -i $REGION)
+            -H"Content-type:application/json" | jq '.access.serviceCatalog[] | select((.name=="cloudFiles") or (.name=="cloudFilesCDN")) | {name} + .
+            endpoints[] | .publicURL' | tr -d "\"" | grep -v cdn | grep -i $REGION)
     ```
 
     In this case we are skipping all te CDN endpoints, but you can add them if is necessary.
 
 1. With all the collected data, next step is use turbolift to delete the Cloud Files container and their data. To do it, I use a for-loop:
 
-```shell
-for i in $(curl -s -H "X-Auth-Token: $TOKEN" $ENDPOINT); do turbolift -u $USERNAME -a $APIKEY --os-rax-auth $REGION delete -c $i ; done
-```
+    ```shell
+    for i in $(curl -s -H "X-Auth-Token: $TOKEN" $ENDPOINT); do turbolift -u $USERNAME -a $APIKEY --os-rax-auth $REGION delete -c $i ; done
+    ```
 
 Now, you have all the Data and Cloud Files containers deleted on one region.
 

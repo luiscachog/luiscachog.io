@@ -11,7 +11,7 @@ categories: [ Linux, SysAdmin ]
 keywords: [Email, Exim, Spamassassin, VestaCP, Linux ]
 date: 2015-04-08
 publishDate: 2015-04-08
-lastmod: 2019-11-13
+lastmod: 2021-05-01
 featured: true
 draft: false
 
@@ -56,50 +56,50 @@ To fix it follow the next steps:
 
 1. Create the user spamd, in order to avoid to run spamassassin with the user nobody:
 
-```shell
-groupadd -g 1001 spamd
-useradd -u 1001 -g spamd -s /sbin/nologin -d /var/lib/spamassassin spamd
-mkdir /var/lib/spamassassin
-chown spamd:spamd /var/lib/spamassassin</pre>
-```
+    ```shell
+    groupadd -g 1001 spamd
+    useradd -u 1001 -g spamd -s /sbin/nologin -d /var/lib/spamassassin spamd
+    mkdir /var/lib/spamassassin
+    chown spamd:spamd /var/lib/spamassassin</pre>
+    ```
 
 1. Edit the file /etc/exim/exim.conf.
 
-```shell
-vi /etc/exim/exim.conf
-```
+    ```shell
+    vi /etc/exim/exim.conf
+    ```
 
-Change the line:
+    Change the line:
 
-```shell
-spam           = nobody:true/defer_ok
-```
+    ```shell
+    spam           = nobody:true/defer_ok
+    ```
 
-to
+    to
 
-```shell
-spam           = spamd:true/defer_ok
-```
+    ```shell
+    spam           = spamd:true/defer_ok
+    ```
 
 1. Restart exim an spamassassin
 
-```shell
-/etc/init.d/exim restart
-/etc/init.d/spamassassin restart
-```
+    ```shell
+    /etc/init.d/exim restart
+    /etc/init.d/spamassassin restart
+    ```
 
 1. After that verify that the files **bayes_seen, bayes_toks and user_prefs** exists on the spamd home (In this case /var/lib/spamassassin)
 
-```shell
-pwd
-/var/lib/spamassassin
-ls -la
-total 40
-drwxr-xr-x  3 spamd spamd  4096 Apr  7 17:58 .
-drwxr-xr-x 36 root  root   4096 Feb 25 00:56 ..
--rw-------  1 spamd spamd 12288 Apr  2 21:34 bayes_seen
--rw-------  1 spamd spamd 12288 Apr  2 17:34 bayes_toks
--rw-r--r--  1 spamd spamd  1869 Apr  1 17:18 user_prefs
-```
+    ```shell
+    pwd
+    /var/lib/spamassassin
+    ls -la
+    total 40
+    drwxr-xr-x  3 spamd spamd  4096 Apr  7 17:58 .
+    drwxr-xr-x 36 root  root   4096 Feb 25 00:56 ..
+    -rw-------  1 spamd spamd 12288 Apr  2 21:34 bayes_seen
+    -rw-------  1 spamd spamd 12288 Apr  2 17:34 bayes_toks
+    -rw-r--r--  1 spamd spamd  1869 Apr  1 17:18 user_prefs
+    ```
 
 Done!

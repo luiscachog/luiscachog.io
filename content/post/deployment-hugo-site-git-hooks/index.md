@@ -8,10 +8,10 @@ summary: "Como realizar un deployment de un sitio con Hugo automaticamente usand
 authors: [ luiscachog ]
 tags: [ Hugo, Git, Open Source, Spanish ]
 categories: [ Linux, SysAdmin, DevOps, Open Source, Spanish]
-keywords: [ Hugo,DevOps, Open Source ]
+keywords: [ Hugo, DevOps, Open Source ]
 date: 2018-03-05
 publishDate: 2018-03-05
-lastmod: 2020-11-28
+lastmod: 2021-04-30
 featured: true
 draft: false
 
@@ -33,35 +33,41 @@ projects: []
 
 {{% toc %}}
 
-# 1. Motivación
+## Motivación
 
-Estoy intentando escribir un poco más en mi blog, ya que noté que muchas veces no lo hacia muy a menudo por que al llegar a la consola de administración de Wordpress, habia que dar bastantes clicks para llegar al menu de "Posts", además de que cada vez que entraba había un plugin diferente que actualizar, y verificar que nada se rompiera con las nuevas actualizaciónes, en pocas palabras hay que darle bastante mantenimiento a un sitio con Wordpress, y además de eso había que dedicarse a escribir el post.
+Estoy intentando escribir un poco más en mi blog, ya que noté que muchas veces no lo hacia muy a menudo
+por que al llegar a la consola de administración de Wordpress, habia que dar bastantes clicks para llegar al menu de "Posts",
+además de que cada vez que entraba había un plugin diferente que actualizar, y verificar que nada se rompiera con
+las nuevas actualizaciónes, en pocas palabras hay que darle bastante mantenimiento a un sitio con Wordpress,
+y además de eso había que dedicarse a escribir el post.
 
-Otra razón por lo que opté hacer el cambio de plataforma, es que al estar tratando de convertirme en DevOps, es necesario, desde mi punto de vista; tratar automatizar/scriptear la mayoria de tus tareas que realizas día a día, y con [Hugo](https://gohugo.io/ "Hugo") considero que se puede realizar este objetivo también.
+Otra razón por lo que opté hacer el cambio de plataforma, es que al estar tratando de convertirme en DevOps, es necesario,
+desde mi punto de vista; tratar automatizar/scriptear la mayoria de tus tareas que realizas día a día, y con [Hugo](https://gohugo.io/ "Hugo") considero que se puede realizar este objetivo también.
 
-## 1.1 Consideraciones
+### Consideraciones
 
 Una vez que decidí migrarme de Wordpress, el siguiente paso era decidir a que plataforma mudarme.
-De entrada la plataforma que queria probar era un [Static Site Generator](https://en.wikipedia.org/wiki/Static_web_page), aqui otro [link](https://learn.cloudcannon.com/jekyll/why-use-a-static-site-generator/) de por que usar un Static Site Generator.
+De entrada la plataforma que queria probar era un [Static Site Generator](https://en.wikipedia.org/wiki/Static_web_page),
+aqui otro [link](https://learn.cloudcannon.com/jekyll/why-use-a-static-site-generator/) de por que usar un Static Site Generator.
 
 Partiendo de lo anterior, las opciones que me parecieron interesantes fueron:
 
-- [Hugo](https://gohugo.io "Hugo")
-- [Jekyll](https://jekyllrb.com "Jekyll")
-- [Octopress](http://octopress.org/ "Octopress")
-- [Hexo](https://hexo.io/ "Hexo")
+- [Hugo](https://gohugo.io)
+- [Jekyll](https://jekyllrb.com)
+- [Octopress](http://octopress.org/)
+- [Hexo](https://hexo.io/)
 
-Cada una de las opciones tiene diferentes caracteristicas, que no vamos a discutir en este post, sin embargo las carteristicas que me convencieron de usar [Hugo](https://gohugo.io/ "Hugo") por encima de las otras alternativas fueron:
+Cada una de las opciones tiene diferentes caracteristicas, que no vamos a discutir en este post,
+sin embargo las carteristicas que me convencieron de usar [Hugo](https://gohugo.io/ "Hugo") por encima de las otras alternativas fueron:
 
 - Consta solamente de un binario, que comparado con las otras posibilidades hay que instalar todo un ambiente de desarrollo/producción.
 - Es bastante rápido.
 - Es Multi-plataforma
 - Tiene diversos [temas](https://themes.gohugo.io/)
 
+## Instruciones
 
-# 2. Instruciones
-
-## 2.1 Consideraciones técnicas
+### Consideraciones técnicas
 
 El ambiente consta de:
 
@@ -69,30 +75,31 @@ El ambiente consta de:
 - 1 servidor/equipo de desarrollo, de igual forma que cuenta con hugo y git, en mi caso, es mi computadora personal y mi usuario es luiscachog.
 - 1 cuenta de [github.com](https://github.com)
 
-## 2.2 Autenticación mediante llaves SSH
+### Autenticación mediante llaves SSH
 
 El primer paso es realizar el intercambio de llaves SSH entre el equipo de desarrollo y el equipo productivo. Para ello seguimos los siguientes pasos:
 
 1. Generar la llave SSH, tendrás que contestar algunas preguntas, entre las cuales está si quieres ponerle un password, a lo cual deberas dejarlo en blanco para que no te pida contraseña.
 
-```shell
-luiscachog@dev-server:~$ ssh-keygen
-```
+    ```shell
+    luiscachog@dev-server:~$ ssh-keygen
+    ```
 
-2. Copiar la llave SSH hacia el equipo productivo:
+1. Copiar la llave SSH hacia el equipo productivo:
 
-```shell
-luiscachog@dev-server:~$ ssh-copy-id admin@IP_servidor_productivo
-```
+    ```shell
+    luiscachog@dev-server:~$ ssh-copy-id admin@IP_servidor_productivo
+    ```
 
-3. Verificar que te puedas conectar desde tu servidor de desarrollo, con tu usuario al servidor productivo, con el usuario que realizará los deployments.
+1. Verificar que te puedas conectar desde tu servidor de desarrollo, con tu usuario al servidor productivo, con el usuario que realizará los deployments.
 
-```shell
-luiscachog@dev-server:~$ ssh admin@162.125.2.30 hostname
-```
+    ```shell
+    luiscachog@dev-server:~$ ssh admin@162.125.2.30 hostname
+    ```
+
     En este caso, debera de mostrarte el hostname del servidor productivo sin pedirte el password.
 
-## 2.3 Configuración sitio con Hugo
+### Configuración sitio con Hugo
 
 El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
 
@@ -104,14 +111,14 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
 
     Para tener la version más actualizada de hugo puedes seguir los pasos descritos en este [link](https://gohugo.io/getting-started/installing/)
 
-2. Vamos a crear un directorio de trabajo para nuestro sitio estatico
+1. Vamos a crear un directorio de trabajo para nuestro sitio estatico
 
     ```shell
     luiscachog@dev-server:~$ mkdir ~/sites
     luiscachog@dev-server:~$ cd ~/sites
     ```
 
-3. Crearemos un nuevo sitio usando el comando hugo
+1. Crearemos un nuevo sitio usando el comando hugo
 
     ```shell
     luiscachog@dev-server:~$ hugo new site luiscachog.io
@@ -129,7 +136,7 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
     Visit https://gohugo.io/ for quickstart guide and full documentation.
     ```
 
-4. Cuando termine de correr el comando se podra apreciar los siguientes directorios y archivos
+1. Cuando termine de correr el comando se podra apreciar los siguientes directorios y archivos
 
     ```shell
     luiscachog@dev-server:~$ cd luiscachog.io
@@ -149,7 +156,7 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
     6 directories, 2 files
     ```
 
-5. El siguiente paso es agregar un tema, puedes encontrar uno que te guste en [https://themes.gohugo.io/](https://themes.gohugo.io/)
+1. El siguiente paso es agregar un tema, puedes encontrar uno que te guste en [https://themes.gohugo.io/](https://themes.gohugo.io/)
 
     ```shell
     git init
@@ -161,10 +168,12 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
     echo 'theme = "ananke"' >> config.toml
     ```
 
-    Como recomendación adicional en este paso, puedes realizar un fork del tema que te guste en github para poder realizar modificaciones y proponer cambios al mismo, contribuyendo de esa forma a su desarrollo, para hacerlo, sigue los pasos:
+    Como recomendación adicional en este paso, puedes realizar un fork del tema que te guste en github para poder realizar modificaciones y proponer cambios al mismo,
+    contribuyendo de esa forma a su desarrollo, para hacerlo, sigue los pasos:
 
     1. Realizar un fork del tema, sigue esta [guia](https://guides.github.com/activities/forking/) para hacerlo.
-    2. Al realizar el fork, tendras en tus repositorios de github el tema que quieras, por lo que tendras que ejecutar los mismos comandos del punto anterior, pero el repositorio del tema apuntara a tu usario en github
+    1. Al realizar el fork, tendras en tus repositorios de github el tema que quieras, por lo que tendras que ejecutar los mismos comandos del punto anterior,
+        pero el repositorio del tema apuntara a tu usario en github
 
     ```shell
     git init
@@ -175,7 +184,7 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
     echo 'theme = "ananke"' >> config.toml
     ```
 
-6. Vamos a crear un post de prueba para verificar que todo esta funcionando correctamente
+1. Vamos a crear un post de prueba para verificar que todo esta funcionando correctamente
 
     ```shell
     hugo new posts/my-first-post.md
@@ -194,14 +203,14 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
 
     ```
 
-7. Finalmente, probaremos que nuestro sitio estatico con nuestro post se muestren de manera local, en nuestro servidor de desarrollo.
+1. Finalmente, probaremos que nuestro sitio estatico con nuestro post se muestren de manera local, en nuestro servidor de desarrollo.
     Cabe mencionar, que por defecto el comando 'hugo server' no mostrará los posts que tengan la opción 'draft: true', por ello se agrega la bandera -D
 
     ```shell
     luiscachog@dev-server:~$ hugo server -D
     ```
 
-## 2.4 Configuración del repositorio Git en el servidor de desarrollo 1ra parte
+### Configuración del repositorio Git en el servidor de desarrollo 1ra parte
 
 En el paso pasado, realizamos la inicialización del repositorio dentro del directorio del sitio estatico:
 
@@ -228,7 +237,8 @@ Untracked files:
     themes/ananke/
 ```
 
-Ahora, para tener el repositorio publico, tenemos que [crear](https://help.github.com/articles/creating-a-new-repository/) el repositorio en [github.com](https://github.com) y configurarlo como un repositorio remoto
+Ahora, para tener el repositorio publico, tenemos que [crear](https://help.github.com/articles/creating-a-new-repository/) el repositorio
+en [github.com](https://github.com) y configurarlo como un repositorio remoto
 
 ```shell
 luiscachog@dev-server:~$ git add *
@@ -237,8 +247,7 @@ luiscachog@dev-server:~$ git remote add origin https://github.com/luiscachog/lui
 luiscachog@dev-server:~$ git push -u origin master
 ```
 
-
-## 2.5 Configuración del repositorio Git en el servidor productivo
+### Configuración del repositorio Git en el servidor productivo
 
 Para poder ocupar los hooks de git es necesario hacer una primera copia inicial del repositorio en el que vamos a trabajar, con la particularidad de que el repositorio clonado debe ser del tipo [bare](http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/).
 
@@ -250,7 +259,7 @@ admin@prod-server:~$ cd sites
 admin@prod-server:~$ git clone --bare https://github.com/luiscachog/luiscachog.io  luiscachog.io.git
 ```
 
-### 2.5.1 Configuración del hook
+#### Configuración del hook
 
 1. Ya que tenemos nuestro repositorio tipo bare en el servidor productivo vamos a crear el script que mandará a llamar el hook de git.
 
@@ -259,7 +268,7 @@ admin@prod-server:~$ git clone --bare https://github.com/luiscachog/luiscachog.i
     admin@prod-server:~$ vim post-update
     ```
 
-2. Y agregamos algo asi:
+1. Y agregamos algo asi:
 
     ```shell
     #!/bin/bash
@@ -283,13 +292,13 @@ admin@prod-server:~$ git clone --bare https://github.com/luiscachog/luiscachog.i
     trap - EXIT
     ```
 
-3. Damos permisos de ejecución al script
+1. Damos permisos de ejecución al script
 
     ```shell
     admin@prod-server:~$ chmod +x post-update
     ```
 
-4. Probamos que nuestro script funcione adecuadamente:
+1. Probamos que nuestro script funcione adecuadamente:
 
     ```shell
     admin@prod-server:~$ ~/sites/luiscachog.io.git/hooks/post-update
@@ -305,13 +314,13 @@ admin@prod-server:~$ git clone --bare https://github.com/luiscachog/luiscachog.i
     in 26 ms
     ```
 
-5. Podras verificar tu nuevo post en la URL de su sitio:
+1. Podras verificar tu nuevo post en la URL de su sitio:
 
-```shell
-http://production_domain_or_IP
-```
+    ```shell
+    http://production_domain_or_IP
+    ```
 
-## 2.6 Configuración del repositorio Git en el servidor de desarrollo 2da parte
+### Configuración del repositorio Git en el servidor de desarrollo 2da parte
 
 Una vez tenemos configurado nuestro repositorio en el servidor de producción, procedemos a agregarlo como repositorio remoto en nuestro servidor de desarrollo
 
@@ -374,7 +383,6 @@ To admin@IP_servidor_productivo:luiscachog.io.git
    d5b0671..cvc4dee  master -> master
 ```
 
-
 Listo ya podemos probar nuestro sitio
 
 ```shell
@@ -385,5 +393,7 @@ Con esto el siguiente paso que realizare es hacer el deployment de mi servidor p
 
 Nos Vemos!!!
 
-Sources:
-[Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-hugo-site-to-production-with-git-hooks-on-ubuntu-14-04)
+**References:**
+Digital Ocean blog post [^1]
+
+[^1]: [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-hugo-site-to-production-with-git-hooks-on-ubuntu-14-04)

@@ -11,7 +11,7 @@ categories: [ SysAdmin, DevOps, Open Source ]
 keywords: [ Openstack, ARA, DevOps, Open Source ]
 date: 2018-03-15
 publishDate: 2018-03-15
-lastmod: 2019-11-27
+lastmod: 2021-04-30
 featured: true
 draft: false
 
@@ -33,8 +33,9 @@ projects: []
 
 I been working since last year using [Ansible](https://www.ansible.com/) for fun and to trying to get prepared to become a DevOps, so I found an excelent OpenStack project called [ARA Records Ansible](https://github.com/openstack/ara).
 
-![Ansible Logo](/media/posts/my-first-contribution-to-openstack/Ansible-Logo.png)
-![ARA Logo](/media/posts/my-first-contribution-to-openstack/ARA-Logo.png)
+{{< figure src="posts/my-first-contribution-to-openstack/Ansible-Logo.png" caption="Ansible Logo" id="ansible-logo" theme="ligth">}}
+
+{{< figure src="posts/my-first-contribution-to-openstack/ARA-Logo.png" caption="ARA Logo" id="ara-logo" theme="ligth">}}
 
 Basically it  is a project from the OpenStack community that makes it easier to understand and troubleshoot your Ansible roles and playbooks.
 If you want more information, please refer to the [Documentation Page](http://ara.readthedocs.io/en/latest/).
@@ -46,6 +47,7 @@ Here is the link to my [contribution](https://git.openstack.org/cgit/openstack/a
 And, as I am proud of my first commit on a big project here is the screenshot too:
 
 ![My First OpenStack Contribution](/media/posts/my-first-contribution-to-openstack/OpenStack-Contribution.png)
+{{< figure src="posts/my-first-contribution-to-openstack/OpenStack-Contribution.png" caption="My First OpenStack Contribution" id="first-openstack-contrib" theme="ligth">}}
 
 I feel happy and motivated to still learn about this Open Source project and a lot more.
 

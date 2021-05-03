@@ -11,7 +11,7 @@ categories: [ SysAdmin ]
 keywords: [ MacOS, Yosemite, Stuck, Boot ]
 date: 2015-01-08
 publishDate: 2015-01-08
-lastmod: 2019-11-08
+lastmod: 2021-05-02
 featured: false
 draft: false
 
@@ -40,9 +40,9 @@ A. Enter to Single-user or verbose mode
 
   1. Shutdown the Mac
 
-  2. Press the power button to start the computer
+  1. Press the power button to start the computer
 
-  3. Immediately press and hold the Command Key and either of the following
+  1. Immediately press and hold the Command Key and either of the following
 
     * the "s" key for single-user mode (Command-S)
     * the "v" key for verbose mode (Command-V)

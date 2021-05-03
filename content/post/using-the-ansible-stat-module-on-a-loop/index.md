@@ -11,7 +11,7 @@ categories: [Ansible, DevOps]
 keywords: [Ansible, Stat, File, Loop]
 date: 2020-04-12
 publishDate: 2020-04-12
-lastmod: 2020-04-12
+lastmod: 2021-04-30
 featured: true
 draft: false
 
@@ -33,24 +33,24 @@ projects: []
 
 {{% toc %}}
 
-# Using the Ansible stat module on a loop
+## Using the Ansible stat module on a loop
 
 Hi again, it's been a while since I wrote something on this blog.
 This time I was working on a Ansible playbook and I get this:
 
-## Problem
+### Problem
 
 I want to verify if a file exists. Depending on the registered output I want to perform some other actions.
 On my specific use case, I want to use in in conjunct with the `file` module to define the state on my next task.
 
-{{< diagram >}}
+```mermaid
 graph TD;
 A(Stat over file) --> B{Does the file exists?};
 B -->|Yes| C[state: file];
 B -->|No| D[state: touch];
-{{< /diagram >}}
+```
 
-## Solution
+### Solution
 
 Here is the solution that worked for me, using `loops`, `loop_control`,and `jinja2` filters.
 
@@ -77,7 +77,8 @@ Here is the solution that worked for me, using `loops`, `loop_control`,and `jinj
 
 Basically, I'm using the new `loop` [syntax](https://docs.ansible.com/ansible/latest/user_guide/playbooks_loops.html) to iterate over all the files that I want to check.
 
-In order to avoid some warnings about the loop using `item` I implement the `loop_control` and `loop_var` syntax to control the loop behavior and on this specific case, instead of using the word `item` I will substitute it with the one that I define as my `loop_var` in this case is called `my_loop` (Remember this, I will use it on the next task).
+In order to avoid some warnings about the loop using `item` I implement the `loop_control` and `loop_var` syntax to control the loop behavior and on this specific case,
+instead of using the word `item` I will substitute it with the one that I define as my `loop_var` in this case is called `my_loop` (Remember this, I will use it on the next task).
 
 I'm registering the result of the stat task on a variable, for this case is `my_stat_var`
 
@@ -134,9 +135,13 @@ ok: [instance-amazon2] => {
 }
 ```
 
-On the next task I access the results of the registered variable `my_stat_var` using, according to the previous output, I need to use the `results` variable to access it and gives me 2 arrays (each one for each file)
+On the next task I access the results of the registered variable `my_stat_var` using, according to the previous output,
+I need to use the `results` variable to access it and gives me 2 arrays (each one for each file)
 
-Also, I extract the `path` from the same variable `my_stat_var.results` **but** as it is part of a loop, I will access it using `item.my_loop` as on the the second task loop I'm not using a `loop_control`, also I can access it using `item.item` but I prefer the first syntax. In case you implement a `loop_control` on you can access it as `my_second_loop.my_loop`
+Also, I extract the `path` from the same variable `my_stat_var.results` **but** as it is part of a loop,
+I will access it using `item.my_loop` as on the the second task loop I'm not using a `loop_control`,
+also I can access it using `item.item` but I prefer the first syntax.
+In case you implement a `loop_control` on you can access it as `my_second_loop.my_loop`
 
 Also, I extract if the file exists with the variable `item.stat.exists` **but** I'm putting that on a `jinja2` filter, that way it will evaluate and set the correct option on the `state`
 
@@ -147,6 +152,9 @@ state: file
 state: touch
 ```
 
-This behavior also brings idempotency to your task, because if the files does not exists on the first iteration it will be created and the next time you run the tasks as the files already exists it will works as a `stat` and will return the current state of `path`.
+This behavior also brings idempotency to your task, because:
+
+- If the files does not exists on the first iteration it will be created and,
+- The next time you run the tasks as the files already exists it will works as a `stat` and will return the current state of `path`.
 
 That is all for now. See you soon!

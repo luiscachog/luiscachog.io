@@ -13,3 +13,19 @@ fileignoreconfig:
   checksum: 2dc1bef122243475a4811a56916435309e492232e88d1272d50348be1e77aa95
 - filename: assets/media/icons/brands/bmv.svg
   checksum: c9f8f007b110a683d0efd4560ebb549c2f6a6e18210144663fd004620d98652f
+- filename: content/post/mysql-reset-root-password/index.md
+  checksum: 4a1d7739db16dfeb6cb0c6f3f69e7e34105d65606a5ac20132460fb64320d8a3
+- filename: content/post/build-a-dynamc-dns-client-with-rackspace-api/index.md
+  checksum: 96e6e147b8d635f06dee168681efb7103c7a4dda4edff013711b1aefd924d84e
+- filename: content/post/update-themeforest-themes-envato-wordpress-toolkit/index.md
+  checksum: 70a1cd9889305fe07831e924f05f258bd38e8c8f5fcbe18ef81585fbd89dcb08
+- filename: content/post/my-journey-to-become-cka-and-ckad/index.md
+  checksum: 938fbd23fd457dfb3bb2d81c53f685f6aa77b71288271403ffdbaee3befbd94e
+- filename: content/post/mysql-reset-root-password/index.md
+  checksum: 4a1d7739db16dfeb6cb0c6f3f69e7e34105d65606a5ac20132460fb64320d8a3
+- filename: content/post/build-a-dynamc-dns-client-with-rackspace-api/index.md
+  checksum: d77ee02685a2fb0e46ef72be2a20264b420e4cfa340e5943fe2b356be090cea5
+- filename: content/post/update-themeforest-themes-envato-wordpress-toolkit/index.md
+  checksum: fa6d6e802ab1dec02b428a7edce13127edc304c2d070b4b2c28bf507ae1c1dbf
+- filename: content/post/my-journey-to-become-cka-and-ckad/index.md
+  checksum: 1581d724fb29e7677db96daba8d29d95f694fc38e535f9e1cd9e0a5cd461805c

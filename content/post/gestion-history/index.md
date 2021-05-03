@@ -11,7 +11,7 @@ categories: [ Shell, Linux, Spanish ]
 keywords: [ Shell, Bash, Zsh, Linux, Configuration ]
 date: 2019-12-03
 publishDate: 2019-12-03
-lastmod: 2020-11-28
+lastmod: 2021-04-30
 featured: true
 draft: false
 
@@ -31,8 +31,6 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-
-#
 
 {{% toc %}}
 
@@ -67,7 +65,7 @@ export HISTSIZE=0
 
 {{% /callout %}}
 
-## Control de duplicados en el histórico
+### Control de duplicados en el histórico
 
 En el log histórico se van guardando **TODOS** los comandos que se van introduciendo aunque repitamos 20 veces el mismo comando, se guardará 20 veces, lo cual es en ocasiones una perdida de espacio.
 Por lo que podemos usar la variable *HISTCONTROL* para hacer 2 cosas:
@@ -80,7 +78,7 @@ HISTCONTROL=ignoredups
 HISTCONTROL=erasedups
 ```
 
-## Path para guardar el archivo de logs histórico
+### Path para guardar el archivo de logs histórico
 
 Por defecto el histórico se guarda en ```~/.bash_history``` pero podemos indicar donde guardarlo con la variable *HISTFILE*.
 

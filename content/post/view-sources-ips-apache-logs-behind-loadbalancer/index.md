@@ -11,7 +11,7 @@ categories: [ Linux, SysAdmin, Rackspace, Cloud ]
 keywords: [ Apache, Logs, LoadBalancer, Rackspace ]
 date: 2015-02-13
 publishDate: 2015-02-12
-lastmod: 2019-11-12
+lastmod: 2021-05-02
 featured: true
 draft: false
 
@@ -46,7 +46,8 @@ Modified to:
 LogFormat "%{X-Forwarded-For}i %h %l %u %t \"%r\" %&gt;s %O \"%{Referer}i\" \"%{User-Agent}i\"" combined
 ```
 
-And also, on your vhosts configuration files you should to change the "combined" LogFormat definition will then be called in a "CustomLog" entry specific to your VirtualHost configuration. Here is an example VirtualHost definition to show you what I'm referring to:
+And also, on your vhosts configuration files you should to change the "combined" LogFormat definition will then be called in a "CustomLog" entry specific to your VirtualHost configuration.
+Here is an example VirtualHost definition to show you what I'm referring to:
 
 ```shell
 ServerAdmin webmaster@example.com
@@ -56,4 +57,5 @@ ErrorLog logs/example.com-error_log
 CustomLog logs/example.com-access_log combined
 ```
 
-After adding the X-Forwarded-For definition to the LogFormat definition, you can restart Apache and view the logs to notice the difference. If all is done properly, you will see an actual public IP in the first field of your logs instead of the Cloud Load Balancer IP.
+After adding the X-Forwarded-For definition to the LogFormat definition, you can restart Apache and view the logs to notice the difference.
+If all is done properly, you will see an actual public IP in the first field of your logs instead of the Cloud Load Balancer IP.

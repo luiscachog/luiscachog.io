@@ -11,7 +11,7 @@ categories: [ SysAdmin, Linux, Storage ]
 keywords: [WD MyCloud, NAS, Storage, Linux ]
 date: 2018-02-16
 publishDate: 2018-02-16
-lastmod: 2019-11-17
+lastmod: 2021-05-01
 featured: true
 draft: false
 
@@ -32,12 +32,13 @@ image:
 projects: []
 ---
 
-I've just noticed that my NAS a [Western Digital My Cloud EX2](https://www.wdc.com/products/network-attached-storage/my-cloud-expert-series-ex2-ultra.html) is going slower, so I decided to investigate about what can I do to improve its performance.
+I've just noticed that my NAS a [Western Digital My Cloud EX2](https://www.wdc.com/products/network-attached-storage/my-cloud-expert-series-ex2-ultra.html) is going slower,
+so I decided to investigate about what can I do to improve its performance.
 
 I assume that you already configure ssh on your NAS device.
-If is not configured you can follow the next instructions: https://support.wdc.com/knowledgebase/answer.aspx?ID=14952
+If is not configured you can follow the next instructions: [https://support.wdc.com/knowledgebase/answer.aspx?ID=14952](https://support.wdc.com/knowledgebase/answer.aspx?ID=14952)
 
-# Stop Indexing Services
+## Stop Indexing Services
 
 ```shell
 /etc/init.d/wdmcserver stop
@@ -56,3 +57,9 @@ And add the following lines:
 @reboot /bin/sh /etc/init.d/wdmcserverd stop
 @reboot /bin/sh /etc/init.d/wdphotodbmerger stop
 ```
+
+**References:**
+
+- Western Digital knowledge base link[^1]
+
+[^1]: [https://support.wdc.com/knowledgebase/answer.aspx?ID=14952](https://support.wdc.com/knowledgebase/answer.aspx?ID=14952)
