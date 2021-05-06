@@ -9,3 +9,5 @@ public/
 
 # Node
 node_modules/
+
+assets/jsconfig.json
