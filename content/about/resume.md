@@ -1,55 +1,38 @@
-+++
-# Hero widget.
-widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+---
+# An instance of the Blank widget.
+# Documentation: https://wowchemy.com/docs/getting-started/page-builder/
+widget: blank
 
-title = ""
+# Activate this widget? true/false
+active: true
 
-# Hero image (optional). Enter filename of an image in the `static/media/` folder.
-hero_media = ""
+# This file represents a page section.
+headless: true
 
-[design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
+# Order that this section appears on the page.
+weight: 50
 
-  # Background color.
-  # color = "navy"
+title: Interested?
+subtitle: Hire me.
 
-  # Background gradient.
-  # gradient_start = "#4bb4e3"
-  # gradient_end = "#2b94c3"
+design:
+  columns: "2"
+  background:
+    image: ""
+    image_darken: 1.0
+    image_parallax: true
+    image_position: center
+    image_size: cover
+    text_color_light: false
+  spacing:
+    padding: ["20px", "0", "20px", "0"]
+---
 
-  # Background image.
-  # image = ""  # Name of image in `static/media/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+{{% callout note %}}
+If you find that my expertise could bring value to your company, you can send me an email to discuss my availability and job interview.
+Currently, I live in San Antonio, Texas , and I am capable of remote work.
+I'm also glad to answer any other questions related to employment!
 
-  # Text color (true=light or false=dark).
-  text_color_light = false
+{{< cta cta_text="Download my Resume" cta_link="/media/files/resume.pdf" cta_new_tab="false" >}}
 
-# Call to action links (optional).
-#   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
-#   Remove a link/note by deleting a cta/note block.
-[cta]
-  url = "media/files/resume.pdf"
-  label = "  Dowload Resume in PDF format"
-  icon_pack = "fas"
-  icon = "user-tie"
-  align = "center"
-
-# [cta_alt]
-#   url = "https://sourcethemes.com/academic/"
-#   label = "View Documentation"
-
-
-# Note. An optional note to show underneath the links.
-# [cta_note]
-#   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
-+++
-
-**Interested?, Hire me!**
-
-<!-- <span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span> -->
+{{% /callout %}}

@@ -12,6 +12,6 @@ header:
   caption: ""
   image: ""
 
-aliases: "/blog/"
+aliases: [/blog/]
 
 ---

@@ -1,5 +1,5 @@
-+++
-lastmod = 2020-01-13
-type = "widget_page"
-title = "Blog"
-+++
+---
+lastmod: 2021-05-03
+type: widget_page
+title: Blog
+---
