@@ -1,5 +1,5 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+# Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Differences between Kubernetes and Openshift"
 summary: "An introduction to know the differences between a kubernetes vanilla implementation an Openshift Container Platform"
@@ -13,14 +13,30 @@ slides:
   # Choose a code highlighting style (if highlighting enabled in `params.toml`)
   #   Light style: github. Dark style: dracula (default).
   highlight_style: dracula
-  progress: false
+
+  diagram: true
+  diagram_options:
+    # Mermaid diagram themes include: default,base,dark,neutral,forest
+    theme: base
+
+  # RevealJS slide options.
+  # Options are named using the snake case equivalent of those in the RevealJS docs.
+  reveal_options:
+    controls: true
+    progress: false
+    slide_number: c/t  # true | false | h.v | h/v | c | c/t
+    center: true
+    rtl: false
+    mouse_wheel: true
+    transition: fade  # none/fade/slide/convex/concave/zoom
+    transitionSpeed: default  # default/fast/slow
+    background_transition: slide  # none/fade/slide/convex/concave/zoom
+    touch: true
+    loop: false
+    menu_enabled: true
 ---
 <!-- [revealoptions]
-  transition= "zoom"
-  controls= true
   controlsBackArrows= "hidden"
-  progress= false
-  slideNumber= true
   history= false
   center= true
   showNotes= false
@@ -50,7 +66,7 @@ slides:
 
 #### Some assembly required
 
-{{< figure library="true" src="slides/k8s-vs-ocp/k8s-lego.jpeg" lightbox="false" width="50%">}}
+{{< figure library="true" src="slides/k8s-vs-ocp/k8s-lego.jpeg" lightbox="false" width="50%" heigth="50%">}}
 
 ---
 

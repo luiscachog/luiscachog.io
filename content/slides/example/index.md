@@ -1,6 +1,6 @@
 ---
 title: Slides
-summary: An introduction to using Academic's Slides feature.
+summary: An introduction to using Wowchemy's Slides feature.
 authors: []
 tags: []
 categories: []
@@ -13,9 +13,9 @@ slides:
   highlight_style: dracula
 ---
 
-# Welcome to Slides
+# Create slides in Markdown with Wowchemy
 
-[Academic](https://sourcethemes.com/academic/)
+[Wowchemy](https://wowchemy.com/) | [Documentation](https://owchemy.com/docs/managing-content/#create-slides)
 
 ---
 
@@ -47,6 +47,7 @@ slides:
 Inline code: `variable`
 
 Code block:
+
 ```python
 porridge = "blueberry"
 if porridge == "blueberry":
@@ -71,7 +72,7 @@ $$
 
 Make content appear incrementally
 
-```
+```jinja
 {{%/* fragment */%}} One {{%/* /fragment */%}}
 {{%/* fragment */%}} **Two** {{%/* /fragment */%}}
 {{%/* fragment */%}} Three {{%/* /fragment */%}}
@@ -106,6 +107,7 @@ Add speaker notes to your presentation
 Press the `S` key to view the speaker notes!
 
 {{< speaker_note >}}
+
 - Only the speaker can read these notes
 - Press `S` key to view
 {{< /speaker_note >}}
@@ -159,8 +161,8 @@ Create `assets/css/reveal_custom.css` with:
 
 ---
 
-# Questions?
+## Questions?
 
-[Ask](https://discourse.gohugo.io)
+[Ask](https://github.com/wowchemy/wowchemy-hugo-modules/discussions)
 
-[Documentation](https://sourcethemes.com/academic/docs/)
+[Documentation](https://wowchemy.com/docs/managing-content/#create-slides)
