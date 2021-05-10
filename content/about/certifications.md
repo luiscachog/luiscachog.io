@@ -14,7 +14,7 @@ item:
     url: https://www.redhat.com/en/services/certification/rhcs-paas
     date_start: 2021-02-10
     date_end: 2024-02-10
-    organization: RedHat
+    organization: redhat
     organization_url: https://www.redhat.com
     certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3USGMBTDNSOFVX22WYNJ63KCC3BBTAOIVCQWO7U3Z7NRP66BA673I=
 
@@ -23,7 +23,7 @@ item:
     url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-containers-and-kubernetes
     date_start: 2021-03-16
     date_end: 2024-03-16
-    organization: RedHat
+    organization: redhat
     organization_url: https://www.redhat.com
     certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ33TZNCC5VGOAYPFY7HVVIGB5XKUTI5W6QLZX6UMV3D6ILAY7YA4GY=
 
@@ -32,7 +32,7 @@ item:
     url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-advanced-automation-ansible-best-practices
     date_start: 2020-11-13
     date_end: 2023-11-13
-    organization: RedHat
+    organization: redhat
     organization_url: https://www.redhat.com
     certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ37KLSOOPEYMJDAE5EJIF3JZ6D665JFQCX7XVXXH5DT452GL3CMQ36Q77GFTUQMZCEY6URHUQ5UKSGZOKOWYMJRGQPNI2LHBGN6LLA2MI======
 
@@ -59,7 +59,7 @@ item:
     url: https://www.redhat.com/en/services/certification/rhcs-ansible-automation
     date_start: 2017-12-26
     date_end: 2021-01-01
-    organization: RedHat
+    organization: redhat
     organization_url: https://www.redhat.com
     certificate_url: https://www.redhat.com/rhtapps/services/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ34UFHA6EGV4MX6OEQWWNEDUIWXWPUWTPNOZCAXTQD32BJ2PLFPHS3STVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======
 
@@ -68,7 +68,7 @@ item:
     url: https://www.redhat.com/en/services/certification/rhce
     date_start: 2016-07-12
     date_end: 2023-11-13
-    organization: RedHat
+    organization: redhat
     organization_url: https://www.redhat.com
     certificate_url: https://www.redhat.com/rhtapps/services/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=
 
@@ -77,7 +77,7 @@ item:
     url: https://www.redhat.com/en/services/certification/rhcsa
     date_start: 2014-07-01
     date_end: 2023-11-13
-    organization: RedHat
+    organization: redhat
     organization_url: https://www.redhat.com
     certificate_url: https://www.redhat.com/rhtapps/services/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3T7ULZ55KZZ56SKO7EQ3ETTLYZQ4U5NQYTCNA62RUWOCM34WWBUYQ=
 

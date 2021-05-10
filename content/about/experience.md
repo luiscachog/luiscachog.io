@@ -14,7 +14,7 @@ experience:
   - title: Senior Container Infrastructure Consultant
     company: Red Hat
     company_url: https://www.redhat.com
-    company_logo: RedHat
+    company_logo: redhat
     location: San Antonio, TX
     date_start: 2021-01-18
     date_end: ""
