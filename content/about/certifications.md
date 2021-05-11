@@ -41,7 +41,7 @@ item:
     url: https://www.cncf.io/certification/ckad/
     date_start: 2020-07-11
     date_end: 2023-07-11
-    organization: CNCF
+    organization: cncf
     organization_url: https://www.cncf.io
     certificate_url: https://www.youracclaim.com/badges/035a3b14-49cb-4dca-bda1-5de951c0c406/public_url
 
@@ -50,7 +50,7 @@ item:
     url: https://www.cncf.io/certification/cka/
     date_start: 2020-06-18
     date_end: 2023-06-18
-    organization: CNCF
+    organization: cncf
     organization_url: https://www.cncf.io
     certificate_url: https://www.youracclaim.com/badges/211f5895-59a6-4a52-9b4e-c1ace672b2a2/public_url
 
@@ -86,7 +86,7 @@ item:
     url: https://aws.amazon.com/certification/certified-sysops-admin-associate/
     date_start: 2019-06-17
     date_end: 2022-06-17
-    organization: AWS
+    organization: aws
     organization_url: https://www.aws.amazon.com
     certificate_url: https://www.youracclaim.com/badges/20acdf12-bca7-4704-af4d-16f61ba3a75f/public_url
 ---
