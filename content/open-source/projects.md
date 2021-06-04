@@ -5,7 +5,7 @@ active: true
 weight: 10
 title: Projects
 subtitle: >-
-  Open Source projects, websites, docker images, ansible roles, and other things
+  Open Source projects, websites, container images, ansible roles, and other things
   I’ve been working with.
 content:
   page_type: project
@@ -17,8 +17,6 @@ content:
       tag: Ansible
     - name: Community
       tag: Community
-    - name: Go
-      tag: Go
     - name: Kubernetes
       tag: Kubernetes
     - name: Python
