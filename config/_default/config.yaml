@@ -1,0 +1,127 @@
+---
+# Configuration of Hugo
+# Guide: https://wowchemy.com/docs/getting-started/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+title: Luis Cacho
+baseurl: /
+copyright: >-
+  Made with ❤️ </br>
+  Hosted on :github: [GitHub](https://github.com/luiscachog/luiscachog.io) - Served by [Netlify](netfly.com) </br>
+  &copy; 2014 - {year} - Luis Cacho
+
+############################
+## LANGUAGE
+############################
+defaultContentLanguage: en
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+############################
+## MODULES
+############################
+module:
+  imports:
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms
+    - path: github.com/jakejarvis/hugo-mod-twemoji
+
+############################
+## ADVANCED
+############################
+enableGitInfo: true
+summaryLength: 30
+paginate: 10
+enableEmoji: true
+enableRobotsTXT: true
+
+footnotereturnlinkcontents: <sup>^</sup>
+
+permalinks:
+  authors: '/author/:slug/'
+  categories: '/category/:slug/'
+  event: '/talk/:slug/'
+  post: '/blog/:slug'
+  publication_types: '/publication-type/:slug/'
+  tags: '/tag/:slug/'
+
+disableAliases: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+    - WebAppManifest
+  section:
+    - HTML
+    - RSS
+  taxonomy:
+    - HTML
+    - RSS
+  taxonomyTerm:
+    - HTML
+    - RSS
+
+mediaTypes:
+  application/manifest+json:
+    suffixes:
+      - webmanifest
+outputFormats:
+  WebAppManifest:
+    mediaType: application/manifest+json
+    rel: manifest
+
+ignoreFiles:
+  - \.ipynb$
+  - .ipynb_checkpoints$
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _files$
+  - _cache$
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+
+imaging:
+  resampleFilter: lanczos
+  quality: 90
+  anchor: smart
+timeout: 100000
+
+taxonomies:
+  tag: tags
+  category: categories
+  publication_type: publication_types
+  author: author
+
+related:
+  threshold: 50
+  related_items: 5
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 80
+    - name: author
+      weight: 50
+    - name: date
+      weight: 10
+      pattern: '2006'
+
+services:
+  rss:
+    limit: 10
+    site_feed: 'https://follow.it/luiscachog-io'

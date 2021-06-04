@@ -1,0 +1,24 @@
+---
+main:
+  - name: BLOG
+    url: blog/
+    pre: <i class='fas fa-terminal'>&nbsp;</i>
+    weight: 20
+  - name: OPEN SOURCE
+    url: open-source/
+    weight: 30
+    pre: <i class='fas fa-code-branch'>&nbsp;</i>
+  - name: ' ABOUT ME'
+    url: about/
+    weight: 50
+    identifier: about
+    pre: <i class='far fa-address-card'>&nbsp;</i>
+  - name: ' NOTES'
+    url: notes/
+    weight: 60
+    identifier: digital-garden
+    pre: <i class='far fa-file-code'>&nbsp;</i>
+  - name: ''
+    url: 'https://follow.it/luiscachog-io'
+    weight: 70
+    pre: <i class='fas fa-rss'>&nbsp;</i>
