@@ -6,7 +6,7 @@ weight: 60
 title: Training Attendance
 subtitle: ""
 design:
-  columns: '1'
+  columns: '2'
   background:
     image: ""
     image_darken: 1.0
@@ -17,4 +17,4 @@ design:
   spacing:
     padding: ["20px", "0", "20px", "0"]
 ---
-{{< gallery >}}
+{{< gallery album="attendance-certs" >}}

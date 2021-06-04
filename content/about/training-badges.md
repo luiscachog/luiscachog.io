@@ -2,11 +2,11 @@
 widget: blank
 headless: true
 active: true
-weight: 45
+weight: 55
 title: Training Badges
 subtitle: ''
 design:
-  columns: '1'
+  columns: '2'
   spacing:
     padding:
       - 40px
@@ -16,5 +16,3 @@ design:
 ---
 
 {{< gallery album="training-badges">}}
-
-{{< gallery album="training-certs">}}
