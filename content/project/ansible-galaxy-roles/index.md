@@ -2,11 +2,11 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Ansible Galaxy Roles"
-summary: "Ansible roles "
-authors: [ luiscachog ]
-tags: [ Ansible, Galaxy, Code, Python]
-categories: [ Ansible ]
-date: 2019-10-24T01:42:23-05:00
+summary: Collection of Ansible Roles published in Ansible Galaxy
+authors: []
+tags: [ Ansible, Galaxy, Code, Python, CircleCI, Sonobuoy, Kubernetes, Cloud Native, Open Source]
+categories: [ Ansible, Kubernetes, Project ]
+date: 2019-10-25
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -21,16 +21,25 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-links:
-- name: Github
-  url: https://galaxy.ansible.com/luiscachog
-  icon_pack: fab
-  icon: github
-
-url_code: "https://galaxy.ansible.com/luiscachog"
+# Links
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
+
+links:
+- name: Ansible Galaxy
+  url: https://galaxy.ansible.com/luiscachog
+  icon_pack: fas
+  icon: cog
+- name: CircleCI Role
+  url: https://github.com/luiscachog/ansible-circleci-cli
+  icon_pack: fab
+  icon: github
+- name: Sonobuoy Role
+  url: https://github.com/luiscachog/ansible-sonobuoy
+  icon_pack: fab
+  icon: github
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -39,3 +48,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+- CircleCI Role: Ansible role that installs [CircleCI CLI](https://circleci-public.github.io/circleci-cli/) on your server/workstation. [![Build Status](https://travis-ci.com/luiscachog/ansible-circleci-cli.svg?branch=master)](https://travis-ci.com/luiscachog/ansible-circleci-cli)
+
+- Sonobuoy Role: Ansible role that installs [sonobuoy](https://sonobuoy.io/) on your server/workstation. [![Build Status](https://travis-ci.com/luiscachog/ansible-sonobuoy.svg?branch=master)](https://travis-ci.com/luiscachog/ansible-sonobuoy)

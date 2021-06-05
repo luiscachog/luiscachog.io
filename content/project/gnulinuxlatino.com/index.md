@@ -1,13 +1,14 @@
 ---
 title: "GNU/Linux Latino Website"
-summary: ""
-authors: [ luiscachog ]
+summary: |
+  Contributor, and website maintainer of the "GNU/Linux Latino" website.
+authors: []
 tags: [ Community, Website ]
-categories: [ Community, Website ]
-date: 2020-09-09T01:42:23-05:00
+categories: [ Community, Website, Project ]
+date: 2020-09-09
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://www.gnulinuxlatino.com
+external_link: ""
 
 # Featured image
 image:
@@ -16,12 +17,16 @@ image:
  preview_only: false
 
 # Links
-url_code: https://github.com/gnulinuxlatino/gnulinuxlatino.com
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 links:
-- name: Github
+- name: Website
+  url: https://www.gnulinuxlatino.com/
+  icon_pack: fa
+  icon: globe
+- name: Code
   url: https://github.com/gnulinuxlatino/gnulinuxlatino.com
   icon_pack: fab
   icon: github

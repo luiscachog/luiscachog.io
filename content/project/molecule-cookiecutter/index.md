@@ -3,10 +3,10 @@
 
 title: "Molecule Cookiecutter"
 summary: "Cookiecutter for a molucle project"
-authors: [ luiscachog ]
-tags: [ Molecule, Ansible, Cookiecutter, Code, Python]
-categories: [ Ansible]
-date: 2019-10-24T17:42:56-05:00
+authors: []
+tags: [ Molecule, Ansible, Cookiecutter, Code, Python, Open Source]
+categories: [ Ansible, Molecule, Project ]
+date: 2019-10-24
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -19,30 +19,21 @@ image:
   focal_point: ""
   preview_only: false
 
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
-url_code: https://github.com/luiscachog/cookiecutter-molecule
+# Links
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 
 links:
-- name: Molecule Cookiecutter
+- name: Code
   url: https://github.com/luiscachog/cookiecutter-molecule
   icon_pack: fab
   icon: github
-
 - name: Molecule
   url: https://github.com/ansible-community/molecule
   icon_pack: fab
   icon: github
-
 - name: Cookiecutter
   url: https://github.com/cookiecutter/cookiecutter
   icon_pack: fab

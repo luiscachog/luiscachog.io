@@ -1,13 +1,13 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "luiscachog.io"
+title: "Personal Website"
 summary: |
-  This website code, built using Hugo Framework.
-authors: [ luiscachog ]
-tags: [ Code, Website, Go ]
-categories: [ Source ]
-date: 2019-11-24T11:23:56+02:00
+  Built my personal website (this website) using [Hugo Framework](https://gohugo.io/), [Wowchemy theme](https://wowchemy.com/) and deploy it via [Netlify](https://www.netlify.com/). This website includes a blog section, a portfolio section, an acomplisment section and a digital garden section.
+authors: []
+tags: [ Code, Website, Open Source ]
+categories: [ Website, Project ]
+date: 2019-11-24
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -19,12 +19,16 @@ image:
  preview_only: false
 
 # Links
-url_code: https://github.com/luiscachog/luiscachog.io
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 links:
-- name: Github
+- name: Website
+  url: https://luiscachog.io
+  icon_pack: fa
+  icon: globe
+- name: Code
   url: https://github.com/luiscachog/luiscachog.io
   icon_pack: fab
   icon: github

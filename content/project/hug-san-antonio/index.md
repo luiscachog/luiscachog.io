@@ -1,10 +1,10 @@
 ---
 title: "San Antonio HashiCorp User Group"
 summary: |
-  HUG dedicated to building a strong, open, diverse developer community around the Hashicorp technologies in San Antonio.
-authors: [ luiscachog ]
+  Hashicorp User Group(HUG) dedicated to building a strong, open, diverse developer community around the Hashicorp technologies in San Antonio.
+authors: []
 tags: [ Hashicorp, Community ]
-categories: [ Community ]
+categories: [ Community, Project ]
 date: 2019-11-24T11:23:56+02:00
 
 # Optional external URL for project (replaces project detail page).
@@ -21,6 +21,7 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
+
 links:
 - name: Meetup
   url: https://www.meetup.com/San-Antonio-HashiCorp-User-Group/
