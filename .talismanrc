@@ -31,3 +31,5 @@ fileignoreconfig:
   checksum: 1581d724fb29e7677db96daba8d29d95f694fc38e535f9e1cd9e0a5cd461805c
 - filename: config/_default/params.yaml
   checksum: 9115cbdbce71bf8b52978e4964208ebd72afc5069a849d4e8b337b50883d8719
+- filename: content/post/blog-hugo-docker-k8s-quay/index.md
+  checksum: da6a4d7f5f1fe6eeb6bde10d683c92e47e0557f2c23897a98164302bcdbec3b8

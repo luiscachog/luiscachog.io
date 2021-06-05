@@ -3,7 +3,7 @@ title: Improve Ansible Roles with Molecule
 summary: An introduction to using Molecule to test your Ansible Roles.
 authors: [ luiscachog ]
 tags: [ Ansible, Molecule, Community ]
-categories: [Ansible, Molecule ]
+categories: [Ansible, Molecule, Slide ]
 date: "2019-03-07T00:00:00Z"
 slides:
   # Choose a theme from https://github.com/hakimel/reveal.js#theming
@@ -226,7 +226,7 @@ Benefits:
 - Solves the provisioning problem in "Test ansible with Ansible"
 - Simple tool with small codebase
 Issues:
-- Onlys support docker provisioner on dEbian-based images
+- Onlys support docker provisioner on debian-based images
 - Does not apear to be actively maintained
 
 Testing Ansible with Test Kitchen ->
