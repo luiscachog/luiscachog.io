@@ -120,7 +120,7 @@ copyright_license:
 abstract_length: 135
 
 plugins_css: [ custom ]
-plugins_js: [ landing_author ] #, itype.min, matrix
+plugins_js: [ landing_author, itype.min ] # matrix
 
 sharing_image: ''
 
@@ -156,7 +156,7 @@ comments:
     shortname: ''
     show_count: true
   commento:
-    url: 'http://comments.luiscachog.io'
+    url: 'https://comments.luiscachog.io'
 search:
   provider: algolia
   algolia:
