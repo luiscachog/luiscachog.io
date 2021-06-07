@@ -33,3 +33,5 @@ fileignoreconfig:
   checksum: 9115cbdbce71bf8b52978e4964208ebd72afc5069a849d4e8b337b50883d8719
 - filename: content/post/blog-hugo-docker-k8s-quay/index.md
   checksum: da6a4d7f5f1fe6eeb6bde10d683c92e47e0557f2c23897a98164302bcdbec3b8
+- filename: go.sum
+  checksum: 26eef321b9eb568bc966213054c970f85a024a8097356b940d8b9ffd74e53a39

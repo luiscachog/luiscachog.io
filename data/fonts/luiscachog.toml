@@ -2,14 +2,14 @@
 name = "luiscachog"
 
 # Optional Google font URL
-google_fonts = "family=Karla:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500&family=Inconsolata"
+google_fonts = "family=Montserrat:wght@600&family=IBM+Plex+Sans&family=Inconsolata&family=Work+Sans&family=Lobster&family=Archivo&family=Barlow&family=Fira+Sans+Condensed:wght@700&family=Fira+Sans:wght@500&family=Roboto+Mono&"
 # old main font: Fira+Sans
 
 # Font families
-heading_font = "IBM Plex Sans"
-body_font = "Karla"
-nav_font = "IBM Plex Sans"
-mono_font = "Inconsolata"
+heading_font = "Fira Sans Condensed"
+body_font = "Barlow"
+nav_font = "Fira Sans"
+mono_font = "Roboto Mono"
 
 # Font size
 font_size = "30"
