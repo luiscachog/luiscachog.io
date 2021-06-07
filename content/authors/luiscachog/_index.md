@@ -67,7 +67,7 @@ social:
     link: "mailto:luiscachog@gmail.com" # For a direct email link, use "mailto:test@example.org".
   - icon: rss
     icon_pack: fas
-    link: http://feeds.feedburner.com/luiscachog
+    link: https://follow.it/luiscachog-io
 
 ## Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "luiscachog@gmail.com"
@@ -85,7 +85,7 @@ user_groups:
 I'm a proud father of Emma, dedicated husband of [Ale](https://twitter.com/4l381), avid soccer fanatic, beer lover, and fond of all things GNU/Linux related.
 
 Currently working as a **Senior Container Infrastructure Consultant** at **[Red Hat](https://redhat.com/)** helping customer with their Cloud Native projects, focused on OpenShift migrations.
-Prior to Red Hat I worked on [Rackspace](https://www.rackspace.com) and [BMV](https://www.bmv.com.mx/).
+Prior to Red Hat I worked on [Rackspace](https://www.rackspace.com) and [Mexican Stock Exchange (BMV)](https://www.bmv.com.mx/).
 
 As today I consider myself a Technologist. I have become knowledgeable in many areas of systems, cloud computing, and various other fields like:
 
@@ -96,7 +96,7 @@ As today I consider myself a Technologist. I have become knowledgeable in many a
 - Networking
 - Cloud Native technologies
 
-Actively contributing to [Open Source projects](/community#projects) as well as learn new stuff every day and I would try to share in this blog.
+Actively contributing to [Open Source projects](/open-source#projects) as well as learn new stuff every day and I would try to share in this blog.
 
 I enjoy attend meetups and events to learn about new technologies, talk with interesting people and exchange stickers.
 
