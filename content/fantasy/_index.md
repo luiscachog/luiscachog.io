@@ -28,17 +28,17 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft** la cual la
 - Liga Redraft Half PPR
 - 12 equipos
 - 2 conferencias
-- 18 rondas del draft
-- Titulares: 1 QB, 2 RB, 2 WR 1 TE, 4 Flex, 1 K, 1 Def - [12 Total]
-- Banca: 4 banca, 2 lesionados - [6 Total]
-- FAAB Waivers
-- Bidding Budget: $100
-- Monto de Entrada $20 dls o $400 pesos
+- 17 rondas del draft
+- Titulares: 1 QB, 2 RB, 2 WR, 1 TE, 4 Flex, 1 K, 1 Def - [12 Total]
+- Banca: 5 banca, 1 lesionado - [6 Total]
+- Tipo de Waivers: FAAB Waivers (Free Agent Adquisition Budget)
+- Presupuesto para la subasta de waivers: $100
+- Monto de Entrada a la liga $20 dls o $400 mxn
 
 ### Draft
 
 - El draft va a ser el día **_Sábado 4 de Septiembre de 2021 a las 6:00 PM CST_** via Zoom 🍻 (Más detalles via Telegram)
-- El draft va a tener **_18_** rondas, estilo **_snake_**, con 3RR (Third Round Reversal)
+- El draft va a tener **_17_** rondas, estilo **_snake_**, con 3RR (Third Round Reversal)
 - El tiempo para realizar el pick es de **2 minutos**, en caso de que no se realize el pick durante esa ventana de tiempo, el pick será realizado automáticamente (autopick).
 - El draft sera mediante la aplicación [https://sleeper.app](https://sleeper.app)
 - El ordén del draft será dictado por el algoritmo aleatorio que está en la aplicación.
@@ -111,7 +111,7 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft** la cual la
 
 ### Playoffs
 
-- Los playoffs se jugaran en la semana 15 y 16
+- Los playoffs se jugaran en la semana 15 (Final de conferencia) y 16 (SuperBowl)
 - Pasaran los mejores 4 equipos de la temporada regular
 
 #### Toilet Bowl
@@ -120,14 +120,40 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft** la cual la
 
 ### Monto de Entrada
 
-Para participar en la liga de Fantasy Footbal, sera necesario aportar **$20 dls o $400 pesos** por equipo. Los cuales se repartiran entre los primeros tres lugares:
+Para participar en la liga de Fantasy Football, sera necesario aportar **$25 dls o $500 mxn** por equipo.
 
-1er lugar: $180 dls o $3600 pesos
-2do lugar: $40 dls o $800 pesos
-3er lugar: $20 dls o $400 pesos
+Y será necesario hacer el déposito/tranferencia a más tardar al termino de la semana 2 de la NFL (Lunes, 20 de Septiembre, 2021).
+
+Mandare más detalles de como hacer el déposito/transferencia via telegram.
+
+El monto total recaudado de la liga será de:
+
+- 12 x $25 = $300 dls o $6000 mxn
+- De los cuales, $240 dls o $4800 mxn serán destinados a la premiación de los participantes.
+- Y el dinero restante ($60 dls o $1200 mxn), servira para adquirir el trofeo para el campeón y perdedor de la liga.
+
+### Premiación
+
+Una vez que terminen los playoffs (semana 16), notificare a los ganadores de la siguiente manera:
+
+- 1er lugar: $180 dls o $3600 mxn y trofeo de primer lugar.
+- 2do lugar: $40 dls o $800 mxn
+- 3er lugar: $20 dls o $400 mxn
+- Último lugar: trofeo de ultimo lugar (toilet trophy) y un castigo votado por los otros coaches. La prueba de dicho castigo será en base a un video.
+
+| | |
+| --- | --- |
+| {{< figure src="fantasy/champion_trophy.jpg" caption="Trofeo para el cámpeon de la liga"  lightbox="false" width="40%" >}} | {{< figure src="fantasy/toilet_trophy.jpg"
+caption="Trofeo para el último lugar de la liga"  lightbox="false" width="40%" >}} |
+
+{{% callout note %}}
+Para los coaches de México, el costo del envio del trofeo será por su cuenta, o en su defecto haré entrega del mismo personalmente cuando realice un viaje a la Ciudad de México ()
+{{% /callout %}}
 
 ### Clausula de mejor interés de la liga
 
 Si surge alguna circunstancia, o problema para el cual no se establece un remedio en las Reglas, el Comisionado se reserva el derecho de tomar las medidas que considere
 necesarias en el mejor interés de la liga.
-Puede consultar con algunas o todas las demás personas y/o posiblemente someterlo a votación.
+El Comisionado puede consultar con algunas o todas las demás personas y/o posiblemente someterlo a votación.
+
+### Atte, el Comish
