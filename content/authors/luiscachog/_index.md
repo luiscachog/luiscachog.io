@@ -23,6 +23,8 @@ organizations:
     url: https://www.kubernetes.io
   - name: Hashicorp Meetup Organizer
     url: https://www.meetup.com/San-Antonio-HashiCorp-User-Group
+  - name: GitKraken Ambassador
+    url: https://www.gitkraken.com/invite/kkvpJVyk
 
 ## Short bio (displayed in user profile at end of posts)
 bio: Senior Container Infrastructure Consultant at Red Hat | DevOps Practitioner | Kubernetes Enthusiast | Ansible Ninja | Data Science Noob
@@ -45,12 +47,21 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/luiscachog
+    label: Follow me on Github
+    display:
+      header: true
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/luiscachog/
+    label: Follow me on Linkedin
+    display:
+      header: true
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/luiscachog
+    label: Follow me on Twitter
+    display:
+      header: true
   - icon: keybase
     icon_pack: fab
     link: https://keybase.io/luiscachog
