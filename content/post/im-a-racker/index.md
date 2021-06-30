@@ -34,7 +34,6 @@ projects: []
 
 Since January 6th I working on [Rackspace](http://www.rackspace.com/), the Open Cloud Company, so I'm a Racker almost 3 months ago and I'm loving every minute of it.
 
-![Rackspace 2014](/media/posts/im-a-racker/Rackspace_2014.jpg)
 {{< figure src="posts/im-a-racker/Rackspace_2014.jpg" caption="Rackspace - Kickoff" id="rackspace-kickoff" theme="light">}}
 
 ## Previous

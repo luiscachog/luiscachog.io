@@ -41,7 +41,7 @@ Hi again!
 It is been a while since I wrote something here, as always, there is no much time for a hobby.
 
 I've been working for a while with docker, not a production level, but for some applications that I use at work.
-And since the [Docker Hub Data breach](https://www.theinquirer.net/inquirer/news/3074793/docker-hub-breach)
+And since the [Docker Hub Data breach](https://www.zdnet.com/article/docker-hub-hack-exposed-data-of-190000-users/)
 I put more atention on the security of my data/credentials, so I investigate a little about and found this official
 repository [https://github.com/docker/docker-credential-helpers/](https://github.com/docker/docker-credential-helpers/) from Docker where are the supported credential helpers.
 
@@ -157,6 +157,6 @@ Let me know how this works for you.
 - Docker Credential Store Documentation[^2]
 - Slides about this topic [^3]
 
-[^1]: [https://github.com/docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers)
-[^2]: [https://docs.docker.com/engine/reference/commandline/login/#credentials-store](https://docs.docker.com/engine/reference/commandline/login/#credentials-store)
-[^3]: [https://www.slideshare.net/DavidYeung22/can-we-stop-saving-docker-credentials-in-plain-text-now](https://www.slideshare.net/DavidYeung22/can-we-stop-saving-docker-credentials-in-plain-text-now)
+[^1]: [docker-credential-helpers](https://github.com/docker/docker-credential-helpers)
+[^2]: [docker cli documentation](https://docs.docker.com/engine/reference/commandline/login/#credentials-store)
+[^3]: [Stop saving credential tokens in text files](https://www.slideshare.net/DavidYeung22/can-we-stop-saving-docker-credentials-in-plain-text-now)

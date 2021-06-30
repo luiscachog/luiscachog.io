@@ -388,7 +388,7 @@ A grandes rasgos las actividades que hace molecule son:
 
 ## Questions?
 
-*Talk links, references and resources can be found at:* [luiscachog.io/talk/molecule-ansible](https://luiscachog.io/talk/molecule-ansible)
+*Talk links, references and resources can be found at:* [luiscachog.io/talk/improve-ansible-roles-with-molecule](https://luiscachog.io/talk/improve-ansible-roles-with-molecule)
 
 ---
 

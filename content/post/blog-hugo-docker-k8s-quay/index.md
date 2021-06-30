@@ -48,7 +48,7 @@ This time, I will try to explain how I containerized my blog using:
 
 ### Architecture
 
-So, I take some ideas from [here](https://danrl.com/blog/2017/my-blog-on-kubernetes/) and I modify them and adapt the architecture described to my options.
+So, I take some ideas from [here](https://www.civo.com/learn/using-civo-k3s-service-to-host-your-blog-in-hugo-using-github-actions) and I modify them and adapt the architecture described to my options.
 
 The principal changes that I made are:
 
@@ -63,7 +63,7 @@ The principal changes that I made are:
 
 I use [Hugo](https://gohugo.io/) to deploy my blog, I used to do it as mentioned on [this](https://luiscachog.io/deployment-hugo-site-git-hooks/) previous post (In Spanish).
 
-Now, as a part of containerize the blog it make sense to me to create two stages as described [here](https://danrl.com/blog/2017/my-blog-on-kubernetes/):
+Now, as a part of containerize the blog it make sense to me to create two stages as described [here](https://www.civo.com/learn/using-civo-k3s-service-to-host-your-blog-in-hugo-using-github-actions):
 
 - The first stage is a defined build environment containing all required build tools (hugo, pygments) and the source of the website (Git repository).
 - The second stage is the build artifact (HTML and assets), from the first stage and a webserver to serve the artifact over HTTP.

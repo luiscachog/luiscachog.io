@@ -72,4 +72,4 @@ Now you are able to login on your switch using ssh or web.
 
 - Blog with ruckus commands [^1]
 
-[^1]: [https://robrobstation.com/2017/07/17/ruckus-icx7150-c12p-initial-configuration/](https://robrobstation.com/2017/07/17/ruckus-icx7150-c12p-initial-configuration/)
+[^1]: [Ruckus ICX7150-C12P – Initial Configuration](https://robrobstation.com/2017/07/17/ruckus-icx7150-c12p-initial-configuration/)

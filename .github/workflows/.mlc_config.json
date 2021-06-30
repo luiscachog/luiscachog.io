@@ -7,6 +7,9 @@
       "pattern": "^http://localhost"
     },
     {
+      "pattern": "^https://example.com"
+    },
+    {
       "pattern": "^https://sourcethemes.com"
     },
     {

@@ -1,6 +1,6 @@
 # My Blog - luiscachog.io
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c839c189-5608-4493-aca0-4fa5579e925b/deploy-status)](https://app.netlify.com/sites/luiscachogio/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ee03253e-7d3e-45ab-83b6-979d6963dfeb/deploy-status)](https://app.netlify.com/sites/luiscachog-io/deploys)
 
 Static site for my personal blog [https://luiscachog.io](http://luiscachog.io) using:
 

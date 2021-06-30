@@ -4,7 +4,7 @@ headless: true
 active: true
 weight: 20
 title: Certifications
-subtitle: '[Training Badges](/about/#training-badges)'
+subtitle: '[Training Badges]({{< relref "/about#training-bagdes" >}})'
 design:
   columns: '2'
 date_format: Jan 2006

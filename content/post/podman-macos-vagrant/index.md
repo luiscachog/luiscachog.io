@@ -330,6 +330,6 @@ To avoid that behavior, what I implement is an automator workflow, here are the 
 - Detailed podman installation on MacOS [^2]
 - Automator Configuration [^3]
 
-[^1]: [https://github.com/containers/podman/blob/master/docs/tutorials/mac_win_client.md](https://github.com/containers/podman/blob/master/docs/tutorials/mac_win_client.md)
-[^2]: [https://vikaspogu.dev/posts/podman-macos/](https://vikaspogu.dev/posts/podman-macos/)
-[^3]: [https://stackoverflow.com/questions/30680861/how-can-i-automatically-do-vagrant-up-every-time-my-osx-machine-boots](https://stackoverflow.com/questions/30680861/how-can-i-automatically-do-vagrant-up-every-time-my-osx-machine-boots)
+[^1]: [Podman Remote clients for macOS and Windows](https://github.com/containers/podman/blob/master/docs/tutorials/mac_win_client.md)
+[^2]: [Installing Podman remote client on macOS using vagrant](https://vikaspogu.dev/posts/podman-macos/)
+[^3]: [How can I automatically do vagrant up every time my OSX machine boots?](https://stackoverflow.com/questions/30680861/how-can-i-automatically-do-vagrant-up-every-time-my-osx-machine-boots)

@@ -40,4 +40,4 @@ subtitle = ""
 +++
 Looking for a **speaker**?
 
-Choose a **[talk](talk/)** or a subject and reach me at **[cncf.io/speaker/rael](https://cncf.io/speaker/rael)**.
+Choose a **[talk]({{< relref "/talk" >}})** or a subject and reach me at **[cncf.io/speaker/rael](https://cncf.io/speaker/rael)**.

@@ -46,7 +46,6 @@ Here is the link to my [contribution](https://git.openstack.org/cgit/openstack/a
 
 And, as I am proud of my first commit on a big project here is the screenshot too:
 
-![My First OpenStack Contribution](/media/posts/my-first-contribution-to-openstack/OpenStack-Contribution.png)
 {{< figure src="posts/my-first-contribution-to-openstack/OpenStack-Contribution.png" caption="My First OpenStack Contribution" id="first-openstack-contrib" theme="ligth">}}
 
 I feel happy and motivated to still learn about this Open Source project and a lot more.

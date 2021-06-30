@@ -62,4 +62,4 @@ And add the following lines:
 
 - Western Digital knowledge base link[^1]
 
-[^1]: [https://support.wdc.com/knowledgebase/answer.aspx?ID=14952](https://support.wdc.com/knowledgebase/answer.aspx?ID=14952)
+[^1]: [How to enable SSH (Secure Shell) on a My Cloud EX2 device](https://support.wdc.com/knowledgebase/answer.aspx?ID=14952)
