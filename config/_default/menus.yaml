@@ -18,7 +18,12 @@ main:
     weight: 60
     identifier: digital-garden
     pre: <i class='far fa-file-code'>&nbsp;</i>
+  - name: ' FANTASY'
+    url: fantasy/
+    weight: 70
+    identifier: fantasy
+    pre: <i class='fas fa-football-ball'>&nbsp;</i>
   - name: ''
     url: 'https://follow.it/luiscachog-io'
-    weight: 70
+    weight: 80
     pre: <i class='fas fa-rss'>&nbsp;</i>
