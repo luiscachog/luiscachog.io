@@ -35,3 +35,7 @@ fileignoreconfig:
   checksum: da6a4d7f5f1fe6eeb6bde10d683c92e47e0557f2c23897a98164302bcdbec3b8
 - filename: go.sum
   checksum: 26eef321b9eb568bc966213054c970f85a024a8097356b940d8b9ffd74e53a39
+- filename: assets/css/applause-button.css
+  checksum: f876a33a82acca1a7c3c5b82fa802122de2a7fe0012e0f7556e346efa4b6396c
+- filename: assets/js/applause-button.js
+  checksum: bbc3c5a208d1af668cc3d8b8d072c5ba1a17ed8dd44c8ad038844da8614f3b08
