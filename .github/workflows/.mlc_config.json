@@ -17,6 +17,12 @@
     },
     {
       "pattern": "^https://github.com/sourcethemes"
+    },
+    {
+      "pattern": "^https://www.aws.amazon.com"
+    },
+    {
+      "pattern": "^https://www.linkedin.com"
     }
   ]
 }

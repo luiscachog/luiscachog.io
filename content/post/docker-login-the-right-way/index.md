@@ -157,6 +157,6 @@ Let me know how this works for you.
 - Docker Credential Store Documentation[^2]
 - Slides about this topic [^3]
 
-[^1]: [docker-credential-helpers](https://github.com/docker/docker-credential-helpers)
+[^1]: [Docker Credential Helpers](https://github.com/docker/docker-credential-helpers)
 [^2]: [docker cli documentation](https://docs.docker.com/engine/reference/commandline/login/#credentials-store)
 [^3]: [Stop saving credential tokens in text files](https://www.slideshare.net/DavidYeung22/can-we-stop-saving-docker-credentials-in-plain-text-now)
