@@ -27,21 +27,21 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft** la cual la
 
 - Liga Redraft Half PPR
 - 12 equipos
-- 2 conferencias
-- 17 rondas del draft
-- Titulares: 1 QB, 2 RB, 2 WR, 1 TE, 4 Flex, 1 K, 1 Def - [12 Total]
+- 16 rondas del draft
+- Titulares: 1 QB, 2 RB, 2 WR, 1 TE, 3 Flex, 1 K, 1 Def - [11 Total]
 - Banca: 5 banca, 1 lesionado - [6 Total]
 - Tipo de Waivers: FAAB Waivers (Free Agent Adquisition Budget)
 - Presupuesto para la subasta de waivers: $100
-- Monto de Entrada a la liga $20 dls o $400 mxn
+- Monto de Entrada a la liga: $20 dls o $400 mxn
 
 ### Draft
 
 - El draft va a ser el día **_Sábado 4 de Septiembre de 2021 a las 6:00 PM CST_** via Zoom 🍻 (Más detalles via Telegram)
-- El draft va a tener **_17_** rondas, estilo **_snake_**, con 3RR (Third Round Reversal)
-- El tiempo para realizar el pick es de **2 minutos**, en caso de que no se realize el pick durante esa ventana de tiempo, el pick será realizado automáticamente (autopick).
+- El draft va a tener **_16_** rondas, estilo **_snake_**, con 3RR (Third Round Reversal)
+- El tiempo para realizar el pick es de **1.5 minutos**, en caso de que no se realize el pick durante esa ventana de tiempo, el pick será realizado automáticamente (autopick).
 - El draft sera mediante la aplicación [https://sleeper.app](https://sleeper.app)
-- El ordén del draft será dictado por el algoritmo aleatorio que está en la aplicación.
+- El ordén del draft será dictado por el algoritmo aleatorio que está en la aplicación
+- Se permite el trade de selecciones del draft
 
 ### Puntuación (Scoring)
 
@@ -53,7 +53,7 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft** la cual la
 - 6 puntos por pase de TD
 - 2 puntos por cada conversion de 2 puntos
 - -4 puntos por intercepción
-- -2 puntos por intercepción que termine en TD (Pick6)
+- -2 puntos por intercepción que termine en TD (Pick Six)
 - -1 punto por sack
 - 0.5 puntos por pase completo
 - -0.5 puntos por pase incompleto
@@ -84,11 +84,29 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft** la cual la
 - -3 por FG fallado
 - -1 por XP fallado
 
+#### Defense/Special Teams
+
+- 6 puntos por TD
+- 10 puntos si el equipo permite 0 puntos
+- 7 puntos si el equipo permite de 1-6 puntos
+- 4 puntos si el equipo permite de 7-13 puntos
+- 1 punto si el equipo permite de 14-20 puntos
+- 0 puntos si el equipo permite de 21-27 puntos
+- -1 punto si el equipo permite de 28-34 puntos
+- -4 puntos si el equipo permite más de 35 puntos
+- 1 punto por sack
+- 2 puntos por intercepción
+- 1 punto por fumble forzado
+- 2 puntos por fumble recuperado
+- 2 puntos por safety
+- 2 puntos por un FG/XP bloqueado
+
 ### Waivers
 
-- Waivers van a ejecutarse cada **_Martes a la 1:00 AM CST_**
-- Cada Martes después de la 1:00 AM CST los jugadores se vuelven Agentes Libres, será el primero en llegar, será el primero en servirse (First Come, First Serve) hasta el kickoff del juego de cada jugador
-- El primer waiver de la temporada se ejecutara en el Martes previo a la semana 1 a la 1:00 PM CST
+- Waivers van a ejecutarse cada **_Miércoles a la 1:00 AM CST_**
+- El primer waiver de la temporada se ejecutara en el Miércoles previo a la semana 1 a la 1:00 PM CST
+- Cada Miércoles después de la 1:00 AM CST los jugadores se vuelven Agentes Libres, será el primero en llegar, será el primero en servirse (First Come, First Serve) hasta el kickoff del juego de cada jugador
+- Los jugadores volverán a los waivers despúes de _un día_ de que fueron soltados de sus respectivos equipos.
 
 #### Waivers cuando ya estas eliminado
 
@@ -113,10 +131,12 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft** la cual la
 
 - Los playoffs se jugaran en la semana 15 (Final de conferencia) y 16 (SuperBowl)
 - Pasaran los mejores 4 equipos de la temporada regular
+- Los equipos permanecen en su lado inicial del bracket durante los playoffs
 
 #### Toilet Bowl
 
-- Los equipos que no entren a playoffs jugaran el `Toilet Bowl` en el cual competiran por ser el equipo menos perdedor.
+- Los equipos que no entren a playoffs jugaran para evitar luchar por el `Toilet Bowl` 💩.
+- El equipo que pierda cada ronda sera _DESCARGADO (FLUSHED)_ :toilet: a la siguiente rinda.
 
 ### Monto de Entrada
 
@@ -147,7 +167,7 @@ Una vez que terminen los playoffs (semana 16), notificare a los ganadores de la 
 caption="Trofeo para el último lugar de la liga"  lightbox="false" width="40%" >}} |
 
 {{% callout note %}}
-Para los coaches de México, el costo del envio del trofeo será por su cuenta, o en su defecto haré entrega del mismo personalmente cuando realice un viaje a la Ciudad de México ()
+Para los coaches de México, el costo del envio del trofeo será por su cuenta, o en su defecto haré entrega del mismo personalmente cuando realice un viaje a la Ciudad de México (No definido aún para cuando)
 {{% /callout %}}
 
 ### Clausula de mejor interés de la liga
@@ -156,4 +176,4 @@ Si surge alguna circunstancia, o problema para el cual no se establece un remedi
 necesarias en el mejor interés de la liga.
 El Comisionado puede consultar con algunas o todas las demás personas y/o posiblemente someterlo a votación.
 
-### Atte, el Comish
+**Atte: El Comish**.
