@@ -161,9 +161,9 @@ search:
   provider: algolia
   algolia:
     app_id: 74APDZPUGZ
-    api_key: 4ec94722dd52fb0755036caead15bfe0
+    api_key: d64f068b66c0fa2cf24d48a2043ebde7
     index_name: luiscachog.io
-    show_logo: true
+    show_logo: false
 map:
   provider: ''
   api_key: ''

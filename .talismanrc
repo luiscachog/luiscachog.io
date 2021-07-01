@@ -39,3 +39,5 @@ fileignoreconfig:
   checksum: f876a33a82acca1a7c3c5b82fa802122de2a7fe0012e0f7556e346efa4b6396c
 - filename: assets/js/applause-button.js
   checksum: bbc3c5a208d1af668cc3d8b8d072c5ba1a17ed8dd44c8ad038844da8614f3b08
+- filename: config/_default/params.yaml
+  checksum: 73d22c2f7ba4e3c1df274d77e8c2c8b587aa4cde8c355ff3bd7d5a0c897f393a
