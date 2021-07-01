@@ -41,3 +41,5 @@ fileignoreconfig:
   checksum: bbc3c5a208d1af668cc3d8b8d072c5ba1a17ed8dd44c8ad038844da8614f3b08
 - filename: config/_default/params.yaml
   checksum: 73d22c2f7ba4e3c1df274d77e8c2c8b587aa4cde8c355ff3bd7d5a0c897f393a
+- filename: content/post/podman-macos-vagrant/index.md
+  checksum: 3b6a24cda720f8b59a6a4eec4b37bcd0255cb19f4f4ed1cfc268c0c2b2a41035

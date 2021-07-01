@@ -7,7 +7,7 @@ summary: "How to install podman remote client on MacOS using vagrant VMs"
 authors: [ luiscachog ]
 tags: [ Podman, Kubernetes, Openshift, Vagrant, MacOS, Cloud Native, DevOps, SRE, Containers ]
 categories: [ Cloud Native, MacOS, DevOps, Containers ]
-keywords: [ Podman, Kubernetes, Cloud Native, MacOS, Vagrant, Openshift, SRE ]
+keywords: [ Podman, Kubernetes, Cloud Native, MacOS, Vagrant, Openshift, SRE, Containers ]
 date: 2021-02-23
 publishDate: 2021-02-23
 lastmod: 2021-04-30
