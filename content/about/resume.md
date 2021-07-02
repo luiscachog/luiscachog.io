@@ -13,7 +13,7 @@ headless: true
 weight: 50
 
 title: Interested?
-subtitle: Hire me.
+subtitle: Hire me. </br> Resume last update 2020/11/20
 
 design:
   columns: "2"
@@ -30,7 +30,9 @@ design:
 
 {{% callout note %}}
 If you find that my expertise could bring value to your company, you can send me an email to discuss my availability and job interview.
+
 Currently, I live in San Antonio, Texas , and I am capable of remote work.
+
 I'm also glad to answer any other questions related to employment!
 
 {{< cta cta_text="Download my Resume" cta_link="/media/files/resume.pdf" cta_new_tab="false" >}}
