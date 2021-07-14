@@ -25,7 +25,7 @@ content:
       tag: Website
 design:
   columns: '2'
-  view: 5
+  view: 2
   flip_alt_rows: true
   background: {}
 advanced:

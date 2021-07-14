@@ -3,8 +3,8 @@ widget: pages
 headless: true
 active: true
 weight: 20
-title: Talks
-subtitle: ''
+title: Events
+subtitle: 'Talks, Videos, Drafts, etc...'
 content:
   page_type: event
   count: 5
