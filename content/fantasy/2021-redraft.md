@@ -1,17 +1,17 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Nerd Fantasy League - 2021"
-url: "/2021-fantasy-league"
+title: "2021 Nerd Fantasy League"
+url: "/2021-redraft-league"
 subtitle: ""
 summary: "Season 2021 of Nerd Football League"
 authors: [ luiscachog ]
 tags: [ NFL, Fantasy, Hobbies ]
 categories: [ Fantasy, Hobbies ]
-keywords: [ NFL, Fantasy, League, Football, Nerd Football League ]
+keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft ]
 date: 2021-07-02
 publishDate: 2021-07-02
-lastmod: 2021-07-02
+lastmod: 2021-07-13
 featured: false
 draft: false
 
@@ -57,9 +57,9 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft**[^1] y la t
 
 - El draft va a ser el día **_Sábado 4 de Septiembre de 2021 a las 6:00 PM CST_** via Zoom 🍻 (Más detalles via Telegram)
 - El draft va a tener **_16_** rondas, estilo **_snake_**, con 3RR (Third Round Reversal)[^4]
-- El tiempo para realizar el pick es de **1.5 minutos**, en caso de que no se realize el pick durante esa ventana de tiempo, el pick será realizado automáticamente (autopick).
+- El tiempo para realizar el pick es de **1.5 minutos (90 segundos)**, en caso de que no se realize el pick durante esa ventana de tiempo, el pick será realizado automáticamente (autopick).
 - El draft sera mediante la aplicación [https://sleeper.app](https://sleeper.app)
-- El ordén del draft será dictado por el algoritmo aleatorio que está en la aplicación
+- El ordén del draft será dictado por el algoritmo aleatorio de la aplicación [https://sleeper.app](https://sleeper.app)
 - Se permite el trade de selecciones del draft
 
 ### Puntuación (Scoring)
@@ -124,10 +124,10 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft**[^1] y la t
 
 - Los waivers con subasta FAAB proporciona un presupuesto ($100) durante **toda la temporada**[^3] para apostar por los agentes libres disponibles y es subasta a ciegas.
     - ¡El mejor postor de cada jugador gana el reclamo! y los perdedores no pierden ni su jugador ni parte de su presupuesto inicial.
-    - Las apuestas para la selección de los agentes libres cada semana son ciegas, por lo que otros coaches no pueden ver cuál es la oferta que hiciste.
+    - Las apuestas para la selección de los agentes libres cada semana son ciegas, por lo que otros dueños de equipo no pueden ver cuál es la oferta que hiciste.
     - La oferta más alta al final del período de exención gana el jugador.
     - La oferta mínima para cualquier jugador es de $ 0.
-    - Si dos o mas coaches apuestan el mismo monto, el desempate será realizado por el orden del waiver wire, el cual es del tipo rolling waiver.
+    - Si dos o mas dueños de equipo apuestan el mismo monto, el desempate será realizado por el orden del waiver wire, el cual es del tipo rolling waiver.
     - Más detalles acerca de como funciona el presupuesto FAAB[^2]
 - Waivers van a ejecutarse cada **_Miércoles a la 1:00 AM CST_**
 - El primer waiver de la temporada se ejecutara en el Miércoles previo a la semana 1 a la 1:00 PM CST
@@ -154,7 +154,7 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft**[^1] y la t
 
 ### Playoffs
 
-- Los playoffs se jugaran en la semana 15 (Final de conferencia) y 16 (SuperBowl)
+- Los playoffs se jugaran en la semana 15 (Final de conferencia) y 16 (Super Bowl)
 - Pasaran los 4 equipos con mejor record de la temporada regular
 
 #### Toilet Bowl
@@ -168,12 +168,15 @@ Para participar en la liga de Fantasy Football, sera necesario aportar **$25 dls
 
 Y será necesario hacer el déposito/tranferencia a más tardar al termino de la semana 2 de la NFL (Lunes, 20 de Septiembre, 2021).
 
+En caso de que no se halla recibido el déposito/transferencia para dicha fecha el dueño del equipo será penalizado.
+Teniendo que pagar **$5 dls o $100 mxn** adicionales, además de que en caso de que resulte ganador de algún premio al final de la temporada **NO recibira dicho premio**.
+
 Mandare más detalles de como hacer el déposito/transferencia via telegram.
 
 El monto total recaudado de la liga será de:
 
-- 12 coaches x $25 = $300 dls o $6000 mxn
-- De los cuales, $240 dls o $4800 mxn serán destinados a la premiación de los participantes.
+- 12 dueños de equipo x $25 = $300 dls o $6000 mxn
+- De los cuales, $240 dls o $4800 mxn serán destinados a la premiación de los dueños de equipo.
 - Y el dinero restante ($60 dls o $1200 mxn), servira para adquirir el trofeo para el campeón y perdedor de la liga.
 
 ### Premiación
@@ -184,7 +187,7 @@ La distribuciøn de los premios será de la siguiente manera:
 - 1er lugar: $180 dls o $3600 mxn y trofeo de primer lugar.
 - 2do lugar: $40 dls o $800 mxn
 - 3er lugar: $20 dls o $400 mxn
-- Último lugar: trofeo de ultimo lugar (toilet trophy) y un castigo propuesto por los otros coaches de la liga. La prueba de que el castigo se cumple es realizar un video del mismo.
+- Último lugar: trofeo de ultimo lugar (toilet trophy) y un castigo propuesto por los otros dueños de equipo de la liga. La prueba de que el castigo se cumple es realizar un video del mismo.
 
 | | |
 | :---: | :---: |
@@ -193,7 +196,8 @@ caption="Trofeo para el último lugar de la liga"  lightbox="false" width="80%" 
 | [Link](https://www.amazon.com/Decade-Awards-Fantasy-Football-Champion/dp/B08H4KQ6TB/) | [Link](https://www.amazon.com/Decade-Awards-Toilet-Bowl-Trophy/dp/B00NRD030O/) |
 
 {{% callout note %}}
-Para los coaches de México, el costo del envio del trofeo será por su cuenta, o en su defecto haré entrega del mismo personalmente en Ciudad de México cuando visite la ciudad (No definido aún para cuando)
+Para los dueños de equipo de México, el costo del envio del trofeo será por su cuenta, o en su defecto haré entrega del mismo personalmente en Ciudad de México.
+Eso sera cuando visite la ciudad (No hay fecha definida aún)
 {{% /callout %}}
 
 ### Clausula de mejor interés de la liga
@@ -202,7 +206,7 @@ Si surge alguna circunstancia, o problema para el cual no se establece un remedi
 necesarias en el mejor interés de la liga.
 El Comisionado puede consultar con algunas o todas las demás personas y/o posiblemente someterlo a votación.
 
-**Atte: El Comish**.
+**Atte: El Comish**  :football:.
 
 [^1]: [Liga tipo Redraft (En inglés)](https://support.sleeper.app/en/articles/3537396-league-types-formats)
 [^2]: [Puntuación Half PPR (En inglés)](https://www.fantasyfootballdad.com/fantasy-football-scoring-systems-standard-ppr-half-point-ppr/)
