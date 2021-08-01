@@ -13,11 +13,11 @@ main:
     weight: 50
     identifier: about
     pre: <i class='far fa-address-card'>&nbsp;</i>
-  - name: ' NOTES'
-    url: notes/
+  - name: ' GARDEN'
+    url: garden/
     weight: 60
-    identifier: digital-garden
-    pre: <i class='far fa-file-code'>&nbsp;</i>
+    identifier: garden
+    pre: <i class='fas fa-tree'>&nbsp;</i>
   - name: ' FANTASY'
     url: fantasy/
     weight: 70

@@ -45,3 +45,5 @@ fileignoreconfig:
   checksum: 3b6a24cda720f8b59a6a4eec4b37bcd0255cb19f4f4ed1cfc268c0c2b2a41035
 - filename: content/notes/digital-garden
   checksum: 09e9b488e89041b8d482ee6228b9d8610bf60736ab9841167bde6a0e5a8af816
+- filename: content/garden
+  checksum: a3c122e2b42c477f4169af182fba8796c098a1c902a1e80c1ea9d37316d87620

@@ -1,3 +1,3 @@
-[submodule "content/notes/digital-garden"]
-	path = content/notes/digital-garden
+[submodule "content/garden"]
+	path = content/garden
 	url = git@github.com:luiscachog/digital-garden.git
