@@ -6,8 +6,8 @@ url: "/2021-redraft-league"
 subtitle: ""
 summary: "Season 2021 of Nerd Football League"
 authors: [ luiscachog ]
-tags: [ NFL, Fantasy, Hobbies ]
-categories: [ Fantasy, Hobbies ]
+tags: [ NFL, Fantasy Football, Hobbies ]
+categories: [ Fantasy Football, Hobbies ]
 keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft ]
 date: 2021-07-02
 publishDate: 2021-07-02

@@ -6,8 +6,8 @@ url: "/2021-dinasty-league"
 subtitle: ""
 summary: "Initial season of Nerd Football League Dinasty"
 authors: [ luiscachog ]
-tags: [ NFL, Fantasy, Hobbies ]
-categories: [ Fantasy, Hobbies ]
+tags: [ NFL, Fantasy Football, Hobbies ]
+categories: [ Fantasy Football, Hobbies ]
 keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Dinasty ]
 date: 2021-07-02
 publishDate: 2021-07-02
