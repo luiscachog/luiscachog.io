@@ -7,8 +7,6 @@ fileignoreconfig:
   checksum: 2cada2bb14bd4fdf6fee74203b7e4219d25b6c6aba7b2adbc736d6537604093f
 - filename: content/about/certifications.md
   checksum: d36593defa44dce67299de6895b71c49ea6f2bf5b1fdc1f0a9f014139fc55b18
-- filename: go.sum
-  checksum: 2121ebeab3a4ea999e6c698fe3bf6e571727ce105580c46a0ea16c9da474fbb8
 - filename: content/about/certifications.md
   checksum: 2dc1bef122243475a4811a56916435309e492232e88d1272d50348be1e77aa95
 - filename: assets/media/icons/brands/bmv.svg
@@ -33,8 +31,6 @@ fileignoreconfig:
   checksum: 9115cbdbce71bf8b52978e4964208ebd72afc5069a849d4e8b337b50883d8719
 - filename: content/post/blog-hugo-docker-k8s-quay/index.md
   checksum: da6a4d7f5f1fe6eeb6bde10d683c92e47e0557f2c23897a98164302bcdbec3b8
-- filename: go.sum
-  checksum: 26eef321b9eb568bc966213054c970f85a024a8097356b940d8b9ffd74e53a39
 - filename: assets/css/applause-button.css
   checksum: f876a33a82acca1a7c3c5b82fa802122de2a7fe0012e0f7556e346efa4b6396c
 - filename: assets/js/applause-button.js
@@ -45,3 +41,5 @@ fileignoreconfig:
   checksum: 3b6a24cda720f8b59a6a4eec4b37bcd0255cb19f4f4ed1cfc268c0c2b2a41035
 - filename: content/garden
   checksum: a3c122e2b42c477f4169af182fba8796c098a1c902a1e80c1ea9d37316d87620
+- filename: go.sum
+  checksum: 1547f1df508601f4cc7da7d8559f0e7fbf03d6d3998654e58abfa96430a91cb8

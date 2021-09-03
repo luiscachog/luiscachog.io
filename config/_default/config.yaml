@@ -24,8 +24,9 @@ removePathAccents: true
 ############################
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
+      disable: false
     - path: github.com/jakejarvis/hugo-mod-twemoji
 
 ############################
@@ -54,7 +55,7 @@ outputs:
     - HTML
     - RSS
     - JSON
-    - WebAppManifest
+    # - WebAppManifest
   section:
     - HTML
     - RSS
