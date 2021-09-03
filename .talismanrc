@@ -43,3 +43,5 @@ fileignoreconfig:
   checksum: a3c122e2b42c477f4169af182fba8796c098a1c902a1e80c1ea9d37316d87620
 - filename: go.sum
   checksum: 1547f1df508601f4cc7da7d8559f0e7fbf03d6d3998654e58abfa96430a91cb8
+- filename: content/event/2021-fantasy-draft/index.md
+  checksum: cc585917ec26ac5717b18c368c3f41d05a3f7c9da481a30369bee01720ef3104
