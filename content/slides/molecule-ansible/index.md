@@ -2,8 +2,8 @@
 title: Improve Ansible Roles with Molecule
 summary: An introduction to using Molecule to test your Ansible Roles.
 authors: [ luiscachog ]
-tags: [ Ansible, Molecule, Community ]
-categories: [Ansible, Molecule, Slide ]
+tags: [ Ansible, Molecule, Community, Slides ]
+categories: [Ansible, Slides ]
 date: "2019-03-07T00:00:00Z"
 slides:
   # Choose a theme from https://github.com/hakimel/reveal.js#theming

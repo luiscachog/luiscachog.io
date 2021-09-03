@@ -5,7 +5,7 @@ title: "Kubernetes Contributor"
 summary: |
   Contributing to the Kubernetes project in different special interest groups, mainly focused on migration and modernization, documentation translation, community engagement, and user/contributor experience.
 authors: []
-tags: [ Kubernetes, Community, Website, Cloud Native, Open Source]
+tags: [ Kubernetes, Community, Website, Cloud Native, Open Source, Hugo]
 categories: [ Kubernetes, Project, Open Source ]
 date: 2019-10-27
 

@@ -4,8 +4,8 @@
 title: "Molecule Cookiecutter"
 summary: "Cookiecutter for a molucle project"
 authors: []
-tags: [ Molecule, Ansible, Cookiecutter, Code, Python, Open Source]
-categories: [ Ansible, Molecule, Project ]
+tags: [ Molecule, Ansible, Cookiecutter, Python, Open Source]
+categories: [ Ansible, Project ]
 date: 2019-10-24
 
 # Optional external URL for project (replaces project detail page).

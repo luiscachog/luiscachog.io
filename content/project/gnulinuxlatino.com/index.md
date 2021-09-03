@@ -3,7 +3,7 @@ title: "GNU/Linux Latino Website"
 summary: |
   Contributor, and website maintainer of the "GNU/Linux Latino" website.
 authors: []
-tags: [ Community, Website ]
+tags: [ Community, Website, Hugo ]
 categories: [ Community, Website, Project ]
 date: 2020-09-09
 

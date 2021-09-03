@@ -3,9 +3,9 @@
 
 title: "Personal Website"
 summary: |
-  Built my personal website (this website) using [Hugo Framework](https://gohugo.io/), [Wowchemy theme](https://wowchemy.com/) and deploy it via [Netlify](https://www.netlify.com/). This website includes a blog section, a portfolio section, an acomplisment section and a digital garden section.
+  Built my personal website (this website) using [Hugo Framework](https://gohugo.io/), [Wowchemy theme](https://wowchemy.com/) and deploy it via [Netlify](https://www.netlify.com/). This website includes a blog section, a portfolio section, an accomplishment section and a digital garden section.
 authors: []
-tags: [ Code, Website, Open Source ]
+tags: [ Website, Open Source, Hugo ]
 categories: [ Website, Project ]
 date: 2019-11-24
 
