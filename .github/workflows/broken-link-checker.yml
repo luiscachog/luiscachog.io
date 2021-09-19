@@ -30,8 +30,8 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0
-          submodules: true
+          ssh-key: ${{ secrets.PERSONAL_SUBMODULES_PULL_KEY }}
+          submodules: recursive
           lfs: true
 
       - name: Check for broken links

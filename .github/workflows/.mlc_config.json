@@ -23,6 +23,9 @@
     },
     {
       "pattern": "^https://www.linkedin.com"
+    },
+    {
+      "pattern": ".*(opentlc.com).*
     }
   ]
 }
