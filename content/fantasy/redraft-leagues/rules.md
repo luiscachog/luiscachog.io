@@ -1,20 +1,20 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Nerd Fantasy League Dinasty"
-url: "/2021-dinasty-league"
+title: "Rules"
+url: "/redraft-rules"
 subtitle: ""
-summary: "Initial season of Nerd Football League Dinasty"
+summary: "Rules for the Redraft Leagues"
 authors: [ luiscachog ]
-tags: [ NFL, Fantasy Football, Hobbies ]
+tags: [ NFL, Fantasy Football, Hobbies, 2021 ]
 categories: [ Fantasy Football, Hobbies ]
-keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Dinasty ]
+keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft ]
 date: 2021-07-02
 publishDate: 2021-07-02
-lastmod: 2021-07-13
+lastmod: 2021-09-19
 featured: false
-draft: true
-
+draft: false
+type: book
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -36,7 +36,7 @@ projects: [ fantasy-commish ]
 
 {{% toc %}}
 
-Bienvenidos a la temporada inicial de la **Liga Nerd de Football (Nerd Football League)**.
+Bienvenidos a la temporada 2021 de la **Liga Nerd de Football (Nerd Football League)**.
 
 ## Acerca de la Liga
 
