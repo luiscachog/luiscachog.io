@@ -45,3 +45,5 @@ fileignoreconfig:
   checksum: 1547f1df508601f4cc7da7d8559f0e7fbf03d6d3998654e58abfa96430a91cb8
 - filename: content/event/2021-fantasy-draft/index.md
   checksum: cc585917ec26ac5717b18c368c3f41d05a3f7c9da481a30369bee01720ef3104
+- filename: content/post/gitkraken-ambassador/index.md
+  checksum: 2488889751c87c46eafbd0cbfae281cd4a156cd341ffbacdcb6c7f63008ee5cd
