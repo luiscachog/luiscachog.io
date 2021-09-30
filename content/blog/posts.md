@@ -17,7 +17,7 @@ content:
     publication_type: ''
     exclude_featured: false
 design:
-  view: 3
+  view: 2
   background: {}
 advanced:
   css_style: ''
