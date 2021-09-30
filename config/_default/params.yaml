@@ -119,8 +119,8 @@ copyright_license:
 
 abstract_length: 135
 
-plugins_css: [ applause-button, custom ]
-plugins_js: [ applause-button, landing_author, itype.min ]  # matrix
+plugins_css: [applause-button, custom]
+plugins_js: [applause-button, landing_author, itype.min]  # matrix
 
 sharing_image: ''
 
