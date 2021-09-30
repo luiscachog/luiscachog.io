@@ -24,6 +24,17 @@ main:
     identifier: fantasy
     pre: <i class='fas fa-football-ball'>&nbsp;</i>
   - name: ''
-    url: 'https://follow.it/luiscachog-io'
+    url: 'tags/'
     weight: 80
+    pre: <i class='fas fa-tags'>&nbsp;</i>
+    identifier: tags
+  - name: ''
+    url: 'categories/'
+    weight: 85
+    pre: <i class='fas fa-th-large'>&nbsp;</i>
+    identifier: cats
+  - name: ''
+    url: 'https://follow.it/luiscachog-io'
+    weight: 90
     pre: <i class='fas fa-rss'>&nbsp;</i>
+    identifier: rss
