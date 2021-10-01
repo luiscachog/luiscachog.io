@@ -30,11 +30,13 @@ jobs:
           ssh-key: ${{ secrets.PERSONAL_SUBMODULES_PULL_KEY }}
           submodules: recursive
           lfs: true
+          path: hugo_path
+
       - name: upload checked code for next tasks
         uses: actions/upload-artifact@v2
         with:
           name: my-code
-          path: $GITHUB_WORKSPACE
+          path: hugo_path
 
   build-site:
     name: build hugo site
