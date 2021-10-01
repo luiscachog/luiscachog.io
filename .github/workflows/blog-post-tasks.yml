@@ -42,7 +42,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: download checked code
-      - uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v2
         with:
           name: my-code
 
