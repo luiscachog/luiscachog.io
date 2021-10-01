@@ -1,0 +1,102 @@
+---
+# This is a basic workflow to help you get started with Actions
+
+name: blog-post-tasks
+
+# Controls when the action will run. Triggers the workflow on push or pull
+# request events but only for the master branch
+on:
+  push:
+    branches:
+      - main
+      - master
+      - development
+  pull_request:
+    branches:
+      - main
+      - master
+      - development
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  setup:
+    name: setup repository for next tasks
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v2
+        with:
+          ssh-key: ${{ secrets.PERSONAL_SUBMODULES_PULL_KEY }}
+          submodules: recursive
+          lfs: true
+
+  build-site:
+    name: build hugo site
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: ${{ secrets.HUGO_VERSION }}
+          extended: true
+
+      - name: build site
+        run: hugo --minify
+
+  check-broken-links:
+    name: check broken links
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for broken links
+        id: link-report
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
+          config-file: '.github/workflows/.mlc_config.json'
+
+  update-algolia-index:
+    name: update algolia index
+    needs: build-site
+    runs-on: ubuntu-latest
+    steps:
+      - name: update algolia index
+        uses: luiscachog/algolia-update-index-action@master
+        with:
+          algolia_app_id: '${{ secrets.ALGOLIA_APP_ID }}'
+          algolia_apikey: '${{ secrets.ALGOLIA_APIKEY }}'
+          algolia_index_name: '${{ secrets.ALGOLIA_INDEX_NAME }}'
+          file: 'public/index.json'
+
+  to-medium-dev-to:
+    name: send posts to medium and dev.to
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Crosspost to medium and dev.to
+        uses: basicBrogrammer/crosspost-markdown@v0.1.1
+        with:
+          dev-to-token: ${{secrets.DEV_TO_TOKEN}}
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          medium-token: ${{secrets.MEDIUM_TOKEN}}
+          medium-author-id: ${{secrets.MEDIUM_AUTHOR_ID}}
+          content-dir: content/post/*/*.md
+
+
+#    - name: get-result
+#      run: echo "${{steps.link-report.outputs.result}}" | grep "no broken links found"
+
+#    - name: get-report
+#      if: ${{ failure() }}
+#      run: echo "${{steps.link-report.outputs.result}}" > ./link-checker-output.md
+
+#    - name: Create Issue From File
+#      if: ${{ failure() }}
+#      uses: peter-evans/create-issue-from-file@v2
+#      with:
+#        title: Link Checker Report
+#        content-filepath: ./link-checker-output.md
+#        labels: report, automated issue

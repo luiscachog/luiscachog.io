@@ -47,3 +47,5 @@ fileignoreconfig:
   checksum: cc585917ec26ac5717b18c368c3f41d05a3f7c9da481a30369bee01720ef3104
 - filename: content/post/gitkraken-ambassador/index.md
   checksum: 2488889751c87c46eafbd0cbfae281cd4a156cd341ffbacdcb6c7f63008ee5cd
+- filename: .github/workflows/blog-post-tasks.yml
+  checksum: 07a7c43d896238bed8cd3550fd7e22de122835af72160196d8e24cce48646d54
