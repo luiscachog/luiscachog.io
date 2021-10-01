@@ -57,6 +57,10 @@ jobs:
       - name: build site
         run: hugo --minify -d $GITHUB_WORKSPACE/hugo_public
 
+      - name: Display structure of downloaded files
+        run: ls -R
+        working-directory: $GITHUB_WORKSPACE/hugo_public
+
       - name: upload checked code for next tasks
         uses: actions/upload-artifact@v2
         with:
@@ -91,19 +95,28 @@ jobs:
         with:
           name: my-hugo-site
 
+      - name: Display structure of downloaded files
+        run: ls -R
+        working-directory: $GITHUB_WORKSPACE/hugo_public
+
       - name: update algolia index
         uses: luiscachog/algolia-update-index-action@master
         with:
           algolia_app_id: '${{ secrets.ALGOLIA_APP_ID }}'
           algolia_apikey: '${{ secrets.ALGOLIA_APIKEY }}'
           algolia_index_name: '${{ secrets.ALGOLIA_INDEX_NAME }}'
-          file: 'public/index.json'
+          file: $GITHUB_WORKSPACE/hugo_public
 
   to-medium-dev-to:
     name: send posts to medium and dev.to
     needs: setup
     runs-on: ubuntu-latest
     steps:
+      - name: download checked code
+        uses: actions/download-artifact@v2
+        with:
+          name: my-code
+
       - name: Crosspost to medium and dev.to
         uses: basicBrogrammer/crosspost-markdown@v0.1.1
         with:
