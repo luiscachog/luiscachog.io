@@ -55,14 +55,25 @@ jobs:
           extended: true
 
       - name: build site
-        run: hugo --minify
+        run: hugo --minify -d $GITHUB_WORKSPACE/hugo_public
+
+      - name: upload checked code for next tasks
+        uses: actions/upload-artifact@v2
+        with:
+          name: my-hugo-site
+          path: hugo_public
 
   check-broken-links:
     name: check broken links
     needs: setup
     runs-on: ubuntu-latest
     steps:
-      - name: Check for broken links
+      - name: download checked code
+        uses: actions/download-artifact@v2
+        with:
+          name: my-code
+
+      - name: check for broken links
         id: link-report
         uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
@@ -75,6 +86,11 @@ jobs:
     needs: build-site
     runs-on: ubuntu-latest
     steps:
+      - name: download builded hugo site
+        uses: actions/download-artifact@v2
+        with:
+          name: my-hugo-site
+
       - name: update algolia index
         uses: luiscachog/algolia-update-index-action@master
         with:
