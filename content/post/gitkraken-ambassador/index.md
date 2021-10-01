@@ -6,7 +6,7 @@ url: "/gitkraken-ambassador"
 subtitle: ""
 summary: ""
 authors: [ luiscachog ]
-tags: [ Git, GitKrake, Development, DevOps ]
+tags: [ Git, GitKraken, Development, DevOps ]
 categories: [ Development, DevOps ]
 keywords: [ GitKraken, Ambassador, Git, DevOps, Development ]
 date: 2021-08-09
