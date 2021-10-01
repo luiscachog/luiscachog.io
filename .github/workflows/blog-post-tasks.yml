@@ -72,6 +72,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: my-code
+          path: repo
 
       - name: check for broken links
         id: link-report
@@ -80,6 +81,7 @@ jobs:
           use-quiet-mode: 'yes'
           use-verbose-mode: 'yes'
           config-file: '.github/workflows/.mlc_config.json'
+          folder-path: repo
 
   update-algolia-index:
     name: update algolia index
