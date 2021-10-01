@@ -57,10 +57,6 @@ jobs:
       - name: build site
         run: hugo --minify -d $GITHUB_WORKSPACE/hugo_public
 
-      - name: Display structure of downloaded files
-        run: ls -R
-        working-directory: $GITHUB_WORKSPACE/hugo_public
-
       - name: upload checked code for next tasks
         uses: actions/upload-artifact@v2
         with:
@@ -94,10 +90,6 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: my-hugo-site
-
-      - name: Display structure of downloaded files
-        run: ls -R
-        working-directory: $GITHUB_WORKSPACE/hugo_public
 
       - name: update algolia index
         uses: luiscachog/algolia-update-index-action@master
