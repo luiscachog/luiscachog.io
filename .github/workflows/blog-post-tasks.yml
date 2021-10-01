@@ -72,7 +72,6 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: my-code
-          path: repo
 
       - name: check for broken links
         id: link-report
@@ -81,7 +80,7 @@ jobs:
           use-quiet-mode: 'yes'
           use-verbose-mode: 'yes'
           config-file: '.github/workflows/.mlc_config.json'
-          folder-path: repo
+
 
   update-algolia-index:
     name: update algolia index
@@ -104,7 +103,7 @@ jobs:
           algolia_app_id: '${{ secrets.ALGOLIA_APP_ID }}'
           algolia_apikey: '${{ secrets.ALGOLIA_APIKEY }}'
           algolia_index_name: '${{ secrets.ALGOLIA_INDEX_NAME }}'
-          file: $GITHUB_WORKSPACE/hugo_public
+          file: hugo_public/index.json
 
   to-medium-dev-to:
     name: send posts to medium and dev.to
