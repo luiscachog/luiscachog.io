@@ -5,10 +5,6 @@ fileignoreconfig:
   checksum: cc3e11dcfc1d34fdce4c5a3790521968ebce2491a381edd57ad5e6bca5fce4b3
 - filename: content/post/podman-macos-vagrant/index.md
   checksum: 2cada2bb14bd4fdf6fee74203b7e4219d25b6c6aba7b2adbc736d6537604093f
-- filename: content/about/certifications.md
-  checksum: d36593defa44dce67299de6895b71c49ea6f2bf5b1fdc1f0a9f014139fc55b18
-- filename: content/about/certifications.md
-  checksum: 2dc1bef122243475a4811a56916435309e492232e88d1272d50348be1e77aa95
 - filename: assets/media/icons/brands/bmv.svg
   checksum: c9f8f007b110a683d0efd4560ebb549c2f6a6e18210144663fd004620d98652f
 - filename: content/post/mysql-reset-root-password/index.md
@@ -49,3 +45,5 @@ fileignoreconfig:
   checksum: 2488889751c87c46eafbd0cbfae281cd4a156cd341ffbacdcb6c7f63008ee5cd
 - filename: .github/workflows/blog-post-tasks.yml
   checksum: 07a7c43d896238bed8cd3550fd7e22de122835af72160196d8e24cce48646d54
+- filename: content/about/certifications.md
+  checksum: 3465089984dd69d18ae9bb50441f49b21af91576f4f0b536f12a66466a219156

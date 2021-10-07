@@ -9,6 +9,24 @@ design:
   columns: '2'
 date_format: Jan 2006
 item:
+  - title: Red Hat Certified Architect in Infrastructure
+    description: A Red Hat® Certified Architect (RHCA) is a Red Hat Certified Engineer (RHCE®), Red Hat Certified Enterprise Microservices Developer (RHCEMD), or Red Hat Certified JBoss® Developer (RHCJD) who has attained our highest level of certification by passing—and keeping current—five additional certifications chosen from the system administrator and developer lists.
+    url: https://www.redhat.com/en/services/certification/rhca
+    date_start: 2021-10-05
+    date_end: 2022-01-01
+    organization: redhat
+    organization_url: https://www.redhat.com
+    certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3T4V2LT2DQFPHMZNIKSLKTIWLQQ4U5NQYTCNA62RUWOCM34WWBUYQ=
+
+  - title: Red Hat Certified Specialist in OpenShift Application Development
+    description: A Red Hat Certified Specialist in OpenShift Application Development is able to deploy new or existing applications, as well as perform other DevOps-related tasks using the Red Hat® OpenShift® Container Platform.
+    url: https://www.redhat.com/en/services/certification/rhcs-openshift-application-development
+    date_start: 2021-10-05
+    date_end: 2024-10-05
+    organization: redhat
+    organization_url: https://www.redhat.com
+    certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3YWP2PKMJOB2FESKFUN2GLGGL67UAA4DNI6PQU27PFU2ZMLS26POA=
+
   - title: Red Hat Certified Specialist in OpenShift Administration
     description: An IT professional who is a Red Hat Certified Specialist in OpenShift Administration has demonstrated the skills, knowledge, and abilities needed to create, configure, and manage a cloud application platform using Red Hat® OpenShift.
     url: https://www.redhat.com/en/services/certification/rhcs-paas
