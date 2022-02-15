@@ -11,3 +11,9 @@ public/
 node_modules/
 
 assets/jsconfig.json
+
+# Hugo
+.hugo_build.lock
+go.mod
+package-lock.json
+package.json
