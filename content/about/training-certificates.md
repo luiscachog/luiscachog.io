@@ -15,4 +15,4 @@ design:
       - '0'
 ---
 
-{{< gallery album="training-certs">}}
+{{< gallery album="training-certs" order="desc">}}

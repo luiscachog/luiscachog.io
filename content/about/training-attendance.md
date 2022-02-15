@@ -19,72 +19,65 @@ design:
 
 gallery_item:
 - album: attendance-certs
-  image: 2021-10-06-rht_do288.png
+  image: 20211207_rht_do457.png
+  caption: Red Hat - DO457 - Ansible 2.5, Red Hat Ansible Tower 3.2
+
+
+- album: attendance-certs
+  image: 20211006_rht_do288.png
   caption: Red Hat - DO288 - OCPv4.5
 
 - album: attendance-certs
-  image: 2020-06-02-kk_json.png
+  image: 20200602_kk_json.png
   caption: KodeKloud - JSON PATH
 
 - album: attendance-certs
-  image: la_aws.png
+  image: 20190517_la_aws.png
   caption: Linux Academy - AWS Concepts
 
 - album: attendance-certs
-  image: la_devops.png
+  image: 20160112_la_devops.png
   caption: Linux Academy - DevOps Essentials
 
 - album: attendance-certs
-  image: rax_cloudu.png
+  image: 20140209_rax_cloudu.png
   caption: Rackspace - CloudU
 
 - album: attendance-certs
-  image: rht_cl110.png
+  image: 20180416_rht_cl110.png
   caption: Red Hat - CL110 - Openstackv13
 
 - album: attendance-certs
-  image: rht_do101.png
+  image: 20210308_rht_do101.png
   caption: Red Hat - DO110 - OCPv4.5
 
 - album: attendance-certs
-  image: rht_do180_2019.png
-  caption: Red Hat - DO180 - OCPv3.11
-
-- album: attendance-certs
-  image: rht_do180.png
+  image: 20210314_rht_do180.png
   caption: Red Hat - DO180 - OCPv4.5
 
 - album: attendance-certs
-  image: rht_do280_2019.png
-  caption: Red Hat - DO280 - OCPv3.11
-
-- album: attendance-certs
-  image: rht_do280.png
+  image: 20210317_rht_do280.png
   caption: Red Hat - DO280 - OCPv4.5
 
 - album: attendance-certs
-  image: rht_do180_2019.png
-  caption: Red Hat - DO180 - OCPv3.11
-
-- album: attendance-certs
-  image: rht_do407.png
+  image: 20170821_rht_do407.png
   caption: Red Hat - DO407 - Ansible 2.3
 
 - album: attendance-certs
-  image: udemy_aws_sysops.jpg
+  image: 20190614_udemy_aws_sysops.jpg
   caption: Udemy - AWS SysOps
 
 - album: attendance-certs
-  image: udemy_cka.jpg
+  image: 20200611_udemy_cka.jpg
   caption: Udemy - CKA
 
 - album: attendance-certs
-  image: udemy_ckad.jpg
+  image: 20200709_udemy_ckad.jpg
   caption: Udemy - CKAD
 
 - album: attendance-certs
-  image: udemy_zsh.jpg
+  image: 20190823_udemy_zsh.jpg
   caption: Udemy - ZSH
 
 ---
-{{< gallery album="attendance-certs" >}}
+{{< gallery album="attendance-certs" order="desc" >}}

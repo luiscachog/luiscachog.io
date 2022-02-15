@@ -15,4 +15,4 @@ design:
       - '0'
 ---
 
-{{< gallery album="training-badges">}}
+{{< gallery album="training-badges" order="desc" >}}
