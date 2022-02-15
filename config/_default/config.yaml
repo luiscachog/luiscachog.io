@@ -126,3 +126,23 @@ services:
   rss:
     limit: 10
     site_feed: 'https://follow.it/luiscachog-io'
+
+security:
+  enableInlineShortcodes: false
+  exec:
+    allow:
+      - ^dart-sass-embedded$
+      - ^go$
+      - ^npx$
+      - ^postcss$
+    osEnv:
+      - (?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
+  http:
+    methods:
+      - (?i)GET|POST
+    urls:
+      - .*

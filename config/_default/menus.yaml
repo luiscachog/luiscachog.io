@@ -4,15 +4,15 @@ main:
     url: blog/
     pre: <i class='fas fa-terminal'>&nbsp;</i>
     weight: 20
-  - name: OPEN SOURCE
-    url: open-source/
-    weight: 30
-    pre: <i class='fas fa-code-branch'>&nbsp;</i>
   - name: ' ABOUT ME'
     url: about/
-    weight: 50
+    weight: 30
     identifier: about
     pre: <i class='far fa-address-card'>&nbsp;</i>
+  - name: PROJECTS
+    url: projects/
+    weight: 50
+    pre: <i class='fas fa-code-branch'>&nbsp;</i>
   - name: ' GARDEN'
     url: garden/
     weight: 60

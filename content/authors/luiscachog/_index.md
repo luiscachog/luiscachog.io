@@ -107,8 +107,8 @@ As today I consider myself a Technologist. I have become knowledgeable in many a
 - Networking
 - Cloud Native technologies
 
-Actively contributing to [Open Source projects]({{< relref "/open-source#projects" >}}) as well as learn new stuff every day and I would try to share in this blog.
+Actively contributing to [Open Source projects]({{< relref "/projects#open-source" >}}) as well as learn new stuff every day and I would try to share in this blog.
 
 I enjoy attend meetups and events to learn about new technologies, talk with interesting people and exchange stickers.
 
-I’m active on LinkedIn and Github, and occasionally on Twitter.
+I'm active on LinkedIn and Github, and occasionally on Twitter.
