@@ -13,7 +13,7 @@ headless: true
 weight: 50
 
 title: Interested?
-subtitle: Hire me. </br> Resume last update 2020/11/20
+subtitle: Hire me. </br> Resume last update 2022/02/15
 
 design:
   columns: "2"
