@@ -4,7 +4,7 @@ headless: true
 active: true
 weight: 20
 title: Certifications
-subtitle: '[Training Badges]({{< relref "/about#training-bagdes" >}})'
+subtitle: '[and the correspondent badges](https://luiscachog.io/about/#training-badges)'
 design:
   columns: '2'
 date_format: Jan 2006
@@ -13,10 +13,19 @@ item:
     description: A Red Hat® Certified Architect (RHCA) is a Red Hat Certified Engineer (RHCE®), Red Hat Certified Enterprise Microservices Developer (RHCEMD), or Red Hat Certified JBoss® Developer (RHCJD) who has attained our highest level of certification by passing—and keeping current—five additional certifications chosen from the system administrator and developer lists.
     url: https://www.redhat.com/en/services/certification/rhca
     date_start: 2021-10-05
-    date_end: 2022-01-01
+    date_end: 2023-11-13
     organization: redhat
     organization_url: https://www.redhat.com
     certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3T4V2LT2DQFPHMZNIKSLKTIWLQQ4U5NQYTCNA62RUWOCM34WWBUYQ=
+
+  - title: Red Hat Certified Specialist in Ansible Network Automation
+    description: An IT professional who earns the Red Hat® Certified Specialist in Ansible Network Automation has demonstrated the skills, knowledge, and abilities needed to centrally manage network devices using Red Hat Ansible.
+    url: https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-ansible-network-automation
+    date_start: 2022-01-17
+    date_end: 2025-01-17
+    organization: redhat
+    organization_url: https://www.redhat.com
+    certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ37KLSOOPEYMJDAE5EJIF3JZ6D66RKAUJIKQVRRBUBFGRQUULBUKLLSTVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======
 
   - title: Red Hat Certified Specialist in OpenShift Application Development
     description: A Red Hat Certified Specialist in OpenShift Application Development is able to deploy new or existing applications, as well as perform other DevOps-related tasks using the Red Hat® OpenShift® Container Platform.
@@ -72,20 +81,11 @@ item:
     organization_url: https://www.cncf.io
     certificate_url: https://www.youracclaim.com/badges/211f5895-59a6-4a52-9b4e-c1ace672b2a2/public_url
 
-  - title: Red Hat Certified Specialist in Ansible Automation
-    description: An IT professional who has become a Red Hat Certified Specialist in Ansible Automation demonstrates the skills, knowledge, and abilities needed to use Ansible to automate the management and deployment of systems in an enterprise environment.
-    url: https://www.redhat.com/en/services/certification/rhcs-ansible-automation
-    date_start: 2017-12-26
-    date_end: 2021-01-01
-    organization: redhat
-    organization_url: https://www.redhat.com
-    certificate_url: https://www.redhat.com/rhtapps/services/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ34UFHA6EGV4MX6OEQWWNEDUIWXWPUWTPNOZCAXTQD32BJ2PLFPHS3STVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======
-
   - title: Red Hat Certified Engineer
     description: A Red Hat® Certified Engineer (RHCE®) is a Red Hat Certified System Administrator (RHCSA) who is ready to automate Red Hat® Enterprise Linux® tasks, integrate Red Hat emerging technologies, and apply automation for efficiency and innovation.
     url: https://www.redhat.com/en/services/certification/rhce
     date_start: 2016-07-12
-    date_end: 2023-11-13
+    date_end: 2025-01-17
     organization: redhat
     organization_url: https://www.redhat.com
     certificate_url: https://www.redhat.com/rhtapps/services/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=
@@ -94,17 +94,26 @@ item:
     description: An IT professional who has earned the Red Hat Certified System Administrator (RHCSA®) is able to perform the core system administration skills required in Red Hat Enterprise Linux environments. The credential is earned after successfully passing the Red Hat Certified System Administrator (RHCSA) Exam (EX200).
     url: https://www.redhat.com/en/services/certification/rhcsa
     date_start: 2014-07-01
-    date_end: 2023-11-13
+    date_end: 2025-01-17
     organization: redhat
     organization_url: https://www.redhat.com
     certificate_url: https://www.redhat.com/rhtapps/services/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3T7ULZ55KZZ56SKO7EQ3ETTLYZQ4U5NQYTCNA62RUWOCM34WWBUYQ=
 
   - title: AWS Certified SysOps Administrator - Associate
-    description: The AWS Certified SysOps Administrator – Associate examination is intended for systems administrators in a systems operations role with at least one year of experience in deployment, management, and operations on AWS.
+    description: The AWS Certified SysOps Administrator - Associate examination is intended for systems administrators in a systems operations role with at least one year of experience in deployment, management, and operations on AWS.
     url: https://aws.amazon.com/certification/certified-sysops-admin-associate/
     date_start: 2019-06-17
     date_end: 2022-06-17
     organization: aws
     organization_url: https://www.aws.amazon.com
     certificate_url: https://www.youracclaim.com/badges/20acdf12-bca7-4704-af4d-16f61ba3a75f/public_url
+
+  - title: Red Hat Certified Specialist in Ansible Automation
+    description: An IT professional who has become a Red Hat Certified Specialist in Ansible Automation demonstrates the skills, knowledge, and abilities needed to use Ansible to automate the management and deployment of systems in an enterprise environment.
+    url: https://www.redhat.com/en/services/certification/rhcs-ansible-automation
+    date_start: 2017-12-26
+    date_end: 2021-01-01
+    organization: redhat
+    organization_url: https://www.redhat.com
+    certificate_url: https://www.redhat.com/rhtapps/services/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ34UFHA6EGV4MX6OEQWWNEDUIWXWPUWTPNOZCAXTQD32BJ2PLFPHS3STVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======
 ---
