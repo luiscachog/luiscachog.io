@@ -58,12 +58,12 @@ Here is the solution that worked for me, using `loops`, `loop_control`,and `jinj
 - name: Stat over the files
   stat:
     path: "{{ my_loop }}"
-    loop:
-      - /etc/cron.allow
-      - /etc/at.allow
-    loop_control:
-      loop_var: my_loop
-    register: my_stat_var
+  loop:
+    - /etc/cron.allow
+    - /etc/at.allow
+  loop_control:
+    loop_var: my_loop
+  register: my_stat_var
 
 - name: Create a file if not exists
   file:
