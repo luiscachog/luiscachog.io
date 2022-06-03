@@ -156,7 +156,7 @@ comments:
     shortname: ''
     show_count: true
   commento:
-    url: 'https://comments.luiscachog.io'
+    url: 'http://comments.luiscachog.io'
 search:
   provider: algolia
   algolia:
