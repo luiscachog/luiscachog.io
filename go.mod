@@ -1,6 +1,6 @@
 module github.com/wowchemy/wowchemy-hugo-modules
 
-go 1.16
+go 1.17
 
 require (
   github.com/jakejarvis/hugo-mod-twemoji v0.3.0 // indirect
