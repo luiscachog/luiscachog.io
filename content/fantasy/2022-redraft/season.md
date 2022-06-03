@@ -38,10 +38,10 @@ Bienvenidos a la temporada 2022 de la **Liga Nerd de Football (Nerd Football Lea
 
 ## Acerca de la Liga
 
-La NFL o Nerd Football League es una liga de fantasy tipo **Redraft**[^1] y la temporada inicial fue la [temporada 2021]({{< relref "/fantasy/2021-redraft/rules" >}}). En esta segunda edición tomaremos en cuenta algunas observaciones de los participantes para mejorar la experiencia y diversión.
+La NFL o Nerd Football League es una liga de fantasy tipo **Redraft**[^1] y la temporada inicial fue la [temporada 2021]({{< relref "/fantasy/2021-redraft" >}}). En esta segunda edición tomaremos en cuenta algunas observaciones de los participantes para mejorar la experiencia y diversión.
 
 ## Reglas
-Puedes revisar las reglas [aquí]({{< relref "rules" >}})
+Puedes revisar las reglas de esta temporada [aquí]({{< relref "rules" >}})
 
 ## Orden del Draft
 
