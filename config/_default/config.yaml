@@ -19,6 +19,25 @@ hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
+
+############################
+## PAGE OPTIONS
+############################
+cascade:
+  # Blog post options
+  - _target:
+      path: /post/**
+    pager: true
+    editable: true
+    reading_time: true
+    commentable: true
+    show_related: true
+    show_breadcrumb: true
+    share: true
+    header:
+      navbar:
+        enable: false
+
 ############################
 ## MODULES
 ############################
@@ -55,7 +74,9 @@ outputs:
     - HTML
     - RSS
     - JSON
-    # - WebAppManifest
+    - WebAppManifest
+    - headers
+    - redirects
   section:
     - HTML
     - RSS
@@ -84,15 +105,16 @@ ignoreFiles:
   - _cache$
 
 markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    codeFences: false
-  tableOfContents:
-    startLevel: 2
-    endLevel: 4
+  _merge: deep
+  # defaultMarkdownHandler: goldmark
+  # goldmark:
+  #   renderer:
+  #     unsafe: true
+  # highlight:
+  #   codeFences: false
+  # tableOfContents:
+  #   startLevel: 2
+  #   endLevel: 4
 
 imaging:
   resampleFilter: lanczos
@@ -107,8 +129,8 @@ taxonomies:
   author: author
 
 related:
-  threshold: 50
-  related_items: 5
+  threshold: 80
+  related_items: 3
   includeNewer: true
   toLower: true
   indices:
@@ -146,3 +168,6 @@ security:
       - (?i)GET|POST
     urls:
       - .*
+
+sitemap:
+  _merge: dee
