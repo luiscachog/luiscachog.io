@@ -2,19 +2,20 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Rules"
-url: "/redraft-rules"
+url: "/2022-season-rules"
 subtitle: ""
-summary: "Rules for the Redraft Leagues"
+summary: "Rules of the 2022 Season"
 authors: [ luiscachog ]
-tags: [ NFL, Fantasy Football, Hobbies, 2021 ]
+tags: [ NFL, Fantasy Football, Hobbies, 2022 ]
 categories: [ Fantasy Football, Hobbies ]
 keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft ]
-date: 2021-07-02
-publishDate: 2021-07-02
-lastmod: 2021-09-19
+date: 2022-06-02
+publishDate: 2022-06-03
+lastmod: 2022-06-02
 featured: false
 draft: false
 type: book
+weight: 20
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -36,27 +37,21 @@ projects: [ fantasy-commish ]
 
 {{% toc %}}
 
-Bienvenidos a la temporada 2021 de la **Liga Nerd de Football (Nerd Football League)**.
-
-## Acerca de la Liga
-
-La NFL o Nerd Football League es una liga de fantasy tipo **Redraft**[^1] y la temporada inicial es la temporada 2021.
-
 ## Reglas de la Liga
 
 - Liga Redraft[^1] Half PPR[^2]
 - 12 equipos
-- 16 rondas del draft
-- Roster: 1 QB, 2 RB, 2 WR, 1 TE, 3 Flex (WR,RB,TE), 1 K, 1 Def - [11 Total]
-- Banca: 5 banca, 1 lesionado - [6 Máximo]
+- 14 rondas del draft
+- Roster: 1 QB, 2 RB, 3 WR, 1 TE, 2 Flex (WR,RB,TE), 1 K, 1 Def - [11 Total]
+- Banca: 3 banca, 1 lesionado - [4 Máximo]
 - Tipo de Waivers: FAAB Waivers (Free Agent Adquisition Budget)[^3]
 - Presupuesto para la subasta de waivers: $100 [^3]
 - Costo de Entrada a la liga: $25 dls o $500 mxn
 
 ### Draft
 
-- El draft va a ser el día **_Sábado 4 de Septiembre de 2021 a las 6:00 PM CST_** via Zoom 🍻 (Más detalles via Telegram)
-- El draft va a tener **_16_** rondas, estilo **_snake_**, con 3RR (Third Round Reversal)[^4]
+- El draft va a ser el día **_Sábado 20 de Agosto de 2022 a las 6:00 PM CST_** via Zoom 🍻 (Más detalles via Telegram)
+- El draft va a tener **_14_** rondas, estilo **_snake_**, con 3RR (Third Round Reversal)[^4]
 - El tiempo para realizar el pick es de **1.5 minutos (90 segundos)**, en caso de que no se realize el pick durante esa ventana de tiempo, el pick será realizado automáticamente (autopick).
 - El draft sera mediante la aplicación [https://sleeper.app](https://sleeper.app)
 - El ordén del draft será dictado por el algoritmo aleatorio de la aplicación [https://sleeper.app](https://sleeper.app)
@@ -123,12 +118,12 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft**[^1] y la t
 ### Waivers
 
 - Los waivers con subasta FAAB proporciona un presupuesto ($100) durante **toda la temporada**[^3] para apostar por los agentes libres disponibles y es subasta a ciegas.
-    - ¡El mejor postor de cada jugador gana el reclamo! y los perdedores no pierden ni su jugador ni parte de su presupuesto inicial.
-    - Las apuestas para la selección de los agentes libres cada semana son ciegas, por lo que otros dueños de equipo no pueden ver cuál es la oferta que hiciste.
-    - La oferta más alta al final del período de exención gana el jugador.
-    - La oferta mínima para cualquier jugador es de $ 0.
-    - Si dos o mas dueños de equipo apuestan el mismo monto, el desempate será realizado por el orden del waiver wire, el cual es del tipo rolling waiver.
-    - Más detalles acerca de como funciona el presupuesto FAAB[^2]
+  - ¡El mejor postor de cada jugador gana el reclamo! y los perdedores no pierden ni su jugador ni parte de su presupuesto inicial.
+  - Las apuestas para la selección de los agentes libres cada semana son ciegas, por lo que otros dueños de equipo no pueden ver cuál es la oferta que hiciste.
+  - La oferta más alta al final del período de exención gana el jugador.
+  - La oferta mínima para cualquier jugador es de $ 0.
+  - Si dos o mas dueños de equipo apuestan el mismo monto, el desempate será realizado por el orden del waiver wire, el cual es del tipo rolling waiver.
+  - Más detalles acerca de como funciona el presupuesto FAAB[^2]
 - Waivers van a ejecutarse cada **_Miércoles a la 1:00 AM CST_**
 - El primer waiver de la temporada se ejecutara en el Miércoles previo a la semana 1 a la 1:00 PM CST
 - Cada Miércoles después de la 1:00 AM CST los jugadores se vuelven Agentes Libres, será el primero en llegar, será el primero en servirse (First Come, First Serve) hasta el kickoff del juego de cada jugador
@@ -137,6 +132,10 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft**[^1] y la t
 #### Waivers cuando ya estas eliminado
 
 - Si tu equipo es eliminado de los playoffs, ya no esta permitido que se realizen movimientos de waiver (Waiver Moves)
+
+### Waivers en playoffs
+
+- Pending
 
 ### Trades
 
@@ -154,8 +153,11 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft**[^1] y la t
 
 ### Playoffs
 
-- Los playoffs se jugaran en la semana 15 (Final de conferencia) y 16 (Super Bowl)
-- Pasaran los 4 equipos con mejor record de la temporada regular
+- Califican a playoffs los 6 equipos con mejor record en temporada regular
+- Los playoffs se jugaran en las semanas:
+  - Semana 15 (Juego Divisional)
+  - Semana 16 (Final de conferencia)
+  - Semana 17 (Super Bowl)
 
 #### Toilet Bowl
 
@@ -166,7 +168,7 @@ La NFL o Nerd Football League es una liga de fantasy tipo **Redraft**[^1] y la t
 
 Para participar en la liga de Fantasy Football, sera necesario aportar **$25 dls o $500 mxn** por equipo.
 
-Y será necesario hacer el déposito/tranferencia a más tardar al termino de la semana 2 de la NFL (Lunes, 20 de Septiembre, 2021).
+Y será necesario hacer el déposito/tranferencia a más tardar al termino de la semana 2 de la NFL (Lunes, 19 de Septiembre, 2022).
 
 En caso de que no se halla recibido el déposito/transferencia para dicha fecha el dueño del equipo será penalizado.
 Teniendo que pagar **$5 dls o $100 mxn** adicionales, además de que en caso de que resulte ganador de algún premio al final de la temporada **NO recibira dicho premio**.
@@ -176,24 +178,24 @@ Mandare más detalles de como hacer el déposito/transferencia via telegram.
 El monto total recaudado de la liga será de:
 
 - 12 dueños de equipo x $25 = $300 dls o $6000 mxn
-- De los cuales, $240 dls o $4800 mxn serán destinados a la premiación de los dueños de equipo.
-- Y el dinero restante ($60 dls o $1200 mxn), servira para adquirir el trofeo para el campeón y perdedor de la liga.
+- De los cuales, $250 dls o $5000 mxn serán destinados a la premiación de los dueños de equipo.
+- Y el dinero restante ($50 dls o $1000 mxn), servira para adquirir el trofeo para el campeón de la liga.
 
 ### Premiación
 
-Una vez que terminen los playoffs (al termino de la semana 16), notificare a los ganadores de la liga y ordenaré los trofeos correspondientes para que lleguen lo más pronto posible.
+Una vez que terminen los playoffs (al termino de la semana 17), notificare a los ganadores de la liga y ordenaré los trofeos correspondientes para que lleguen lo más pronto posible.
 La distribuciøn de los premios será de la siguiente manera:
 
-- 1er lugar: $180 dls o $3600 mxn y trofeo de primer lugar.
-- 2do lugar: $40 dls o $800 mxn
-- 3er lugar: $20 dls o $400 mxn
-- Último lugar: trofeo de ultimo lugar (toilet trophy) y un castigo propuesto por los otros dueños de equipo de la liga. La prueba de que el castigo se cumple es realizar un video del mismo.
+- 1er lugar: $150 dls o $3000 mxn y trofeo de primer lugar.
+- 2do lugar: $50 dls o $1000 mxn
+- 3er lugar: $25 dls o $500 mxn
+- Equipo con más puntos al final de la temporada regular: $25 dls o $500 mxn
+- Último perdedor del toilet bowl: Un castigo propuesto por los otros dueños de equipo de la liga. La prueba de que el castigo se cumple es realizar un video del mismo.
 
-| | |
-| :---: | :---: |
-| {{< figure src="fantasy/champion_trophy.jpg" caption="Trofeo para el cámpeon de la liga"  lightbox="false" width="40%" >}} | {{< figure src="fantasy/toilet_trophy.jpg"
-caption="Trofeo para el último lugar de la liga"  lightbox="false" width="80%" >}} |
-| [Link](https://www.amazon.com/Decade-Awards-Fantasy-Football-Champion/dp/B08H4KQ6TB/) | [Link](https://www.amazon.com/Decade-Awards-Toilet-Bowl-Trophy/dp/B00NRD030O/) |
+| |
+| :---: |
+| {{< figure src="fantasy/champion_trophy.jpg" caption="Trofeo para el cámpeon de la liga"  lightbox="false" width="40%" >}} |
+| [Link](https://www.amazon.com/Decade-Awards-Fantasy-Football-Champion/dp/B08H4KQ6TB/) |
 
 {{% callout note %}}
 Para los dueños de equipo de México, el costo del envio del trofeo será por su cuenta, o en su defecto haré entrega del mismo personalmente en Ciudad de México.
