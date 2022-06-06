@@ -24,7 +24,7 @@ all_day: false
 publishDate: 2021-09-01T09:00:00-05:00
 
 authors: [luiscachog]
-tags: [NFL, Fantasy Football, Hobbies ]
+tags: [NFL, Fantasy-Football, Hobbies ]
 
 # Is this a featured event? (true/false)
 featured: false
