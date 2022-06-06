@@ -5,9 +5,9 @@ url: "/2022-season-overview-nerd-football-league"
 subtitle: Overview of 2022 season of Nerd Football League
 summary: Overview of 2022 season of Nerd Football League
 authors: [ luiscachog ]
-tags: [ NFL, Fantasy-Football, Hobbies, 2022 ]
+tags: [ NFL, Fantasy-Football, Hobbies ]
 categories: [ Fantasy-Football, Hobbies ]
-keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft ]
+keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft, 2022 ]
 date: 2022-06-02
 publishDate: 2022-06-03
 lastmod: 2022-06-02
