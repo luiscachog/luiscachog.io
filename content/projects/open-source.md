@@ -3,9 +3,9 @@ widget: portfolio
 headless: true
 active: true
 weight: 10
-title: Open Source
+title: Open-Source
 subtitle: >-
-  Open Source projects, websites, container images, ansible roles, and other things
+  Open-Source projects, websites, container images, ansible roles, and other things
   I’ve been working with.
 content:
   page_type: project

@@ -6,8 +6,8 @@ url: "/my-first-contribution-to-openstack"
 subtitle: "I'm proud to perform my first contribution to a OpenStack project"
 summary: "I'm proud to perform my first contribution to a OpenStack project"
 authors: [ luiscachog ]
-tags: [ Openstack, DevOps, SysAdmin, Ansible, ARA, Git, Open Source ]
-categories: [ SysAdmin, DevOps, Open Source ]
+tags: [ Openstack, DevOps, SysAdmin, Ansible, ARA, Git, Open-Source ]
+categories: [ SysAdmin, DevOps, Open-Source ]
 keywords: [ Openstack, ARA, DevOps, Open Source ]
 date: 2018-03-15
 publishDate: 2018-03-15
@@ -48,6 +48,6 @@ And, as I am proud of my first commit on a big project here is the screenshot to
 
 {{< figure src="posts/my-first-contribution-to-openstack/OpenStack-Contribution.png" caption="My First OpenStack Contribution" id="first-openstack-contrib" theme="ligth">}}
 
-I feel happy and motivated to still learn about this Open Source project and a lot more.
+I feel happy and motivated to still learn about this Open-Source project and a lot more.
 
 :smile:

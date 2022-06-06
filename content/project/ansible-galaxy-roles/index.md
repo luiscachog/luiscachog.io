@@ -4,7 +4,7 @@
 title: "Ansible Galaxy Roles"
 summary: Collection of Ansible Roles published in Ansible Galaxy
 authors: []
-tags: [ Ansible, Galaxy, Python, CircleCI, Sonobuoy, Kubernetes, Cloud Native, Open Source]
+tags: [ Ansible, Galaxy, Python, CircleCI, Sonobuoy, Kubernetes, Cloud Native, Open-Source]
 categories: [ Ansible, Kubernetes, Project ]
 date: 2019-10-25
 

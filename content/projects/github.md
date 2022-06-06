@@ -4,7 +4,7 @@ headless: true
 active: true
 weight: 15
 title: Contributions
-subtitle: to Open Source projects
+subtitle: to Open-Source projects
 design:
   columns: '2'
   background:

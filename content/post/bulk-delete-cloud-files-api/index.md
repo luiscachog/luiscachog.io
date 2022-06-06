@@ -6,8 +6,8 @@ url: "/bulk-delete-cloud-files-api"
 subtitle: "How to delete the Data and Cloud Files Containers using Rackspace Cloud Files API, cURL and Turbolift"
 summary: "How to delete the Data and Cloud Files Containers using Rackspace Cloud Files API, cURL and Turbolift"
 authors: [ luiscachog ]
-tags: [ Openstack, DevOps, SysAdmin, Turbolift, Open Source, Rackspace, Cloud Files ]
-categories: [ SysAdmin , DevOps, Open Source, Rackspace ]
+tags: [ Openstack, DevOps, SysAdmin, Turbolift, Open-Source, Rackspace, Cloud-Files ]
+categories: [ SysAdmin , DevOps, Open-Source, Rackspace ]
 keywords: [ Openstack, DevOps, SysAdmin, Turbolift, Open Source, Cloud Files ]
 date: 2019-02-13
 publishDate: 2019-02-13

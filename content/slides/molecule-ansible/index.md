@@ -89,7 +89,7 @@ slides:
 {{< speaker_note >}}
 
 - Press `S` key to view -
-Ansible es una herramienta de automatización open source escrita en python.
+Ansible es una herramienta de automatización open-source escrita en python.
 Nos ayuda a configurar hosts remotos, aprovisionar software, e inclusive orquestar tareas mas complicadas como Continuos Deployment o Rolling Updates con Cero Downtime.
 En lugar de tener scripts para cada tarea.
 Ansible es:
@@ -281,7 +281,7 @@ Se enfoca en generar los mejores roles posibles, tanto bien escritos como facile
 | - Written in Python | - No Windows support |
 | - Ansible-Native | - No Dinamyc Inventory support |
 | - Established community |
-| - Open Source |
+| - Open-Source |
 
 {{< speaker_note >}}
 
@@ -289,7 +289,7 @@ Se enfoca en generar los mejores roles posibles, tanto bien escritos como facile
 - Escrito en python,
 - Desarrollado e integrado para ansible
 - Comunidad Madura
-- Open Source
+- Open-Source
 
 {{< /speaker_note >}}
 

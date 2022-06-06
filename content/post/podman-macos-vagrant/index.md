@@ -34,7 +34,7 @@ projects: []
 
 ## Introduction
 
-[Podman](http://podman.io/) is a daemonless, open source, Linux native tool designed to make it easy to find, run, build, share and deploy applications using
+[Podman](http://podman.io/) is a daemonless, open-source, Linux native tool designed to make it easy to find, run, build, share and deploy applications using
 Open Containers Initiative ([OCI](https://www.opencontainers.org/)) Containers and Container Images.
 
 That been said, the core of podman only runs in Linux!

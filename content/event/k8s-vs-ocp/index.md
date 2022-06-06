@@ -25,7 +25,7 @@ all_day: false
 publishDate: 2021-03-25T09:09:11-05:00
 
 authors: [ luiscachog ]
-tags: [Kubernetes, Openshift, DevOps, SRE, Open Source, Community]
+tags: [Kubernetes, Openshift, DevOps, SRE, Open-Source, Community]
 
 # Is this a featured talk? (true/false)
 featured: true

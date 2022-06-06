@@ -7,7 +7,7 @@ subtitle: "Here are some steps to containerize a blog using hugo + docker + kube
 summary: "Here are some steps to containerize a blog using hugo + docker + kubernetes + quay"
 authors: [ luiscachog ]
 tags: [ Kubernetes ,DevOps, SysAdmin, Hugo, Docker, Containers, Git, Quay, Cloud Native]
-categories: [ SysAdmin , DevOps, Open Source, Cloud Native, Containers]
+categories: [ SysAdmin , DevOps, Open-Source, Cloud Native, Containers]
 keywords: [ Kubernetes, Quay, Docker, Containers, Cloud Native, Open Source, DevOps, SRE, Hugo ]
 date: 2018-06-18
 publishDate: 2018-06-18
