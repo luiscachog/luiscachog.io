@@ -9,13 +9,13 @@ authors: [ luiscachog ]
 tags: [ NFL, Fantasy-Football, Hobbies ]
 categories: [ Fantasy-Football, Hobbies ]
 keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft, 2022 ]
-date: 2022-06-02
-publishDate: 2022-06-03
-lastmod: 2022-06-02
+date: 2022-08-03
+publishDate: 2022-08-03
+lastmod: 2022-08-03
 featured: false
 draft: false
 type: book
-weight: 20
+weight: 10
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -41,8 +41,8 @@ projects: [ fantasy-commish ]
 
 - Liga Redraft[^1] Half PPR[^2]
 - 12 equipos
-- 14 rondas del draft
-- Roster: 1 QB, 2 RB, 3 WR, 1 TE, 2 Flex (WR,RB,TE), 1 K, 1 Def - [11 Total]
+- 13 rondas del draft
+- Roster: 1 QB, 2 RB, 2 WR, 1 TE, 2 Flex (WR,RB,TE), 1 K, 1 Def - [10 Total]
 - Banca: 3 banca, 1 lesionado - [4 Máximo]
 - Tipo de Waivers: FAAB Waivers (Free Agent Adquisition Budget)[^3]
 - Presupuesto para la subasta de waivers: $100 [^3]
@@ -50,11 +50,12 @@ projects: [ fantasy-commish ]
 
 ### Draft
 
-- El draft va a ser el día **_Sábado 20 de Agosto de 2022 a las 6:00 PM CST_** via Zoom 🍻 (Más detalles via Telegram)
-- El draft va a tener **_14_** rondas, estilo **_snake_**, con 3RR (Third Round Reversal)[^4]
+- El orden del draft será dado a conocer el **_Lunes 22 de Agosto de 2022 a las 6:00 PM CST_**
+- El draft va a ser el día **_Sábado 27 de Agosto de 2022 a las 6:00 PM CST_** via Zoom 🍻 (Más detalles via Telegram)
+- El draft va a tener **_13_** rondas, estilo **_snake_**, con 3RR (Third Round Reversal)[^4]
 - El tiempo para realizar el pick es de **1.5 minutos (90 segundos)**, en caso de que no se realize el pick durante esa ventana de tiempo, el pick será realizado automáticamente (autopick).
 - El draft sera mediante la aplicación [https://sleeper.app](https://sleeper.app)
-- El ordén del draft será dictado por el algoritmo aleatorio de la aplicación [https://sleeper.app](https://sleeper.app)
+- El orden del draft será dictado por el algoritmo aleatorio de la aplicación [https://sleeper.app](https://sleeper.app)
 - Se permite el trade de selecciones del draft
 
 ### Puntuación (Scoring)
@@ -66,8 +67,8 @@ projects: [ fantasy-commish ]
 - 1 punto por cada 25 yardas de pase (0.04/yarda)
 - 6 puntos por pase de TD
 - 2 puntos por cada conversion de 2 puntos
-- -4 puntos por intercepción
-- -2 puntos por intercepción que termine en TD (Pick Six)
+- -2 puntos por intercepción
+- -4 puntos por intercepción que termine en TD (Pick Six)
 - -1 punto por sack
 - 0.5 puntos por pase completo
 - -0.5 puntos por pase incompleto
@@ -129,13 +130,15 @@ projects: [ fantasy-commish ]
 - Cada Miércoles después de la 1:00 AM CST los jugadores se vuelven Agentes Libres, será el primero en llegar, será el primero en servirse (First Come, First Serve) hasta el kickoff del juego de cada jugador
 - Los jugadores volverán a los waivers despúes de _un día_ de que fueron soltados de sus respectivos equipos.
 
+### Waivers en playoffs
+
+- Los Waivers en las semanas de Playoffs daran prioridad a los equipos que están participando por el campeonato.
+- Los waivers de los equipos de playoffs entraran conforme esta configurado, y los waivers de los equipos que *NO* están en playoffs se aplicaran 2 dias después (Viernes).
+- Dicho cambio *NO* se puede configurar en la aplicacción de Sleeper, por lo que ser hará de manera manual.
+
 #### Waivers cuando ya estas eliminado
 
 - Si tu equipo es eliminado de los playoffs, ya no esta permitido que se realizen movimientos de waiver (Waiver Moves)
-
-### Waivers en playoffs
-
-- Pending
 
 ### Trades
 
@@ -153,7 +156,7 @@ projects: [ fantasy-commish ]
 
 ### Playoffs
 
-- Califican a playoffs los 6 equipos con mejor record en temporada regular
+- Califican a playoffs los 8 equipos con mejor record en temporada regular
 - Los playoffs se jugaran en las semanas:
   - Semana 15 (Juego Divisional)
   - Semana 16 (Final de conferencia)

@@ -10,11 +10,11 @@ categories: [ Fantasy-Football, Hobbies ]
 keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft, 2021 ]
 date: 2021-07-02
 publishDate: 2021-07-02
-lastmod: 2022-06-02
+lastmod: 2022-08-03
 featured: false
 draft: false
 type: book
-weight: 10
+weight: 20
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -51,9 +51,17 @@ Puedes revisar las reglas de esta temporada [aquí]({{< relref "rules" >}})
 
 {{< figure src="fantasy/2021-redraft/draft-board.png" caption="Draft Board" >}}
 
-## Ganadores
+## Final Standings
 
-## Perdedores
+{{< figure src="fantasy/2021-redraft/final-standings.png" caption="Final Standings" >}}
+
+### Championship Week Results
+
+{{< figure src="fantasy/2021-redraft/championship-week-results.png" caption="Championship Results" >}}
+
+## Championship and ToiletBowl Trophy Winners
+
+{{< figure src="fantasy/2021-redraft/trophy-winners.jpeg" caption="Trophy Winners" >}}
 
 ## Media
 

@@ -14,7 +14,7 @@ lastmod: 2022-06-02
 featured: false
 draft: false
 type: book
-weight: 10
+weight: 20
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
