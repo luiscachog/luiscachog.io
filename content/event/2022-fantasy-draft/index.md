@@ -1,27 +1,27 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "2021 Fantasy Draft"
+title: 2022 Fantasy Draft
 event: Draft in Sleeper
 event_url: https://sleeper.app/i/k3z96gBkx507
-location: "[Zoom Room](https://us04web.zoom.us/j/73035454783?pwd=eGdyZlNXOER3VFFTNWFZakVKSHRBUT09)"
+location: "[Zoom Room](https://us04web.zoom.us/j/3984277780?pwd=eV0saeUEz_Aj43XrqVscryJQrC9hKf.1)"
 # address:
 #   street:
 #   city:
 #   region:
 #   postcode:
 #   country:
-summary: "First year draft of the Nerd Football League"
+summary: "Second year draft of the Nerd Football League"
 abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2021-09-04T18:00:00-05:00
-date_end: 2021-09-04T22:00:00-05:00
+date: 2022-08-27T18:00:00-05:00
+date_end: 2021-08-27T22:00:00-05:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2021-09-01T09:00:00-05:00
+publishDate: 2022-08-03T09:00:00-05:00
 
 authors: [luiscachog]
 tags: [NFL, Fantasy-Football, Hobbies ]
@@ -33,7 +33,7 @@ featured: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "NY Giants (Photo by Tom Pennington/Getty Images)"
+  caption: ""
   focal_point: ""
   preview_only: false
 
@@ -45,7 +45,7 @@ links:
   icon_pack: fas
   icon: football-ball
 - name: Zoom Room
-  url: https://us04web.zoom.us/j/73035454783?pwd=eGdyZlNXOER3VFFTNWFZakVKSHRBUT09
+  url: https://us04web.zoom.us/j/3984277780?pwd=eV0saeUEz_Aj43XrqVscryJQrC9hKf.1
   icon_pack: fas
   icon: video
 
