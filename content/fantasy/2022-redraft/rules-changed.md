@@ -11,7 +11,7 @@ categories: [ Fantasy-Football, Hobbies ]
 keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft, 2021, 2022 ]
 date: 2022-08-03
 publishDate: 2022-08-03
-lastmod: 2022-08-03
+lastmod: 2022-08-09
 featured: false
 draft: false
 type: book
@@ -41,10 +41,10 @@ projects: [ fantasy-commish ]
 
 |  | **2021** | **2022** |
 |---|---|---|
-| Rondas del Draft | 16 | 13 |
-| Tamaño total del Roster | 16 | 13 |
+| Rondas del Draft | 16 | 14 |
+| Tamaño total del Roster | 16 | 14 |
 | Titulares | 11 | 10 |
-| Banca | 5 | 3 |
+| Banca | 5 | 4 |
 | Publicación del orden del draft | N/A | 5 días antes del Draft |
 | Puntos por intercepción | -4 | -2 |
 | Puntos por intercepción que termine en TD (Pick Six) | -2 | -4 |
