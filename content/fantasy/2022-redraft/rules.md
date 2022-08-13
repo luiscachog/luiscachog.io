@@ -43,7 +43,7 @@ projects: [ fantasy-commish ]
 - 12 equipos
 - 13 rondas del draft
 - Roster: 1 QB, 2 RB, 2 WR, 1 TE, 2 Flex (WR,RB,TE), 1 K, 1 Def - [10 Total]
-- Banca: 3 banca, 1 lesionado - [4 Máximo]
+- Banca: 4 banca, 1 lesionado - [5 Máximo]
 - Tipo de Waivers: FAAB Waivers (Free Agent Adquisition Budget)[^3]
 - Presupuesto para la subasta de waivers: $100 [^3]
 - Costo de Entrada a la liga: $25 dls o $500 mxn
