@@ -63,10 +63,12 @@ Puedes revisar las reglas de esta temporada [aquí]({{< relref "rules" >}})
 
 {{< figure src="fantasy/2021-redraft/trophy-winners.jpeg" caption="Trophy Winners" >}}
 
-## Media
+## Archive
 
-### Fotos
+### Media
 
-### Videos
+#### Fotos
+
+#### Videos
 
 [^1]: [Liga tipo Redraft (En inglés)](https://support.sleeper.app/en/articles/3537396-league-types-formats)

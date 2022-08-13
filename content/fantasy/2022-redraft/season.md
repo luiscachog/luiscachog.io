@@ -51,14 +51,24 @@ Puedes revisar las reglas de esta temporada [aquí]({{< relref "rules" >}})
 
 {{< figure src="fantasy/2022-redraft/draft-board.png" caption="Draft Board" >}}
 
-## Ganadores
+## Final Standings
 
-## Perdedores
+{{< figure src="fantasy/2022-redraft/final-standings.png" caption="Final Standings" >}}
 
-## Media
+### Championship Week Results
 
-### Fotos
+{{< figure src="fantasy/2022-redraft/championship-week-results.png" caption="Championship Results" >}}
 
-### Videos
+## Championship and ToiletBowl Trophy Winners
+
+{{< figure src="fantasy/2022-redraft/trophy-winners.jpeg" caption="Trophy Winners" >}}
+
+## Archive
+
+### Media
+
+#### Fotos
+
+#### Videos
 
 [^1]: [Liga tipo Redraft (En inglés)](https://support.sleeper.app/en/articles/3537396-league-types-formats)
