@@ -60,8 +60,6 @@ Talking about community, in that kubecon I met with some Latin-American friends 
 [@domix](https://twitter.com/domix), [@marKox](https://twitter.com/_marKox),both from México, and [@EdduMelendez](https://twitter.com/EdduMelendez) from Peru,
 that from their trenches they are trying to grow the Kubernetes community on Spanish.
 
-{{< figure src="posts/my-journey-to-become-a-cka-and-ckad/badge_kubecon.png" caption="My Badge @Kubecon 2018" id="kubecon-badge-2018" theme="ligth">}}
-
 {{< figure src="posts/my-journey-to-become-a-cka-and-ckad/kubecon-2018.gif" caption="Mexicanos in Kubecon 2018" id="kubecon-2018" theme="ligth">}}
 
 But returning to my certifications path, after a while I decided that I will have the certs by the end on this year, so back in March I get more serious studying and purchased the excellent course

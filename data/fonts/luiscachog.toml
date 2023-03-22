@@ -2,12 +2,12 @@
 name = "luiscachog"
 
 # Optional Google font URL
-google_fonts = "family=Montserrat:wght@600&family=IBM+Plex+Sans&family=Inconsolata&family=Work+Sans&family=Lobster&family=Archivo&family=Barlow&family=Fira+Sans+Condensed:wght@700&family=Fira+Sans:wght@500&family=Roboto+Mono&"
+google_fonts = "family=Economica:wght@400&family=Montserrat:wght@600&family=IBM+Plex+Sans&family=Inconsolata&family=Work+Sans&family=Lobster&family=Archivo&family=Barlow&family=Fira+Sans+Condensed:wght@700&family=Fira+Sans:wght@500&family=Roboto+Mono&"
 # old main font: Fira+Sans
 
 # Font families
-heading_font = "Fira Sans Condensed"
-body_font = "Barlow"
+heading_font = "Montserrat"
+body_font = "Economica"
 nav_font = "Fira Sans"
 mono_font = "Roboto Mono"
 

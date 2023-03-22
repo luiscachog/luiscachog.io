@@ -6,7 +6,7 @@ weight: 10
 title: Open-Source
 subtitle: >-
   Open-Source projects, websites, container images, ansible roles, and other things
-  I’ve been working with.
+  I've been working with.
 content:
   page_type: project
   filter_default: 0
@@ -23,6 +23,8 @@ content:
       tag: Python
     - name: Website
       tag: Website
+    - name: Hobbies
+      tag: Hobbies
 design:
   columns: '2'
   view: 2

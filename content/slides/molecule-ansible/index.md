@@ -56,7 +56,7 @@ slides:
 [luiscachog.io](https://luiscachog.io) | [@luiscachog](https://twitter.com/luiscachog) | [github.com/luiscachog](https://github.com/luiscachog)
 
 ---
-{{< slide background-image="/media/slides/molecule-ansible/Background1.jpg" >}}
+{{< slide background-image="backgrounds/background1.jpg" >}}
 
 ---
 
@@ -70,7 +70,7 @@ slides:
 - Demo!!
 
 ---
-{{< slide background-image="/media/slides/molecule-ansible/BackgroundAnsible.png" >}}
+{{< slide background-image="backgrounds/backgroundAnsible.png" >}}
 
 ---
 {{% section %}}
@@ -161,7 +161,7 @@ Playbook conecta los roles con los hosts
 {{% /section %}}
 
 ---
-{{< slide background-image="/media/slides/molecule-ansible/BackgroundTest.png" >}}
+{{< slide background-image="backgrounds/backgroundTest.png" >}}
 
 {{< speaker_note >}}
 
@@ -245,7 +245,7 @@ Issues:
 {{% /section %}}
 
 ---
-{{< slide background-image="/media/slides/molecule-ansible/BackgroundMolecule.png" >}}
+{{< slide background-image="backgrounds/backgroundMolecule.png" >}}
 
 ---
 {{% section %}}
@@ -341,7 +341,7 @@ A grandes rasgos las actividades que hace molecule son:
 {{% /section %}}
 
 ---
-{{< slide background-image="/media/slides/molecule-ansible/Background1.jpg" >}}
+{{< slide background-image="backgrounds/background1.jpg" >}}
 
 ---
 {{% section %}}
@@ -373,7 +373,7 @@ A grandes rasgos las actividades que hace molecule son:
 {{% /section %}}
 
 ---
-{{< slide background-image="/media/slides/molecule-ansible/BackgroundConclusion.jpg" >}}
+{{< slide background-image="backgrounds/backgroundConclusion.jpg" >}}
 
 ---
 {{% section %}}

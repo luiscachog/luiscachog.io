@@ -17,3 +17,7 @@ assets/jsconfig.json
 go.mod
 package-lock.json
 package.json
+
+to_delete*
+go.mod
+go.sum

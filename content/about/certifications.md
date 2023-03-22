@@ -4,11 +4,20 @@ headless: true
 active: true
 weight: 20
 title: Certifications
-subtitle: '[and the correspondent badges](https://luiscachog.io/about/#training-badges)'
+subtitle: '[Check Certificates and Badges here]({{< relref "../training/" >}})'
 design:
   columns: '2'
 date_format: Jan 2006
 item:
+  - title: Certified Kubernetes Security Specialist (CKS)
+    description: The Certified Kubernetes Security Specialist (CKS) program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime.
+    url: https://www.cncf.io/certification/cks/
+    date_start: 2022-11-08
+    date_end: 2024-11-08
+    organization: cncf
+    organization_url: https://www.cncf.io
+    certificate_url: https://www.credly.com/badges/df2e7619-0080-4676-ab15-48fdefaddea6
+
   - title: Red Hat Certified Architect in Infrastructure
     description: A Red Hat® Certified Architect (RHCA) is a Red Hat Certified Engineer (RHCE®), Red Hat Certified Enterprise Microservices Developer (RHCEMD), or Red Hat Certified JBoss® Developer (RHCJD) who has attained our highest level of certification by passing—and keeping current—five additional certifications chosen from the system administrator and developer lists.
     url: https://www.redhat.com/en/services/certification/rhca
@@ -16,7 +25,7 @@ item:
     date_end: 2023-11-13
     organization: redhat
     organization_url: https://www.redhat.com
-    certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3T4V2LT2DQFPHMZNIKSLKTIWLQQ4U5NQYTCNA62RUWOCM34WWBUYQ=
+    certificate_url: https://www.credly.com/badges/fab0ef8d-aaac-4764-b822-c7f2b345d827
 
   - title: Red Hat Certified Specialist in Ansible Network Automation
     description: An IT professional who earns the Red Hat® Certified Specialist in Ansible Network Automation has demonstrated the skills, knowledge, and abilities needed to centrally manage network devices using Red Hat Ansible.
@@ -25,7 +34,7 @@ item:
     date_end: 2025-01-17
     organization: redhat
     organization_url: https://www.redhat.com
-    certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ37KLSOOPEYMJDAE5EJIF3JZ6D66RKAUJIKQVRRBUBFGRQUULBUKLLSTVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======
+    certificate_url: https://www.credly.com/badges/06503bd2-10d1-4eaa-a04e-a94c6aaa9c54
 
   - title: Red Hat Certified Specialist in OpenShift Application Development
     description: A Red Hat Certified Specialist in OpenShift Application Development is able to deploy new or existing applications, as well as perform other DevOps-related tasks using the Red Hat® OpenShift® Container Platform.
@@ -34,7 +43,7 @@ item:
     date_end: 2024-10-05
     organization: redhat
     organization_url: https://www.redhat.com
-    certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3YWP2PKMJOB2FESKFUN2GLGGL67UAA4DNI6PQU27PFU2ZMLS26POA=
+    certificate_url: https://www.credly.com/badges/0acc5108-4d18-4438-8c7e-db41626b6f36
 
   - title: Red Hat Certified Specialist in OpenShift Administration
     description: An IT professional who is a Red Hat Certified Specialist in OpenShift Administration has demonstrated the skills, knowledge, and abilities needed to create, configure, and manage a cloud application platform using Red Hat® OpenShift.
@@ -43,7 +52,7 @@ item:
     date_end: 2024-02-10
     organization: redhat
     organization_url: https://www.redhat.com
-    certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3USGMBTDNSOFVX22WYNJ63KCC3BBTAOIVCQWO7U3Z7NRP66BA673I=
+    certificate_url: https://www.credly.com/badges/8359a9fa-979f-4572-bd25-e3fd01a75cc3
 
   - title: Red Hat Certified Specialist in Containers and Kubernetes
     description: A Red Hat Certified Specialist in Containers and Kubernetes has demonstrated a basic understanding of Kubernetes, containers, and Red Hat® OpenShift® and can use this knowledge to run, find, and manage containerized services, deploy single- and multiple-container applications, and create custom containers.
@@ -52,7 +61,7 @@ item:
     date_end: 2024-03-16
     organization: redhat
     organization_url: https://www.redhat.com
-    certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ33TZNCC5VGOAYPFY7HVVIGB5XKUTI5W6QLZX6UMV3D6ILAY7YA4GY=
+    certificate_url: https://www.credly.com/badges/ec6ea76d-e712-41cf-ad69-eb83177e4713
 
   - title: "Red Hat Certified Engineer Specialist in Advanced Automation: Ansible Best Practices"
     description: "A Red Hat Certified Specialist in Advanced Automation: Ansible Best Practices is able to automate management of large or complex networks of machines."
@@ -61,7 +70,7 @@ item:
     date_end: 2023-11-13
     organization: redhat
     organization_url: https://www.redhat.com
-    certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ37KLSOOPEYMJDAE5EJIF3JZ6D665JFQCX7XVXXH5DT452GL3CMQ36Q77GFTUQMZCEY6URHUQ5UKSGZOKOWYMJRGQPNI2LHBGN6LLA2MI======
+    certificate_url: https://www.credly.com/badges/c072648d-743d-4752-a158-d8b81d4756d2
 
   - title: Certified Kubernetes Application Developer (CKAD)
     description: The purpose of the Certified Kubernetes Application Developer (CKAD) program is to provide assurance that CKADs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes application developers.
@@ -70,7 +79,7 @@ item:
     date_end: 2023-07-11
     organization: cncf
     organization_url: https://www.cncf.io
-    certificate_url: https://www.youracclaim.com/badges/035a3b14-49cb-4dca-bda1-5de951c0c406/public_url
+    certificate_url: https://www.credly.com/badges/035a3b14-49cb-4dca-bda1-5de951c0c406
 
   - title: Certified Kubernetes Administrator (CKA)
     description: The purpose of the Certified Kubernetes Administrator (CKA) program is to provide assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators.
@@ -79,7 +88,7 @@ item:
     date_end: 2023-06-18
     organization: cncf
     organization_url: https://www.cncf.io
-    certificate_url: https://www.youracclaim.com/badges/211f5895-59a6-4a52-9b4e-c1ace672b2a2/public_url
+    certificate_url: https://www.credly.com/badges/211f5895-59a6-4a52-9b4e-c1ace672b2a2
 
   - title: Red Hat Certified Engineer
     description: A Red Hat® Certified Engineer (RHCE®) is a Red Hat Certified System Administrator (RHCSA) who is ready to automate Red Hat® Enterprise Linux® tasks, integrate Red Hat emerging technologies, and apply automation for efficiency and innovation.
@@ -88,7 +97,7 @@ item:
     date_end: 2025-01-17
     organization: redhat
     organization_url: https://www.redhat.com
-    certificate_url: https://www.redhat.com/rhtapps/services/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=
+    certificate_url: https://www.credly.com/badges/120c5b69-622a-4bff-8d3b-ad2d51c4e58d
 
   - title: Red Hat Certified System Administrator
     description: An IT professional who has earned the Red Hat Certified System Administrator (RHCSA®) is able to perform the core system administration skills required in Red Hat Enterprise Linux environments. The credential is earned after successfully passing the Red Hat Certified System Administrator (RHCSA) Exam (EX200).
@@ -97,7 +106,8 @@ item:
     date_end: 2025-01-17
     organization: redhat
     organization_url: https://www.redhat.com
-    certificate_url: https://www.redhat.com/rhtapps/services/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ3T7ULZ55KZZ56SKO7EQ3ETTLYZQ4U5NQYTCNA62RUWOCM34WWBUYQ=
+    certificate_url: https://www.credly.com/badges/8ad3d2f4-d331-443f-95fe-c971388575a1
+
 
   - title: AWS Certified SysOps Administrator - Associate
     description: The AWS Certified SysOps Administrator - Associate examination is intended for systems administrators in a systems operations role with at least one year of experience in deployment, management, and operations on AWS.
@@ -106,7 +116,8 @@ item:
     date_end: 2022-06-17
     organization: aws
     organization_url: https://www.aws.amazon.com
-    certificate_url: https://www.youracclaim.com/badges/20acdf12-bca7-4704-af4d-16f61ba3a75f/public_url
+    certificate_url: https://www.credly.com/badges/20acdf12-bca7-4704-af4d-16f61ba3a75f
+
 
   - title: Red Hat Certified Specialist in Ansible Automation
     description: An IT professional who has become a Red Hat Certified Specialist in Ansible Automation demonstrates the skills, knowledge, and abilities needed to use Ansible to automate the management and deployment of systems in an enterprise environment.
@@ -115,5 +126,5 @@ item:
     date_end: 2021-01-01
     organization: redhat
     organization_url: https://www.redhat.com
-    certificate_url: https://www.redhat.com/rhtapps/services/certifications/badge/verify/HBP2BTGDCHGBLIDOUMYRWOUZ4EAEQU3CUPSQX2KSDXT6RW46LQ34UFHA6EGV4MX6OEQWWNEDUIWXWPUWTPNOZCAXTQD32BJ2PLFPHS3STVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======
+    certificate_url: ''
 ---

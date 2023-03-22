@@ -1,200 +1,117 @@
----
 # SITE SETUP
 # Guide: https://wowchemy.com/docs/getting-started/
 # Documentation: https://wowchemy.com/docs/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-theme: luiscachog
-day_night: true
-font: luiscachog
-font_size: L
+
+appearance:
+  theme_day: luiscachog 
+  theme_night: luiscachog
+  font: luiscachog
+  font_size: L
 
 # SEO
-site_type: Person
-local_business_type: ''
-org_name: ''
-description: ''
-logo: ''
 
-# Contact (edit or remove options as required)
-twitter: luiscachog
-email: luiscachog@gmail.com
-address: {}
-  # street: 450 Serra Mall
-  # city: San Antonio
-  # region: TX
-  # postcode: '78218'
-  # country: United States
-  # country_code: US
-coordinates: {}
-  # latitude: '37.4275'
-  # longitude: '-122.1697'
-directions: ''
-office_hours: []
-  # - 'Monday 10:00 to 13:00'
-  # - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com/luiscachog'
-contact_links: []
-  # - icon: twitter
-  #   icon_pack: fab
-  #   name: DM Me
-  #   link: 'https://twitter.com/Twitter'
-  # - icon: skype
-  #   icon_pack: fab
-  #   name: Skype Me
-  #   link: 'skype:echo123?call'
-  # - icon: keybase
-  #   icon_pack: fab
-  #   name: Chat on Keybase
-  #   link: 'https://keybase.io/'
-  # - icon: comments
-  #   icon_pack: fas
-  #   name: Discuss on Forum
-  #   link: 'https://discourse.gohugo.io'
-
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: ''
+    twitter: 'luiscachog'
+  analytics:
+    google_analytics: UA-114918521-1
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
 
 # Site header
-main_menu:
-  enable: true
-  align: c
-  show_logo: true
-  show_language: true
-  show_day_night: true
-  show_search: true
-  highlight_active_link: true
+
+header:
+  navbar:
+    enable: true
+    align: c
+    show_logo: true
+    show_language: true
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
+
+# Site footer
+
+footer:
+  copyright:
+    notice: >-
+      Made with ❤️ </br>
+      Hosted on [GitHub](https://github.com/luiscachog/luiscachog.io) - Served by [Netlify](https://www.netlify.com) </br>
+      &copy; 2014 - {year} - Luis Cacho
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
 
 # Localization
-date_format: 'Jan 2, 2006'
-time_format: '15:04'
-address_format: en-us
-list_delimiter: ', '
+
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
 
 # Site features
-highlight: true
-highlight_languages:
-  - r
-  - yaml
-  - bash
-  - shell
-  - python
-  - rust
-  - sql
-  - go
-highlight_style: railscasts
-highlight_superuser: false
-math: false
-diagram: true
-privacy_pack: false
-edit_page:
-  repo_url: 'https://github.com/luiscachog/luiscachog.io'
-  repo_branch: master
-  content_dir: ''
-  editable:
-    book: true
-    page: false
-    post: true
 
-show_related:
-  book: true
-  page: false
-  post: true
-  project: true
-  publication: true
-  event: true
-  slides: false
+features:
+  syntax_highlighter:
+    theme_light: github-light
+    theme_dark: dracula
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/<username>/<repository>'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: ''
+    api_key: ''
+    zoom: 15
 
-reading_time: true
-section_pager: false
-docs_section_pager: true
-sharing: true
-copyright_license:
-  enable: true
-  allow_derivatives: true
-  share_alike: true
-  allow_commercial: false
-  notice: >-
-    Except as otherwise noted, this work is licensed under {license}, and code
-    samples are licensed under the [MIT License](https://github.com/luiscachog/luiscachog.io/blob/master/LICENSE).
+# Extensions
 
-abstract_length: 135
+extensions:
+  cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
 
-plugins_css: [applause-button, custom]
-plugins_js: [applause-button, landing_author, itype.min]  # matrix
+# Security
 
-sharing_image: ''
-
-avatar:
-  gravatar: false
-  shape: circle
-
-publications:
-  date_format: January 2006
-  citation_style: apa
-projects:
-  post_view: 1
-  publication_view: 2
-  talk_view: 2
-
-breadcrumb:
-  page_types:
-    book: true
-    post: true
-
-link_authors: true
-
-comments:
-  provider: commento
-  commentable:
-    page: false
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
-  disqus:
-    shortname: ''
-    show_count: true
-  commento:
-    url: 'http://comments.luiscachog.io'
-search:
-  provider: algolia
-  algolia:
-    app_id: 74APDZPUGZ
-    api_key: d64f068b66c0fa2cf24d48a2043ebde7
-    index_name: luiscachog.io
-    show_logo: false
-map:
-  provider: ''
-  api_key: ''
-  zoom: 15
-marketing:
-  google_analytics: UA-114918521-1
-  google_tag_manager: ''
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
-cms:
-  netlify_cms: true
-  branch: master
-  local_backend: false
-icon:
-  pack:
-    ai: false
-
-sitemap:
-  changefreq: monthly
-  filename: sitemap.xml
-  priority: 0.5
-permalinks:
-#  post: '/:slug'
-#  enableRobotsTXT: true
-  canonifyURLs: true
-footer:
-  footmark: footers/feymanfooter.png
-  left_logo: footers/cka.png
-  right_logo: footers/hecho_en_mexico.png
-  legalblurb: >-
-    All opinions expressed here are my own and do not necessarily represent
-    those of any other agencies or groups.
-  watermark: backgrounds/Bundle3.jpg
+security:
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: true

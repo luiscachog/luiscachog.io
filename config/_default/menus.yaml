@@ -1,40 +1,51 @@
----
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
 main:
-  - name: BLOG
-    url: blog/
+  - name: ' Blog'
+    url: 'blog/'
     pre: <i class='fas fa-terminal'>&nbsp;</i>
     weight: 20
-  - name: ' ABOUT ME'
-    url: about/
-    weight: 30
-    identifier: about
+    identifier: blog
+  - name: ' About'
+    url: 'about/'
     pre: <i class='far fa-address-card'>&nbsp;</i>
-  - name: PROJECTS
-    url: projects/
-    weight: 50
+    weight: 30
+  - name: Projects
+    url: 'projects/'
     pre: <i class='fas fa-code-branch'>&nbsp;</i>
-  - name: ' GARDEN'
-    url: garden/
-    weight: 60
+    weight: 40
+    identifier: projects
+  - name: 'Today I Learned'
+    url: 'today-i-learned/'
+    pre: <i class='fas fa-vihara'>&nbsp;</i>
+    weight: 50
     identifier: garden
-    pre: <i class='fas fa-tree'>&nbsp;</i>
-  - name: ' FANTASY'
-    url: fantasy/
-    weight: 70
-    identifier: fantasy
+  - name: Fantasy
+    url: 'fantasy/'
     pre: <i class='fas fa-football-ball'>&nbsp;</i>
+    weight: 60
+    identifier: fantasy
   - name: ''
     url: 'tags/'
-    weight: 80
     pre: <i class='fas fa-tags'>&nbsp;</i>
+    weight: 70
     identifier: tags
   - name: ''
     url: 'categories/'
-    weight: 85
-    pre: <i class='fas fa-th-large'>&nbsp;</i>
-    identifier: cats
+    pre: <i class='fas fa-th-list'>&nbsp;</i>
+    weight: 80
+    identifier: categories
   - name: ''
     url: 'https://follow.it/luiscachog-io'
-    weight: 90
     pre: <i class='fas fa-rss'>&nbsp;</i>
+    weight: 90
     identifier: rss
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+#  - name: CV
+#    url: uploads/resume.pdf
+#    weight: 70

@@ -51,8 +51,6 @@ On our MacOS, when you execute a Podman command:
 - The Podman commands are executed on the Linux VM.
 - From the client's point of view, it seems like Podman runs locally.
 
-{{< figure src="posts/podman-macos-vagrant/podman-remote-client-architecture.png" caption="Podman Remote Client Architecture" id="podman-remote-client-architecture" theme="ligth">}}
-
 ## Installation
 
 ### Install podman on MacOS

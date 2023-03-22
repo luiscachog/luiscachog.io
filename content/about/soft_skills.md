@@ -1,5 +1,5 @@
 ---
-widget: featurette
+widget: features
 headless: true
 active: true
 weight: 40
@@ -28,7 +28,7 @@ feature:
     description: ""
   - icon: laptop-code
     icon_pack: fas
-    name: Problem Solving
+    name: Creative Problem Solving
     description: ""
   - icon: grin
     icon_pack: fas
@@ -37,5 +37,17 @@ feature:
   - icon: language
     icon_pack: fas
     name: Bilingual
+    description: ""
+  - icon: people-group
+    icon_pack: fas
+    name: Teamwork
+    description: ""
+  - icon: calendar-check
+    icon_pack: fas
+    name: Organization
+    description: ""
+  - icon: sliders
+    icon_pack: fas
+    name: Adaptability
     description: ""
 ---

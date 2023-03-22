@@ -8,7 +8,7 @@ title: Latest Articles
 subtitle: ''
 content:
   page_type: post
-  count: 3
+  count: 6
   offset: 0
   order: desc
   filters:
@@ -17,7 +17,7 @@ content:
     publication_type: ''
     exclude_featured: false
 design:
-  view: 2
+  view: 5
   background: {}
 advanced:
   css_style: ''

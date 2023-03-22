@@ -4,7 +4,7 @@ headless: true
 active: true
 weight: 30
 title: Professional Experience
-subtitle: Highlights from my employment history
+subtitle: My Employment History
 
 design:
   columns: '2'
@@ -15,7 +15,7 @@ experience:
     company: Red Hat
     company_url: https://www.redhat.com
     company_logo: redhat
-    location: San Antonio, TX
+    location: San Antonio, TX (Remote)
     date_start: 2021-01-18
     date_end: ""
     description: ""
