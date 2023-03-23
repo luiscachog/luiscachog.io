@@ -3,10 +3,10 @@ widget: portfolio
 headless: true
 active: true
 weight: 10
-title: Open-Source
+title: Personal Projects
 subtitle: >-
-  Open-Source projects, websites, container images, ansible roles, and other things
-  I've been working with.
+  Open-Source projects, hobbies, and other things
+  I've enjoy working with!
 content:
   page_type: project
   filter_default: 0

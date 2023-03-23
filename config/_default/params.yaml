@@ -49,9 +49,13 @@ footer:
       &copy; 2014 - {year} - Luis Cacho
     license:
       enable: true
-      allow_derivatives: false
+      allow_derivatives: true
       share_alike: true
       allow_commercial: false
+      notice: >-
+        Except as otherwise noted, this work is licensed under {license}, and code
+        samples are licensed under the [MIT License](https://github.com/luiscachog/luiscachog.io/blob/master/LICENSE.md).
+
 
 # Localization
 
