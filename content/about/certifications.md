@@ -18,6 +18,15 @@ item:
     organization: microsoft
     organization_url: https://www.microsoft.com/
     certificate_url: https://www.credly.com/badges/56ed86a1-9534-4d34-8a82-90e18dae1fdf
+  
+  - title: Red Hat Certified Specialist in Developing Automation with Ansible Automation Platform
+    description: A Red Hat Certified Specialist in Developing Automation with Ansible Automation Platform is able to automate management of large or complex networks of machines.
+    url: https://www.redhat.com/en/rhcs-developing-automation-ansible
+    date_start: 2022-12-08
+    date_end: 2025-12-08
+    organization: redhat
+    organization_url: https://www.redhat.com
+    certificate_url: https://www.credly.com/badges/fab0ef8d-aaac-4764-b822-c7f2b345d827
 
   - title: Certified Kubernetes Security Specialist (CKS)
     description: The Certified Kubernetes Security Specialist (CKS) program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime.
@@ -28,7 +37,7 @@ item:
     organization_url: https://www.cncf.io
     certificate_url: https://www.credly.com/badges/df2e7619-0080-4676-ab15-48fdefaddea6
 
-  - title: Red Hat Certified Architect in Infrastructure
+  - title: Red Hat Certified Architect in Infrastructure II
     description: A Red Hat® Certified Architect (RHCA) is a Red Hat Certified Engineer (RHCE®), Red Hat Certified Enterprise Microservices Developer (RHCEMD), or Red Hat Certified JBoss® Developer (RHCJD) who has attained our highest level of certification by passing—and keeping current—five additional certifications chosen from the system administrator and developer lists.
     url: https://www.redhat.com/en/services/certification/rhca
     date_start: 2021-10-05
