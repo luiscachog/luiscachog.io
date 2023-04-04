@@ -91,5 +91,16 @@ gallery_item:
   image: 20221207_rht_do374.png
   caption: Red Hat - DO374 - Red Hat Ansible Automation Platform 2.0
 
+- album: course-attendance
+  image: 20230328_acg_intro_azure.png
+  caption: A Cloud Guru - Introduction to Azure
+
+- album: course-attendance
+  image: 20230330_acg_azure_concepts.png
+  caption: A Cloud Guru - Azure Concepts
+
+- album: course-attendance
+  image: 20230404_acg_azure_fundamentals.png
+  caption: A Cloud Guru - Azure Fundamentals
 ---
 {{< gallery album="course-attendance" order="desc" >}}

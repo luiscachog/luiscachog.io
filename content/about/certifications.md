@@ -9,6 +9,16 @@ design:
   columns: '2'
 date_format: Jan 2006
 item:
+
+  - title: "Microsoft Certified: Azure Fundamentals"
+    description: The certification validates your basic knowledge of cloud services and how those services are provided with Azure. Candidates should be able to demonstrate a fundamental knowledge of cloud concepts, along with Azure services, workloads, security, privacy, pricing, and support.
+    url: https://learn.microsoft.com/en-us/certifications/azure-fundamentals/
+    date_start: 2023-03-30
+    date_end: ''
+    organization: microsoft
+    organization_url: https://www.microsoft.com/
+    certificate_url: https://www.credly.com/badges/56ed86a1-9534-4d34-8a82-90e18dae1fdf
+
   - title: Certified Kubernetes Security Specialist (CKS)
     description: The Certified Kubernetes Security Specialist (CKS) program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime.
     url: https://www.cncf.io/certification/cks/
