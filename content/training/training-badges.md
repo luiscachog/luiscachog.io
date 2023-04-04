@@ -63,6 +63,9 @@ gallery_item:
 - album: training-badges
   image: 20221208_rh_ansible_automation_platform.png
   caption: Red Hat - Red Hat Certified Specialist in Developing Automation with Ansible Automation Platform - 2022/12/08
+- album: training-badges
+  image: 20230330_ms_azure_fundamentals.png
+  caption: "Microsoft - Microsoft Certified: Azure Fundamentals - 2023/03/30"
 ---
 
 {{< gallery album="training-badges" order="desc" >}}
