@@ -66,6 +66,12 @@ gallery_item:
 - album: training-badges
   image: 20230330_ms_azure_fundamentals.png
   caption: "Microsoft - Microsoft Certified: Azure Fundamentals - 2023/03/30"
+- album: training-badges
+  image: 20230411_rh_sales_practitioner.png
+  caption: Red Hat - Red Hat Sales Practitioner - Foundational - 2023/04/11
+- album: training-badges
+  image: 20230411_rh_portfolio_practitioner.png
+  caption: Red Hat - Red Hat Portfolio Practitioner - 2023/04/11
 ---
 
 {{< gallery album="training-badges" order="desc" >}}
