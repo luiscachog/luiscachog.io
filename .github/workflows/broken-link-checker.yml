@@ -38,7 +38,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
-          args: --verbose --no-progress --exclude-mail --cache --max-cache-age 1d
+          args: --verbose --no-progress --exclude-mail --cache --max-cache-age 1d './**/*.md' './**/*.html'
           fail: false
           jobSummary: true
 
