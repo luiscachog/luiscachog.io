@@ -6,11 +6,11 @@ name: to-medium-dev-to
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  workflow_run:
-    workflows:
-      - algolia-search
-    types:
-      - completed
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
     branches:
       - main
       - master
@@ -19,7 +19,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    name: publish posts on medium and dev.to
+    name: publish posts on medium
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -27,17 +27,37 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ssh-key: ${{ secrets.PERSONAL_SUBMODULES_PULL_KEY }}
           submodules: recursive
           lfs: true
 
-      - name: Crosspost to medium and dev.to
-        uses: basicBrogrammer/crosspost-markdown@v0.1.1
+      - name: Get All Changed Files
+        id: files
+        uses: jitterbit/get-changed-files@v1
+      - name: Get Post Changed from the all changed files
+        id: posts
+        run: |
+          i=0
+          for changed_file in ${{ steps.files.outputs.added_modified }}; do
+            echo "Found changed file in: ${changed_file}."
+            if [[ "${changed_file}" == "content/post"* ]];
+            then
+              echo "File ${changed_file} matched post."
+              echo "::set-output name=post${i}::${changed_file}"
+              ((i=i+1))
+            fi
+          done
+      - name: Publish to medium
+        if: steps.posts.outputs.post0
+        uses: philips-software/post-to-medium-action@v0.4.1
         with:
-          dev-to-token: ${{secrets.DEV_TO_TOKEN}}
-          github-token: ${{secrets.GITHUB_TOKEN}}
-          medium-token: ${{secrets.MEDIUM_TOKEN}}
-          medium-author-id: ${{secrets.MEDIUM_AUTHOR_ID}}
-          content-dir: content/post/*/*.md
+          integration_token: ${{ secrets.MEDIUM_TOKEN }}
+          content_format: "markdown"
+          file: ${{ steps.posts.outputs.post0 }}
+          publish_status: draft
+          license: cc-40-by-nc-sa
+          notify_followers: "false"
+          canonical_url: https://luiscachog.io
+          parse_frontmatter: true

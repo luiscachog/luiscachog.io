@@ -11,7 +11,7 @@ categories: [ DevOps, Rackspace]
 keywords: [ DevOps, Rackspace, Racker]
 date: 2014-03-31
 publishDate: 2014-03-31
-lastmod: 2021-05-02
+lastmod: 2023-04-14
 featured: true
 draft: false
 
