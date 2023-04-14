@@ -4,4 +4,6 @@ https://academic-demo.netlify
 https://github.com/sourcethemes
 https://www.aws.amazon.com
 https://www.linkedin.com
+.*\.twitter.com\.*
 .*\.opentlc.com\.*
+.*\.twimg.com\.*

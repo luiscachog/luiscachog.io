@@ -2,10 +2,10 @@
 
 # Verbose program output
 # Accepts log level: "error", "warn", "info", "debug", "trace"
-verbose = "info"
+# verbose = "warn"
 
 # Don't show interactive progress bar while checking links.
-no_progress = false
+no_progress = true
 
 # Path to summary output file.
 output = "./lychee/out.md"
@@ -17,7 +17,7 @@ output = "./lychee/out.md"
 cache = true
 
 # Discard all cached requests older than this duration.
-max_cache_age = "2d"
+max_cache_age = "2s"
 
 #############################  Runtime  #############################
 
@@ -26,7 +26,7 @@ max_cache_age = "2d"
 threads = 2
 
 # Maximum number of allowed redirects.
-max_redirects = 10
+max_redirects = 2
 
 # Maximum number of allowed retries before a link is declared dead.
 max_retries = 3
@@ -68,7 +68,7 @@ headers = []
 remap = [ "https://example.com http://example.invalid" ]
 
 # Base URL or website root directory to check relative URLs.
-base = "https://example.com"
+# base = "https://example.com"
 
 # HTTP basic auth support. This will be the username and password passed to the
 # authorization HTTP header. See
