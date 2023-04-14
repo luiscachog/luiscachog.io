@@ -48,7 +48,7 @@ desde mi punto de vista; tratar automatizar/scriptear la mayoria de tus tareas q
 
 Una vez que decidí migrarme de Wordpress, el siguiente paso era decidir a que plataforma mudarme.
 De entrada la plataforma que queria probar era un [Static Site Generator](https://en.wikipedia.org/wiki/Static_web_page),
-aqui otro [link](https://learn.cloudcannon.com/jekyll/why-use-a-static-site-generator/) de por que usar un Static Site Generator.
+aqui otro [link](https://cloudcannon.com/blog/what-is-a-static-website/) de por que usar un Static Site Generator.
 
 Partiendo de lo anterior, las opciones que me parecieron interesantes fueron:
 
@@ -171,7 +171,7 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
     Como recomendación adicional en este paso, puedes realizar un fork del tema que te guste en github para poder realizar modificaciones y proponer cambios al mismo,
     contribuyendo de esa forma a su desarrollo, para hacerlo, sigue los pasos:
 
-    1. Realizar un fork del tema, sigue esta [guia](https://guides.github.com/activities/forking/) para hacerlo.
+    1. Realizar un fork del tema, sigue esta [guia](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) para hacerlo.
     1. Al realizar el fork, tendras en tus repositorios de github el tema que quieras, por lo que tendras que ejecutar los mismos comandos del punto anterior,
         pero el repositorio del tema apuntara a tu usario en github
 
@@ -237,7 +237,7 @@ Untracked files:
     themes/ananke/
 ```
 
-Ahora, para tener el repositorio publico, tenemos que [crear](https://help.github.com/articles/creating-a-new-repository/) el repositorio
+Ahora, para tener el repositorio publico, tenemos que [crear](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) el repositorio
 en [github.com](https://github.com) y configurarlo como un repositorio remoto
 
 ```shell

@@ -47,7 +47,7 @@ The instructions assume that you:
     git clone https://github.com/linickx/rsdns.git
     ```
 
-1. Go to your Rackspace portal [https://mycloud.rackspace.com/](https://mycloud.rackspace.com/) and grab your Username & API key (It's under "Your Account" -> "Account Settings" -> "API Key")
+1. Go to your Rackspace portal [https://login.rackspace.com/](https://login.rackspace.com/) and grab your Username & API key (It's under "Your Account" -> "Account Settings" -> "API Key")
 
 1. Create a configuration file for rsdns (~/.rsdns_config) with your settings.
 

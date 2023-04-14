@@ -11,6 +11,6 @@ view: 3
 
 
 banner:
-  caption: Photo by <a href="https://insidestl.com/stl-sports/nfl">Insidestl</a>
+  caption: Photo by <a href="https://www.tmastl.com/">tmastl</a>
   image: "fantasy/fantasy_league_header.jpg"
 ---

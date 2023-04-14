@@ -49,6 +49,6 @@ links:
 slides: ""
 ---
 
-- CircleCI Role: Ansible role that installs [CircleCI CLI](https://circleci-public.github.io/circleci-cli/) on your server/workstation. [![Build Status](https://travis-ci.com/luiscachog/ansible-circleci-cli.svg?branch=master)](https://travis-ci.com/luiscachog/ansible-circleci-cli)
+- CircleCI Role: Ansible role that installs [CircleCI CLI](https://circleci-public.github.io/circleci-cli/) on your server/workstation. [![Build Status](https://app.travis-ci.com/luiscachog/ansible-circleci-cli.svg?branch=master)](https://app.travis-ci.com/github/luiscachog/ansible-circleci-cli)
 
-- Sonobuoy Role: Ansible role that installs [sonobuoy](https://sonobuoy.io/) on your server/workstation. [![Build Status](https://travis-ci.com/luiscachog/ansible-sonobuoy.svg?branch=master)](https://travis-ci.com/luiscachog/ansible-sonobuoy)
+- Sonobuoy Role: Ansible role that installs [sonobuoy](https://sonobuoy.io/) on your server/workstation. [![Build Status](https://app.travis-ci.com/luiscachog/ansible-sonobuoy.svg?branch=master)](https://app.travis-ci.com/github/luiscachog/ansible-sonobuoy)

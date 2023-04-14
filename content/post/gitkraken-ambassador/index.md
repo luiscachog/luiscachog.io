@@ -36,7 +36,7 @@ projects: []
 
 Hello again,
 
-I'm happy to announce that I'm participating in the **[GitKraken Ambassador program](https://gitkraken.link/luiscachog)**.
+I'm happy to announce that I'm participating in the **[GitKraken Ambassador program](https://www.gitkraken.com/ambassador)**.
 
 For me, it is a joy that the GitKraken team trusts me for this work.
 
@@ -66,7 +66,7 @@ GitKraken provides me the easiest, safest, and most powerful way to interact/wor
 
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
-- [GitLab](https://about.gitlab.com/),
+- [GitLab](https://gitlab.com/),
 - and more Source Code Management (VCS)
 
 becoming the best complement to manage your source code.
@@ -104,6 +104,6 @@ That personal workflow always helped me to avoid mistakes in my job.
 So, starting today, I'm going to generate content related to Git/Gitkraken, and to achieve this, I will write about how I integrate GitKraken into my daily work.
 
 If you want to start using GitKraken, you can [download the Kraken](https://www.gitkraken.com/download) and try it by yourself!
-Furthermore, I recommend to use [my referral code](https://gitkraken.link/luiscachog) when you sign in.
+Furthermore, I recommend to use [my referral code](https://www.gitkraken.com/invite/kkvpJVykg) when you sign in.
 
 Happy coding!

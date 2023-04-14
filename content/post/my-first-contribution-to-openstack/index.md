@@ -40,9 +40,9 @@ I been working since last year using [Ansible](https://www.ansible.com/) for fun
 Basically it  is a project from the OpenStack community that makes it easier to understand and troubleshoot your Ansible roles and playbooks.
 If you want more information, please refer to the [Documentation Page](http://ara.readthedocs.io/en/latest/).
 
-Anyhow, I just found a little bug on the Ansible Role to install ARA [ansible-role-ara](https://git.openstack.org/cgit/openstack/ansible-role-ara/) on Debian based distros and just send the patch to fixit.
+Anyhow, I just found a little bug on the Ansible Role to install ARA [ansible-role-ara](https://opendev.org/recordsansible/ansible-role-ara) on Debian based distros and just send the patch to fix it.
 
-Here is the link to my [contribution](https://git.openstack.org/cgit/openstack/ansible-role-ara/commit/).
+Here is the link to my [contribution](https://opendev.org/recordsansible/ansible-role-ara/commit/3e194e169070213c0bcfd007c97222ce318c6556).
 
 And, as I am proud of my first commit on a big project here is the screenshot too:
 

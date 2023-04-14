@@ -59,7 +59,7 @@ mainly focused on migration and modernization, documentation, community, and use
 
 Contributor on the Spanish translation content at kubernetes.io in **sig-docs**.
 
-- [Docs Special Interest Group](https://git.k8s.io/community/sig-docs)
+- [Docs Special Interest Group](https://github.com/kubernetes/community/tree/master/sig-docs)
 - [Tracking Spanish Localisation Progress (M1) #13948](https://github.com/kubernetes/website/issues/13948)
 
 ## kubernetes-docs-es

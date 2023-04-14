@@ -75,7 +75,7 @@ Here is the solution that worked for me, using `loops`, `loop_control`,and `jinj
   loop: "{{ my_stat_var.results }}"
 ```
 
-Basically, I'm using the new `loop` [syntax](https://docs.ansible.com/ansible/latest/user_guide/playbooks_loops.html) to iterate over all the files that I want to check.
+Basically, I'm using the new `loop` [syntax](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_loops.html) to iterate over all the files that I want to check.
 
 In order to avoid some warnings about the loop using `item` I implement the `loop_control` and `loop_var` syntax to control the loop behavior and on this specific case,
 instead of using the word `item` I will substitute it with the one that I define as my `loop_var` in this case is called `my_loop` (Remember this, I will use it on the next task).

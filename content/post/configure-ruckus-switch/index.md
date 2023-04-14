@@ -33,7 +33,7 @@ projects: []
 ---
 
 I just have a Ruckus ICX 7150 Switch on my home and I'm trying to get access under ssh and web, to easy configuration and security instead of use telnet.
-So, I logged in using telnet and then run the following commands to configure a username/password and begin to receive petirions over port 22(ssh) and port 443(https).
+So, I logged in using telnet and then run the following commands to configure a username/password and begin to receive petitions over port 22(ssh) and port 443(https).
 Let's begin!
 
 1. We will connect via telnet to the switch.
@@ -72,4 +72,4 @@ Now you are able to login on your switch using ssh or web.
 
 - Blog with ruckus commands [^1]
 
-[^1]: [Ruckus ICX7150-C12P – Initial Configuration](https://robrobstation.com/2017/07/17/ruckus-icx7150-c12p-initial-configuration/)
+[^1]: [Ruckus ICX7150-C12P – Initial Configuration](https://docs.ruckuswireless.com/fastiron/08.0.50/fastiron-08050-commandref/GUID-E60DB55B-5E68-40EC-A999-73C6C071EFF7.html)

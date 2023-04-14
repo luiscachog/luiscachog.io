@@ -32,11 +32,11 @@ image:
 projects: []
 ---
 
-I've just noticed that my NAS a [Western Digital My Cloud EX2](https://www.wdc.com/products/network-attached-storage/my-cloud-expert-series-ex2-ultra.html) is going slower,
+I've just noticed that my NAS a [Western Digital My Cloud EX2](https://www.westerndigital.com/products/network-attached-storage/wd-my-cloud-expert-series-ex2-ultra#WDBVBZ0040JCH-NESN) is going slower,
 so I decided to investigate about what can I do to improve its performance.
 
 I assume that you already configure ssh on your NAS device.
-If is not configured you can follow the next instructions: [https://support.wdc.com/knowledgebase/answer.aspx?ID=14952](https://support.wdc.com/knowledgebase/answer.aspx?ID=14952)
+If is not configured you can follow the next instructions: [https://support-en.wd.com/app/answers/detailweb/a_id/12861](https://support-en.wd.com/app/answers/detailweb/a_id/12861)
 
 ## Stop Indexing Services
 
@@ -62,4 +62,4 @@ And add the following lines:
 
 - Western Digital knowledge base link[^1]
 
-[^1]: [How to enable SSH (Secure Shell) on a My Cloud EX2 device](https://support.wdc.com/knowledgebase/answer.aspx?ID=14952)
+[^1]: [How to enable SSH (Secure Shell) on a My Cloud EX2 device](https://support-en.wd.com/app/answers/detailweb/a_id/12861)

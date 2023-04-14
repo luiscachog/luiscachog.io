@@ -139,7 +139,7 @@ Your cert key is in /opt/acme/data/ssl-certs/example.com/example.com.key
 The intermediate CA cert is in /opt/acme/data/ssl-certs/example.com/ca.cer
 ```
 
-So we should go to [https://mycloud.rackspace.com](https://mycloud.rackspace.com) -> Rackspace Cloud -> Networking -> Cloud Load Balancers:
+So we should go to [https://login.rackspace.com](https://login.rackspace.com) -> Rackspace Cloud -> Networking -> Cloud Load Balancers:
 
 {{< figure src="posts/wordpress-lets-encrypt-ssl-certificate-load-balancer/CLB01.png" caption="Rackspace Portal - Cloud Loud Balancer" id="clb-01" theme="ligth">}}
 
