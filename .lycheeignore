@@ -6,5 +6,6 @@ https://www.aws.amazon.com
 https://www.linkedin.com
 https://api.follow.it/subscription-form/N1Jza3ZZZ2FaWmxyTkFpMkFNK1o1MWJ1SGUyRjBUYnRpc2lVR0s2eFNrTjl6N0luVVM3azNnNUJmMGh2N3pBSm9pOEVqZGFJY1ZZbXgvSjV1Y1lLTjdZYWRMUzRlT1BvQ2hYUlRmMHRYSytHc0hqWHdHOXFEbXJ3UkVLWG9FdU58S1RiMzNvVWwwT1RETjhPWTNtWC80SjNONFlnVFFYd0I2R25JcVgvZ1NrZz0=/8
 .*\.twitter.com\.*
+^https://twitter.com
 .*\.opentlc.com\.*
 .*\.twimg.com\.*
