@@ -43,7 +43,7 @@ jobs:
         run: hugo --minify
 
       - name: update algolia index
-        uses: luiscachog/algolia-update-index-action@master
+        uses: luiscachog/algolia-update-index-action@main
         with:
           algolia_app_id: '${{ secrets.ALGOLIA_APP_ID }}'
           algolia_apikey: '${{ secrets.ALGOLIA_APIKEY }}'
