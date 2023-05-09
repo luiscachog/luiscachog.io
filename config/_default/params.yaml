@@ -87,7 +87,7 @@ features:
       shortname: ''
       show_count: true
     commento:
-      url: ''
+      url: 'https://comments.luiscachog.io'
     giscus:
       repo: ''
       repo_id: ''
