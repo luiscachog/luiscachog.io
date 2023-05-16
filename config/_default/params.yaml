@@ -75,14 +75,14 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/luiscachog/luiscachog.io'
     content_dir: content
-    branch: main
+    branch: master 
   avatar:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: 'commento'
     disqus:
       shortname: ''
       show_count: true
@@ -94,11 +94,11 @@ features:
       category: ''
       category_id: ''
   search:
-    provider: wowchemy
+    provider: algolia
     algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
+      app_id: '74APDZPUGZ'
+      api_key: 'd64f068b66c0fa2cf24d48a2043ebde7'
+      index_name: 'luiscachog.io'
       show_logo: false
   map:
     provider: ''
