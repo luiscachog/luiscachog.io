@@ -1,6 +1,3 @@
-{{- if $.GitInfo -}}
-	Last Update: <a href="https://github.com/luiscachog/luiscachog.io/commit/{{ .GitInfo.Hash }}" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a>
-{{- else -}}
-  Last Update: <a href="https://github.com/luiscachog/luiscachog.io/commit/master" rel="noopener"> null</a>
-  &nbsp;
-{{- end -}}
+<time datetime="{{ .Page.Lastmod.Format "Mon Jan 10 17:13:38 2020 CST" }}" class="text-muted">
+  {{ $.Page.Lastmod.Format "January 02, 2006, 15:04 CST" }}
+</time>
