@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  theme_day: luiscachog 
+  theme_day: luiscachog
   theme_night: luiscachog
   font: luiscachog
   font_size: L
@@ -46,7 +46,8 @@ footer:
     notice: >-
       Made with ❤️ </br>
       Hosted on [GitHub](https://github.com/luiscachog/luiscachog.io) - Served by [Netlify](https://www.netlify.com) </br>
-      &copy; 2014 - {year} - Luis Cacho
+      &copy; 2014 - {year} - Luis Cacho </br>
+      {{< last-update >}}
     license:
       enable: true
       allow_derivatives: true
@@ -77,7 +78,7 @@ features:
   repository:
     url: 'https://github.com/luiscachog/luiscachog.io'
     content_dir: content
-    branch: master 
+    branch: master
   avatar:
     gravatar: false
     shape: circle

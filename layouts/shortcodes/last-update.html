@@ -1,0 +1,6 @@
+{{- if $.GitInfo -}}
+	Last Update: <a href="https://github.com/luiscachog/luiscachog.io/commit/{{ .GitInfo.Hash }}" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a>
+{{- else -}}
+  Last Update: <a href="https://github.com/luiscachog/luiscachog.io/commit/master" rel="noopener"> null</a>
+  &nbsp;
+{{- end -}}
