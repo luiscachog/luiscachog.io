@@ -33,7 +33,7 @@ image:
 projects: [ fantasy-commish ]
 ---
 
-{{< figure src="fantasy/fantasy_league_logo.png" caption="" >}}
+{{< figure src="fantasy/fantasy_league_logo_old.png" caption="" >}}
 
 {{% toc %}}
 
