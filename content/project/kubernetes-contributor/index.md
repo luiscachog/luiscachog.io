@@ -53,7 +53,7 @@ slides: ""
 Contributing to the [Kubernetes](https://kubernetes.io) project in different [special interest groups](https://git.k8s.io/community/),
 mainly focused on migration and modernization, documentation, community, and user/contributor experience.
 
-- [Gubernator PR Dashboard](https://gubernator.k8s.io/pr/luiscachog)
+- [Prow PR Dashboard](https://prow.k8s.io/pr?query=is%3Apr%20author%3Aluiscachog)
 
 ## sig-docs
 
