@@ -1,0 +1,96 @@
+{
+  "data": [
+    {
+      "name": "Points For",
+      "type": "bar",
+      "marker": {
+        "color": "darkgreen"
+      },
+      "textposition": "inside",
+      "textfont": { "size": [10] },
+      "x": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@IsmaelBL",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [
+        2148.74, 2062.54, 2093.68, 2196.04, 2068.9, 2194.26, 1617.62,
+        1983.36, 1916.5, 2205.68, 2116.42, 1959.04
+      ]
+    },
+    {
+      "name": "Points Against",
+      "type": "bar",
+      "marker": {
+        "color": "d62728"
+      },
+      "textposition": "inside",
+      "textfont": { "size": [10] },
+      "x": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@IsmaelBL",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [
+        -2080.44, -2029.92, -2025.18, -2091.28, -2035.08, -1882.98, -2083.68,
+        -2049.28, -2117.48, -2081.02, -2060.66, -2025.78
+      ]
+    },
+    {
+      "name": "Difference",
+      "type": "bar",
+      "marker": {
+        "color": "blue"
+      },
+      "textposition": "inside",
+      "textfont": { "size": [10] },
+      "x": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@IsmaelBL",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [
+        68.3, 32.62, 68.5, 104.76, 33.82, 311.28, -466.06, -65.92,
+        -200.98, 124.66, 55.76, -66.74
+      ]
+    }
+  ],
+  "layout": {
+    "title": "Nerd Footbal League<br>Regular Season - Points For/Points Against<br>(2021)",
+    "xaxis": {
+      "title": "Team Name",
+      "categoryorder": "total descending"
+    },
+    "yaxis": {
+      "title": "# of Points For / Points Against"
+    }
+  },
+  "frames": []
+}

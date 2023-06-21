@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "name": "Wins",
+      "type": "bar",
+      "marker": {
+        "color": "lightgreen"
+      },
+      "x": [
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@IsmaelBL",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [7, 7, 9, 8, 3, 4, 9, 5, 10, 10, 10, 2]
+    },
+    {
+      "name": "Losses",
+      "type": "bar",
+      "marker": {
+        "color": "lightred"
+      },
+      "x": [
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@IsmaelBL",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [-7, -7, -5, -6, -11, -10, -5, -9, -4, -4, -4, -12]
+    },
+    {
+      "name": "Difference",
+      "type": "bar",
+      "marker": {
+        "color": "lightblue"
+      },
+      "x": [
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@IsmaelBL",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [0, 0, 4, -2, -8, -6, 4, -4, 6, 6, 6, -10]
+    }
+  ],
+  "layout": {
+    "title": "Nerd Footbal League<br>Regular Season - Wins/Losses<br>(2022)",
+    "xaxis": {
+      "title": "Team Name",
+      "categoryorder": "total descending"
+    },
+    "yaxis": {
+      "title": "# of Wins / Losses"
+    }
+  },
+  "frames": []
+}

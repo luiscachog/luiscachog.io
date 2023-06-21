@@ -1,0 +1,105 @@
+{
+  "data": [
+    {
+      "name": "Points For",
+      "type": "bar",
+      "marker": {
+        "color": "darkgreen"
+      },
+      "textposition": "inside",
+      "textfont": { "size": [10] },
+      "x": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@IsmaelBL",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [
+        2148.74, 2062.54, 3912.18, 4002.08, 4204.26, 3889.92, 0, 2936.46, 1517.72,
+        4018.8, 3595.58, 4086.26, 1912.02, 4028.44, 3579.92
+      ]
+    },
+    {
+      "name": "Points Against",
+      "type": "bar",
+      "marker": {
+        "color": "d62728"
+      },
+      "textposition": "inside",
+      "textfont": { "size": [10] },
+      "x": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@IsmaelBL",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [
+        -2080.44, -2029.92, -3728.22, -4063.04, -3802.96, -3478.38, 0, -3999.4, -1841.66,
+        -3850.6, -3932.76, -3702.44, -1757.3, -3815.82,-3844.7
+      ]
+    },
+    {
+      "name": "Difference",
+      "type": "bar",
+      "marker": {
+        "color": "blue"
+      },
+      "textposition": "inside",
+      "textfont": { "size": [10] },
+      "x": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@IsmaelBL",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [
+        68.3, 32.62, 183.96, -60.96, 401.3, 411.54, 0, -1062.94, -323.94,
+        168.2, -337.18, 383.82, 154.72, 212.62, -264.78
+      ]
+    }
+  ],
+  "layout": {
+    "title": "Nerd Footbal League<br>Regular Season - Points For/Points Against<br>(Cumulative)",
+    "xaxis": {
+      "title": "Team Name",
+      "categoryorder": "total descending"
+    },
+    "yaxis": {
+      "title": "# of Points For / Points Against"
+    }
+  },
+  "frames": []
+}

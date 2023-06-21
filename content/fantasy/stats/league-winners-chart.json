@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "labels": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@IsmaelBL",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "values": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "textinfo": "label+value",
+      "textposition": "inside",
+      "hole": 0.4,
+      "title": {
+        "text": "Number<br>of<br>Championships",
+        "position": "middle center"
+      },
+      "type": "pie",
+      "uniformtext_minsize": 12,
+      "uniformtext_mode": "hide",
+      "insidetextorientation": "radial"
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Championships of Nerd Football League"
+    },
+    "uniformtext_minsize": 12,
+    "uniformtext_mode": "hide",
+    "height": 800,
+    "width": 800,
+    "images": [
+      {
+        "x": 1.25,
+        "y": 0.5,
+        "layer": "below",
+        "sizex": 0.5,
+        "sizey": 0.5,
+        "sizing": "contain",
+        "source": "vince-lombardi-football-trophy.png",
+        "visible": true,
+        "xanchor": "right",
+        "yanchor": "top"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "name": "Wins",
+      "type": "bar",
+      "marker": {
+        "color": "lightgreen"
+      },
+      "x": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@IsmaelBL",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [6, 9, 7, 9, 6, 11, 3, 7, 6, 7, 7, 6]
+    },
+    {
+      "name": "Losses",
+      "type": "bar",
+      "marker": {
+        "color": "lightred"
+      },
+      "x": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@IsmaelBL",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [-8, -5, -7, -5, -8, -3, -11, -7, -8, -7, -7, -8]
+    },
+    {
+      "name": "Difference",
+      "type": "bar",
+      "marker": {
+        "color": "lightblue"
+      },
+      "x": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@IsmaelBL",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [-2, 4, 0, 4, -2, 8, -8, 7, -2, 0, 0, -2]
+    }
+  ],
+  "layout": {
+    "title": "Nerd Footbal League<br>Regular Season - Wins/Losses<br>(2021)",
+    "xaxis": {
+      "title": "Team Name",
+      "categoryorder": "total descending"
+    },
+    "yaxis": {
+      "title": "# of Wins / Losses"
+    }
+  },
+  "frames": []
+}

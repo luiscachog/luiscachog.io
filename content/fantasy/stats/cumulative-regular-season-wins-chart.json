@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "name": "Wins",
+      "type": "bar",
+      "marker": {
+        "color": "lightgreen"
+      },
+      "x": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@IsmaelBL",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [6, 9, 14, 16, 15, 19, 0, 6, 4, 16, 11, 17, 10, 17, 8]
+    },
+    {
+      "name": "Losses",
+      "type": "bar",
+      "marker": {
+        "color": "lightred"
+      },
+      "x": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@IsmaelBL",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [-8, -5, -14, -12, -13, -9, 0, -22, -10, -12, -17, -11, -4, -11, -20]
+    },
+    {
+      "name": "Difference",
+      "type": "bar",
+      "marker": {
+        "color": "lightblue"
+      },
+      "x": [
+        "@AlexMatz",
+        "@ArtAco",
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@IsmaelBL",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [-2, 4, 0, 4, 2, 10, 0, -16, -6, 4, -6, 6, 6, 6, -12]
+    }
+  ],
+  "layout": {
+    "title": "Nerd Footbal League<br>Regular Season - Wins/Losses<br>(Cumulative)",
+    "xaxis": {
+      "title": "Team Name",
+      "categoryorder": "total descending"
+    },
+    "yaxis": {
+      "title": "# of Wins / Losses"
+    }
+  },
+  "frames": []
+}
