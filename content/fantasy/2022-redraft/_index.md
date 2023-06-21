@@ -5,6 +5,7 @@ summary: 2022 redraft season of the Nerd Football League
 date: 2022-06-04
 type: book
 toc: true
+weight: 20
 ---
 
 {{< list_children >}}

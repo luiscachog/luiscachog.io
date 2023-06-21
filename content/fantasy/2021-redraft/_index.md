@@ -5,6 +5,7 @@ summary: 2021 redraft season of the Nerd Football League
 date: 2021-09-09
 type: book
 toc: true
+weight: 30
 ---
 
 {{< list_children >}}

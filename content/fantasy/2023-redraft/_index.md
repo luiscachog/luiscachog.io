@@ -5,6 +5,7 @@ summary: 2023 redraft season of the Nerd Football League
 date: 2023-06-05
 type: book
 toc: true
+weight: 10
 ---
 
 {{< list_children >}}
