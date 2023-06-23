@@ -144,7 +144,7 @@ projects: [ fantasy-commish ]
 
 ### Waivers
 
-#### Temporada Regular
+#### Waivers en Temporada Regular
 
 - Los waivers con subasta FAAB proporciona un presupuesto ($100) durante **toda la temporada**[^3] para apostar por los agentes libres disponibles y es subasta a ciegas.
   - ¡El mejor postor de cada jugador gana el reclamo! y los perdedores no pierden ni su jugador ni parte de su presupuesto inicial.
@@ -158,7 +158,7 @@ projects: [ fantasy-commish ]
 - Cada Miércoles después de la 1:00 AM CST los jugadores se vuelven Agentes Libres, será el primero en llegar, será el primero en servirse (First Come, First Serve) hasta el kickoff del juego de cada jugador
 - Los jugadores volverán a los waivers despúes de _un día_ de que fueron soltados de sus respectivos equipos.
 
-#### Playoffs
+#### Waivers en Playoffs
 
 - Los Waivers en las semanas de Playoffs daran prioridad a los equipos que están participando por el campeonato.
 - Los waivers de los equipos de playoffs entraran conforme esta configurado, y los waivers de los equipos que *NO* están en playoffs se aplicaran 2 dias después (Viernes).
@@ -186,7 +186,7 @@ projects: [ fantasy-commish ]
 
 ### Desempates (Tiebreakers)
 
-#### Regular Season
+#### Desempate en Temporada Regular
 
 - Si dos o más equipos tienen el mismo record, el desempate por default es:
   - Points For (Puntos)
@@ -196,7 +196,7 @@ El equipo que tenga más puntos (Points For), será decretado el ganador. Si de 
 
 Los desempates que se den más allá de esos dos casos se resolverán con un lanzamiento de moneda (volado) realizado por el comisionado o puede ser determinado por otra métrica que el comisionado considere adecuada.
 
-#### Playoffs
+#### Desempate en Playoffs
 
 - Si cualquier matchup termina con un empate. El ganador será automaticamente el que halla tenido mejor posición en la tabla.
 
@@ -254,8 +254,10 @@ La distribuciøn de los premios será de la siguiente manera:
 | [Link](https://www.amazon.com/Decade-Awards-Fantasy-Football-Champion/dp/B08H4KQ6TB/) |
 
 {{% callout note %}}
-Para los dueños de equipo de México, el costo del envio del trofeo será por su cuenta, o en su defecto haré entrega del mismo personalmente en Ciudad de México.
-Eso sera cuando visite la ciudad (No hay fecha definida aún)
+
+- Todos los premios, incluidos los semanales se distribuiran al final de la temporada.
+- Para los dueños de equipo de México, el costo del envio del trofeo será por su cuenta, o en su defecto haré entrega del mismo personalmente en Ciudad de México. Eso sera cuando visite la ciudad (No hay fecha definida aún)
+
 {{% /callout %}}
 
 ### Clausula de mejor interés de la liga
