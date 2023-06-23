@@ -51,8 +51,8 @@ projects: [ fantasy-commish ]
 
 ### Draft
 
-- El orden del draft será dado a conocer el **_Lunes 21 de Agosto de 2023 a las 6:00 PM CST_** via Zoom (Más detalles via Telegram)
-- El draft va a ser el día **_Sábado 26 de Agosto de 2023 a las 6:00 PM CST_** via Zoom y/o en algún Bar (Para los de San Antonio, TX) 🍻 (Más detalles via Telegram)
+- El orden del draft será dado a conocer el **_Lunes 14 de Agosto de 2023 a las 6:00 PM CST_** via Zoom (Más detalles via Telegram)
+- El draft va a ser el día **_Sábado 19 de Agosto de 2023 a las 6:00 PM CST_** via Zoom y/o en algún Bar (Para los de San Antonio, TX) 🍻 (Más detalles via Telegram)
 - El draft va a tener **_14_** rondas, estilo **_snake_**, con 3RR (Third Round Reversal)[^4]
 - El draft sera mediante la plataforma [https://sleeper.app](https://sleeper.app)
 - El orden del draft será dictado por el algoritmo aleatorio de la aplicación [https://sleeper.app](https://sleeper.app)
