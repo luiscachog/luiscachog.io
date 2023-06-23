@@ -100,5 +100,14 @@ Puedes revisar las reglas de esta temporada [aquí]({{< relref "rules" >}})
 
 {{< figure src="fantasy/2022-redraft/trophy-winners.jpg" caption="Trophy Winners" >}}
 
+## Stats
+
+This is a test
+
+{{< chart data="../stats/2022-regular-season-points-chart" >}}
+
+{{< chart data="regular-season-points-chart" >}}
+
+
 
 [^1]: [Liga tipo Redraft (En inglés)](https://support.sleeper.app/en/articles/3537396-league-types-formats)
