@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "mode": "markers",
+      "type": "table",
+      "columnwidth": [40,100],
+      "cells": {
+        "values": [
+          [2021, 2022],
+          ["@edpb", "@edpb"]
+        ],
+        "font": {
+          "size": 11,
+          "color": "black"
+        },
+        "fill": {
+          "meta": {
+            "columnNames": {
+              "color": "Trace 0, cells, fill, color[0]; Trace 0, cells, line, color[0] - Trace 0, cells, fill, color[1]; Trace 0, cells, line, color[1] - Trace 0, cells, fill, color[2]; Trace 0, cells, line, color[2] - Trace 0, cells, fill, color[3]; Trace 0, cells, line, color[3] - Trace 0, cells, fill, color[4]; Trace 0, cells, line, color[4]"
+            }
+          },
+          "colorsrc": "luiscachog:2:2fa8c6,2b0740,43d8be,9a751f,a900b0",
+          "color": [
+            [
+              "rgb(239,243,255)",
+              "rgb(189,215,231)",
+              "rgb(107,174,214)",
+              "rgb(49,130,189)",
+              "rgb(8,81,156)"
+            ]
+          ]
+        },
+        "line": {
+          "meta": {
+            "columnNames": {
+              "color": "Trace 0, cells, fill, color[0]; Trace 0, cells, line, color[0] - Trace 0, cells, fill, color[1]; Trace 0, cells, line, color[1] - Trace 0, cells, fill, color[2]; Trace 0, cells, line, color[2] - Trace 0, cells, fill, color[3]; Trace 0, cells, line, color[3] - Trace 0, cells, fill, color[4]; Trace 0, cells, line, color[4]"
+            }
+          },
+          "colorsrc": "luiscachog:2:2fa8c6,2b0740,43d8be,9a751f,a900b0",
+          "color": [
+            [
+              "rgb(239,243,255)",
+              "rgb(189,215,231)",
+              "rgb(107,174,214)",
+              "rgb(49,130,189)",
+              "rgb(8,81,156)"
+            ]
+          ]
+        }
+      },
+      "header": {
+        "values": ["<b>YEAR</b>", "<b>CHAMPION</b>"],
+        "fill": {
+          "color": "white"
+        },
+        "line": {
+          "color": "white"
+        },
+        "font": {
+          "size": 14,
+          "color": "black"
+        }
+      }
+    }
+  ],
+  "layout": {
+    "title": "Nerd Football League Champions",
+    "template": "plotly_white",
+    "images": [
+      {
+        "x": 0.5,
+        "y": 0.5,
+        "layer": "above",
+        "sizex": 1,
+        "sizey": 1,
+        "sizing": "contain",
+        "source": "champions.png",
+        "visible": true,
+        "xanchor": "center",
+        "yanchor": "top"
+      }
+    ],
+    "autosize": true
+  },
+  "frames": []
+}

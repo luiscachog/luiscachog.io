@@ -21,6 +21,8 @@ design:
     padding: ["20px", "0", "20px", "0"]
 ---
 
+{{< chart data="league-champions-chart" >}}
+
 {{< chart data="league-winners-chart" >}}
 
 {{< chart data="cumulative-regular-season-points-chart" >}}
