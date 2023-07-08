@@ -11,7 +11,7 @@ categories: [ Fantasy-Football, Hobbies ]
 keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft, 2023 ]
 date: 2023-06-15
 publishDate: 2023-06-15
-lastmod: 2022-06-15
+lastmod: 2023-07-07
 featured: false
 draft: false
 type: book
@@ -162,18 +162,18 @@ projects: [ fantasy-commish ]
 
 - Los Waivers en las semanas de Playoffs daran prioridad a los equipos que están participando por el campeonato.
 - Los waivers de los equipos de playoffs entraran conforme esta configurado, y los waivers de los equipos que *NO* están en playoffs se aplicaran 2 dias después (Viernes).
-- Dicho cambio *NO* se puede configurar en la aplicacción de Sleeper, por lo que ser hará de manera manual.
+- Dicho cambio **NO** se puede configurar en la aplicacción de Sleeper, por lo que ser hará de manera manual.
 - Si algún dueño de equipo que no está en playoffs realiza un waiver antes del dia viernes, se revertira manualmente a más tardar el día sabado.
 
 #### Equipos eliminados
 
 - Si tu equipo es eliminado de los playoffs, ya no esta permitido que se realizen movimientos de waiver (Waiver Moves)
 
-### Trades
+### Intercambios (Trades)
 
 - El tiempo para revisar un trade es de 1 dia
 - No hay veto por default de un trade, salvo en caso obvio de colusión.
-- De igual forma no hay veto por default de un trade, en el cual se noté una clara ventaja de parte de un equipo(trade desbalanceado). Ya que cada dueño es responsable de los trades que acepta. Sin embargo, antes de hacer cualquier trade, los invito a usar herramientas como [RotoTrade Analyzer](https://www.rototrade.com/fantasy-football-trade-analyzer) para considerar el **trade value chart** de los jugadores involucrados en el trade y realizar una propuesta de trade más balanceada.
+- De igual forma no hay veto por default de un trade, en el cual se noté una clara ventaja de parte de un equipo (trade desbalanceado). Ya que cada dueño es responsable de los trades que acepta. Sin embargo, antes de hacer cualquier trade, los invito a usar herramientas como [RotoTrade Analyzer](https://www.rototrade.com/fantasy-football-trade-analyzer) para considerar el **trade value chart** de los jugadores involucrados en el trade y realizar una propuesta de trade más balanceada.
 - Esta **prohibido** el préstamo de jugadores. Si un jugador cambia de equipo via trade, no puede regresar al equipo original, a menos que sea a través de un tercer equipo.
   (Movimiento que involucra al menos dos trades)
 - El plazo para realizar un trades es la semana 10
@@ -207,7 +207,7 @@ Más detalles acerca de como funciona el desempate, la puedes encontrar en [^6]
 - Califican a playoffs 8 equipos distribuidos de la siguiente manera:
   - Los primeros 7 puestos de playoffs serán para los equipos con los mejores records de temporada regular.
   - El último lugar de playoffs se añadirá manualmente en función del equipo con mayor **Puntos Totales (Total Points For)** fuera de los actuales equipos de playoffs asignados.
-    - Con el fin de equilibrar la lucha por el último boleto a playoffs, una regla adicional a considerar es que el equipo con más **Puntos Totales (Total Points For)** deberá de tener una diferencia de mínimo 40 puntos por encima del octavo equipo con mejor record para pasar a playoffs, en caso contrario, el octavo equipo con mejor record será el que pasé a los playoffs.
+    - Con el fin de equilibrar la lucha por el último boleto a playoffs, una regla adicional a considerar es que el equipo con más **Puntos Totales (Total Points For)** deberá de tener una **diferencia de mínimo 40 puntos por encima del octavo equipo con mejor record** para pasar a playoffs, en caso contrario, el octavo equipo con mejor record será el que pasé a los playoffs.
 - La configuración final de los playoffs se llevará a cabo el día siguiente al último partido de la NFL de la semana 14, y se realizará manualmente.
 
 - Los playoffs se jugaran en las semanas:
@@ -229,8 +229,9 @@ Y será necesario hacer el déposito/tranferencia a más tardar al termino de la
 En caso de que no se halla recibido el déposito/transferencia para dicha fecha el dueño del equipo será penalizado.
 Teniendo que pagar **$5 dls o $100 mxn** adicionales, además de que en caso de que resulte ganador de algún premio al final de la temporada **NO recibira dicho premio**.
 
-Mandare más detalles de como hacer el déposito/transferencia via telegram.
-Tambien pueden revisar donde están los códigos QR de varias aplicaciones de pago.
+Pueden realizar el déposito/transferencia usando los códigos QR de este [link]({{< relref "./league-fees-qr" >}}), como CashApp, CitiBanamex, PayPal, Venmo o Zelle.
+
+En caso necesario, mandaré más detalles de como hacer el déposito/transferencia via telegram.
 
 El monto total recaudado de la liga será de:
 
@@ -267,6 +268,11 @@ necesarias en el mejor interés de la liga.
 El Comisionado puede consultar con algunas o todas las demás personas y/o posiblemente someterlo a votación.
 
 **Atte: El Comish**  :football:.
+
+#### Años Previos
+
+- [Home temporada 2022]({{< relref "/fantasy/2022-redraft" >}})
+- [Home temporada 2021]({{< relref "/fantasy/2021-redraft" >}})
 
 [^1]: [Liga tipo Redraft (En inglés)](https://support.sleeper.app/en/articles/3537396-league-types-formats)
 [^2]: [Puntuación Half PPR (En inglés)](https://www.fantasyfootballdad.com/fantasy-football-scoring-systems-standard-ppr-half-point-ppr/)

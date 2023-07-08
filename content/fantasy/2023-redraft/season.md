@@ -48,23 +48,23 @@ Puedes revisar los fees de esta temporada [aquí]({{< relref "league-fees-qr" >}
 
 ## Orden del Draft
 
-{{< figure src="fantasy/2022-redraft/draft-order.png" caption="Randomized draft order" >}}
+{{< figure src="fantasy/2023-redraft/draft-order.png" caption="Randomized draft order" >}}
 
 ## Draft Board
 
-{{< figure src="fantasy/2022-redraft/draft-board.png" caption="Draft Board" >}}
+{{< figure src="fantasy/2023-redraft/draft-board.png" caption="Draft Board" >}}
 
 ## Final Standings
 
-{{< figure src="fantasy/2022-redraft/final-standings.png" caption="Final Standings" >}}
+{{< figure src="fantasy/2023-redraft/final-standings.png" caption="Final Standings" >}}
 
 ### Championship Week Results
 
-{{< figure src="fantasy/2022-redraft/championship-week-results.png" caption="Championship Results" >}}
+{{< figure src="fantasy/2023-redraft/championship-week-results.png" caption="Championship Results" >}}
 
 ## Championship and ToiletBowl Trophy Winners
 
-{{< figure src="fantasy/2022-redraft/trophy-winners.jpeg" caption="Trophy Winners" >}}
+{{< figure src="fantasy/2023-redraft/trophy-winners.jpeg" caption="Trophy Winners" >}}
 
 ## Archive
 
@@ -73,5 +73,10 @@ Puedes revisar los fees de esta temporada [aquí]({{< relref "league-fees-qr" >}
 #### Fotos
 
 #### Videos
+
+#### Años Previos
+
+- [Home temporada 2022]({{< relref "/fantasy/2022-redraft" >}})
+- [Home temporada 2021]({{< relref "/fantasy/2021-redraft" >}})
 
 [^1]: [Liga tipo Redraft (En inglés)](https://support.sleeper.app/en/articles/3537396-league-types-formats)

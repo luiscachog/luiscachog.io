@@ -76,3 +76,8 @@ Complementando las reglas relacionadas con los trades de la tabla de arriba, qui
 {{% /callout %}}
 
 **Atte: El Comish**  :football:.
+
+#### Años Previos
+
+- [Home temporada 2022]({{< relref "/fantasy/2022-redraft" >}})
+- [Home temporada 2021]({{< relref "/fantasy/2021-redraft" >}})

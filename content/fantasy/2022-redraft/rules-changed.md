@@ -57,5 +57,8 @@ projects: [ fantasy-commish ]
 | Premio para último lugar | Trofeo de ultimo lugar (toilet trophy) y un castigo | Castigo |
 | Premio para equipo con mas puntos de temporada regular | N/A | $25 dls o $500 mxn |
 
-
 **Atte: El Comish**  :football:.
+
+#### Años Previos
+
+- [Home temporada 2021]({{< relref "/fantasy/2021-redraft" >}})

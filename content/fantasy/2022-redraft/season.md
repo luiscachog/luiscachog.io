@@ -108,6 +108,10 @@ This is a test
 
 {{< chart data="regular-season-points-chart" >}}
 
+#### Años Previos
+
+- [Home temporada 2021]({{< relref "/fantasy/2021-redraft" >}})
+
 
 
 [^1]: [Liga tipo Redraft (En inglés)](https://support.sleeper.app/en/articles/3537396-league-types-formats)

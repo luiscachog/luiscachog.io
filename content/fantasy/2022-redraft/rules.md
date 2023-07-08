@@ -211,7 +211,11 @@ Si surge alguna circunstancia, o problema para el cual no se establece un remedi
 necesarias en el mejor interés de la liga.
 El Comisionado puede consultar con algunas o todas las demás personas y/o posiblemente someterlo a votación.
 
-**Atte: El Comish**  :football:.
+**Atte: El Comish**  :football:
+
+#### Años Previos
+
+- [Home temporada 2021]({{< relref "/fantasy/2021-redraft" >}})
 
 [^1]: [Liga tipo Redraft (En inglés)](https://support.sleeper.app/en/articles/3537396-league-types-formats)
 [^2]: [Puntuación Half PPR (En inglés)](https://www.fantasyfootballdad.com/fantasy-football-scoring-systems-standard-ppr-half-point-ppr/)
