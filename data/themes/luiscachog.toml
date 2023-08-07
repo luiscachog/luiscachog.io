@@ -3,28 +3,30 @@ name = "luiscachog"
 
 [light]
   # Primary
-  primary = "#0072B2"
+  primary = "#34495e"
 
   # Menu
-  menu_primary = "#FFF"
-  menu_text = "#0072B2"
-  menu_text_active = "#E7A000"
-  menu_title = "#474747"
+  menu_primary = "#ffffff"
+  menu_text = "#34495e"
+  menu_text_active = "#ff6e54"
+  menu_title = "#2b2b2b"
+
+  # Background
+  background = "#ECEFF4"
 
   # Home sections
-  home_section_odd = "rgb(255, 255, 255)"
-  home_section_even = "rgb(247, 247, 247)"
+  home_section_odd = "#ffffff"
+  home_section_even = "#f7f7f7"
 
   # Links
-  link = "#3273dc"
-  link_hover = "rgb(54, 54, 54)"
+  link = "#34495e"
+  link_hover = "#0072b2"
 
 
 [dark]
   # Primary
-  primary = "#474747"
+  primary = "#003f5c"
 
   # Links
   link = "#bbdefb"
   link_hover = "#bbdefb"
-

@@ -2,13 +2,18 @@
 name = "luiscachog"
 
 # Optional Google font URL
-google_fonts = "family=Economica:wght@400&family=Montserrat:wght@600&family=IBM+Plex+Sans&family=Inconsolata&family=Work+Sans&family=Lobster&family=Archivo&family=Barlow&family=Fira+Sans+Condensed:wght@700&family=Fira+Sans:wght@500&family=Roboto+Mono&"
-# old main font: Fira+Sans
+google_fonts = "family=Source+Sans+3:wght@300&family=Roboto+Mono&family=Varela+Round&family=Commissioner:wght@600"
+# family=Economica:wght@400
+# family=Montserrat:wght@600
+# family=IBM+Plex+Sans
+# family=Inconsolata
+# family=Fira+Sans:wght@500
+# family=Work+Sans&family=Lobster&family=Archivo&family=Barlow&family=Fira+Sans+Condensed:wght@700
 
 # Font families
-heading_font = "Montserrat"
-body_font = "Economica"
-nav_font = "Fira Sans"
+heading_font = "Commissioner"
+body_font = "Source Sans 3"
+nav_font = "Varela Round"
 mono_font = "Roboto Mono"
 
 # Font size

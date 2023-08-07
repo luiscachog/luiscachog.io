@@ -31,13 +31,19 @@ marketing:
 
 header:
   navbar:
+    # Choose a navigation block
+    block: navbar
     enable: true
     align: c
     show_logo: true
     show_language: true
+    # Show a language chooser (if you have translated your site content)?
+    show_translations: true
     show_day_night: true
     show_search: true
     highlight_active_link: true
+
+
 
 # Site footer
 

@@ -69,7 +69,7 @@ outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
   taxonomy: [HTML, RSS]
-  taxonomyTerm: [HTML,RSS]
+  term: [HTML,RSS]
 imaging:
   resampleFilter: lanczos
   quality: 90
