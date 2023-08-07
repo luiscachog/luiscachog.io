@@ -10,6 +10,25 @@ design:
 date_format: Jan 2006
 item:
 
+  - title: Certified Kubernetes Application Developer (CKAD)
+    description: The purpose of the Certified Kubernetes Application Developer (CKAD) program is to provide assurance that CKADs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes application developers.
+    url: https://www.cncf.io/certification/ckad/
+    date_start: 2020-07-11
+    date_end: 2026-07-11
+    organization: cncf
+    organization_url: https://www.cncf.io
+    certificate_url: https://www.credly.com/badges/035a3b14-49cb-4dca-bda1-5de951c0c406
+
+  - title: Certified Kubernetes Administrator (CKA)
+    description: The purpose of the Certified Kubernetes Administrator (CKA) program is to provide assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators.
+    url: https://www.cncf.io/certification/cka/
+    date_start: 2020-06-18
+    date_end: 2026-06-08
+    organization: cncf
+    organization_url: https://www.cncf.io
+    certificate_url: https://www.credly.com/badges/211f5895-59a6-4a52-9b4e-c1ace672b2a2
+                     https://www.credly.com/badges/f7821cbe-7141-4606-b65d-cdc531a8b656
+
   - title: "Microsoft Certified: Azure Fundamentals"
     description: The certification validates your basic knowledge of cloud services and how those services are provided with Azure. Candidates should be able to demonstrate a fundamental knowledge of cloud concepts, along with Azure services, workloads, security, privacy, pricing, and support.
     url: https://learn.microsoft.com/en-us/certifications/azure-fundamentals/
@@ -18,7 +37,7 @@ item:
     organization: microsoft
     organization_url: https://www.microsoft.com/
     certificate_url: https://www.credly.com/badges/56ed86a1-9534-4d34-8a82-90e18dae1fdf
-  
+
   - title: Red Hat Certified Specialist in Developing Automation with Ansible Automation Platform
     description: A Red Hat Certified Specialist in Developing Automation with Ansible Automation Platform is able to automate management of large or complex networks of machines.
     url: https://www.redhat.com/en/rhcs-developing-automation-ansible
@@ -90,24 +109,6 @@ item:
     organization: redhat
     organization_url: https://www.redhat.com
     certificate_url: https://www.credly.com/badges/c072648d-743d-4752-a158-d8b81d4756d2
-
-  - title: Certified Kubernetes Application Developer (CKAD)
-    description: The purpose of the Certified Kubernetes Application Developer (CKAD) program is to provide assurance that CKADs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes application developers.
-    url: https://www.cncf.io/certification/ckad/
-    date_start: 2020-07-11
-    date_end: 2023-07-11
-    organization: cncf
-    organization_url: https://www.cncf.io
-    certificate_url: https://www.credly.com/badges/035a3b14-49cb-4dca-bda1-5de951c0c406
-
-  - title: Certified Kubernetes Administrator (CKA)
-    description: The purpose of the Certified Kubernetes Administrator (CKA) program is to provide assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators.
-    url: https://www.cncf.io/certification/cka/
-    date_start: 2020-06-18
-    date_end: 2023-06-18
-    organization: cncf
-    organization_url: https://www.cncf.io
-    certificate_url: https://www.credly.com/badges/211f5895-59a6-4a52-9b4e-c1ace672b2a2
 
   - title: Red Hat Certified Engineer
     description: A Red Hat® Certified Engineer (RHCE®) is a Red Hat Certified System Administrator (RHCSA) who is ready to automate Red Hat® Enterprise Linux® tasks, integrate Red Hat emerging technologies, and apply automation for efficiency and innovation.

@@ -19,8 +19,8 @@ cta_note:
     Resume last update 2022/11/20
 design:
   background:
-    gradient_end: '#1976d2'
-    gradient_start: '#004ba0'
+    gradient_end: '#003f5c'
+    gradient_start: '#34495e'
     text_color_light: true
 # advanced:
 #   css_class: fullscreen
