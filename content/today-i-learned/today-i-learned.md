@@ -10,7 +10,7 @@ headless: true
 weight: 10
 
 title: Today I Learned
-subtitle: ''
+subtitle: '🌲 🌱 Digital Garden 🌱 🌲'
 
 content:
   # Page type to display. E.g. project.
