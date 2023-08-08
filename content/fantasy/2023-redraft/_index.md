@@ -1,7 +1,7 @@
 ---
 title: 2023 Season
 linkTitle: 2023 Season
-summary: 2023 redraft season of the Nerd Football League
+summary: The Nerd Football League's 2023 Redraft Season
 date: 2023-06-05
 type: book
 toc: true

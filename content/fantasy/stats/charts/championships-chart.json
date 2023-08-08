@@ -64,7 +64,7 @@
         "sizex": 0.5,
         "sizey": 0.5,
         "sizing": "contain",
-        "source": "vince-lombardi-football-trophy.png",
+        "source": "charts/vince-lombardi-football-trophy.png",
         "visible": true,
         "xanchor": "right",
         "yanchor": "top"

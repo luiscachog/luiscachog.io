@@ -74,7 +74,7 @@
         "sizex": 1,
         "sizey": 1,
         "sizing": "contain",
-        "source": "champions.png",
+        "source": "charts/champions.png",
         "visible": true,
         "xanchor": "center",
         "yanchor": "top"

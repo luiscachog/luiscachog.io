@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "name": "Wins",
+      "type": "bar",
+      "marker": {
+        "color": "lightgreen"
+      },
+      "x": [
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    {
+      "name": "Losses",
+      "type": "bar",
+      "marker": {
+        "color": "lightred"
+      },
+      "x": [
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    {
+      "name": "Difference",
+      "type": "bar",
+      "marker": {
+        "color": "lightblue"
+      },
+      "x": [
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }
+  ],
+  "layout": {
+    "title": "Nerd Footbal League<br>Regular Season - Wins/Losses<br>(2023)",
+    "xaxis": {
+      "title": "Team Name",
+      "categoryorder": "total descending"
+    },
+    "yaxis": {
+      "title": "# of Wins / Losses"
+    }
+  },
+  "frames": []
+}

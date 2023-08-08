@@ -1,0 +1,87 @@
+{
+  "data": [
+    {
+      "name": "Points For",
+      "type": "bar",
+      "marker": {
+        "color": "darkgreen"
+      },
+      "textposition": "inside",
+      "textfont": { "size": [10] },
+      "x": [
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+    },
+    {
+      "name": "Points Against",
+      "type": "bar",
+      "marker": {
+        "color": "d62728"
+      },
+      "textposition": "inside",
+      "textfont": { "size": [10] },
+      "x": [
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    {
+      "name": "Difference",
+      "type": "bar",
+      "marker": {
+        "color": "blue"
+      },
+      "textposition": "inside",
+      "textfont": { "size": [10] },
+      "x": [
+        "@cfernandezbre",
+        "@edpb",
+        "@ErikVica",
+        "@EverettJr",
+        "@igs",
+        "@JosueK8",
+        "@luiscachog",
+        "@Manthony85",
+        "@Papaspock",
+        "@rsanch17",
+        "@tonyskapunk",
+        "@yazpik"
+      ],
+      "y": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    }
+  ],
+  "layout": {
+    "title": "Nerd Footbal League<br>Regular Season - Points For/Points Against<br>(2023)",
+    "xaxis": {
+      "title": "Team Name",
+      "categoryorder": "total descending"
+    },
+    "yaxis": {
+      "title": "# of Points For / Points Against"
+    }
+  },
+  "frames": []
+}

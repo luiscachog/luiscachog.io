@@ -1,7 +1,7 @@
 ---
 title: 2022 Season
 linkTitle: 2022 Season
-summary: 2022 redraft season of the Nerd Football League
+summary: The Nerd Football League's 2022 Redraft Season
 date: 2022-06-04
 type: book
 toc: true
