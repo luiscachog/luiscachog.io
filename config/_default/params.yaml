@@ -89,12 +89,12 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: 'commento'
+    provider: commento
     disqus:
       shortname: ''
       show_count: true
     commento:
-      url: 'https://comments.luiscachog.io'
+      url: https://comments.luiscachog.io
     giscus:
       repo: ''
       repo_id: ''
