@@ -11,7 +11,7 @@ categories: [Cloud Native, Sysadmin, DevOps]
 keywords: [ Kubernetes, CKA, CKAD, Cloud Native, Linux Foundation, CNCF]
 date: 2020-11-26
 publishDate: 2020-11-26
-lastmod: 2021-04-30
+lastmod: 2023-08-25
 featured: true
 draft: false
 
@@ -63,7 +63,7 @@ that from their trenches they are trying to grow the Kubernetes community on Spa
 {{< figure src="posts/my-journey-to-become-a-cka-and-ckad/kubecon-2018.gif" caption="Mexicanos in Kubecon 2018" id="kubecon-2018" theme="ligth">}}
 
 But returning to my certifications path, after a while I decided that I will have the certs by the end on this year, so back in March I get more serious studying and purchased the excellent course
-[Certified Kubernetes Administrator (CKA) with Practice Tests](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/) a course by
+[Certified Kubernetes Administrator (CKA) with Practice Tests](https://kodekloud.com/courses/certified-kubernetes-administrator-cka/) a course by
 [Mumshad Mannambeth](https://twitter.com/mmumshad) that I highly recommend to reinforce the theory and also,
 becasue includes exercises similar to the exam that you can practice.
 
