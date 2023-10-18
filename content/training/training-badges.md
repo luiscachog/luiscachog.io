@@ -72,6 +72,12 @@ gallery_item:
 - album: training-badges
   image: 20230411_rh_portfolio_practitioner.png
   caption: Red Hat - Red Hat Portfolio Practitioner - 2023/04/11
+- album: training-badges
+  image: 20230714_rh_ansible_seller.png
+  caption: Red Hat - Red Hat Ansible Automation Platform - Seller - 2023/07/14
+- album: training-badges
+  image: 20231018_rh_openshift_seller.png
+  caption: Red Hat - Red Hat OpenShift - Seller - 2023/10/18
 ---
 
 {{< gallery album="training-badges" order="desc" >}}
