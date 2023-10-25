@@ -15,7 +15,7 @@ slides:
 
 # Create slides in Markdown with Wowchemy
 
-[Wowchemy](https://wowchemy.com/) | [Documentation](https://wowchemy.com/docs/content/slides/)
+[Wowchemy](https://wowchemy.com/) | [Documentation](https://university.wowchemy.com/reference/content-types/)
 
 ---
 
