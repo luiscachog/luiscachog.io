@@ -166,4 +166,4 @@ Create `assets/css/reveal_custom.css` with:
 
 [Ask](https://discord.gg/z8wNYzb)
 
-[Documentation](https://wowchemy.com/docs/content/slides/)
+[Documentation](https://university.wowchemy.com/reference/content-types/)

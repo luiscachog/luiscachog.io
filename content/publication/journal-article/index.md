@@ -73,4 +73,4 @@ Click the *Cite* button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Supplementary notes can be added here, including [code, math, and images](https://university.wowchemy.com/reference/customization/#site-features).
+Supplementary notes can be added here, including [code, math, and images](https://university.wowchemy.com/reference/content-types/).
