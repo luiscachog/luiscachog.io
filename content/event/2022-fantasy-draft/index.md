@@ -1,6 +1,4 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: 2022 Fantasy Draft
 event: Draft in Sleeper
 event_url: https://sleeper.app/i/k3z96gBkx507

@@ -1,6 +1,4 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: 2022 Nerd Fantasy League Thursday Night
 event: Thursday Night
 event_url: https://www.nfl.com/games/ravens-at-buccaneers-2022-reg-8

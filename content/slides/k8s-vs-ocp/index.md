@@ -1,6 +1,4 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: "Differences between Kubernetes and Openshift"
 summary: "An introduction to know the differences between a kubernetes vanilla implementation an Openshift Container Platform"
 authors: [ luiscachog ]
