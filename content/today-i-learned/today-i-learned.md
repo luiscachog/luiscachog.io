@@ -49,8 +49,8 @@ content:
       tag: Storage
     - name: SysAdmin
       tag: SysAdmin
-    - name: Miscellaneous
-      tag: Miscellaneous
+    - name: Misc
+      tag: Misc
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '1'
