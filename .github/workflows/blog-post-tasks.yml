@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ssh-key: ${{ secrets.PERSONAL_SUBMODULES_PULL_KEY }}
           submodules: recursive
@@ -33,10 +33,11 @@ jobs:
           path: hugo_path
 
       - name: upload checked code for next tasks
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: my-code
           path: hugo_path
+          include-hidden-files: true
 
   build-site:
     name: build hugo site
@@ -49,16 +50,16 @@ jobs:
           name: my-code
 
       - name: setup hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.120.0'
           extended: true
 
       - name: build site
-        run: hugo --minify -d $GITHUB_WORKSPACE/hugo_public
+        run: hugo --minify -d "$GITHUB_WORKSPACE/hugo_public"
 
       - name: upload checked code for next tasks
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: my-hugo-site
           path: hugo_public
@@ -102,7 +103,7 @@ jobs:
         working-directory: hugo_public
 
       - name: update algolia index
-        uses: luiscachog/algolia-update-index-action@master
+        uses: luiscachog/algolia-update-index-action@main
         with:
           algolia_app_id: '${{ secrets.ALGOLIA_APP_ID }}'
           algolia_apikey: '${{ secrets.ALGOLIA_APIKEY }}'

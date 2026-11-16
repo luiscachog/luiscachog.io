@@ -1,0 +1,61 @@
+---
+# Bumps the content/garden submodule (luiscachog/digital-garden) to the tip of
+# its default branch and pushes the new pin to main, which triggers a Netlify
+# deploy.
+#
+# Triggers:
+#   - repository_dispatch "garden-updated": sent by the digital-garden CI on
+#     every push to its main branch (needs SITE_DISPATCH_TOKEN in that repo).
+#   - schedule / workflow_dispatch: fallbacks if a dispatch is missed.
+name: update-garden
+
+on:
+  repository_dispatch:
+    types: [garden-updated]
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never let two bumps race each other on main.
+concurrency:
+  group: update-garden
+  cancel-in-progress: false
+
+jobs:
+  bump:
+    name: bump garden submodule
+    runs-on: ubuntu-latest
+    steps:
+      # The SSH key reads the private garden submodule and is also the
+      # credential used for the push below (checkout persists it).
+      - name: checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          ssh-key: ${{ secrets.PERSONAL_SUBMODULES_PULL_KEY }}
+          submodules: recursive
+
+      - name: update garden to latest
+        env:
+          DISPATCH_SHA: ${{ github.event.client_payload.sha }}
+        run: |
+          if [ -n "${DISPATCH_SHA}" ]; then
+            echo "Triggered by garden commit ${DISPATCH_SHA}"
+          fi
+          git submodule update --remote content/garden
+
+      - name: commit and push if the pin changed
+        run: |
+          if git diff --quiet -- content/garden; then
+            echo "Garden pin unchanged; nothing to do."
+            exit 0
+          fi
+          short_sha="$(git -C content/garden rev-parse --short HEAD)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/garden
+          git commit -m "Update garden to ${short_sha}"
+          git push origin HEAD:main
