@@ -27,7 +27,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ssh-key: ${{ secrets.PERSONAL_SUBMODULES_PULL_KEY }}
           submodules: recursive
@@ -45,7 +45,7 @@ jobs:
             if [[ "${changed_file}" == "content/post"* ]];
             then
               echo "File ${changed_file} matched post."
-              echo "::set-output name=post${i}::${changed_file}"
+              echo "post${i}=${changed_file}" >> "$GITHUB_OUTPUT"
               ((i=i+1))
             fi
           done
